@@ -1,0 +1,114 @@
+#!/bin/bash
+###############################################################################
+# This script is to tune the ACOTSP software.
+#
+# PARAMETERS:
+# $1 is the ID of the candidate to be evaluated
+# $2 is the instance ID
+# $3 is the seed
+# $4 is the instance name
+# The rest ($* after `shift 4') are parameters for running ACOTSP
+#
+# RETURN VALUE:
+# This script should print a single numerical value (the value to be minimized).
+###############################################################################
+error() {
+    echo "`TZ=UTC date`: $0: error: $@" >&2
+    exit 1
+}
+
+
+# Path to the ACOTSP executable (this path is relative to the execution directory `execDir` specified in the scenario).
+# EXE="~/bin/acotsp"
+EXE="./run_fixed.sh"
+
+# Fixed parameters that should be always passed to ACOTSP.
+# The time to be used is always 10 seconds, and we want only one run:
+FIXED_PARAMS=""
+
+CONFIG_ID="$1"
+INSTANCE_ID="$2"
+SEED="$3"
+INSTANCE="$4"
+# All other parameters are the candidate parameters to be passed to program
+shift 4 || error "Not enough parameters"
+CONFIG_PARAMS=$*
+
+read -r -a params_array <<< "$CONFIG_PARAMS"
+
+# Initialize an empty string to hold the formatted command-line parameters
+formatted_params=""
+
+# Loop through each parameter in the array
+for param in "${params_array[@]}"; do
+    if [[ "$param" == *'=True' ]]; then
+        # Strip out '=True' and add the flag name only
+        flag=${param%=True}
+        formatted_params+="$flag "
+    elif [[ "$param" == *'=False' ]]; then
+        # If 'False', skip adding this parameter
+        continue
+    else
+        # Add non-boolean parameters as is
+        formatted_params+="$param "
+    fi
+done
+
+# Trim trailing whitespace from formatted_params
+CONFIG_PARAMS=$(echo "$formatted_params" | xargs)
+
+
+STDOUT1=c${CONFIG_ID}-${INSTANCE_ID}-${SEED}-1.stdout
+STDERR1=c${CONFIG_ID}-${INSTANCE_ID}-${SEED}-1.stderr
+STDOUT2=c${CONFIG_ID}-${INSTANCE_ID}-${SEED}-2.stdout
+STDERR2=c${CONFIG_ID}-${INSTANCE_ID}-${SEED}-2.stderr
+
+if [ ! -x "${EXE}" ]; then
+    error "${EXE}: not found or not executable (pwd: $(pwd))"
+fi
+
+# Run ACOTSP twice with perf stat and collect cycles
+perf stat -e cycles $EXE $INSTANCE ${CONFIG_PARAMS} 1> $STDOUT1 2> $STDERR1
+perf stat -e cycles $EXE $INSTANCE ${CONFIG_PARAMS} 1> $STDOUT2 2> $STDERR2
+
+# Check if the stderr files exist and have content
+if [ ! -s "${STDERR1}" ] || [ ! -s "${STDERR2}" ]; then
+    error "Error: Performance data not found in stderr files"
+fi
+
+# Extract the number of cycles from each run
+COST1=$(grep -oP '\d+\s+cycles' $STDERR1 | grep -oP '\d+')
+COST2=$(grep -oP '\d+\s+cycles' $STDERR2 | grep -oP '\d+')
+
+# Extract the elapsed time in seconds from each run
+TIME1=$(grep -oP '\d+,\d+ seconds time elapsed' $STDERR1 | grep -oP '\d+,\d+')
+TIME2=$(grep -oP '\d+,\d+ seconds time elapsed' $STDERR2 | grep -oP '\d+,\d+')
+
+# Convert comma to dot for floating point arithmetic
+TIME1=${TIME1//,/\.}
+TIME2=${TIME2//,/\.}
+
+# Check if the extracted cycle counts and time values are valid numbers
+if ! [[ "$COST1" =~ ^[0-9]+$ ]] || ! [[ "$COST2" =~ ^[0-9]+$ ]] || ! [[ "$TIME1" =~ ^[0-9]+\.[0-9]+$ ]] || ! [[ "$TIME2" =~ ^[0-9]+\.[0-9]+$ ]]; then
+    error "Output is not a valid number of cycles or time"
+fi
+
+# Calculate the mean of the two cycle counts
+MEAN_COST=$(echo "scale=2; ($COST1 + $COST2) / 2" | bc)
+TOTAL_TIME=$(echo "scale=5; ($TIME1 + $TIME2)" | bc)
+
+
+
+
+# Print the mean cost
+echo "$MEAN_COST $TOTAL_TIME"
+
+
+
+# Clean up files and exit
+rm -f "${STDOUT1}" "${STDOUT2}" "${STDERR1}" "${STDERR2}"
+# rm -f best.* stat.* cmp.*
+exit 0
+
+# data/uf50-01.cnf
+# -luby -gc-frac=0.2 -rinc=2.0 -var-decay=0.95 -cla-decay=0.999 -rnd-freq=0.0 -rnd-seed=91648253 -phase-saving=2 -ccmin-mode=2 -rfirst=100 -pre -verb=1 -elim -simp-gc-frac=0.5 -sub-lim=1000 -cl-lim=20 -grow=0
