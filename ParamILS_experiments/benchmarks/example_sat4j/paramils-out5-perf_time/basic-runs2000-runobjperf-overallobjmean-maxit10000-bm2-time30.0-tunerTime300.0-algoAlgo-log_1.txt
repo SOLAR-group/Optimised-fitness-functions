@@ -1,0 +1,1096 @@
+Call: /usr/bin/ruby ../scripts/param_ils_2_3_run.rb "-scenariofile" "example_sat4j/scenario-sat4j-perf-time.txt" "-numRun" "1" "-maxEvals" "100000" "-maxIts" "10000" "-approach" "basic" "-validN" "30"
+
+
+WARNING: N=2000 is greater than the number of entries
+in the @instances array. This can happen if the algorithm is
+deterministic and the number of training instances is smaller than N,
+or if the instance_seed_file is provided by the user and has less
+entries than N. Clamping N and maxDetail to 20
+WARNING: validN=30 is greater than the number
+of entries in the @test_instances array. This can happen if the
+algorithm is deterministic and the number of test instances is smaller
+than validN, or if the test_instance_seed_file is provided by the user
+and has less entries than validN. Clamping validN to
+3
+seed: 2468
+algo: ruby example_sat4j/sat4j_wrapper_perf_time.rb
+tunerTimeout (CPU time): 300.0
+maxWallTime: 8640000.0
+maxEvals: 100000
+run_obj: perf
+overall_obj: mean
+instance_file: /home/jim/magpie/examples/sat4j/necessary/instances.txt
+test_instance_file: /home/jim/magpie/examples/sat4j/necessary/test-instances.txt
+N: 20
+cutoff_time: 30.0
+cutoff_length: 2147483647
+R: 10
+pertubation_strength_basic: 
+pertubation_strength_scaling: false
+p_restart: 0.01
+Run 2
+Level 
+========================================================
+Starting ILS for level 1, i.e. a limit of N=20, and cutoff time=30.0.
+Current CPU time = 0, this run goes until 300.0 
+========================================================
+New Incumbent: 0, 100000000 [0, 0]. With state CLEANING=LBD2, FIXEDPERIOD=100, INITCONFLICTBOUND=100, LUBYFACTOR=512, PHASE=RSATPhaseSelectionStrategy, RESTARTS=Glucose21Restarts, SIMP=EXPENSIVE_SIMPLIFICATION, claDecay=0.999, conflictBoundIncFactor=2.0, varDecay=0.95
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.498
+Total CPU time: 0.498
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.343
+Total CPU time: 0.841
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 1.09
+Total CPU time: 1.931
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 5.487
+Total CPU time: 7.418
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.348
+Total CPU time: 7.766
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.381
+Total CPU time: 8.147
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.392
+Total CPU time: 8.539
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 5.154
+Total CPU time: 13.693
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.507
+Total CPU time: 14.2
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.351
+Total CPU time: 14.550999999999998
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.346
+Total CPU time: 14.896999999999998
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.948
+Total CPU time: 15.844999999999999
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.488
+Total CPU time: 16.333
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.325
+Total CPU time: 16.657999999999998
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.388
+Total CPU time: 17.046
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.608
+Total CPU time: 17.654
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.343
+Total CPU time: 17.997
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.345
+Total CPU time: 18.342
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.308
+Total CPU time: 18.65
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 6.904
+Total CPU time: 25.554
+20/100000, 25.554/300.0
+ Same incumbent, new precision:
+New Incumbent: 25.554, 1259333.5 [20, 30.0]. With state CLEANING=LBD2, FIXEDPERIOD=100, INITCONFLICTBOUND=100, LUBYFACTOR=512, PHASE=RSATPhaseSelectionStrategy, RESTARTS=Glucose21Restarts, SIMP=EXPENSIVE_SIMPLIFICATION, claDecay=0.999, conflictBoundIncFactor=2.0, varDecay=0.95
+Total CPU Time 25.554,  timeout 300.0
+Total CPU Time 25.554,  timeout 300.0
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.524
+Total CPU time: 26.078
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.347
+Total CPU time: 26.425
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 1.164
+Total CPU time: 27.589000000000002
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 5.501
+Total CPU time: 33.09
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.36
+Total CPU time: 33.45
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.402
+Total CPU time: 33.852000000000004
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.387
+Total CPU time: 34.239000000000004
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 5.197
+Total CPU time: 39.43600000000001
+28/100000, 39.43600000000001/300.0
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.517
+Total CPU time: 39.95300000000001
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.37
+Total CPU time: 40.32300000000001
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.311
+Total CPU time: 40.63400000000001
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.965
+Total CPU time: 41.59900000000001
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.477
+Total CPU time: 42.07600000000001
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.336
+Total CPU time: 42.412000000000006
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.363
+Total CPU time: 42.775000000000006
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.604
+Total CPU time: 43.379000000000005
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.34
+Total CPU time: 43.71900000000001
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.342
+Total CPU time: 44.06100000000001
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.328
+Total CPU time: 44.38900000000001
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 6.823
+Total CPU time: 51.21200000000001
+40/100000, 51.21200000000001/300.0
+        -> Worse random: CLEANING=LBD2 FIXEDPERIOD=10000 INITCONFLICTBOUND=200 LUBYFACTOR=2048 PHASE=PhaseInLastLearnedClauseSelectionStrategy RESTARTS=LubyRestarts SIMP=EXPENSIVE_SIMPLIFICATION claDecay=0.998 conflictBoundIncFactor=3.5 varDecay=0.99 (1263064.3 [based on 20 runs with cutoff 30.0])
+Total CPU Time 51.21200000000001,  timeout 300.0
+Total CPU Time 51.21200000000001,  timeout 300.0
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.507
+Total CPU time: 51.71900000000001
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.349
+Total CPU time: 52.068000000000005
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 1.005
+Total CPU time: 53.07300000000001
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 9.39
+Total CPU time: 62.46300000000001
+44/100000, 62.46300000000001/300.0
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.348
+Total CPU time: 62.81100000000001
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.386
+Total CPU time: 63.19700000000001
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.369
+Total CPU time: 63.56600000000001
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 10.433
+Total CPU time: 73.99900000000001
+48/100000, 73.99900000000001/300.0
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.487
+Total CPU time: 74.486
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.372
+Total CPU time: 74.858
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.336
+Total CPU time: 75.194
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 1.042
+Total CPU time: 76.236
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.762
+Total CPU time: 76.998
+        -> Worse random: CLEANING=ACTIVITY FIXEDPERIOD=1 INITCONFLICTBOUND=200 LUBYFACTOR=16 PHASE=PhaseCachingAutoEraseStrategy RESTARTS=FixedPeriodRestarts SIMP=EXPENSIVE_SIMPLIFICATION claDecay=0.996 conflictBoundIncFactor=4.0 varDecay=0.92 (["pruned", 13] [based on 20 runs with cutoff 30.0])
+Total CPU Time 76.998,  timeout 300.0
+Total CPU Time 76.998,  timeout 300.0
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.519
+Total CPU time: 77.51700000000001
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.343
+Total CPU time: 77.86000000000001
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 1.048
+Total CPU time: 78.90800000000002
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 5.129
+Total CPU time: 84.03700000000002
+57/100000, 84.03700000000002/300.0
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.359
+Total CPU time: 84.39600000000002
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.403
+Total CPU time: 84.79900000000002
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.398
+Total CPU time: 85.19700000000002
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 4.371
+Total CPU time: 89.56800000000001
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.521
+Total CPU time: 90.08900000000001
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.363
+Total CPU time: 90.45200000000001
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.319
+Total CPU time: 90.77100000000002
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.973
+Total CPU time: 91.74400000000001
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.467
+Total CPU time: 92.21100000000001
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.332
+Total CPU time: 92.543
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.359
+Total CPU time: 92.902
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.621
+Total CPU time: 93.523
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.349
+Total CPU time: 93.872
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.342
+Total CPU time: 94.214
+71/100000, 94.214/300.0
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.315
+Total CPU time: 94.529
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 3.141
+Total CPU time: 97.67
+New inc: 1013276.1
+New Incumbent: 97.67, 1013276.1 [20, 30.0]. With state CLEANING=LBD, FIXEDPERIOD=100000, INITCONFLICTBOUND=200, LUBYFACTOR=1024, PHASE=RandomLiteralSelectionStrategy, RESTARTS=NoRestarts, SIMP=NO_SIMPLIFICATION, claDecay=0.998, conflictBoundIncFactor=1.5, varDecay=0.91
+          -> Take improving step to random CLEANING=LBD FIXEDPERIOD=100000 INITCONFLICTBOUND=200 LUBYFACTOR=1024 PHASE=RandomLiteralSelectionStrategy RESTARTS=NoRestarts SIMP=NO_SIMPLIFICATION claDecay=0.998 conflictBoundIncFactor=1.5 varDecay=0.91 (1013276.1 [based on 20 runs with cutoff 30.0])
+
+Total CPU Time 97.67,  timeout 300.0
+Total CPU Time 97.67,  timeout 300.0
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.49
+Total CPU time: 98.16
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.34
+Total CPU time: 98.5
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 1.12
+Total CPU time: 99.62
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 5.545
+Total CPU time: 105.165
+77/100000, 105.165/300.0
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.358
+Total CPU time: 105.52300000000001
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.391
+Total CPU time: 105.91400000000002
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.407
+Total CPU time: 106.32100000000001
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 5.236
+Total CPU time: 111.55700000000002
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.497
+Total CPU time: 112.05400000000002
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.375
+Total CPU time: 112.42900000000002
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.328
+Total CPU time: 112.75700000000002
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.95
+Total CPU time: 113.70700000000002
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.481
+Total CPU time: 114.18800000000002
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.334
+Total CPU time: 114.52200000000002
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.361
+Total CPU time: 114.88300000000002
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.573
+Total CPU time: 115.45600000000002
+89/100000, 115.45600000000002/300.0
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.327
+Total CPU time: 115.78300000000002
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.333
+Total CPU time: 116.11600000000001
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.331
+Total CPU time: 116.44700000000002
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 6.833
+Total CPU time: 123.28000000000002
+        -> Worse random: CLEANING=LBD2 FIXEDPERIOD=100000 INITCONFLICTBOUND=200 LUBYFACTOR=512 PHASE=RSATPhaseSelectionStrategy RESTARTS=LubyRestarts SIMP=NO_SIMPLIFICATION claDecay=0.992 conflictBoundIncFactor=3.5 varDecay=0.91 (1262060.95 [based on 20 runs with cutoff 30.0])
+Total CPU Time 123.28000000000002,  timeout 300.0
+Total CPU Time 123.28000000000002,  timeout 300.0
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.503
+Total CPU time: 123.78300000000002
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.323
+Total CPU time: 124.10600000000001
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 1.021
+Total CPU time: 125.12700000000001
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 9.408
+Total CPU time: 134.535
+97/100000, 134.535/300.0
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.342
+Total CPU time: 134.877
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.401
+Total CPU time: 135.27800000000002
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.399
+Total CPU time: 135.67700000000002
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 10.373
+Total CPU time: 146.05
+101/100000, 146.05/300.0
+        -> Worse random: CLEANING=ACTIVITY FIXEDPERIOD=10000 INITCONFLICTBOUND=50 LUBYFACTOR=32 PHASE=PhaseInLastLearnedClauseSelectionStrategy RESTARTS=NoRestarts SIMP=EXPENSIVE_SIMPLIFICATION claDecay=0.994 conflictBoundIncFactor=2.5 varDecay=0.98 (["pruned", 8] [based on 20 runs with cutoff 30.0])
+Total CPU Time 146.05,  timeout 300.0
+Total CPU Time 146.05,  timeout 300.0
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.508
+Total CPU time: 146.55800000000002
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.34
+Total CPU time: 146.89800000000002
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 1.041
+Total CPU time: 147.93900000000002
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 5.135
+Total CPU time: 153.074
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.346
+Total CPU time: 153.42000000000002
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.382
+Total CPU time: 153.80200000000002
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.396
+Total CPU time: 154.198
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 4.332
+Total CPU time: 158.53
+109/100000, 158.53/300.0
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.512
+Total CPU time: 159.042
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.369
+Total CPU time: 159.411
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.336
+Total CPU time: 159.747
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.982
+Total CPU time: 160.729
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.466
+Total CPU time: 161.19500000000002
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.313
+Total CPU time: 161.508
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.358
+Total CPU time: 161.866
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.605
+Total CPU time: 162.471
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.321
+Total CPU time: 162.792
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.358
+Total CPU time: 163.15
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.335
+Total CPU time: 163.485
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 3.096
+Total CPU time: 166.58100000000002
+New inc: 1005147.7
+New Incumbent: 166.58100000000002, 1005147.7 [20, 30.0]. With state CLEANING=LBD, FIXEDPERIOD=1, INITCONFLICTBOUND=200, LUBYFACTOR=512, PHASE=PositiveLiteralSelectionStrategy, RESTARTS=FixedPeriodRestarts, SIMP=EXPENSIVE_SIMPLIFICATION, claDecay=0.999, conflictBoundIncFactor=3.5, varDecay=0.97
+          -> Take improving step to random CLEANING=LBD FIXEDPERIOD=1 INITCONFLICTBOUND=200 LUBYFACTOR=512 PHASE=PositiveLiteralSelectionStrategy RESTARTS=FixedPeriodRestarts SIMP=EXPENSIVE_SIMPLIFICATION claDecay=0.999 conflictBoundIncFactor=3.5 varDecay=0.97 (1005147.7 [based on 20 runs with cutoff 30.0])
+
+Total CPU Time 166.58100000000002,  timeout 300.0
+Total CPU Time 166.58100000000002,  timeout 300.0
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.488
+Total CPU time: 167.06900000000002
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.323
+Total CPU time: 167.39200000000002
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 1.244
+Total CPU time: 168.63600000000002
+124/100000, 168.63600000000002/300.0
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 5.49
+Total CPU time: 174.12600000000003
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.35
+Total CPU time: 174.47600000000003
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.402
+Total CPU time: 174.87800000000001
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.375
+Total CPU time: 175.25300000000001
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 5.223
+Total CPU time: 180.47600000000003
+129/100000, 180.47600000000003/300.0
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.513
+Total CPU time: 180.98900000000003
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.362
+Total CPU time: 181.35100000000003
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.347
+Total CPU time: 181.69800000000004
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.91
+Total CPU time: 182.60800000000003
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.472
+Total CPU time: 183.08000000000004
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.342
+Total CPU time: 183.42200000000005
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.356
+Total CPU time: 183.77800000000005
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.585
+Total CPU time: 184.36300000000006
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.331
+Total CPU time: 184.69400000000005
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.356
+Total CPU time: 185.05000000000004
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.324
+Total CPU time: 185.37400000000005
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 6.786
+Total CPU time: 192.16000000000005
+141/100000, 192.16000000000005/300.0
+        -> Worse random: CLEANING=LBD2 FIXEDPERIOD=10000 INITCONFLICTBOUND=1 LUBYFACTOR=256 PHASE=PhaseCachingAutoEraseStrategy RESTARTS=ArminRestarts SIMP=NO_SIMPLIFICATION claDecay=0.999 conflictBoundIncFactor=1.5 varDecay=0.90 (1259445.7 [based on 20 runs with cutoff 30.0])
+Total CPU Time 192.16000000000005,  timeout 300.0
+Total CPU Time 192.16000000000005,  timeout 300.0
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.503
+Total CPU time: 192.66300000000004
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.334
+Total CPU time: 192.99700000000004
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.991
+Total CPU time: 193.98800000000006
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 9.443
+Total CPU time: 203.43100000000007
+145/100000, 203.43100000000007/300.0
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.373
+Total CPU time: 203.80400000000006
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.391
+Total CPU time: 204.19500000000005
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.374
+Total CPU time: 204.56900000000005
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 10.325
+Total CPU time: 214.89400000000003
+149/100000, 214.89400000000003/300.0
+        -> Worse random: CLEANING=ACTIVITY FIXEDPERIOD=1000 INITCONFLICTBOUND=200 LUBYFACTOR=32 PHASE=RSATPhaseSelectionStrategy RESTARTS=FixedPeriodRestarts SIMP=SIMPLE_SIMPLIFICATION claDecay=0.994 conflictBoundIncFactor=1.5 varDecay=0.91 (["pruned", 8] [based on 20 runs with cutoff 30.0])
+Total CPU Time 214.89400000000003,  timeout 300.0
+Total CPU Time 214.89400000000003,  timeout 300.0
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.5
+Total CPU time: 215.39400000000003
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.349
+Total CPU time: 215.74300000000002
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 1.18
+Total CPU time: 216.92300000000003
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 5.535
+Total CPU time: 222.45800000000003
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.352
+Total CPU time: 222.81000000000003
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.396
+Total CPU time: 223.20600000000002
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.412
+Total CPU time: 223.61800000000002
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 5.162
+Total CPU time: 228.78000000000003
+157/100000, 228.78000000000003/300.0
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.504
+Total CPU time: 229.28400000000002
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.383
+Total CPU time: 229.66700000000003
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.342
+Total CPU time: 230.00900000000004
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.922
+Total CPU time: 230.93100000000004
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.472
+Total CPU time: 231.40300000000005
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.344
+Total CPU time: 231.74700000000004
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.38
+Total CPU time: 232.12700000000004
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.577
+Total CPU time: 232.70400000000004
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.342
+Total CPU time: 233.04600000000005
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.335
+Total CPU time: 233.38100000000006
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.315
+Total CPU time: 233.69600000000005
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 6.85
+Total CPU time: 240.54600000000005
+169/100000, 240.54600000000005/300.0
+        -> Worse random: CLEANING=LBD2 FIXEDPERIOD=50000 INITCONFLICTBOUND=100 LUBYFACTOR=32 PHASE=UserFixedPhaseSelectionStrategy RESTARTS=MiniSATRestarts SIMP=EXPENSIVE_SIMPLIFICATION claDecay=0.994 conflictBoundIncFactor=3.5 varDecay=0.91 (1262271.95 [based on 20 runs with cutoff 30.0])
+Total CPU Time 240.54600000000005,  timeout 300.0
+Total CPU Time 240.54600000000005,  timeout 300.0
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.504
+Total CPU time: 241.05000000000004
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.339
+Total CPU time: 241.38900000000004
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 1.062
+Total CPU time: 242.45100000000005
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 5.194
+Total CPU time: 247.64500000000004
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.353
+Total CPU time: 247.99800000000005
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.391
+Total CPU time: 248.38900000000004
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.382
+Total CPU time: 248.77100000000004
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 4.306
+Total CPU time: 253.07700000000006
+177/100000, 253.07700000000006/300.0
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.483
+Total CPU time: 253.56000000000006
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.396
+Total CPU time: 253.95600000000005
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.342
+Total CPU time: 254.29800000000006
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.954
+Total CPU time: 255.25200000000007
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.485
+Total CPU time: 255.73700000000008
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.311
+Total CPU time: 256.04800000000006
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.379
+Total CPU time: 256.4270000000001
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.623
+Total CPU time: 257.05000000000007
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.348
+Total CPU time: 257.3980000000001
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.344
+Total CPU time: 257.7420000000001
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.312
+Total CPU time: 258.0540000000001
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 3.08
+Total CPU time: 261.13400000000007
+        -> Worse random: CLEANING=LBD FIXEDPERIOD=1 INITCONFLICTBOUND=1000 LUBYFACTOR=1024 PHASE=NegativeLiteralSelectionStrategy RESTARTS=Glucose21Restarts SIMP=EXPENSIVE_SIMPLIFICATION claDecay=0.999 conflictBoundIncFactor=2.0 varDecay=0.91 (1009236.3 [based on 20 runs with cutoff 30.0])
+   BLS in iteration 1, start with CLEANING=LBD FIXEDPERIOD=1 INITCONFLICTBOUND=200 LUBYFACTOR=512 PHASE=PositiveLiteralSelectionStrategy RESTARTS=FixedPeriodRestarts SIMP=EXPENSIVE_SIMPLIFICATION claDecay=0.999 conflictBoundIncFactor=3.5 varDecay=0.97 (1005147.7 [based on 20 runs with cutoff 30.0])
+Total CPU Time 261.13400000000007,  timeout 300.0
+Total CPU Time 261.13400000000007,  timeout 300.0
+Total CPU Time 261.13400000000007,  timeout 300.0
+Total CPU Time 261.13400000000007,  timeout 300.0
+    Changing ["RESTARTS: FixedPeriodRestarts->LubyRestarts"], evaluating ...
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.513
+Total CPU time: 261.64700000000005
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.345
+Total CPU time: 261.9920000000001
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 1.111
+Total CPU time: 263.10300000000007
+192/100000, 263.10300000000007/300.0
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 5.105
+Total CPU time: 268.2080000000001
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.352
+Total CPU time: 268.56000000000006
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.405
+Total CPU time: 268.96500000000003
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.385
+Total CPU time: 269.35
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 4.301
+Total CPU time: 273.651
+197/100000, 273.651/300.0
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.502
+Total CPU time: 274.153
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.372
+Total CPU time: 274.52500000000003
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.336
+Total CPU time: 274.86100000000005
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.997
+Total CPU time: 275.85800000000006
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.472
+Total CPU time: 276.33000000000004
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.324
+Total CPU time: 276.65400000000005
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.374
+Total CPU time: 277.0280000000001
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.607
+Total CPU time: 277.6350000000001
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.315
+Total CPU time: 277.9500000000001
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.325
+Total CPU time: 278.2750000000001
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.318
+Total CPU time: 278.5930000000001
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 3.09
+Total CPU time: 281.68300000000005
+        -> worse: (1007736.25 [based on 20 runs with cutoff 30.0])
+Total CPU Time 281.68300000000005,  timeout 300.0
+Total CPU Time 281.68300000000005,  timeout 300.0
+    Changing ["INITCONFLICTBOUND: 200->1000"], evaluating ...
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.481
+Total CPU time: 282.16400000000004
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.326
+Total CPU time: 282.49000000000007
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 1.061
+Total CPU time: 283.55100000000004
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 5.13
+Total CPU time: 288.68100000000004
+213/100000, 288.68100000000004/300.0
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.372
+Total CPU time: 289.05300000000005
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.386
+Total CPU time: 289.4390000000001
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.373
+Total CPU time: 289.81200000000007
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 4.365
+Total CPU time: 294.1770000000001
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.482
+Total CPU time: 294.6590000000001
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.362
+Total CPU time: 295.02100000000013
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.348
+Total CPU time: 295.36900000000014
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.967
+Total CPU time: 296.3360000000001
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.45
+Total CPU time: 296.7860000000001
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.329
+Total CPU time: 297.1150000000001
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.374
+Total CPU time: 297.48900000000015
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.6
+Total CPU time: 298.08900000000017
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.321
+Total CPU time: 298.4100000000002
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.336
+Total CPU time: 298.7460000000002
+227/100000, 298.7460000000002/300.0
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.307
+Total CPU time: 299.0530000000002
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 3.124
+Total CPU time: 302.17700000000025
+New inc: 1003399.85
+New Incumbent: 302.17700000000025, 1003399.85 [20, 30.0]. With state CLEANING=LBD, FIXEDPERIOD=1, INITCONFLICTBOUND=1000, LUBYFACTOR=512, PHASE=PositiveLiteralSelectionStrategy, RESTARTS=FixedPeriodRestarts, SIMP=EXPENSIVE_SIMPLIFICATION, claDecay=0.999, conflictBoundIncFactor=3.5, varDecay=0.97
+          -> Take improving step to neighbour CLEANING=LBD FIXEDPERIOD=1 INITCONFLICTBOUND=1000 LUBYFACTOR=512 PHASE=PositiveLiteralSelectionStrategy RESTARTS=FixedPeriodRestarts SIMP=EXPENSIVE_SIMPLIFICATION claDecay=0.999 conflictBoundIncFactor=3.5 varDecay=0.97 (1003399.85 [based on 20 runs with cutoff 30.0]) with flip 1
+
+Total CPU Time 302.17700000000025,  timeout 300.0
+Total CPU Time 302.17700000000025,  timeout 300.0
+ParamILS has reached the specified CPU time limit of 300.0 seconds => stopping the search now.
+   LM for iteration 1: CLEANING=LBD FIXEDPERIOD=1 INITCONFLICTBOUND=1000 LUBYFACTOR=512 PHASE=PositiveLiteralSelectionStrategy RESTARTS=FixedPeriodRestarts SIMP=EXPENSIVE_SIMPLIFICATION claDecay=0.999 conflictBoundIncFactor=3.5 varDecay=0.97 (1003399.85 [based on 20 runs with cutoff 30.0])
+
+========== DETAILED RESULTS (iteration 1): ==========
+================================================
+
+==================================================================
+Best parameter configuration found so far (end of iteration 1): CLEANING=LBD, FIXEDPERIOD=1, INITCONFLICTBOUND=1000, LUBYFACTOR=512, PHASE=PositiveLiteralSelectionStrategy, RESTARTS=FixedPeriodRestarts, SIMP=EXPENSIVE_SIMPLIFICATION, claDecay=0.999, conflictBoundIncFactor=3.5, varDecay=0.97
+==================================================================
+Training quality of this incumbent parameter configuration: 1003399.85, based on 20 runs with cutoff 30.0
+==================================================================
+
+Comparing LM against incumbent:
+CLEANING=LBD FIXEDPERIOD=1 INITCONFLICTBOUND=1000 LUBYFACTOR=512 PHASE=PositiveLiteralSelectionStrategy RESTARTS=FixedPeriodRestarts SIMP=EXPENSIVE_SIMPLIFICATION claDecay=0.999 conflictBoundIncFactor=3.5 varDecay=0.97 (1003399.85 [based on 20 runs with cutoff 30.0])
+CLEANING=LBD FIXEDPERIOD=1 INITCONFLICTBOUND=1000 LUBYFACTOR=512 PHASE=PositiveLiteralSelectionStrategy RESTARTS=FixedPeriodRestarts SIMP=EXPENSIVE_SIMPLIFICATION claDecay=0.999 conflictBoundIncFactor=3.5 varDecay=0.97 (1003399.85 [based on 20 runs with cutoff 30.0])
+LM better, change incumbent
+New Incumbent: 302.17700000000025, 1003399.85 [20, 30.0]. With state CLEANING=LBD, FIXEDPERIOD=1, INITCONFLICTBOUND=1000, LUBYFACTOR=512, PHASE=PositiveLiteralSelectionStrategy, RESTARTS=FixedPeriodRestarts, SIMP=EXPENSIVE_SIMPLIFICATION, claDecay=0.999, conflictBoundIncFactor=3.5, varDecay=0.97
+Total CPU Time 302.17700000000025,  timeout 300.0
+Total CPU Time 302.17700000000025,  timeout 300.0
+ParamILS has reached the specified CPU time limit of 300.0 seconds => stopping the search now.
+Final solution for depth 1 with limit N=20, and cutoff time=30.0.
+New Incumbent: 302.17700000000025, 1003399.85 [20, 30.0]. With state CLEANING=LBD, FIXEDPERIOD=1, INITCONFLICTBOUND=1000, LUBYFACTOR=512, PHASE=PositiveLiteralSelectionStrategy, RESTARTS=FixedPeriodRestarts, SIMP=EXPENSIVE_SIMPLIFICATION, claDecay=0.999, conflictBoundIncFactor=3.5, varDecay=0.97
+
+==================================================================
+ParamILS is finished.
+==================================================================
+
+Final best parameter configuration found: CLEANING=LBD, FIXEDPERIOD=1, INITCONFLICTBOUND=1000, LUBYFACTOR=512, PHASE=PositiveLiteralSelectionStrategy, RESTARTS=FixedPeriodRestarts, SIMP=EXPENSIVE_SIMPLIFICATION, claDecay=0.999, conflictBoundIncFactor=3.5, varDecay=0.97
+==================================================================
+Active parameters: CLEANING=LBD, FIXEDPERIOD=1, INITCONFLICTBOUND=1000, LUBYFACTOR=512, PHASE=PositiveLiteralSelectionStrategy, RESTARTS=FixedPeriodRestarts, SIMP=EXPENSIVE_SIMPLIFICATION, claDecay=0.999, conflictBoundIncFactor=3.5, varDecay=0.97
+
+==================================================================
+Training quality of this final best found parameter configuration: 1003399.85, based on 20 runs with cutoff 30.0
+==================================================================
+
+
+==================================================================
+Computing validation result on independent data -- 3 runs with cutoff time 30.0...
+==================================================================
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.326
+Total CPU time: 302.50300000000027
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.343
+Total CPU time: 302.8460000000003
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.33
+Total CPU time: 303.1760000000003
+/home/jim/magpie/examples/sat4j/necessary/data/uf50-02.cnf: 303999.0
+/home/jim/magpie/examples/sat4j/necessary/data/uf50-01.cnf: 321368.0
+/home/jim/magpie/examples/sat4j/necessary/data/uuf50-02.cnf: 307132.0
+Combined result: 310833.0
+
+================================================================
+Final best parameter configuration: CLEANING=LBD, FIXEDPERIOD=1, INITCONFLICTBOUND=1000, LUBYFACTOR=512, PHASE=PositiveLiteralSelectionStrategy, RESTARTS=FixedPeriodRestarts, SIMP=EXPENSIVE_SIMPLIFICATION, claDecay=0.999, conflictBoundIncFactor=3.5, varDecay=0.97
+==================================================================
+Active parameters: CLEANING=LBD, FIXEDPERIOD=1, INITCONFLICTBOUND=1000, LUBYFACTOR=512, PHASE=PositiveLiteralSelectionStrategy, RESTARTS=FixedPeriodRestarts, SIMP=EXPENSIVE_SIMPLIFICATION, claDecay=0.999, conflictBoundIncFactor=3.5, varDecay=0.97
+
+================================================================
+Training quality of this final best found parameter configuration: 1003399.85, based on 20 runs with cutoff 30.0
+Test quality of this final best found parameter configuration: 310833.0, based on 3 independent runs with cutoff 30.0
+==================================================================

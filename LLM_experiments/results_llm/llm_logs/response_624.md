@@ -1,0 +1,1 @@
+Child: ["ParamSetting(('test.params', 'param', 'LUBYFACTOR'), 135)", "ParamSetting(('test.params', 'param', 'VARDECAY'), 0.31718469790285775)", "ParamSetting(('test.params', 'param', 'CLADECAY'), 0.17051042670915517)", "ParamSetting(('test.params', 'param', 'SIMP'), 'NO_SIMPLIFICATION')"]

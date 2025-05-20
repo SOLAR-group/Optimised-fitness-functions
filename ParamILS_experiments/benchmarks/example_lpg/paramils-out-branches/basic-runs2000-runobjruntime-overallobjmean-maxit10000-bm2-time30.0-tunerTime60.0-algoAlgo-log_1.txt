@@ -1,0 +1,73 @@
+Call: /usr/bin/ruby ../scripts/param_ils_2_3_run.rb "-scenariofile" "example_lpg/scenario-lpg-branches.txt" "-numRun" "1" "-maxEvals" "100000" "-maxIts" "10000" "-approach" "basic" "-validN" "30"
+
+
+WARNING: N=2000 is greater than the number of entries
+in the @instances array. This can happen if the algorithm is
+deterministic and the number of training instances is smaller than N,
+or if the instance_seed_file is provided by the user and has less
+entries than N. Clamping N and maxDetail to 3
+WARNING: validN=30 is greater than the number
+of entries in the @test_instances array. This can happen if the
+algorithm is deterministic and the number of test instances is smaller
+than validN, or if the test_instance_seed_file is provided by the user
+and has less entries than validN. Clamping validN to
+2
+seed: 2468
+algo: ruby example_lpg/lpg_wrapper_branches.rb
+tunerTimeout (CPU time): 60.0
+maxWallTime: 8640000.0
+maxEvals: 100000
+run_obj: runtime
+overall_obj: mean
+instance_file: /home/jim/magpie/examples/lpg/necessary/instances.txt
+test_instance_file: /home/jim/magpie/examples/lpg/necessary/test-instances.txt
+N: 3
+cutoff_time: 30.0
+cutoff_length: 2147483647
+R: 10
+pertubation_strength_basic: 
+pertubation_strength_scaling: false
+p_restart: 0.01
+Run 2
+Level 
+========================================================
+Starting ILS for level 1, i.e. a limit of N=3, and cutoff time=30.0.
+Current CPU time = 0, this run goes until 60.0 
+========================================================
+New Incumbent: 0, 100000000 [0, 0]. With state lowmemory=None, noise=0.1, repeats=5, restarts=9, search_steps=500, static_noise=None
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 4.749
+Total CPU time: 4.749
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 2.535
+Total CPU time: 7.284
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 5.8
+Total CPU time: 13.084
+3/100000, 13.084/60.0
+ Same incumbent, new precision:
+New Incumbent: 13.084, 4.3613333333333335 [3, 30.0]. With state lowmemory=None, noise=0.1, repeats=5, restarts=9, search_steps=500, static_noise=None
+Total CPU Time 13.084,  timeout 60.0
+Total CPU Time 13.084,  timeout 60.0
+Minimum runtime: 0.1
+Cutoff time: 13.094000000000001
+Result time: 2.624
+Total CPU time: 15.708
+Minimum runtime: 0.1
+Cutoff time: 10.469990000000001
+Result time: 2.847
+Total CPU time: 18.555
+Minimum runtime: 0.1
+Cutoff time: 7.622990000000001
+Result time: 7.041
+Total CPU time: 25.596
+6/100000, 25.596/60.0
+New inc: 4.1706666666666665
+New Incumbent: 25.596, 4.1706666666666665 [3, 30.0]. With state lowmemory=True, noise=0.2, repeats=16, restarts=16, search_steps=700, static_noise=None
+          -> Take improving step to random lowmemory=True noise=0.2 repeats=16 restarts=16 search_steps=700 static_noise=None (4.1706666666666665 [based on 3 runs with cutoff 30.0])
+
+Total CPU Time 25.596,  timeout 60.0
+Total CPU Time 25.596,  timeout 60.0

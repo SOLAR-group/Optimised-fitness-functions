@@ -1,0 +1,1 @@
+Proposed edits: ["ParamSetting(('minisat_simplified.params', 'param', 'gc-frac'), 11463.491475855093)", "ParamSetting(('minisat_simplified.params', 'param', 'asymm'), 'True')", "ParamSetting(('minisat_simplified.params', 'param', 'rfirst'), 1794)"]

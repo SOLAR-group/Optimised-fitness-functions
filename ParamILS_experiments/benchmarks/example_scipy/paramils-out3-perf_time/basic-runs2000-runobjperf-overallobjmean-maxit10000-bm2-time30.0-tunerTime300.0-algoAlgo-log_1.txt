@@ -1,0 +1,318 @@
+Call: /usr/bin/ruby ../scripts/param_ils_2_3_run.rb "-scenariofile" "example_scipy/scenario-scipy-perf-time.txt" "-numRun" "1" "-maxEvals" "100000" "-maxIts" "10000" "-approach" "basic" "-validN" "30"
+
+
+WARNING: N=2000 is greater than the number of entries
+in the @instances array. This can happen if the algorithm is
+deterministic and the number of training instances is smaller than N,
+or if the instance_seed_file is provided by the user and has less
+entries than N. Clamping N and maxDetail to 7
+WARNING: validN=30 is greater than the number
+of entries in the @test_instances array. This can happen if the
+algorithm is deterministic and the number of test instances is smaller
+than validN, or if the test_instance_seed_file is provided by the user
+and has less entries than validN. Clamping validN to
+2
+seed: 2468
+algo: ruby example_scipy/scipy_wrapper_perf_time.rb
+tunerTimeout (CPU time): 300.0
+maxWallTime: 8640000.0
+maxEvals: 100000
+run_obj: perf
+overall_obj: mean
+instance_file: /home/jim/magpie/examples/scipy/necessary/instances.txt
+test_instance_file: /home/jim/magpie/examples/scipy/necessary/test-instances.txt
+N: 7
+cutoff_time: 30.0
+cutoff_length: 2147483647
+R: 10
+pertubation_strength_basic: 
+pertubation_strength_scaling: false
+p_restart: 0.01
+Run 2
+Level 
+========================================================
+Starting ILS for level 1, i.e. a limit of N=7, and cutoff time=30.0.
+Current CPU time = 0, this run goes until 300.0 
+========================================================
+New Incumbent: 0, 100000000 [0, 0]. With state disp=False, jac=2-point, maxiter=100, method=CG, tol=0.0001
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 1.828
+Total CPU time: 1.828
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 1.245
+Total CPU time: 3.0730000000000004
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 1.43
+Total CPU time: 4.503
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 1.623
+Total CPU time: 6.126
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 1.15
+Total CPU time: 7.276
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 1.507
+Total CPU time: 8.783
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 1.29
+Total CPU time: 10.073
+7/100000, 10.073/300.0
+ Same incumbent, new precision:
+New Incumbent: 10.073, 1.0e+19 [7, 30.0]. With state disp=False, jac=2-point, maxiter=100, method=CG, tol=0.0001
+Total CPU Time 10.073,  timeout 300.0
+Total CPU Time 10.073,  timeout 300.0
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 17.716
+Total CPU time: 27.789
+8/100000, 27.789/300.0
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 17.717
+Total CPU time: 45.506
+9/100000, 45.506/300.0
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 17.828
+Total CPU time: 63.334
+10/100000, 63.334/300.0
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 17.8
+Total CPU time: 81.134
+11/100000, 81.134/300.0
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 17.656
+Total CPU time: 98.78999999999999
+12/100000, 98.78999999999999/300.0
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 17.414
+Total CPU time: 116.204
+13/100000, 116.204/300.0
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 17.974
+Total CPU time: 134.178
+14/100000, 134.178/300.0
+New inc: 1.428571428586599e+18
+New Incumbent: 134.178, 1.428571428586599e+18 [7, 30.0]. With state disp=False, jac=cs, maxiter=200, method=SLSQP, tol=0.0005
+          -> Take improving step to random disp=False jac=cs maxiter=200 method=SLSQP tol=0.0005 (1.428571428586599e+18 [based on 7 runs with cutoff 30.0])
+
+Total CPU Time 134.178,  timeout 300.0
+Total CPU Time 134.178,  timeout 300.0
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 1.082
+Total CPU time: 135.26
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 1.256
+Total CPU time: 136.516
+        -> Worse random: disp=True jac=True maxiter=10000 method=trust-constr tol=0.00001 (["pruned", 2] [based on 7 runs with cutoff 30.0])
+Total CPU Time 136.516,  timeout 300.0
+Total CPU Time 136.516,  timeout 300.0
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 1.286
+Total CPU time: 137.802
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 1.439
+Total CPU time: 139.24099999999999
+        -> Worse random: disp=True jac=2-point maxiter=50 method=CG tol=0.0005 (["pruned", 2] [based on 7 runs with cutoff 30.0])
+Total CPU Time 139.24099999999999,  timeout 300.0
+Total CPU Time 139.24099999999999,  timeout 300.0
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.641
+Total CPU time: 139.88199999999998
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.752
+Total CPU time: 140.634
+        -> Worse random: disp=False jac=cs maxiter=10000 method=COBYLA tol=0.001 (["pruned", 2] [based on 7 runs with cutoff 30.0])
+Total CPU Time 140.634,  timeout 300.0
+Total CPU Time 140.634,  timeout 300.0
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 1.599
+Total CPU time: 142.23299999999998
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 1.199
+Total CPU time: 143.432
+        -> Worse random: disp=True jac=True maxiter=200 method=L-BFGS-B tol=0.00001 (["pruned", 2] [based on 7 runs with cutoff 30.0])
+Total CPU Time 143.432,  timeout 300.0
+Total CPU Time 143.432,  timeout 300.0
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 2.061
+Total CPU time: 145.493
+23/100000, 145.493/300.0
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 1.222
+Total CPU time: 146.715
+        -> Worse random: disp=False jac=True maxiter=500 method=BFGS tol=0.0005 (["pruned", 2] [based on 7 runs with cutoff 30.0])
+Total CPU Time 146.715,  timeout 300.0
+Total CPU Time 146.715,  timeout 300.0
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 2.535
+Total CPU time: 149.25
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 1.731
+Total CPU time: 150.981
+        -> Worse random: disp=True jac=3-point maxiter=200 method=Powell tol=0.001 (["pruned", 2] [based on 7 runs with cutoff 30.0])
+Total CPU Time 150.981,  timeout 300.0
+Total CPU Time 150.981,  timeout 300.0
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 1.948
+Total CPU time: 152.929
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 1.903
+Total CPU time: 154.832
+        -> Worse random: disp=True jac=cs maxiter=20 method=SLSQP tol=0.001 (["pruned", 2] [based on 7 runs with cutoff 30.0])
+Total CPU Time 154.832,  timeout 300.0
+Total CPU Time 154.832,  timeout 300.0
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.823
+Total CPU time: 155.655
+29/100000, 155.655/300.0
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.72
+Total CPU time: 156.375
+        -> Worse random: disp=False jac=cs maxiter=50 method=trust-constr tol=0.0005 (["pruned", 2] [based on 7 runs with cutoff 30.0])
+Total CPU Time 156.375,  timeout 300.0
+Total CPU Time 156.375,  timeout 300.0
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 21.667
+Total CPU time: 178.042
+31/100000, 178.042/300.0
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 19.606
+Total CPU time: 197.648
+32/100000, 197.648/300.0
+        -> Worse random: disp=False jac=3-point maxiter=2000 method=Nelder-Mead tol=0.001 (["pruned", 2] [based on 7 runs with cutoff 30.0])
+   BLS in iteration 1, start with disp=False jac=cs maxiter=200 method=SLSQP tol=0.0005 (1.428571428586599e+18 [based on 7 runs with cutoff 30.0])
+Total CPU Time 197.648,  timeout 300.0
+Total CPU Time 197.648,  timeout 300.0
+Total CPU Time 197.648,  timeout 300.0
+Total CPU Time 197.648,  timeout 300.0
+    Changing ["maxiter: 200->5000"], evaluating ...
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 30.0
+Total CPU time: 227.648
+33/100000, 227.648/300.0
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 30.0
+Total CPU time: 257.648
+34/100000, 257.648/300.0
+        -> worse: (["pruned", 2] [based on 7 runs with cutoff 30.0])
+Total CPU Time 257.648,  timeout 300.0
+Total CPU Time 257.648,  timeout 300.0
+    Changing ["maxiter: 200->100"], evaluating ...
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 10.039
+Total CPU time: 267.687
+35/100000, 267.687/300.0
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 9.741
+Total CPU time: 277.428
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 9.998
+Total CPU time: 287.426
+37/100000, 287.426/300.0
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 10.141
+Total CPU time: 297.567
+38/100000, 297.567/300.0
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 9.987
+Total CPU time: 307.55400000000003
+        -> worse: (["pruned", 5] [based on 7 runs with cutoff 30.0])
+Total CPU Time 307.55400000000003,  timeout 300.0
+Total CPU Time 307.55400000000003,  timeout 300.0
+ParamILS has reached the specified CPU time limit of 300.0 seconds => stopping the search now.
+   LM for iteration 1: disp=False jac=cs maxiter=200 method=SLSQP tol=0.0005 (1.428571428586599e+18 [based on 7 runs with cutoff 30.0])
+
+========== DETAILED RESULTS (iteration 1): ==========
+================================================
+
+==================================================================
+Best parameter configuration found so far (end of iteration 1): disp=False, jac=cs, maxiter=200, method=SLSQP, tol=0.0005
+==================================================================
+Training quality of this incumbent parameter configuration: 1.428571428586599e+18, based on 7 runs with cutoff 30.0
+==================================================================
+
+Comparing LM against incumbent:
+disp=False jac=cs maxiter=200 method=SLSQP tol=0.0005 (1.428571428586599e+18 [based on 7 runs with cutoff 30.0])
+disp=False jac=cs maxiter=200 method=SLSQP tol=0.0005 (1.428571428586599e+18 [based on 7 runs with cutoff 30.0])
+LM better, change incumbent
+New Incumbent: 307.55400000000003, 1.428571428586599e+18 [7, 30.0]. With state disp=False, jac=cs, maxiter=200, method=SLSQP, tol=0.0005
+Total CPU Time 307.55400000000003,  timeout 300.0
+Total CPU Time 307.55400000000003,  timeout 300.0
+ParamILS has reached the specified CPU time limit of 300.0 seconds => stopping the search now.
+Final solution for depth 1 with limit N=7, and cutoff time=30.0.
+New Incumbent: 307.55400000000003, 1.428571428586599e+18 [7, 30.0]. With state disp=False, jac=cs, maxiter=200, method=SLSQP, tol=0.0005
+
+==================================================================
+ParamILS is finished.
+==================================================================
+
+Final best parameter configuration found: disp=False, jac=cs, maxiter=200, method=SLSQP, tol=0.0005
+==================================================================
+Active parameters: disp=False, jac=cs, maxiter=200, method=SLSQP, tol=0.0005
+
+==================================================================
+Training quality of this final best found parameter configuration: 1.428571428586599e+18, based on 7 runs with cutoff 30.0
+==================================================================
+
+
+==================================================================
+Computing validation result on independent data -- 2 runs with cutoff time 30.0...
+==================================================================
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 19.869
+Total CPU time: 327.423
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 19.68
+Total CPU time: 347.103
+/home/jim/magpie/examples/scipy/necessary/data/complex_function_1.py: 19850414.0
+/home/jim/magpie/examples/scipy/necessary/data/complex_function_2.py: 10000000000000000000
+Combined result: 5.000000000009926e+18
+
+================================================================
+Final best parameter configuration: disp=False, jac=cs, maxiter=200, method=SLSQP, tol=0.0005
+==================================================================
+Active parameters: disp=False, jac=cs, maxiter=200, method=SLSQP, tol=0.0005
+
+================================================================
+Training quality of this final best found parameter configuration: 1.428571428586599e+18, based on 7 runs with cutoff 30.0
+Test quality of this final best found parameter configuration: 5.000000000009926e+18, based on 2 independent runs with cutoff 30.0
+==================================================================

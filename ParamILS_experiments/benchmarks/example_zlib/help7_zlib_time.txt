@@ -1,0 +1,1385 @@
+max wall time = 8640000
+/home/jim/paramils2.3.8-source/example_zlib/zlib-params.txt
+4 parameters in total
+0 parameters are conditional.
+0 parameter combinations are forbidden.
+num_params = 4, num_combos=2835
+WARNING: N=2000 is greater than the number of entries
+in the @instances array. This can happen if the algorithm is
+deterministic and the number of training instances is smaller than N,
+or if the instance_seed_file is provided by the user and has less
+entries than N. Clamping N and maxDetail to 3
+WARNING: validN=30 is greater than the number
+of entries in the @test_instances array. This can happen if the
+algorithm is deterministic and the number of test instances is smaller
+than validN, or if the test_instance_seed_file is provided by the user
+and has less entries than validN. Clamping validN to
+2
+seed: 2468
+Run 2
+Level 
+========================================================
+Starting ILS for level 1, i.e. a limit of N=3, and cutoff time=30.0.
+Current CPU time = 0, this run goes until 300.0 
+========================================================
+New Incumbent: 0, 100000000 [0, 0]. With state level=6, memLevel=5, strategy=3, wbits=28
+getAlgoResultsForInstsAndParams.
+  Trial 1 for calling: ruby example_zlib/zlib_wrapper.rb data/random1.txt "" 30.000000000000004 2147483647 -1 -level 6 -memLevel 5 -strategy 3 -wbits 28 > /tmp/tmp-2025-04-0500:05:03-0.7667765617370605
+Executing cmd: ruby example_zlib/zlib_wrapper.rb data/random1.txt "" 30.000000000000004 2147483647 -1 -level 6 -memLevel 5 -strategy 3 -wbits 28 > /tmp/tmp-2025-04-0500:05:03-0.7667765617370605
+Result: SAT, 2.245, 0, 0, -1
+  Trial 1 for calling: ruby example_zlib/zlib_wrapper.rb data/random3.png "" 30.000000000000004 2147483647 -1 -level 6 -memLevel 5 -strategy 3 -wbits 28 > /tmp/tmp-2025-04-0500:05:05-0.3151204586029053
+Executing cmd: ruby example_zlib/zlib_wrapper.rb data/random3.png "" 30.000000000000004 2147483647 -1 -level 6 -memLevel 5 -strategy 3 -wbits 28 > /tmp/tmp-2025-04-0500:05:05-0.3151204586029053
+Result: SAT, 4.001, 0, 0, -1
+  Trial 1 for calling: ruby example_zlib/zlib_wrapper.rb data/random4.png "" 30.000000000000004 2147483647 -1 -level 6 -memLevel 5 -strategy 3 -wbits 28 > /tmp/tmp-2025-04-0500:05:09-0.8450376987457275
+Executing cmd: ruby example_zlib/zlib_wrapper.rb data/random4.png "" 30.000000000000004 2147483647 -1 -level 6 -memLevel 5 -strategy 3 -wbits 28 > /tmp/tmp-2025-04-0500:05:09-0.8450376987457275
+Result: SAT, 4.016, 0, 0, -1
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 2.245
+Total CPU time: 2.245
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 4.001
+Total CPU time: 6.246
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 4.016
+Total CPU time: 10.262
+the result has length = 5 and content = ["SAT", 2.245, 0, 0.0, -1]
+the result has length = 5 and content = ["SAT", 4.001, 0, 0.0, -1]
+the result has length = 5 and content = ["SAT", 4.016, 0, 0.0, -1]
+3/100000, 10.262/300.0
+ Same incumbent, new precision:
+New Incumbent: 10.262, 3.420666666666667 [3, 30.0]. With state level=6, memLevel=5, strategy=3, wbits=28
+Total CPU Time 10.262,  timeout 300.0
+Total CPU Time 10.262,  timeout 300.0
+now 2025-04-05 00:05:14 +0800; start 2025-04-05 00:05:03 +0800; time-start 10.432625305; maxWall 8640000.0
+getAlgoResultsForInstsAndParams.
+  Trial 1 for calling: ruby example_zlib/zlib_wrapper.rb data/random1.txt "" 10.272 2147483647 -1 -level 3 -memLevel 5 -strategy 4 -wbits 28 > /tmp/tmp-2025-04-0500:05:14-0.3562469482421875
+Executing cmd: ruby example_zlib/zlib_wrapper.rb data/random1.txt "" 10.272 2147483647 -1 -level 3 -memLevel 5 -strategy 4 -wbits 28 > /tmp/tmp-2025-04-0500:05:14-0.3562469482421875
+Result: SAT, 3.573, 0, 0, -1
+Minimum runtime: 0.1
+Cutoff time: 10.272
+Result time: 3.573
+Total CPU time: 13.835
+the result has length = 5 and content = ["SAT", 3.573, 0, 0.0, -1]
+getAlgoResultsForInstsAndParams.
+  Trial 1 for calling: ruby example_zlib/zlib_wrapper.rb data/random3.png "" 6.699000000000001 2147483647 -1 -level 3 -memLevel 5 -strategy 4 -wbits 28 > /tmp/tmp-2025-04-0500:05:17-0.768986701965332
+Executing cmd: ruby example_zlib/zlib_wrapper.rb data/random3.png "" 6.699000000000001 2147483647 -1 -level 3 -memLevel 5 -strategy 4 -wbits 28 > /tmp/tmp-2025-04-0500:05:17-0.768986701965332
+Result: SAT, 5.618, 0, 0, -1
+Minimum runtime: 0.1
+Cutoff time: 6.699000000000001
+Result time: 5.618
+Total CPU time: 19.453000000000003
+the result has length = 5 and content = ["SAT", 5.618, 0, 0.0, -1]
+getAlgoResultsForInstsAndParams.
+  Trial 1 for calling: ruby example_zlib/zlib_wrapper.rb data/random4.png "" 1.0809900000000001 2147483647 -1 -level 3 -memLevel 5 -strategy 4 -wbits 28 > /tmp/tmp-2025-04-0500:05:23-0.9222021102905273
+Executing cmd: ruby example_zlib/zlib_wrapper.rb data/random4.png "" 1.0809900000000001 2147483647 -1 -level 3 -memLevel 5 -strategy 4 -wbits 28 > /tmp/tmp-2025-04-0500:05:23-0.9222021102905273
+Result: SAT, 5.649, 0, 0, -1
+Minimum runtime: 0.1
+Cutoff time: 1.0809900000000001
+Result time: 5.649
+Total CPU time: 20.533990000000003
+the result has length = 5 and content = ["SAT", 5.649, 0, 0.0, -1]
+6/100000, 20.533990000000003/300.0
+the result has length = 5 and content = ["SAT", 3.573, 0, 0.0, -1]
+the result has length = 5 and content = ["SAT", 5.618, 0, 0.0, -1]
+the result has length = 5 and content = ["SAT", 5.649, 0, 0.0, -1]
+the result has length = 5 and content = ["SAT", 3.573, 0, 0.0, -1]
+the result has length = 5 and content = ["SAT", 5.618, 0, 0.0, -1]
+the result has length = 5 and content = ["SAT", 5.649, 0, 0.0, -1]
+the result has length = 5 and content = ["SAT", 3.573, 0, 0.0, -1]
+the result has length = 5 and content = ["SAT", 5.618, 0, 0.0, -1]
+the result has length = 5 and content = ["SAT", 5.649, 0, 0.0, -1]
+        -> Worse random: level=3 memLevel=5 strategy=4 wbits=28 (["pruned", 2] [based on 3 runs with cutoff 30.0])
+Total CPU Time 20.533990000000003,  timeout 300.0
+Total CPU Time 20.533990000000003,  timeout 300.0
+now 2025-04-05 00:05:29 +0800; start 2025-04-05 00:05:03 +0800; time-start 25.453453788; maxWall 8640000.0
+getAlgoResultsForInstsAndParams.
+  Trial 1 for calling: ruby example_zlib/zlib_wrapper.rb data/random1.txt "" 10.272 2147483647 -1 -level 7 -memLevel 5 -strategy 4 -wbits 27 > /tmp/tmp-2025-04-0500:05:29-0.39420318603515625
+Executing cmd: ruby example_zlib/zlib_wrapper.rb data/random1.txt "" 10.272 2147483647 -1 -level 7 -memLevel 5 -strategy 4 -wbits 27 > /tmp/tmp-2025-04-0500:05:29-0.39420318603515625
+Result: SAT, 3.656, 0, 0, -1
+Minimum runtime: 0.1
+Cutoff time: 10.272
+Result time: 3.656
+Total CPU time: 24.18999
+the result has length = 5 and content = ["SAT", 3.656, 0, 0.0, -1]
+getAlgoResultsForInstsAndParams.
+  Trial 1 for calling: ruby example_zlib/zlib_wrapper.rb data/random3.png "" 6.6160000000000005 2147483647 -1 -level 7 -memLevel 5 -strategy 4 -wbits 27 > /tmp/tmp-2025-04-0500:05:32-0.22345614433288574
+Executing cmd: ruby example_zlib/zlib_wrapper.rb data/random3.png "" 6.6160000000000005 2147483647 -1 -level 7 -memLevel 5 -strategy 4 -wbits 27 > /tmp/tmp-2025-04-0500:05:32-0.22345614433288574
+Result: SAT, 6.053, 0, 0, -1
+Minimum runtime: 0.1
+Cutoff time: 6.6160000000000005
+Result time: 6.053
+Total CPU time: 30.242990000000002
+the result has length = 5 and content = ["SAT", 6.053, 0, 0.0, -1]
+getAlgoResultsForInstsAndParams.
+  Trial 1 for calling: ruby example_zlib/zlib_wrapper.rb data/random4.png "" 0.5630000000000001 2147483647 -1 -level 7 -memLevel 5 -strategy 4 -wbits 27 > /tmp/tmp-2025-04-0500:05:38-0.8239089250564575
+Executing cmd: ruby example_zlib/zlib_wrapper.rb data/random4.png "" 0.5630000000000001 2147483647 -1 -level 7 -memLevel 5 -strategy 4 -wbits 27 > /tmp/tmp-2025-04-0500:05:38-0.8239089250564575
+Result: SAT, 6.054, 0, 0, -1
+Minimum runtime: 0.1
+Cutoff time: 0.5630000000000001
+Result time: 6.054
+Total CPU time: 30.80599
+the result has length = 5 and content = ["SAT", 6.054, 0, 0.0, -1]
+9/100000, 30.80599/300.0
+the result has length = 5 and content = ["SAT", 3.656, 0, 0.0, -1]
+the result has length = 5 and content = ["SAT", 6.053, 0, 0.0, -1]
+the result has length = 5 and content = ["SAT", 6.054, 0, 0.0, -1]
+the result has length = 5 and content = ["SAT", 3.656, 0, 0.0, -1]
+the result has length = 5 and content = ["SAT", 6.053, 0, 0.0, -1]
+the result has length = 5 and content = ["SAT", 6.054, 0, 0.0, -1]
+the result has length = 5 and content = ["SAT", 3.656, 0, 0.0, -1]
+the result has length = 5 and content = ["SAT", 6.053, 0, 0.0, -1]
+the result has length = 5 and content = ["SAT", 6.054, 0, 0.0, -1]
+        -> Worse random: level=7 memLevel=5 strategy=4 wbits=27 (["pruned", 2] [based on 3 runs with cutoff 30.0])
+Total CPU Time 30.80599,  timeout 300.0
+Total CPU Time 30.80599,  timeout 300.0
+now 2025-04-05 00:05:44 +0800; start 2025-04-05 00:05:03 +0800; time-start 41.39805743; maxWall 8640000.0
+getAlgoResultsForInstsAndParams.
+  Trial 1 for calling: ruby example_zlib/zlib_wrapper.rb data/random1.txt "" 10.272 2147483647 -1 -level 9 -memLevel 9 -strategy 4 -wbits 25 > /tmp/tmp-2025-04-0500:05:44-0.8130881786346436
+Executing cmd: ruby example_zlib/zlib_wrapper.rb data/random1.txt "" 10.272 2147483647 -1 -level 9 -memLevel 9 -strategy 4 -wbits 25 > /tmp/tmp-2025-04-0500:05:44-0.8130881786346436
+Result: SAT, 8.907, 0, 0, -1
+Minimum runtime: 0.1
+Cutoff time: 10.272
+Result time: 8.907
+Total CPU time: 39.712990000000005
+the result has length = 5 and content = ["SAT", 8.907, 0, 0.0, -1]
+getAlgoResultsForInstsAndParams.
+  Trial 1 for calling: ruby example_zlib/zlib_wrapper.rb data/random3.png "" 1.3650000000000002 2147483647 -1 -level 9 -memLevel 9 -strategy 4 -wbits 25 > /tmp/tmp-2025-04-0500:05:53-0.426194429397583
+Executing cmd: ruby example_zlib/zlib_wrapper.rb data/random3.png "" 1.3650000000000002 2147483647 -1 -level 9 -memLevel 9 -strategy 4 -wbits 25 > /tmp/tmp-2025-04-0500:05:53-0.426194429397583
+Result: SAT, 12.461, 0, 0, -1
+Minimum runtime: 0.1
+Cutoff time: 1.3650000000000002
+Result time: 12.461
+Total CPU time: 41.07799000000001
+the result has length = 5 and content = ["SAT", 12.461, 0, 0.0, -1]
+11/100000, 41.07799000000001/300.0
+the result has length = 5 and content = ["SAT", 8.907, 0, 0.0, -1]
+the result has length = 5 and content = ["SAT", 12.461, 0, 0.0, -1]
+the result has length = 5 and content = ["SAT", 8.907, 0, 0.0, -1]
+the result has length = 5 and content = ["SAT", 12.461, 0, 0.0, -1]
+the result has length = 5 and content = ["SAT", 8.907, 0, 0.0, -1]
+the result has length = 5 and content = ["SAT", 12.461, 0, 0.0, -1]
+        -> Worse random: level=9 memLevel=9 strategy=4 wbits=25 (["pruned", 2] [based on 3 runs with cutoff 30.0])
+Total CPU Time 41.07799000000001,  timeout 300.0
+Total CPU Time 41.07799000000001,  timeout 300.0
+now 2025-04-05 00:06:06 +0800; start 2025-04-05 00:05:03 +0800; time-start 62.890507516; maxWall 8640000.0
+getAlgoResultsForInstsAndParams.
+  Trial 1 for calling: ruby example_zlib/zlib_wrapper.rb data/random1.txt "" 10.272 2147483647 -1 -level 3 -memLevel 3 -strategy 3 -wbits 30 > /tmp/tmp-2025-04-0500:06:06-0.6508543491363525
+Executing cmd: ruby example_zlib/zlib_wrapper.rb data/random1.txt "" 10.272 2147483647 -1 -level 3 -memLevel 3 -strategy 3 -wbits 30 > /tmp/tmp-2025-04-0500:06:06-0.6508543491363525
+Result: SAT, 3.592, 0, 0, -1
+Minimum runtime: 0.1
+Cutoff time: 10.272
+Result time: 3.592
+Total CPU time: 44.669990000000006
+the result has length = 5 and content = ["SAT", 3.592, 0, 0.0, -1]
+getAlgoResultsForInstsAndParams.
+  Trial 1 for calling: ruby example_zlib/zlib_wrapper.rb data/random3.png "" 6.680000000000001 2147483647 -1 -level 3 -memLevel 3 -strategy 3 -wbits 30 > /tmp/tmp-2025-04-0500:06:10-0.6812019348144531
+Executing cmd: ruby example_zlib/zlib_wrapper.rb data/random3.png "" 6.680000000000001 2147483647 -1 -level 3 -memLevel 3 -strategy 3 -wbits 30 > /tmp/tmp-2025-04-0500:06:10-0.6812019348144531
+Result: SAT, 8.836, 0, 0, -1
+Minimum runtime: 0.1
+Cutoff time: 6.680000000000001
+Result time: 8.836
+Total CPU time: 51.349990000000005
+the result has length = 5 and content = ["SAT", 8.836, 0, 0.0, -1]
+13/100000, 51.349990000000005/300.0
+the result has length = 5 and content = ["SAT", 3.592, 0, 0.0, -1]
+the result has length = 5 and content = ["SAT", 8.836, 0, 0.0, -1]
+the result has length = 5 and content = ["SAT", 3.592, 0, 0.0, -1]
+the result has length = 5 and content = ["SAT", 8.836, 0, 0.0, -1]
+the result has length = 5 and content = ["SAT", 3.592, 0, 0.0, -1]
+the result has length = 5 and content = ["SAT", 8.836, 0, 0.0, -1]
+        -> Worse random: level=3 memLevel=3 strategy=3 wbits=30 (["pruned", 2] [based on 3 runs with cutoff 30.0])
+Total CPU Time 51.349990000000005,  timeout 300.0
+Total CPU Time 51.349990000000005,  timeout 300.0
+now 2025-04-05 00:06:19 +0800; start 2025-04-05 00:05:03 +0800; time-start 75.428795411; maxWall 8640000.0
+getAlgoResultsForInstsAndParams.
+  Trial 1 for calling: ruby example_zlib/zlib_wrapper.rb data/random1.txt "" 10.272 2147483647 -1 -level 3 -memLevel 7 -strategy 4 -wbits 31 > /tmp/tmp-2025-04-0500:06:19-0.30499267578125
+Executing cmd: ruby example_zlib/zlib_wrapper.rb data/random1.txt "" 10.272 2147483647 -1 -level 3 -memLevel 7 -strategy 4 -wbits 31 > /tmp/tmp-2025-04-0500:06:19-0.30499267578125
+Result: SAT, 4.113, 0, 0, -1
+Minimum runtime: 0.1
+Cutoff time: 10.272
+Result time: 4.113
+Total CPU time: 55.462990000000005
+the result has length = 5 and content = ["SAT", 4.113, 0, 0.0, -1]
+getAlgoResultsForInstsAndParams.
+  Trial 1 for calling: ruby example_zlib/zlib_wrapper.rb data/random3.png "" 6.159000000000001 2147483647 -1 -level 3 -memLevel 7 -strategy 4 -wbits 31 > /tmp/tmp-2025-04-0500:06:23-0.7510013580322266
+Executing cmd: ruby example_zlib/zlib_wrapper.rb data/random3.png "" 6.159000000000001 2147483647 -1 -level 3 -memLevel 7 -strategy 4 -wbits 31 > /tmp/tmp-2025-04-0500:06:23-0.7510013580322266
+Result: SAT, 4.453, 0, 0, -1
+Minimum runtime: 0.1
+Cutoff time: 6.159000000000001
+Result time: 4.453
+Total CPU time: 59.91599000000001
+the result has length = 5 and content = ["SAT", 4.453, 0, 0.0, -1]
+getAlgoResultsForInstsAndParams.
+  Trial 1 for calling: ruby example_zlib/zlib_wrapper.rb data/random4.png "" 1.7059900000000001 2147483647 -1 -level 3 -memLevel 7 -strategy 4 -wbits 31 > /tmp/tmp-2025-04-0500:06:27-0.601355791091919
+Executing cmd: ruby example_zlib/zlib_wrapper.rb data/random4.png "" 1.7059900000000001 2147483647 -1 -level 3 -memLevel 7 -strategy 4 -wbits 31 > /tmp/tmp-2025-04-0500:06:27-0.601355791091919
+Result: SAT, 4.443, 0, 0, -1
+Minimum runtime: 0.1
+Cutoff time: 1.7059900000000001
+Result time: 4.443
+Total CPU time: 61.62198000000001
+the result has length = 5 and content = ["SAT", 4.443, 0, 0.0, -1]
+16/100000, 61.62198000000001/300.0
+the result has length = 5 and content = ["SAT", 4.113, 0, 0.0, -1]
+the result has length = 5 and content = ["SAT", 4.453, 0, 0.0, -1]
+the result has length = 5 and content = ["SAT", 4.443, 0, 0.0, -1]
+the result has length = 5 and content = ["SAT", 4.113, 0, 0.0, -1]
+the result has length = 5 and content = ["SAT", 4.453, 0, 0.0, -1]
+the result has length = 5 and content = ["SAT", 4.443, 0, 0.0, -1]
+the result has length = 5 and content = ["SAT", 4.113, 0, 0.0, -1]
+the result has length = 5 and content = ["SAT", 4.453, 0, 0.0, -1]
+the result has length = 5 and content = ["SAT", 4.443, 0, 0.0, -1]
+        -> Worse random: level=3 memLevel=7 strategy=4 wbits=31 (["pruned", 2] [based on 3 runs with cutoff 30.0])
+Total CPU Time 61.62198000000001,  timeout 300.0
+Total CPU Time 61.62198000000001,  timeout 300.0
+now 2025-04-05 00:06:32 +0800; start 2025-04-05 00:05:03 +0800; time-start 88.612319014; maxWall 8640000.0
+getAlgoResultsForInstsAndParams.
+  Trial 1 for calling: ruby example_zlib/zlib_wrapper.rb data/random1.txt "" 10.272 2147483647 -1 -level 5 -memLevel 5 -strategy 0 -wbits 26 > /tmp/tmp-2025-04-0500:06:32-0.1272287368774414
+Executing cmd: ruby example_zlib/zlib_wrapper.rb data/random1.txt "" 10.272 2147483647 -1 -level 5 -memLevel 5 -strategy 0 -wbits 26 > /tmp/tmp-2025-04-0500:06:32-0.1272287368774414
+Result: SAT, 3.457, 0, 0, -1
+Minimum runtime: 0.1
+Cutoff time: 10.272
+Result time: 3.457
+Total CPU time: 65.07898
+the result has length = 5 and content = ["SAT", 3.457, 0, 0.0, -1]
+getAlgoResultsForInstsAndParams.
+  Trial 1 for calling: ruby example_zlib/zlib_wrapper.rb data/random3.png "" 6.815 2147483647 -1 -level 5 -memLevel 5 -strategy 0 -wbits 26 > /tmp/tmp-2025-04-0500:06:35-0.6334502696990967
+Executing cmd: ruby example_zlib/zlib_wrapper.rb data/random3.png "" 6.815 2147483647 -1 -level 5 -memLevel 5 -strategy 0 -wbits 26 > /tmp/tmp-2025-04-0500:06:35-0.6334502696990967
+Result: SAT, 6.583, 0, 0, -1
+Minimum runtime: 0.1
+Cutoff time: 6.815
+Result time: 6.583
+Total CPU time: 71.66198
+the result has length = 5 and content = ["SAT", 6.583, 0, 0.0, -1]
+18/100000, 71.66198/300.0
+getAlgoResultsForInstsAndParams.
+  Trial 1 for calling: ruby example_zlib/zlib_wrapper.rb data/random4.png "" 0.232 2147483647 -1 -level 5 -memLevel 5 -strategy 0 -wbits 26 > /tmp/tmp-2025-04-0500:06:42-0.822357177734375
+Executing cmd: ruby example_zlib/zlib_wrapper.rb data/random4.png "" 0.232 2147483647 -1 -level 5 -memLevel 5 -strategy 0 -wbits 26 > /tmp/tmp-2025-04-0500:06:42-0.822357177734375
+Result: SAT, 6.615, 0, 0, -1
+Minimum runtime: 0.1
+Cutoff time: 0.232
+Result time: 6.615
+Total CPU time: 71.89398
+the result has length = 5 and content = ["SAT", 6.615, 0, 0.0, -1]
+the result has length = 5 and content = ["SAT", 3.457, 0, 0.0, -1]
+the result has length = 5 and content = ["SAT", 6.583, 0, 0.0, -1]
+the result has length = 5 and content = ["SAT", 6.615, 0, 0.0, -1]
+the result has length = 5 and content = ["SAT", 3.457, 0, 0.0, -1]
+the result has length = 5 and content = ["SAT", 6.583, 0, 0.0, -1]
+the result has length = 5 and content = ["SAT", 6.615, 0, 0.0, -1]
+the result has length = 5 and content = ["SAT", 3.457, 0, 0.0, -1]
+the result has length = 5 and content = ["SAT", 6.583, 0, 0.0, -1]
+the result has length = 5 and content = ["SAT", 6.615, 0, 0.0, -1]
+        -> Worse random: level=5 memLevel=5 strategy=0 wbits=26 (["pruned", 2] [based on 3 runs with cutoff 30.0])
+Total CPU Time 71.89398,  timeout 300.0
+Total CPU Time 71.89398,  timeout 300.0
+now 2025-04-05 00:06:49 +0800; start 2025-04-05 00:05:03 +0800; time-start 105.453648915; maxWall 8640000.0
+getAlgoResultsForInstsAndParams.
+  Trial 1 for calling: ruby example_zlib/zlib_wrapper.rb data/random1.txt "" 10.272 2147483647 -1 -level 7 -memLevel 5 -strategy 2 -wbits 28 > /tmp/tmp-2025-04-0500:06:49-0.17277908325195312
+Executing cmd: ruby example_zlib/zlib_wrapper.rb data/random1.txt "" 10.272 2147483647 -1 -level 7 -memLevel 5 -strategy 2 -wbits 28 > /tmp/tmp-2025-04-0500:06:49-0.17277908325195312
+Result: SAT, 2.209, 0, 0, -1
+Minimum runtime: 0.1
+Cutoff time: 10.272
+Result time: 2.209
+Total CPU time: 74.10298
+the result has length = 5 and content = ["SAT", 2.209, 0, 0.0, -1]
+getAlgoResultsForInstsAndParams.
+  Trial 1 for calling: ruby example_zlib/zlib_wrapper.rb data/random3.png "" 8.063 2147483647 -1 -level 7 -memLevel 5 -strategy 2 -wbits 28 > /tmp/tmp-2025-04-0500:06:51-0.7746210098266602
+Executing cmd: ruby example_zlib/zlib_wrapper.rb data/random3.png "" 8.063 2147483647 -1 -level 7 -memLevel 5 -strategy 2 -wbits 28 > /tmp/tmp-2025-04-0500:06:51-0.7746210098266602
+Result: SAT, 3.957, 0, 0, -1
+Minimum runtime: 0.1
+Cutoff time: 8.063
+Result time: 3.957
+Total CPU time: 78.05998
+the result has length = 5 and content = ["SAT", 3.957, 0, 0.0, -1]
+getAlgoResultsForInstsAndParams.
+  Trial 1 for calling: ruby example_zlib/zlib_wrapper.rb data/random4.png "" 4.106000000000001 2147483647 -1 -level 7 -memLevel 5 -strategy 2 -wbits 28 > /tmp/tmp-2025-04-0500:06:55-0.799802303314209
+Executing cmd: ruby example_zlib/zlib_wrapper.rb data/random4.png "" 4.106000000000001 2147483647 -1 -level 7 -memLevel 5 -strategy 2 -wbits 28 > /tmp/tmp-2025-04-0500:06:55-0.799802303314209
+Result: SAT, 3.958, 0, 0, -1
+Minimum runtime: 0.1
+Cutoff time: 4.106000000000001
+Result time: 3.958
+Total CPU time: 82.01798
+the result has length = 5 and content = ["SAT", 3.958, 0, 0.0, -1]
+22/100000, 82.01798/300.0
+New inc: 3.3746666666666667
+New Incumbent: 82.01798, 3.3746666666666667 [3, 30.0]. With state level=7, memLevel=5, strategy=2, wbits=28
+          -> Take improving step to random level=7 memLevel=5 strategy=2 wbits=28 (3.3746666666666667 [based on 3 runs with cutoff 30.0])
+
+Total CPU Time 82.01798,  timeout 300.0
+Total CPU Time 82.01798,  timeout 300.0
+now 2025-04-05 00:06:59 +0800; start 2025-04-05 00:05:03 +0800; time-start 115.767703843; maxWall 8640000.0
+getAlgoResultsForInstsAndParams.
+  Trial 1 for calling: ruby example_zlib/zlib_wrapper.rb data/random1.txt "" 10.134 2147483647 -1 -level 4 -memLevel 9 -strategy 1 -wbits 29 > /tmp/tmp-2025-04-0500:06:59-0.9346141815185547
+Executing cmd: ruby example_zlib/zlib_wrapper.rb data/random1.txt "" 10.134 2147483647 -1 -level 4 -memLevel 9 -strategy 1 -wbits 29 > /tmp/tmp-2025-04-0500:06:59-0.9346141815185547
+Result: SAT, 3.533, 0, 0, -1
+Minimum runtime: 0.1
+Cutoff time: 10.134
+Result time: 3.533
+Total CPU time: 85.55098
+the result has length = 5 and content = ["SAT", 3.533, 0, 0.0, -1]
+getAlgoResultsForInstsAndParams.
+  Trial 1 for calling: ruby example_zlib/zlib_wrapper.rb data/random3.png "" 6.601000000000001 2147483647 -1 -level 4 -memLevel 9 -strategy 1 -wbits 29 > /tmp/tmp-2025-04-0500:07:02-0.22045934200286865
+Executing cmd: ruby example_zlib/zlib_wrapper.rb data/random3.png "" 6.601000000000001 2147483647 -1 -level 4 -memLevel 9 -strategy 1 -wbits 29 > /tmp/tmp-2025-04-0500:07:02-0.22045934200286865
+Result: SAT, 4.578, 0, 0, -1
+Minimum runtime: 0.1
+Cutoff time: 6.601000000000001
+Result time: 4.578
+Total CPU time: 90.12898
+the result has length = 5 and content = ["SAT", 4.578, 0, 0.0, -1]
+getAlgoResultsForInstsAndParams.
+  Trial 1 for calling: ruby example_zlib/zlib_wrapper.rb data/random4.png "" 2.02299 2147483647 -1 -level 4 -memLevel 9 -strategy 1 -wbits 29 > /tmp/tmp-2025-04-0500:07:07-0.689286470413208
+Executing cmd: ruby example_zlib/zlib_wrapper.rb data/random4.png "" 2.02299 2147483647 -1 -level 4 -memLevel 9 -strategy 1 -wbits 29 > /tmp/tmp-2025-04-0500:07:07-0.689286470413208
+Result: SAT, 4.587, 0, 0, -1
+Minimum runtime: 0.1
+Cutoff time: 2.02299
+Result time: 4.587
+Total CPU time: 92.15197
+the result has length = 5 and content = ["SAT", 4.587, 0, 0.0, -1]
+25/100000, 92.15197/300.0
+the result has length = 5 and content = ["SAT", 3.533, 0, 0.0, -1]
+the result has length = 5 and content = ["SAT", 4.578, 0, 0.0, -1]
+the result has length = 5 and content = ["SAT", 4.587, 0, 0.0, -1]
+the result has length = 5 and content = ["SAT", 3.533, 0, 0.0, -1]
+the result has length = 5 and content = ["SAT", 4.578, 0, 0.0, -1]
+the result has length = 5 and content = ["SAT", 4.587, 0, 0.0, -1]
+the result has length = 5 and content = ["SAT", 3.533, 0, 0.0, -1]
+the result has length = 5 and content = ["SAT", 4.578, 0, 0.0, -1]
+the result has length = 5 and content = ["SAT", 4.587, 0, 0.0, -1]
+        -> Worse random: level=4 memLevel=9 strategy=1 wbits=29 (["pruned", 2] [based on 3 runs with cutoff 30.0])
+Total CPU Time 92.15197,  timeout 300.0
+Total CPU Time 92.15197,  timeout 300.0
+now 2025-04-05 00:07:12 +0800; start 2025-04-05 00:05:03 +0800; time-start 128.638278244; maxWall 8640000.0
+getAlgoResultsForInstsAndParams.
+  Trial 1 for calling: ruby example_zlib/zlib_wrapper.rb data/random1.txt "" 10.134 2147483647 -1 -level 2 -memLevel 5 -strategy 2 -wbits 26 > /tmp/tmp-2025-04-0500:07:12-0.3836359977722168
+Executing cmd: ruby example_zlib/zlib_wrapper.rb data/random1.txt "" 10.134 2147483647 -1 -level 2 -memLevel 5 -strategy 2 -wbits 26 > /tmp/tmp-2025-04-0500:07:12-0.3836359977722168
+Result: SAT, 2.382, 0, 0, -1
+Minimum runtime: 0.1
+Cutoff time: 10.134
+Result time: 2.382
+Total CPU time: 94.53397000000001
+the result has length = 5 and content = ["SAT", 2.382, 0, 0.0, -1]
+getAlgoResultsForInstsAndParams.
+  Trial 1 for calling: ruby example_zlib/zlib_wrapper.rb data/random3.png "" 7.752000000000001 2147483647 -1 -level 2 -memLevel 5 -strategy 2 -wbits 26 > /tmp/tmp-2025-04-0500:07:14-0.19733738899230957
+Executing cmd: ruby example_zlib/zlib_wrapper.rb data/random3.png "" 7.752000000000001 2147483647 -1 -level 2 -memLevel 5 -strategy 2 -wbits 26 > /tmp/tmp-2025-04-0500:07:14-0.19733738899230957
+Result: SAT, 5.287, 0, 0, -1
+Minimum runtime: 0.1
+Cutoff time: 7.752000000000001
+Result time: 5.287
+Total CPU time: 99.82097000000002
+the result has length = 5 and content = ["SAT", 5.287, 0, 0.0, -1]
+getAlgoResultsForInstsAndParams.
+  Trial 1 for calling: ruby example_zlib/zlib_wrapper.rb data/random4.png "" 2.4650000000000003 2147483647 -1 -level 2 -memLevel 5 -strategy 2 -wbits 26 > /tmp/tmp-2025-04-0500:07:20-0.350006103515625
+Executing cmd: ruby example_zlib/zlib_wrapper.rb data/random4.png "" 2.4650000000000003 2147483647 -1 -level 2 -memLevel 5 -strategy 2 -wbits 26 > /tmp/tmp-2025-04-0500:07:20-0.350006103515625
+Result: SAT, 5.266, 0, 0, -1
+Minimum runtime: 0.1
+Cutoff time: 2.4650000000000003
+Result time: 5.266
+Total CPU time: 102.28597000000002
+the result has length = 5 and content = ["SAT", 5.266, 0, 0.0, -1]
+28/100000, 102.28597000000002/300.0
+the result has length = 5 and content = ["SAT", 2.382, 0, 0.0, -1]
+the result has length = 5 and content = ["SAT", 5.287, 0, 0.0, -1]
+the result has length = 5 and content = ["SAT", 5.266, 0, 0.0, -1]
+the result has length = 5 and content = ["SAT", 2.382, 0, 0.0, -1]
+the result has length = 5 and content = ["SAT", 5.287, 0, 0.0, -1]
+the result has length = 5 and content = ["SAT", 5.266, 0, 0.0, -1]
+the result has length = 5 and content = ["SAT", 2.382, 0, 0.0, -1]
+the result has length = 5 and content = ["SAT", 5.287, 0, 0.0, -1]
+the result has length = 5 and content = ["SAT", 5.266, 0, 0.0, -1]
+        -> Worse random: level=2 memLevel=5 strategy=2 wbits=26 (["pruned", 2] [based on 3 runs with cutoff 30.0])
+Total CPU Time 102.28597000000002,  timeout 300.0
+Total CPU Time 102.28597000000002,  timeout 300.0
+now 2025-04-05 00:07:25 +0800; start 2025-04-05 00:05:03 +0800; time-start 141.753567337; maxWall 8640000.0
+getAlgoResultsForInstsAndParams.
+  Trial 1 for calling: ruby example_zlib/zlib_wrapper.rb data/random1.txt "" 10.134 2147483647 -1 -level 8 -memLevel 7 -strategy 2 -wbits 27 > /tmp/tmp-2025-04-0500:07:25-0.5807719230651855
+Executing cmd: ruby example_zlib/zlib_wrapper.rb data/random1.txt "" 10.134 2147483647 -1 -level 8 -memLevel 7 -strategy 2 -wbits 27 > /tmp/tmp-2025-04-0500:07:25-0.5807719230651855
+Result: SAT, 2.281, 0, 0, -1
+Minimum runtime: 0.1
+Cutoff time: 10.134
+Result time: 2.281
+Total CPU time: 104.56697000000003
+the result has length = 5 and content = ["SAT", 2.281, 0, 0.0, -1]
+getAlgoResultsForInstsAndParams.
+  Trial 1 for calling: ruby example_zlib/zlib_wrapper.rb data/random3.png "" 7.853000000000001 2147483647 -1 -level 8 -memLevel 7 -strategy 2 -wbits 27 > /tmp/tmp-2025-04-0500:07:27-0.2730376720428467
+Executing cmd: ruby example_zlib/zlib_wrapper.rb data/random3.png "" 7.853000000000001 2147483647 -1 -level 8 -memLevel 7 -strategy 2 -wbits 27 > /tmp/tmp-2025-04-0500:07:27-0.2730376720428467
+Result: SAT, 3.584, 0, 0, -1
+Minimum runtime: 0.1
+Cutoff time: 7.853000000000001
+Result time: 3.584
+Total CPU time: 108.15097000000003
+the result has length = 5 and content = ["SAT", 3.584, 0, 0.0, -1]
+getAlgoResultsForInstsAndParams.
+  Trial 1 for calling: ruby example_zlib/zlib_wrapper.rb data/random4.png "" 4.269 2147483647 -1 -level 8 -memLevel 7 -strategy 2 -wbits 27 > /tmp/tmp-2025-04-0500:07:31-0.9111199378967285
+Executing cmd: ruby example_zlib/zlib_wrapper.rb data/random4.png "" 4.269 2147483647 -1 -level 8 -memLevel 7 -strategy 2 -wbits 27 > /tmp/tmp-2025-04-0500:07:31-0.9111199378967285
+Result: SAT, 3.616, 0, 0, -1
+Minimum runtime: 0.1
+Cutoff time: 4.269
+Result time: 3.616
+Total CPU time: 111.76697000000003
+the result has length = 5 and content = ["SAT", 3.616, 0, 0.0, -1]
+New inc: 3.1603333333333334
+New Incumbent: 111.76697000000003, 3.1603333333333334 [3, 30.0]. With state level=8, memLevel=7, strategy=2, wbits=27
+          -> Take improving step to random level=8 memLevel=7 strategy=2 wbits=27 (3.1603333333333334 [based on 3 runs with cutoff 30.0])
+
+   BLS in iteration 1, start with level=8 memLevel=7 strategy=2 wbits=27 (3.1603333333333334 [based on 3 runs with cutoff 30.0])
+Total CPU Time 111.76697000000003,  timeout 300.0
+Total CPU Time 111.76697000000003,  timeout 300.0
+now 2025-04-05 00:07:34 +0800; start 2025-04-05 00:05:03 +0800; time-start 151.408770092; maxWall 8640000.0
+Total CPU Time 111.76697000000003,  timeout 300.0
+Total CPU Time 111.76697000000003,  timeout 300.0
+now 2025-04-05 00:07:34 +0800; start 2025-04-05 00:05:03 +0800; time-start 151.408901044; maxWall 8640000.0
+    Changing ["memLevel: 7->1"], evaluating ...
+getAlgoResultsForInstsAndParams.
+  Trial 1 for calling: ruby example_zlib/zlib_wrapper.rb data/random1.txt "" 9.491000000000001 2147483647 -1 -level 8 -memLevel 1 -strategy 2 -wbits 27 > /tmp/tmp-2025-04-0500:07:34-0.40268754959106445
+Executing cmd: ruby example_zlib/zlib_wrapper.rb data/random1.txt "" 9.491000000000001 2147483647 -1 -level 8 -memLevel 1 -strategy 2 -wbits 27 > /tmp/tmp-2025-04-0500:07:34-0.40268754959106445
+Result: SAT, 8.176, 0, 0, -1
+Minimum runtime: 0.1
+Cutoff time: 9.491000000000001
+Result time: 8.176
+Total CPU time: 119.94297000000003
+the result has length = 5 and content = ["SAT", 8.176, 0, 0.0, -1]
+32/100000, 119.94297000000003/300.0
+getAlgoResultsForInstsAndParams.
+  Trial 1 for calling: ruby example_zlib/zlib_wrapper.rb data/random3.png "" 1.31499 2147483647 -1 -level 8 -memLevel 1 -strategy 2 -wbits 27 > /tmp/tmp-2025-04-0500:07:43-0.05017423629760742
+Executing cmd: ruby example_zlib/zlib_wrapper.rb data/random3.png "" 1.31499 2147483647 -1 -level 8 -memLevel 1 -strategy 2 -wbits 27 > /tmp/tmp-2025-04-0500:07:43-0.05017423629760742
+Result: SAT, 12.215, 0, 0, -1
+Minimum runtime: 0.1
+Cutoff time: 1.31499
+Result time: 12.215
+Total CPU time: 121.25796000000003
+the result has length = 5 and content = ["SAT", 12.215, 0, 0.0, -1]
+the result has length = 5 and content = ["SAT", 8.176, 0, 0.0, -1]
+the result has length = 5 and content = ["SAT", 12.215, 0, 0.0, -1]
+the result has length = 5 and content = ["SAT", 8.176, 0, 0.0, -1]
+the result has length = 5 and content = ["SAT", 12.215, 0, 0.0, -1]
+the result has length = 5 and content = ["SAT", 8.176, 0, 0.0, -1]
+the result has length = 5 and content = ["SAT", 12.215, 0, 0.0, -1]
+        -> worse: (["pruned", 2] [based on 3 runs with cutoff 30.0])
+Total CPU Time 121.25796000000003,  timeout 300.0
+Total CPU Time 121.25796000000003,  timeout 300.0
+now 2025-04-05 00:07:55 +0800; start 2025-04-05 00:05:03 +0800; time-start 171.929909578; maxWall 8640000.0
+    Changing ["level: 8->4"], evaluating ...
+getAlgoResultsForInstsAndParams.
+  Trial 1 for calling: ruby example_zlib/zlib_wrapper.rb data/random1.txt "" 9.491000000000001 2147483647 -1 -level 4 -memLevel 7 -strategy 2 -wbits 27 > /tmp/tmp-2025-04-0500:07:55-0.05771589279174805
+Executing cmd: ruby example_zlib/zlib_wrapper.rb data/random1.txt "" 9.491000000000001 2147483647 -1 -level 4 -memLevel 7 -strategy 2 -wbits 27 > /tmp/tmp-2025-04-0500:07:55-0.05771589279174805
+Result: SAT, 2.256, 0, 0, -1
+Minimum runtime: 0.1
+Cutoff time: 9.491000000000001
+Result time: 2.256
+Total CPU time: 123.51396000000003
+the result has length = 5 and content = ["SAT", 2.256, 0, 0.0, -1]
+getAlgoResultsForInstsAndParams.
+  Trial 1 for calling: ruby example_zlib/zlib_wrapper.rb data/random3.png "" 7.235 2147483647 -1 -level 4 -memLevel 7 -strategy 2 -wbits 27 > /tmp/tmp-2025-04-0500:07:57-0.48224353790283203
+Executing cmd: ruby example_zlib/zlib_wrapper.rb data/random3.png "" 7.235 2147483647 -1 -level 4 -memLevel 7 -strategy 2 -wbits 27 > /tmp/tmp-2025-04-0500:07:57-0.48224353790283203
+Result: SAT, 3.635, 0, 0, -1
+Minimum runtime: 0.1
+Cutoff time: 7.235
+Result time: 3.635
+Total CPU time: 127.14896000000003
+the result has length = 5 and content = ["SAT", 3.635, 0, 0.0, -1]
+getAlgoResultsForInstsAndParams.
+  Trial 1 for calling: ruby example_zlib/zlib_wrapper.rb data/random4.png "" 3.5999900000000005 2147483647 -1 -level 4 -memLevel 7 -strategy 2 -wbits 27 > /tmp/tmp-2025-04-0500:08:01-0.47646117210388184
+Executing cmd: ruby example_zlib/zlib_wrapper.rb data/random4.png "" 3.5999900000000005 2147483647 -1 -level 4 -memLevel 7 -strategy 2 -wbits 27 > /tmp/tmp-2025-04-0500:08:01-0.47646117210388184
+Result: SAT, 3.603, 0, 0, -1
+Minimum runtime: 0.1
+Cutoff time: 3.5999900000000005
+Result time: 3.603
+Total CPU time: 130.74895000000004
+the result has length = 5 and content = ["SAT", 3.603, 0, 0.0, -1]
+36/100000, 130.74895000000004/300.0
+the result has length = 5 and content = ["SAT", 2.256, 0, 0.0, -1]
+the result has length = 5 and content = ["SAT", 3.635, 0, 0.0, -1]
+the result has length = 5 and content = ["SAT", 3.603, 0, 0.0, -1]
+the result has length = 5 and content = ["SAT", 2.256, 0, 0.0, -1]
+the result has length = 5 and content = ["SAT", 3.635, 0, 0.0, -1]
+the result has length = 5 and content = ["SAT", 3.603, 0, 0.0, -1]
+the result has length = 5 and content = ["SAT", 2.256, 0, 0.0, -1]
+the result has length = 5 and content = ["SAT", 3.635, 0, 0.0, -1]
+the result has length = 5 and content = ["SAT", 3.603, 0, 0.0, -1]
+        -> worse: (["pruned", 2] [based on 3 runs with cutoff 30.0])
+Total CPU Time 130.74895000000004,  timeout 300.0
+Total CPU Time 130.74895000000004,  timeout 300.0
+now 2025-04-05 00:08:05 +0800; start 2025-04-05 00:05:03 +0800; time-start 181.586372549; maxWall 8640000.0
+    Changing ["memLevel: 7->2"], evaluating ...
+getAlgoResultsForInstsAndParams.
+  Trial 1 for calling: ruby example_zlib/zlib_wrapper.rb data/random1.txt "" 9.491000000000001 2147483647 -1 -level 8 -memLevel 2 -strategy 2 -wbits 27 > /tmp/tmp-2025-04-0500:08:05-0.12633323669433594
+Executing cmd: ruby example_zlib/zlib_wrapper.rb data/random1.txt "" 9.491000000000001 2147483647 -1 -level 8 -memLevel 2 -strategy 2 -wbits 27 > /tmp/tmp-2025-04-0500:08:05-0.12633323669433594
+Result: SAT, 5.373, 0, 0, -1
+Minimum runtime: 0.1
+Cutoff time: 9.491000000000001
+Result time: 5.373
+Total CPU time: 136.12195000000003
+the result has length = 5 and content = ["SAT", 5.373, 0, 0.0, -1]
+getAlgoResultsForInstsAndParams.
+  Trial 1 for calling: ruby example_zlib/zlib_wrapper.rb data/random3.png "" 4.117990000000001 2147483647 -1 -level 8 -memLevel 2 -strategy 2 -wbits 27 > /tmp/tmp-2025-04-0500:08:10-0.3058805465698242
+Executing cmd: ruby example_zlib/zlib_wrapper.rb data/random3.png "" 4.117990000000001 2147483647 -1 -level 8 -memLevel 2 -strategy 2 -wbits 27 > /tmp/tmp-2025-04-0500:08:10-0.3058805465698242
+Result: SAT, 11.375, 0, 0, -1
+Minimum runtime: 0.1
+Cutoff time: 4.117990000000001
+Result time: 11.375
+Total CPU time: 140.23994000000002
+the result has length = 5 and content = ["SAT", 11.375, 0, 0.0, -1]
+the result has length = 5 and content = ["SAT", 5.373, 0, 0.0, -1]
+the result has length = 5 and content = ["SAT", 11.375, 0, 0.0, -1]
+the result has length = 5 and content = ["SAT", 5.373, 0, 0.0, -1]
+the result has length = 5 and content = ["SAT", 11.375, 0, 0.0, -1]
+the result has length = 5 and content = ["SAT", 5.373, 0, 0.0, -1]
+the result has length = 5 and content = ["SAT", 11.375, 0, 0.0, -1]
+        -> worse: (["pruned", 2] [based on 3 runs with cutoff 30.0])
+Total CPU Time 140.23994000000002,  timeout 300.0
+Total CPU Time 140.23994000000002,  timeout 300.0
+now 2025-04-05 00:08:22 +0800; start 2025-04-05 00:05:03 +0800; time-start 198.4526346; maxWall 8640000.0
+    Changing ["level: 8->1"], evaluating ...
+getAlgoResultsForInstsAndParams.
+  Trial 1 for calling: ruby example_zlib/zlib_wrapper.rb data/random1.txt "" 9.491000000000001 2147483647 -1 -level 1 -memLevel 7 -strategy 2 -wbits 27 > /tmp/tmp-2025-04-0500:08:22-0.42828369140625
+Executing cmd: ruby example_zlib/zlib_wrapper.rb data/random1.txt "" 9.491000000000001 2147483647 -1 -level 1 -memLevel 7 -strategy 2 -wbits 27 > /tmp/tmp-2025-04-0500:08:22-0.42828369140625
+Result: SAT, 2.264, 0, 0, -1
+Minimum runtime: 0.1
+Cutoff time: 9.491000000000001
+Result time: 2.264
+Total CPU time: 142.50394000000003
+the result has length = 5 and content = ["SAT", 2.264, 0, 0.0, -1]
+39/100000, 142.50394000000003/300.0
+getAlgoResultsForInstsAndParams.
+  Trial 1 for calling: ruby example_zlib/zlib_wrapper.rb data/random3.png "" 7.227 2147483647 -1 -level 1 -memLevel 7 -strategy 2 -wbits 27 > /tmp/tmp-2025-04-0500:08:24-0.20136117935180664
+Executing cmd: ruby example_zlib/zlib_wrapper.rb data/random3.png "" 7.227 2147483647 -1 -level 1 -memLevel 7 -strategy 2 -wbits 27 > /tmp/tmp-2025-04-0500:08:24-0.20136117935180664
+Result: SAT, 3.62, 0, 0, -1
+Minimum runtime: 0.1
+Cutoff time: 7.227
+Result time: 3.62
+Total CPU time: 146.12394000000003
+the result has length = 5 and content = ["SAT", 3.62, 0, 0.0, -1]
+getAlgoResultsForInstsAndParams.
+  Trial 1 for calling: ruby example_zlib/zlib_wrapper.rb data/random4.png "" 3.60699 2147483647 -1 -level 1 -memLevel 7 -strategy 2 -wbits 27 > /tmp/tmp-2025-04-0500:08:28-0.89239501953125
+Executing cmd: ruby example_zlib/zlib_wrapper.rb data/random4.png "" 3.60699 2147483647 -1 -level 1 -memLevel 7 -strategy 2 -wbits 27 > /tmp/tmp-2025-04-0500:08:28-0.89239501953125
+Result: SAT, 3.59, 0, 0, -1
+Minimum runtime: 0.1
+Cutoff time: 3.60699
+Result time: 3.59
+Total CPU time: 149.71394000000004
+the result has length = 5 and content = ["SAT", 3.59, 0, 0.0, -1]
+New inc: 3.158
+New Incumbent: 149.71394000000004, 3.158 [3, 30.0]. With state level=1, memLevel=7, strategy=2, wbits=27
+          -> Take improving step to neighbour level=1 memLevel=7 strategy=2 wbits=27 (3.158 [based on 3 runs with cutoff 30.0]) with flip 1
+
+Total CPU Time 149.71394000000004,  timeout 300.0
+Total CPU Time 149.71394000000004,  timeout 300.0
+now 2025-04-05 00:08:31 +0800; start 2025-04-05 00:05:03 +0800; time-start 208.101571545; maxWall 8640000.0
+Total CPU Time 149.71394000000004,  timeout 300.0
+Total CPU Time 149.71394000000004,  timeout 300.0
+now 2025-04-05 00:08:31 +0800; start 2025-04-05 00:05:03 +0800; time-start 208.101730434; maxWall 8640000.0
+    Changing ["level: 1->6"], evaluating ...
+getAlgoResultsForInstsAndParams.
+  Trial 1 for calling: ruby example_zlib/zlib_wrapper.rb data/random1.txt "" 9.484 2147483647 -1 -level 6 -memLevel 7 -strategy 2 -wbits 27 > /tmp/tmp-2025-04-0500:08:31-0.7652683258056641
+Executing cmd: ruby example_zlib/zlib_wrapper.rb data/random1.txt "" 9.484 2147483647 -1 -level 6 -memLevel 7 -strategy 2 -wbits 27 > /tmp/tmp-2025-04-0500:08:31-0.7652683258056641
+Result: SAT, 2.255, 0, 0, -1
+Minimum runtime: 0.1
+Cutoff time: 9.484
+Result time: 2.255
+Total CPU time: 151.96894000000003
+the result has length = 5 and content = ["SAT", 2.255, 0, 0.0, -1]
+getAlgoResultsForInstsAndParams.
+  Trial 1 for calling: ruby example_zlib/zlib_wrapper.rb data/random3.png "" 7.229000000000001 2147483647 -1 -level 6 -memLevel 7 -strategy 2 -wbits 27 > /tmp/tmp-2025-04-0500:08:33-0.5867569446563721
+Executing cmd: ruby example_zlib/zlib_wrapper.rb data/random3.png "" 7.229000000000001 2147483647 -1 -level 6 -memLevel 7 -strategy 2 -wbits 27 > /tmp/tmp-2025-04-0500:08:33-0.5867569446563721
+Result: SAT, 3.595, 0, 0, -1
+Minimum runtime: 0.1
+Cutoff time: 7.229000000000001
+Result time: 3.595
+Total CPU time: 155.56394000000003
+the result has length = 5 and content = ["SAT", 3.595, 0, 0.0, -1]
+43/100000, 155.56394000000003/300.0
+getAlgoResultsForInstsAndParams.
+  Trial 1 for calling: ruby example_zlib/zlib_wrapper.rb data/random4.png "" 3.6340000000000003 2147483647 -1 -level 6 -memLevel 7 -strategy 2 -wbits 27 > /tmp/tmp-2025-04-0500:08:37-0.559126615524292
+Executing cmd: ruby example_zlib/zlib_wrapper.rb data/random4.png "" 3.6340000000000003 2147483647 -1 -level 6 -memLevel 7 -strategy 2 -wbits 27 > /tmp/tmp-2025-04-0500:08:37-0.559126615524292
+Result: SAT, 3.59, 0, 0, -1
+Minimum runtime: 0.1
+Cutoff time: 3.6340000000000003
+Result time: 3.59
+Total CPU time: 159.15394000000003
+the result has length = 5 and content = ["SAT", 3.59, 0, 0.0, -1]
+New inc: 3.1466666666666665
+New Incumbent: 159.15394000000003, 3.1466666666666665 [3, 30.0]. With state level=6, memLevel=7, strategy=2, wbits=27
+          -> Take improving step to neighbour level=6 memLevel=7 strategy=2 wbits=27 (3.1466666666666665 [based on 3 runs with cutoff 30.0]) with flip 2
+
+Total CPU Time 159.15394000000003,  timeout 300.0
+Total CPU Time 159.15394000000003,  timeout 300.0
+now 2025-04-05 00:08:41 +0800; start 2025-04-05 00:05:03 +0800; time-start 217.717984943; maxWall 8640000.0
+Total CPU Time 159.15394000000003,  timeout 300.0
+Total CPU Time 159.15394000000003,  timeout 300.0
+now 2025-04-05 00:08:41 +0800; start 2025-04-05 00:05:03 +0800; time-start 217.71813112; maxWall 8640000.0
+    Changing ["memLevel: 7->6"], evaluating ...
+getAlgoResultsForInstsAndParams.
+  Trial 1 for calling: ruby example_zlib/zlib_wrapper.rb data/random1.txt "" 9.449990000000001 2147483647 -1 -level 6 -memLevel 6 -strategy 2 -wbits 27 > /tmp/tmp-2025-04-0500:08:41-0.036663055419921875
+Executing cmd: ruby example_zlib/zlib_wrapper.rb data/random1.txt "" 9.449990000000001 2147483647 -1 -level 6 -memLevel 6 -strategy 2 -wbits 27 > /tmp/tmp-2025-04-0500:08:41-0.036663055419921875
+Result: SAT, 2.167, 0, 0, -1
+Minimum runtime: 0.1
+Cutoff time: 9.449990000000001
+Result time: 2.167
+Total CPU time: 161.32094000000004
+the result has length = 5 and content = ["SAT", 2.167, 0, 0.0, -1]
+getAlgoResultsForInstsAndParams.
+  Trial 1 for calling: ruby example_zlib/zlib_wrapper.rb data/random3.png "" 7.283 2147483647 -1 -level 6 -memLevel 6 -strategy 2 -wbits 27 > /tmp/tmp-2025-04-0500:08:43-0.09443068504333496
+Executing cmd: ruby example_zlib/zlib_wrapper.rb data/random3.png "" 7.283 2147483647 -1 -level 6 -memLevel 6 -strategy 2 -wbits 27 > /tmp/tmp-2025-04-0500:08:43-0.09443068504333496
+Result: SAT, 4.025, 0, 0, -1
+Minimum runtime: 0.1
+Cutoff time: 7.283
+Result time: 4.025
+Total CPU time: 165.34594000000004
+the result has length = 5 and content = ["SAT", 4.025, 0, 0.0, -1]
+getAlgoResultsForInstsAndParams.
+  Trial 1 for calling: ruby example_zlib/zlib_wrapper.rb data/random4.png "" 3.2579900000000004 2147483647 -1 -level 6 -memLevel 6 -strategy 2 -wbits 27 > /tmp/tmp-2025-04-0500:08:47-0.7062077522277832
+Executing cmd: ruby example_zlib/zlib_wrapper.rb data/random4.png "" 3.2579900000000004 2147483647 -1 -level 6 -memLevel 6 -strategy 2 -wbits 27 > /tmp/tmp-2025-04-0500:08:47-0.7062077522277832
+Result: SAT, 3.968, 0, 0, -1
+Minimum runtime: 0.1
+Cutoff time: 3.2579900000000004
+Result time: 3.968
+Total CPU time: 168.60393000000005
+the result has length = 5 and content = ["SAT", 3.968, 0, 0.0, -1]
+47/100000, 168.60393000000005/300.0
+the result has length = 5 and content = ["SAT", 2.167, 0, 0.0, -1]
+the result has length = 5 and content = ["SAT", 4.025, 0, 0.0, -1]
+the result has length = 5 and content = ["SAT", 3.968, 0, 0.0, -1]
+the result has length = 5 and content = ["SAT", 2.167, 0, 0.0, -1]
+the result has length = 5 and content = ["SAT", 4.025, 0, 0.0, -1]
+the result has length = 5 and content = ["SAT", 3.968, 0, 0.0, -1]
+the result has length = 5 and content = ["SAT", 2.167, 0, 0.0, -1]
+the result has length = 5 and content = ["SAT", 4.025, 0, 0.0, -1]
+the result has length = 5 and content = ["SAT", 3.968, 0, 0.0, -1]
+        -> worse: (["pruned", 2] [based on 3 runs with cutoff 30.0])
+Total CPU Time 168.60393000000005,  timeout 300.0
+Total CPU Time 168.60393000000005,  timeout 300.0
+now 2025-04-05 00:08:51 +0800; start 2025-04-05 00:05:03 +0800; time-start 228.046027193; maxWall 8640000.0
+    Changing ["memLevel: 7->2"], evaluating ...
+getAlgoResultsForInstsAndParams.
+  Trial 1 for calling: ruby example_zlib/zlib_wrapper.rb data/random1.txt "" 9.449990000000001 2147483647 -1 -level 6 -memLevel 2 -strategy 2 -wbits 27 > /tmp/tmp-2025-04-0500:08:51-0.12456679344177246
+Executing cmd: ruby example_zlib/zlib_wrapper.rb data/random1.txt "" 9.449990000000001 2147483647 -1 -level 6 -memLevel 2 -strategy 2 -wbits 27 > /tmp/tmp-2025-04-0500:08:51-0.12456679344177246
+Result: SAT, 5.376, 0, 0, -1
+Minimum runtime: 0.1
+Cutoff time: 9.449990000000001
+Result time: 5.376
+Total CPU time: 173.97993000000005
+the result has length = 5 and content = ["SAT", 5.376, 0, 0.0, -1]
+getAlgoResultsForInstsAndParams.
+  Trial 1 for calling: ruby example_zlib/zlib_wrapper.rb data/random3.png "" 4.07399 2147483647 -1 -level 6 -memLevel 2 -strategy 2 -wbits 27 > /tmp/tmp-2025-04-0500:08:57-0.2767524719238281
+Executing cmd: ruby example_zlib/zlib_wrapper.rb data/random3.png "" 4.07399 2147483647 -1 -level 6 -memLevel 2 -strategy 2 -wbits 27 > /tmp/tmp-2025-04-0500:08:57-0.2767524719238281
+Result: SAT, 11.378, 0, 0, -1
+Minimum runtime: 0.1
+Cutoff time: 4.07399
+Result time: 11.378
+Total CPU time: 178.05392000000006
+the result has length = 5 and content = ["SAT", 11.378, 0, 0.0, -1]
+the result has length = 5 and content = ["SAT", 5.376, 0, 0.0, -1]
+the result has length = 5 and content = ["SAT", 11.378, 0, 0.0, -1]
+the result has length = 5 and content = ["SAT", 5.376, 0, 0.0, -1]
+the result has length = 5 and content = ["SAT", 11.378, 0, 0.0, -1]
+the result has length = 5 and content = ["SAT", 5.376, 0, 0.0, -1]
+the result has length = 5 and content = ["SAT", 11.378, 0, 0.0, -1]
+        -> worse: (["pruned", 2] [based on 3 runs with cutoff 30.0])
+Total CPU Time 178.05392000000006,  timeout 300.0
+Total CPU Time 178.05392000000006,  timeout 300.0
+now 2025-04-05 00:09:08 +0800; start 2025-04-05 00:05:03 +0800; time-start 244.908690881; maxWall 8640000.0
+    Changing ["strategy: 2->1"], evaluating ...
+getAlgoResultsForInstsAndParams.
+  Trial 1 for calling: ruby example_zlib/zlib_wrapper.rb data/random1.txt "" 9.449990000000001 2147483647 -1 -level 6 -memLevel 7 -strategy 1 -wbits 27 > /tmp/tmp-2025-04-0500:09:08-0.48754239082336426
+Executing cmd: ruby example_zlib/zlib_wrapper.rb data/random1.txt "" 9.449990000000001 2147483647 -1 -level 6 -memLevel 7 -strategy 1 -wbits 27 > /tmp/tmp-2025-04-0500:09:08-0.48754239082336426
+Result: SAT, 3.354, 0, 0, -1
+Minimum runtime: 0.1
+Cutoff time: 9.449990000000001
+Result time: 3.354
+Total CPU time: 181.40792000000008
+the result has length = 5 and content = ["SAT", 3.354, 0, 0.0, -1]
+50/100000, 181.40792000000008/300.0
+getAlgoResultsForInstsAndParams.
+  Trial 1 for calling: ruby example_zlib/zlib_wrapper.rb data/random3.png "" 6.0959900000000005 2147483647 -1 -level 6 -memLevel 7 -strategy 1 -wbits 27 > /tmp/tmp-2025-04-0500:09:11-0.8385119438171387
+Executing cmd: ruby example_zlib/zlib_wrapper.rb data/random3.png "" 6.0959900000000005 2147483647 -1 -level 6 -memLevel 7 -strategy 1 -wbits 27 > /tmp/tmp-2025-04-0500:09:11-0.8385119438171387
+Result: SAT, 4.874, 0, 0, -1
+Minimum runtime: 0.1
+Cutoff time: 6.0959900000000005
+Result time: 4.874
+Total CPU time: 186.28192000000007
+the result has length = 5 and content = ["SAT", 4.874, 0, 0.0, -1]
+getAlgoResultsForInstsAndParams.
+  Trial 1 for calling: ruby example_zlib/zlib_wrapper.rb data/random4.png "" 1.2219900000000001 2147483647 -1 -level 6 -memLevel 7 -strategy 1 -wbits 27 > /tmp/tmp-2025-04-0500:09:16-0.5099048614501953
+Executing cmd: ruby example_zlib/zlib_wrapper.rb data/random4.png "" 1.2219900000000001 2147483647 -1 -level 6 -memLevel 7 -strategy 1 -wbits 27 > /tmp/tmp-2025-04-0500:09:16-0.5099048614501953
+Result: SAT, 4.88, 0, 0, -1
+Minimum runtime: 0.1
+Cutoff time: 1.2219900000000001
+Result time: 4.88
+Total CPU time: 187.50391000000008
+the result has length = 5 and content = ["SAT", 4.88, 0, 0.0, -1]
+the result has length = 5 and content = ["SAT", 3.354, 0, 0.0, -1]
+the result has length = 5 and content = ["SAT", 4.874, 0, 0.0, -1]
+the result has length = 5 and content = ["SAT", 4.88, 0, 0.0, -1]
+the result has length = 5 and content = ["SAT", 3.354, 0, 0.0, -1]
+the result has length = 5 and content = ["SAT", 4.874, 0, 0.0, -1]
+the result has length = 5 and content = ["SAT", 4.88, 0, 0.0, -1]
+the result has length = 5 and content = ["SAT", 3.354, 0, 0.0, -1]
+the result has length = 5 and content = ["SAT", 4.874, 0, 0.0, -1]
+the result has length = 5 and content = ["SAT", 4.88, 0, 0.0, -1]
+        -> worse: (["pruned", 2] [based on 3 runs with cutoff 30.0])
+Total CPU Time 187.50391000000008,  timeout 300.0
+Total CPU Time 187.50391000000008,  timeout 300.0
+now 2025-04-05 00:09:21 +0800; start 2025-04-05 00:05:03 +0800; time-start 258.208140321; maxWall 8640000.0
+    Changing ["wbits: 27->26"], evaluating ...
+getAlgoResultsForInstsAndParams.
+  Trial 1 for calling: ruby example_zlib/zlib_wrapper.rb data/random1.txt "" 9.449990000000001 2147483647 -1 -level 6 -memLevel 7 -strategy 2 -wbits 26 > /tmp/tmp-2025-04-0500:09:21-0.052597999572753906
+Executing cmd: ruby example_zlib/zlib_wrapper.rb data/random1.txt "" 9.449990000000001 2147483647 -1 -level 6 -memLevel 7 -strategy 2 -wbits 26 > /tmp/tmp-2025-04-0500:09:21-0.052597999572753906
+Result: SAT, 2.666, 0, 0, -1
+Minimum runtime: 0.1
+Cutoff time: 9.449990000000001
+Result time: 2.666
+Total CPU time: 190.16991000000007
+the result has length = 5 and content = ["SAT", 2.666, 0, 0.0, -1]
+getAlgoResultsForInstsAndParams.
+  Trial 1 for calling: ruby example_zlib/zlib_wrapper.rb data/random3.png "" 6.78399 2147483647 -1 -level 6 -memLevel 7 -strategy 2 -wbits 26 > /tmp/tmp-2025-04-0500:09:24-0.5167078971862793
+Executing cmd: ruby example_zlib/zlib_wrapper.rb data/random3.png "" 6.78399 2147483647 -1 -level 6 -memLevel 7 -strategy 2 -wbits 26 > /tmp/tmp-2025-04-0500:09:24-0.5167078971862793
+Result: SAT, 4.175, 0, 0, -1
+Minimum runtime: 0.1
+Cutoff time: 6.78399
+Result time: 4.175
+Total CPU time: 194.34491000000008
+the result has length = 5 and content = ["SAT", 4.175, 0, 0.0, -1]
+54/100000, 194.34491000000008/300.0
+getAlgoResultsForInstsAndParams.
+  Trial 1 for calling: ruby example_zlib/zlib_wrapper.rb data/random4.png "" 2.6090000000000004 2147483647 -1 -level 6 -memLevel 7 -strategy 2 -wbits 26 > /tmp/tmp-2025-04-0500:09:28-0.25428318977355957
+Executing cmd: ruby example_zlib/zlib_wrapper.rb data/random4.png "" 2.6090000000000004 2147483647 -1 -level 6 -memLevel 7 -strategy 2 -wbits 26 > /tmp/tmp-2025-04-0500:09:28-0.25428318977355957
+Result: SAT, 4.219, 0, 0, -1
+Minimum runtime: 0.1
+Cutoff time: 2.6090000000000004
+Result time: 4.219
+Total CPU time: 196.9539100000001
+the result has length = 5 and content = ["SAT", 4.219, 0, 0.0, -1]
+the result has length = 5 and content = ["SAT", 2.666, 0, 0.0, -1]
+the result has length = 5 and content = ["SAT", 4.175, 0, 0.0, -1]
+the result has length = 5 and content = ["SAT", 4.219, 0, 0.0, -1]
+the result has length = 5 and content = ["SAT", 2.666, 0, 0.0, -1]
+the result has length = 5 and content = ["SAT", 4.175, 0, 0.0, -1]
+the result has length = 5 and content = ["SAT", 4.219, 0, 0.0, -1]
+the result has length = 5 and content = ["SAT", 2.666, 0, 0.0, -1]
+the result has length = 5 and content = ["SAT", 4.175, 0, 0.0, -1]
+the result has length = 5 and content = ["SAT", 4.219, 0, 0.0, -1]
+        -> worse: (["pruned", 2] [based on 3 runs with cutoff 30.0])
+Total CPU Time 196.9539100000001,  timeout 300.0
+Total CPU Time 196.9539100000001,  timeout 300.0
+now 2025-04-05 00:09:33 +0800; start 2025-04-05 00:05:03 +0800; time-start 269.433811599; maxWall 8640000.0
+    Changing ["level: 6->7"], evaluating ...
+getAlgoResultsForInstsAndParams.
+  Trial 1 for calling: ruby example_zlib/zlib_wrapper.rb data/random1.txt "" 9.449990000000001 2147483647 -1 -level 7 -memLevel 7 -strategy 2 -wbits 27 > /tmp/tmp-2025-04-0500:09:33-0.2084197998046875
+Executing cmd: ruby example_zlib/zlib_wrapper.rb data/random1.txt "" 9.449990000000001 2147483647 -1 -level 7 -memLevel 7 -strategy 2 -wbits 27 > /tmp/tmp-2025-04-0500:09:33-0.2084197998046875
+Result: SAT, 2.268, 0, 0, -1
+Minimum runtime: 0.1
+Cutoff time: 9.449990000000001
+Result time: 2.268
+Total CPU time: 199.2219100000001
+the result has length = 5 and content = ["SAT", 2.268, 0, 0.0, -1]
+getAlgoResultsForInstsAndParams.
+  Trial 1 for calling: ruby example_zlib/zlib_wrapper.rb data/random3.png "" 7.182 2147483647 -1 -level 7 -memLevel 7 -strategy 2 -wbits 27 > /tmp/tmp-2025-04-0500:09:35-0.978388786315918
+Executing cmd: ruby example_zlib/zlib_wrapper.rb data/random3.png "" 7.182 2147483647 -1 -level 7 -memLevel 7 -strategy 2 -wbits 27 > /tmp/tmp-2025-04-0500:09:35-0.978388786315918
+Result: SAT, 3.6, 0, 0, -1
+Minimum runtime: 0.1
+Cutoff time: 7.182
+Result time: 3.6
+Total CPU time: 202.8219100000001
+the result has length = 5 and content = ["SAT", 3.6, 0, 0.0, -1]
+getAlgoResultsForInstsAndParams.
+  Trial 1 for calling: ruby example_zlib/zlib_wrapper.rb data/random4.png "" 3.5819900000000002 2147483647 -1 -level 7 -memLevel 7 -strategy 2 -wbits 27 > /tmp/tmp-2025-04-0500:09:38-0.690410852432251
+Executing cmd: ruby example_zlib/zlib_wrapper.rb data/random4.png "" 3.5819900000000002 2147483647 -1 -level 7 -memLevel 7 -strategy 2 -wbits 27 > /tmp/tmp-2025-04-0500:09:38-0.690410852432251
+Result: SAT, 3.599, 0, 0, -1
+Minimum runtime: 0.1
+Cutoff time: 3.5819900000000002
+Result time: 3.599
+Total CPU time: 206.40390000000008
+the result has length = 5 and content = ["SAT", 3.599, 0, 0.0, -1]
+58/100000, 206.40390000000008/300.0
+the result has length = 5 and content = ["SAT", 2.268, 0, 0.0, -1]
+the result has length = 5 and content = ["SAT", 3.6, 0, 0.0, -1]
+the result has length = 5 and content = ["SAT", 3.599, 0, 0.0, -1]
+the result has length = 5 and content = ["SAT", 2.268, 0, 0.0, -1]
+the result has length = 5 and content = ["SAT", 3.6, 0, 0.0, -1]
+the result has length = 5 and content = ["SAT", 3.599, 0, 0.0, -1]
+the result has length = 5 and content = ["SAT", 2.268, 0, 0.0, -1]
+the result has length = 5 and content = ["SAT", 3.6, 0, 0.0, -1]
+the result has length = 5 and content = ["SAT", 3.599, 0, 0.0, -1]
+        -> worse: (["pruned", 2] [based on 3 runs with cutoff 30.0])
+Total CPU Time 206.40390000000008,  timeout 300.0
+Total CPU Time 206.40390000000008,  timeout 300.0
+now 2025-04-05 00:09:42 +0800; start 2025-04-05 00:05:03 +0800; time-start 279.086591141; maxWall 8640000.0
+    Changing ["level: 6->5"], evaluating ...
+getAlgoResultsForInstsAndParams.
+  Trial 1 for calling: ruby example_zlib/zlib_wrapper.rb data/random1.txt "" 9.449990000000001 2147483647 -1 -level 5 -memLevel 7 -strategy 2 -wbits 27 > /tmp/tmp-2025-04-0500:09:42-0.20794177055358887
+Executing cmd: ruby example_zlib/zlib_wrapper.rb data/random1.txt "" 9.449990000000001 2147483647 -1 -level 5 -memLevel 7 -strategy 2 -wbits 27 > /tmp/tmp-2025-04-0500:09:42-0.20794177055358887
+Result: SAT, 2.255, 0, 0, -1
+Minimum runtime: 0.1
+Cutoff time: 9.449990000000001
+Result time: 2.255
+Total CPU time: 208.65890000000007
+the result has length = 5 and content = ["SAT", 2.255, 0, 0.0, -1]
+getAlgoResultsForInstsAndParams.
+  Trial 1 for calling: ruby example_zlib/zlib_wrapper.rb data/random3.png "" 7.194990000000001 2147483647 -1 -level 5 -memLevel 7 -strategy 2 -wbits 27 > /tmp/tmp-2025-04-0500:09:44-0.7360825538635254
+Executing cmd: ruby example_zlib/zlib_wrapper.rb data/random3.png "" 7.194990000000001 2147483647 -1 -level 5 -memLevel 7 -strategy 2 -wbits 27 > /tmp/tmp-2025-04-0500:09:44-0.7360825538635254
+Result: SAT, 3.597, 0, 0, -1
+Minimum runtime: 0.1
+Cutoff time: 7.194990000000001
+Result time: 3.597
+Total CPU time: 212.25590000000008
+the result has length = 5 and content = ["SAT", 3.597, 0, 0.0, -1]
+getAlgoResultsForInstsAndParams.
+  Trial 1 for calling: ruby example_zlib/zlib_wrapper.rb data/random4.png "" 3.5979900000000002 2147483647 -1 -level 5 -memLevel 7 -strategy 2 -wbits 27 > /tmp/tmp-2025-04-0500:09:48-0.16042232513427734
+Executing cmd: ruby example_zlib/zlib_wrapper.rb data/random4.png "" 3.5979900000000002 2147483647 -1 -level 5 -memLevel 7 -strategy 2 -wbits 27 > /tmp/tmp-2025-04-0500:09:48-0.16042232513427734
+Result: SAT, 3.602, 0, 0, -1
+Minimum runtime: 0.1
+Cutoff time: 3.5979900000000002
+Result time: 3.602
+Total CPU time: 215.8538900000001
+the result has length = 5 and content = ["SAT", 3.602, 0, 0.0, -1]
+the result has length = 5 and content = ["SAT", 2.255, 0, 0.0, -1]
+the result has length = 5 and content = ["SAT", 3.597, 0, 0.0, -1]
+the result has length = 5 and content = ["SAT", 3.602, 0, 0.0, -1]
+the result has length = 5 and content = ["SAT", 2.255, 0, 0.0, -1]
+the result has length = 5 and content = ["SAT", 3.597, 0, 0.0, -1]
+the result has length = 5 and content = ["SAT", 3.602, 0, 0.0, -1]
+the result has length = 5 and content = ["SAT", 2.255, 0, 0.0, -1]
+the result has length = 5 and content = ["SAT", 3.597, 0, 0.0, -1]
+the result has length = 5 and content = ["SAT", 3.602, 0, 0.0, -1]
+        -> worse: (["pruned", 2] [based on 3 runs with cutoff 30.0])
+Total CPU Time 215.8538900000001,  timeout 300.0
+Total CPU Time 215.8538900000001,  timeout 300.0
+now 2025-04-05 00:09:52 +0800; start 2025-04-05 00:05:03 +0800; time-start 288.730837755; maxWall 8640000.0
+    Changing ["memLevel: 7->3"], evaluating ...
+getAlgoResultsForInstsAndParams.
+  Trial 1 for calling: ruby example_zlib/zlib_wrapper.rb data/random1.txt "" 9.449990000000001 2147483647 -1 -level 6 -memLevel 3 -strategy 2 -wbits 27 > /tmp/tmp-2025-04-0500:09:52-0.8949213027954102
+Executing cmd: ruby example_zlib/zlib_wrapper.rb data/random1.txt "" 9.449990000000001 2147483647 -1 -level 6 -memLevel 3 -strategy 2 -wbits 27 > /tmp/tmp-2025-04-0500:09:52-0.8949213027954102
+Result: SAT, 3.635, 0, 0, -1
+Minimum runtime: 0.1
+Cutoff time: 9.449990000000001
+Result time: 3.635
+Total CPU time: 219.48889000000008
+the result has length = 5 and content = ["SAT", 3.635, 0, 0.0, -1]
+62/100000, 219.48889000000008/300.0
+getAlgoResultsForInstsAndParams.
+  Trial 1 for calling: ruby example_zlib/zlib_wrapper.rb data/random3.png "" 5.815 2147483647 -1 -level 6 -memLevel 3 -strategy 2 -wbits 27 > /tmp/tmp-2025-04-0500:09:56-0.0345458984375
+Executing cmd: ruby example_zlib/zlib_wrapper.rb data/random3.png "" 5.815 2147483647 -1 -level 6 -memLevel 3 -strategy 2 -wbits 27 > /tmp/tmp-2025-04-0500:09:56-0.0345458984375
+Result: SAT, 8.872, 0, 0, -1
+Minimum runtime: 0.1
+Cutoff time: 5.815
+Result time: 8.872
+Total CPU time: 225.30389000000008
+the result has length = 5 and content = ["SAT", 8.872, 0, 0.0, -1]
+the result has length = 5 and content = ["SAT", 3.635, 0, 0.0, -1]
+the result has length = 5 and content = ["SAT", 8.872, 0, 0.0, -1]
+the result has length = 5 and content = ["SAT", 3.635, 0, 0.0, -1]
+the result has length = 5 and content = ["SAT", 8.872, 0, 0.0, -1]
+the result has length = 5 and content = ["SAT", 3.635, 0, 0.0, -1]
+the result has length = 5 and content = ["SAT", 8.872, 0, 0.0, -1]
+        -> worse: (["pruned", 2] [based on 3 runs with cutoff 30.0])
+Total CPU Time 225.30389000000008,  timeout 300.0
+Total CPU Time 225.30389000000008,  timeout 300.0
+now 2025-04-05 00:10:04 +0800; start 2025-04-05 00:05:03 +0800; time-start 301.35508476; maxWall 8640000.0
+    Changing ["level: 6->3"], evaluating ...
+getAlgoResultsForInstsAndParams.
+  Trial 1 for calling: ruby example_zlib/zlib_wrapper.rb data/random1.txt "" 9.449990000000001 2147483647 -1 -level 3 -memLevel 7 -strategy 2 -wbits 27 > /tmp/tmp-2025-04-0500:10:04-0.8285439014434814
+Executing cmd: ruby example_zlib/zlib_wrapper.rb data/random1.txt "" 9.449990000000001 2147483647 -1 -level 3 -memLevel 7 -strategy 2 -wbits 27 > /tmp/tmp-2025-04-0500:10:04-0.8285439014434814
+Result: SAT, 2.249, 0, 0, -1
+Minimum runtime: 0.1
+Cutoff time: 9.449990000000001
+Result time: 2.249
+Total CPU time: 227.55289000000008
+the result has length = 5 and content = ["SAT", 2.249, 0, 0.0, -1]
+getAlgoResultsForInstsAndParams.
+  Trial 1 for calling: ruby example_zlib/zlib_wrapper.rb data/random3.png "" 7.200990000000001 2147483647 -1 -level 3 -memLevel 7 -strategy 2 -wbits 27 > /tmp/tmp-2025-04-0500:10:07-0.8059506416320801
+Executing cmd: ruby example_zlib/zlib_wrapper.rb data/random3.png "" 7.200990000000001 2147483647 -1 -level 3 -memLevel 7 -strategy 2 -wbits 27 > /tmp/tmp-2025-04-0500:10:07-0.8059506416320801
+Result: SAT, 3.624, 0, 0, -1
+Minimum runtime: 0.1
+Cutoff time: 7.200990000000001
+Result time: 3.624
+Total CPU time: 231.17689000000007
+the result has length = 5 and content = ["SAT", 3.624, 0, 0.0, -1]
+65/100000, 231.17689000000007/300.0
+getAlgoResultsForInstsAndParams.
+  Trial 1 for calling: ruby example_zlib/zlib_wrapper.rb data/random4.png "" 3.5769900000000003 2147483647 -1 -level 3 -memLevel 7 -strategy 2 -wbits 27 > /tmp/tmp-2025-04-0500:10:10-0.8535637855529785
+Executing cmd: ruby example_zlib/zlib_wrapper.rb data/random4.png "" 3.5769900000000003 2147483647 -1 -level 3 -memLevel 7 -strategy 2 -wbits 27 > /tmp/tmp-2025-04-0500:10:10-0.8535637855529785
+Result: SAT, 3.595, 0, 0, -1
+Minimum runtime: 0.1
+Cutoff time: 3.5769900000000003
+Result time: 3.595
+Total CPU time: 234.75388000000007
+the result has length = 5 and content = ["SAT", 3.595, 0, 0.0, -1]
+the result has length = 5 and content = ["SAT", 2.249, 0, 0.0, -1]
+the result has length = 5 and content = ["SAT", 3.624, 0, 0.0, -1]
+the result has length = 5 and content = ["SAT", 3.595, 0, 0.0, -1]
+the result has length = 5 and content = ["SAT", 2.249, 0, 0.0, -1]
+the result has length = 5 and content = ["SAT", 3.624, 0, 0.0, -1]
+the result has length = 5 and content = ["SAT", 3.595, 0, 0.0, -1]
+the result has length = 5 and content = ["SAT", 2.249, 0, 0.0, -1]
+the result has length = 5 and content = ["SAT", 3.624, 0, 0.0, -1]
+the result has length = 5 and content = ["SAT", 3.595, 0, 0.0, -1]
+        -> worse: (["pruned", 2] [based on 3 runs with cutoff 30.0])
+Total CPU Time 234.75388000000007,  timeout 300.0
+Total CPU Time 234.75388000000007,  timeout 300.0
+now 2025-04-05 00:10:14 +0800; start 2025-04-05 00:05:03 +0800; time-start 311.010784017; maxWall 8640000.0
+    Changing ["wbits: 27->29"], evaluating ...
+getAlgoResultsForInstsAndParams.
+  Trial 1 for calling: ruby example_zlib/zlib_wrapper.rb data/random1.txt "" 9.449990000000001 2147483647 -1 -level 6 -memLevel 7 -strategy 2 -wbits 29 > /tmp/tmp-2025-04-0500:10:14-0.4265248775482178
+Executing cmd: ruby example_zlib/zlib_wrapper.rb data/random1.txt "" 9.449990000000001 2147483647 -1 -level 6 -memLevel 7 -strategy 2 -wbits 29 > /tmp/tmp-2025-04-0500:10:14-0.4265248775482178
+Result: SAT, 1.949, 0, 0, -1
+Minimum runtime: 0.1
+Cutoff time: 9.449990000000001
+Result time: 1.949
+Total CPU time: 236.70288000000008
+the result has length = 5 and content = ["SAT", 1.949, 0, 0.0, -1]
+getAlgoResultsForInstsAndParams.
+  Trial 1 for calling: ruby example_zlib/zlib_wrapper.rb data/random3.png "" 7.501 2147483647 -1 -level 6 -memLevel 7 -strategy 2 -wbits 29 > /tmp/tmp-2025-04-0500:10:16-0.6999120712280273
+Executing cmd: ruby example_zlib/zlib_wrapper.rb data/random3.png "" 7.501 2147483647 -1 -level 6 -memLevel 7 -strategy 2 -wbits 29 > /tmp/tmp-2025-04-0500:10:16-0.6999120712280273
+Result: SAT, 2.431, 0, 0, -1
+Minimum runtime: 0.1
+Cutoff time: 7.501
+Result time: 2.431
+Total CPU time: 239.1338800000001
+the result has length = 5 and content = ["SAT", 2.431, 0, 0.0, -1]
+getAlgoResultsForInstsAndParams.
+  Trial 1 for calling: ruby example_zlib/zlib_wrapper.rb data/random4.png "" 5.069990000000001 2147483647 -1 -level 6 -memLevel 7 -strategy 2 -wbits 29 > /tmp/tmp-2025-04-0500:10:19-0.8540763854980469
+Executing cmd: ruby example_zlib/zlib_wrapper.rb data/random4.png "" 5.069990000000001 2147483647 -1 -level 6 -memLevel 7 -strategy 2 -wbits 29 > /tmp/tmp-2025-04-0500:10:19-0.8540763854980469
+Result: SAT, 2.382, 0, 0, -1
+Minimum runtime: 0.1
+Cutoff time: 5.069990000000001
+Result time: 2.382
+Total CPU time: 241.5158800000001
+the result has length = 5 and content = ["SAT", 2.382, 0, 0.0, -1]
+69/100000, 241.5158800000001/300.0
+New inc: 2.254
+New Incumbent: 241.5158800000001, 2.254 [3, 30.0]. With state level=6, memLevel=7, strategy=2, wbits=29
+          -> Take improving step to neighbour level=6 memLevel=7 strategy=2 wbits=29 (2.254 [based on 3 runs with cutoff 30.0]) with flip 3
+
+Total CPU Time 241.5158800000001,  timeout 300.0
+Total CPU Time 241.5158800000001,  timeout 300.0
+now 2025-04-05 00:10:21 +0800; start 2025-04-05 00:05:03 +0800; time-start 317.950601367; maxWall 8640000.0
+Total CPU Time 241.5158800000001,  timeout 300.0
+Total CPU Time 241.5158800000001,  timeout 300.0
+now 2025-04-05 00:10:21 +0800; start 2025-04-05 00:05:03 +0800; time-start 317.950857056; maxWall 8640000.0
+    Changing ["memLevel: 7->5"], evaluating ...
+getAlgoResultsForInstsAndParams.
+  Trial 1 for calling: ruby example_zlib/zlib_wrapper.rb data/random1.txt "" 6.772 2147483647 -1 -level 6 -memLevel 5 -strategy 2 -wbits 29 > /tmp/tmp-2025-04-0500:10:21-0.021303176879882812
+Executing cmd: ruby example_zlib/zlib_wrapper.rb data/random1.txt "" 6.772 2147483647 -1 -level 6 -memLevel 5 -strategy 2 -wbits 29 > /tmp/tmp-2025-04-0500:10:21-0.021303176879882812
+Result: SAT, 2.203, 0, 0, -1
+Minimum runtime: 0.1
+Cutoff time: 6.772
+Result time: 2.203
+Total CPU time: 243.7188800000001
+the result has length = 5 and content = ["SAT", 2.203, 0, 0.0, -1]
+getAlgoResultsForInstsAndParams.
+  Trial 1 for calling: ruby example_zlib/zlib_wrapper.rb data/random3.png "" 4.569 2147483647 -1 -level 6 -memLevel 5 -strategy 2 -wbits 29 > /tmp/tmp-2025-04-0500:10:23-0.4528348445892334
+Executing cmd: ruby example_zlib/zlib_wrapper.rb data/random3.png "" 4.569 2147483647 -1 -level 6 -memLevel 5 -strategy 2 -wbits 29 > /tmp/tmp-2025-04-0500:10:23-0.4528348445892334
+Result: SAT, 3.94, 0, 0, -1
+Minimum runtime: 0.1
+Cutoff time: 4.569
+Result time: 3.94
+Total CPU time: 247.6588800000001
+the result has length = 5 and content = ["SAT", 3.94, 0, 0.0, -1]
+getAlgoResultsForInstsAndParams.
+  Trial 1 for calling: ruby example_zlib/zlib_wrapper.rb data/random4.png "" 0.629 2147483647 -1 -level 6 -memLevel 5 -strategy 2 -wbits 29 > /tmp/tmp-2025-04-0500:10:27-0.036783456802368164
+Executing cmd: ruby example_zlib/zlib_wrapper.rb data/random4.png "" 0.629 2147483647 -1 -level 6 -memLevel 5 -strategy 2 -wbits 29 > /tmp/tmp-2025-04-0500:10:27-0.036783456802368164
+Result: SAT, 3.922, 0, 0, -1
+Minimum runtime: 0.1
+Cutoff time: 0.629
+Result time: 3.922
+Total CPU time: 248.2878800000001
+the result has length = 5 and content = ["SAT", 3.922, 0, 0.0, -1]
+the result has length = 5 and content = ["SAT", 2.203, 0, 0.0, -1]
+the result has length = 5 and content = ["SAT", 3.94, 0, 0.0, -1]
+the result has length = 5 and content = ["SAT", 3.922, 0, 0.0, -1]
+the result has length = 5 and content = ["SAT", 2.203, 0, 0.0, -1]
+the result has length = 5 and content = ["SAT", 3.94, 0, 0.0, -1]
+the result has length = 5 and content = ["SAT", 3.922, 0, 0.0, -1]
+the result has length = 5 and content = ["SAT", 2.203, 0, 0.0, -1]
+the result has length = 5 and content = ["SAT", 3.94, 0, 0.0, -1]
+the result has length = 5 and content = ["SAT", 3.922, 0, 0.0, -1]
+        -> worse: (["pruned", 2] [based on 3 runs with cutoff 30.0])
+Total CPU Time 248.2878800000001,  timeout 300.0
+Total CPU Time 248.2878800000001,  timeout 300.0
+now 2025-04-05 00:10:31 +0800; start 2025-04-05 00:05:03 +0800; time-start 328.196652261; maxWall 8640000.0
+    Changing ["level: 6->1"], evaluating ...
+getAlgoResultsForInstsAndParams.
+  Trial 1 for calling: ruby example_zlib/zlib_wrapper.rb data/random1.txt "" 6.772 2147483647 -1 -level 1 -memLevel 7 -strategy 2 -wbits 29 > /tmp/tmp-2025-04-0500:10:31-0.7733354568481445
+Executing cmd: ruby example_zlib/zlib_wrapper.rb data/random1.txt "" 6.772 2147483647 -1 -level 1 -memLevel 7 -strategy 2 -wbits 29 > /tmp/tmp-2025-04-0500:10:31-0.7733354568481445
+Result: SAT, 1.95, 0, 0, -1
+Minimum runtime: 0.1
+Cutoff time: 6.772
+Result time: 1.95
+Total CPU time: 250.23788000000008
+the result has length = 5 and content = ["SAT", 1.95, 0, 0.0, -1]
+getAlgoResultsForInstsAndParams.
+  Trial 1 for calling: ruby example_zlib/zlib_wrapper.rb data/random3.png "" 4.822 2147483647 -1 -level 1 -memLevel 7 -strategy 2 -wbits 29 > /tmp/tmp-2025-04-0500:10:33-0.2200758457183838
+Executing cmd: ruby example_zlib/zlib_wrapper.rb data/random3.png "" 4.822 2147483647 -1 -level 1 -memLevel 7 -strategy 2 -wbits 29 > /tmp/tmp-2025-04-0500:10:33-0.2200758457183838
+Result: SAT, 2.378, 0, 0, -1
+Minimum runtime: 0.1
+Cutoff time: 4.822
+Result time: 2.378
+Total CPU time: 252.61588000000006
+the result has length = 5 and content = ["SAT", 2.378, 0, 0.0, -1]
+74/100000, 252.61588000000006/300.0
+getAlgoResultsForInstsAndParams.
+  Trial 1 for calling: ruby example_zlib/zlib_wrapper.rb data/random4.png "" 2.4440000000000004 2147483647 -1 -level 1 -memLevel 7 -strategy 2 -wbits 29 > /tmp/tmp-2025-04-0500:10:36-0.3384690284729004
+Executing cmd: ruby example_zlib/zlib_wrapper.rb data/random4.png "" 2.4440000000000004 2147483647 -1 -level 1 -memLevel 7 -strategy 2 -wbits 29 > /tmp/tmp-2025-04-0500:10:36-0.3384690284729004
+Result: SAT, 2.388, 0, 0, -1
+Minimum runtime: 0.1
+Cutoff time: 2.4440000000000004
+Result time: 2.388
+Total CPU time: 255.00388000000007
+the result has length = 5 and content = ["SAT", 2.388, 0, 0.0, -1]
+New inc: 2.2386666666666666
+New Incumbent: 255.00388000000007, 2.2386666666666666 [3, 30.0]. With state level=1, memLevel=7, strategy=2, wbits=29
+          -> Take improving step to neighbour level=1 memLevel=7 strategy=2 wbits=29 (2.2386666666666666 [based on 3 runs with cutoff 30.0]) with flip 4
+
+Total CPU Time 255.00388000000007,  timeout 300.0
+Total CPU Time 255.00388000000007,  timeout 300.0
+now 2025-04-05 00:10:38 +0800; start 2025-04-05 00:05:03 +0800; time-start 335.094358742; maxWall 8640000.0
+Total CPU Time 255.00388000000007,  timeout 300.0
+Total CPU Time 255.00388000000007,  timeout 300.0
+now 2025-04-05 00:10:38 +0800; start 2025-04-05 00:05:03 +0800; time-start 335.094425021; maxWall 8640000.0
+    Changing ["wbits: 29->25"], evaluating ...
+getAlgoResultsForInstsAndParams.
+  Trial 1 for calling: ruby example_zlib/zlib_wrapper.rb data/random1.txt "" 6.72599 2147483647 -1 -level 1 -memLevel 7 -strategy 2 -wbits 25 > /tmp/tmp-2025-04-0500:10:38-0.9256455898284912
+Executing cmd: ruby example_zlib/zlib_wrapper.rb data/random1.txt "" 6.72599 2147483647 -1 -level 1 -memLevel 7 -strategy 2 -wbits 25 > /tmp/tmp-2025-04-0500:10:38-0.9256455898284912
+Result: SAT, 3.485, 0, 0, -1
+Minimum runtime: 0.1
+Cutoff time: 6.72599
+Result time: 3.485
+Total CPU time: 258.48888000000005
+the result has length = 5 and content = ["SAT", 3.485, 0, 0.0, -1]
+getAlgoResultsForInstsAndParams.
+  Trial 1 for calling: ruby example_zlib/zlib_wrapper.rb data/random3.png "" 3.2409900000000005 2147483647 -1 -level 1 -memLevel 7 -strategy 2 -wbits 25 > /tmp/tmp-2025-04-0500:10:42-0.5677871704101562
+Executing cmd: ruby example_zlib/zlib_wrapper.rb data/random3.png "" 3.2409900000000005 2147483647 -1 -level 1 -memLevel 7 -strategy 2 -wbits 25 > /tmp/tmp-2025-04-0500:10:42-0.5677871704101562
+Result: SAT, 5.316, 0, 0, -1
+Minimum runtime: 0.1
+Cutoff time: 3.2409900000000005
+Result time: 5.316
+Total CPU time: 261.72987000000006
+the result has length = 5 and content = ["SAT", 5.316, 0, 0.0, -1]
+the result has length = 5 and content = ["SAT", 3.485, 0, 0.0, -1]
+the result has length = 5 and content = ["SAT", 5.316, 0, 0.0, -1]
+the result has length = 5 and content = ["SAT", 3.485, 0, 0.0, -1]
+the result has length = 5 and content = ["SAT", 5.316, 0, 0.0, -1]
+the result has length = 5 and content = ["SAT", 3.485, 0, 0.0, -1]
+the result has length = 5 and content = ["SAT", 5.316, 0, 0.0, -1]
+        -> worse: (["pruned", 2] [based on 3 runs with cutoff 30.0])
+Total CPU Time 261.72987000000006,  timeout 300.0
+Total CPU Time 261.72987000000006,  timeout 300.0
+now 2025-04-05 00:10:47 +0800; start 2025-04-05 00:05:03 +0800; time-start 344.020811824; maxWall 8640000.0
+    Changing ["memLevel: 7->8"], evaluating ...
+getAlgoResultsForInstsAndParams.
+  Trial 1 for calling: ruby example_zlib/zlib_wrapper.rb data/random1.txt "" 6.72599 2147483647 -1 -level 1 -memLevel 8 -strategy 2 -wbits 29 > /tmp/tmp-2025-04-0500:10:47-0.3653271198272705
+Executing cmd: ruby example_zlib/zlib_wrapper.rb data/random1.txt "" 6.72599 2147483647 -1 -level 1 -memLevel 8 -strategy 2 -wbits 29 > /tmp/tmp-2025-04-0500:10:47-0.3653271198272705
+Result: SAT, 2.005, 0, 0, -1
+Minimum runtime: 0.1
+Cutoff time: 6.72599
+Result time: 2.005
+Total CPU time: 263.73487000000006
+the result has length = 5 and content = ["SAT", 2.005, 0, 0.0, -1]
+78/100000, 263.73487000000006/300.0
+getAlgoResultsForInstsAndParams.
+  Trial 1 for calling: ruby example_zlib/zlib_wrapper.rb data/random3.png "" 4.7209900000000005 2147483647 -1 -level 1 -memLevel 8 -strategy 2 -wbits 29 > /tmp/tmp-2025-04-0500:10:49-0.12195920944213867
+Executing cmd: ruby example_zlib/zlib_wrapper.rb data/random3.png "" 4.7209900000000005 2147483647 -1 -level 1 -memLevel 8 -strategy 2 -wbits 29 > /tmp/tmp-2025-04-0500:10:49-0.12195920944213867
+Result: SAT, 3.013, 0, 0, -1
+Minimum runtime: 0.1
+Cutoff time: 4.7209900000000005
+Result time: 3.013
+Total CPU time: 266.74787000000003
+the result has length = 5 and content = ["SAT", 3.013, 0, 0.0, -1]
+getAlgoResultsForInstsAndParams.
+  Trial 1 for calling: ruby example_zlib/zlib_wrapper.rb data/random4.png "" 1.7079900000000001 2147483647 -1 -level 1 -memLevel 8 -strategy 2 -wbits 29 > /tmp/tmp-2025-04-0500:10:52-0.6261072158813477
+Executing cmd: ruby example_zlib/zlib_wrapper.rb data/random4.png "" 1.7079900000000001 2147483647 -1 -level 1 -memLevel 8 -strategy 2 -wbits 29 > /tmp/tmp-2025-04-0500:10:52-0.6261072158813477
+Result: SAT, 3.026, 0, 0, -1
+Minimum runtime: 0.1
+Cutoff time: 1.7079900000000001
+Result time: 3.026
+Total CPU time: 268.45586000000003
+the result has length = 5 and content = ["SAT", 3.026, 0, 0.0, -1]
+the result has length = 5 and content = ["SAT", 2.005, 0, 0.0, -1]
+the result has length = 5 and content = ["SAT", 3.013, 0, 0.0, -1]
+the result has length = 5 and content = ["SAT", 3.026, 0, 0.0, -1]
+the result has length = 5 and content = ["SAT", 2.005, 0, 0.0, -1]
+the result has length = 5 and content = ["SAT", 3.013, 0, 0.0, -1]
+the result has length = 5 and content = ["SAT", 3.026, 0, 0.0, -1]
+the result has length = 5 and content = ["SAT", 2.005, 0, 0.0, -1]
+the result has length = 5 and content = ["SAT", 3.013, 0, 0.0, -1]
+the result has length = 5 and content = ["SAT", 3.026, 0, 0.0, -1]
+        -> worse: (["pruned", 2] [based on 3 runs with cutoff 30.0])
+Total CPU Time 268.45586000000003,  timeout 300.0
+Total CPU Time 268.45586000000003,  timeout 300.0
+now 2025-04-05 00:10:55 +0800; start 2025-04-05 00:05:03 +0800; time-start 352.246972201; maxWall 8640000.0
+    Changing ["strategy: 2->3"], evaluating ...
+getAlgoResultsForInstsAndParams.
+  Trial 1 for calling: ruby example_zlib/zlib_wrapper.rb data/random1.txt "" 6.72599 2147483647 -1 -level 1 -memLevel 7 -strategy 3 -wbits 29 > /tmp/tmp-2025-04-0500:10:55-0.686976432800293
+Executing cmd: ruby example_zlib/zlib_wrapper.rb data/random1.txt "" 6.72599 2147483647 -1 -level 1 -memLevel 7 -strategy 3 -wbits 29 > /tmp/tmp-2025-04-0500:10:55-0.686976432800293
+Result: SAT, 1.973, 0, 0, -1
+Minimum runtime: 0.1
+Cutoff time: 6.72599
+Result time: 1.973
+Total CPU time: 270.42886000000004
+the result has length = 5 and content = ["SAT", 1.973, 0, 0.0, -1]
+getAlgoResultsForInstsAndParams.
+  Trial 1 for calling: ruby example_zlib/zlib_wrapper.rb data/random3.png "" 4.7529900000000005 2147483647 -1 -level 1 -memLevel 7 -strategy 3 -wbits 29 > /tmp/tmp-2025-04-0500:10:57-0.004805445671081543
+Executing cmd: ruby example_zlib/zlib_wrapper.rb data/random3.png "" 4.7529900000000005 2147483647 -1 -level 1 -memLevel 7 -strategy 3 -wbits 29 > /tmp/tmp-2025-04-0500:10:57-0.004805445671081543
+Result: SAT, 2.441, 0, 0, -1
+Minimum runtime: 0.1
+Cutoff time: 4.7529900000000005
+Result time: 2.441
+Total CPU time: 272.86986
+the result has length = 5 and content = ["SAT", 2.441, 0, 0.0, -1]
+getAlgoResultsForInstsAndParams.
+  Trial 1 for calling: ruby example_zlib/zlib_wrapper.rb data/random4.png "" 2.31199 2147483647 -1 -level 1 -memLevel 7 -strategy 3 -wbits 29 > /tmp/tmp-2025-04-0500:11:00-0.8628864288330078
+Executing cmd: ruby example_zlib/zlib_wrapper.rb data/random4.png "" 2.31199 2147483647 -1 -level 1 -memLevel 7 -strategy 3 -wbits 29 > /tmp/tmp-2025-04-0500:11:00-0.8628864288330078
+Result: SAT, 2.446, 0, 0, -1
+Minimum runtime: 0.1
+Cutoff time: 2.31199
+Result time: 2.446
+Total CPU time: 275.18185
+the result has length = 5 and content = ["SAT", 2.446, 0, 0.0, -1]
+83/100000, 275.18185/300.0
+the result has length = 5 and content = ["SAT", 1.973, 0, 0.0, -1]
+the result has length = 5 and content = ["SAT", 2.441, 0, 0.0, -1]
+the result has length = 5 and content = ["SAT", 2.446, 0, 0.0, -1]
+the result has length = 5 and content = ["SAT", 1.973, 0, 0.0, -1]
+the result has length = 5 and content = ["SAT", 2.441, 0, 0.0, -1]
+the result has length = 5 and content = ["SAT", 2.446, 0, 0.0, -1]
+the result has length = 5 and content = ["SAT", 1.973, 0, 0.0, -1]
+the result has length = 5 and content = ["SAT", 2.441, 0, 0.0, -1]
+the result has length = 5 and content = ["SAT", 2.446, 0, 0.0, -1]
+        -> worse: (["pruned", 2] [based on 3 runs with cutoff 30.0])
+Total CPU Time 275.18185,  timeout 300.0
+Total CPU Time 275.18185,  timeout 300.0
+now 2025-04-05 00:11:02 +0800; start 2025-04-05 00:05:03 +0800; time-start 359.291952498; maxWall 8640000.0
+    Changing ["wbits: 29->28"], evaluating ...
+getAlgoResultsForInstsAndParams.
+  Trial 1 for calling: ruby example_zlib/zlib_wrapper.rb data/random1.txt "" 6.72599 2147483647 -1 -level 1 -memLevel 7 -strategy 2 -wbits 28 > /tmp/tmp-2025-04-0500:11:02-0.08410632610321045
+Executing cmd: ruby example_zlib/zlib_wrapper.rb data/random1.txt "" 6.72599 2147483647 -1 -level 1 -memLevel 7 -strategy 2 -wbits 28 > /tmp/tmp-2025-04-0500:11:02-0.08410632610321045
+Result: SAT, 2.055, 0, 0, -1
+Minimum runtime: 0.1
+Cutoff time: 6.72599
+Result time: 2.055
+Total CPU time: 277.23685
+the result has length = 5 and content = ["SAT", 2.055, 0, 0.0, -1]
+getAlgoResultsForInstsAndParams.
+  Trial 1 for calling: ruby example_zlib/zlib_wrapper.rb data/random3.png "" 4.670990000000001 2147483647 -1 -level 1 -memLevel 7 -strategy 2 -wbits 28 > /tmp/tmp-2025-04-0500:11:04-0.4399658441543579
+Executing cmd: ruby example_zlib/zlib_wrapper.rb data/random3.png "" 4.670990000000001 2147483647 -1 -level 1 -memLevel 7 -strategy 2 -wbits 28 > /tmp/tmp-2025-04-0500:11:04-0.4399658441543579
+Result: SAT, 3.315, 0, 0, -1
+Minimum runtime: 0.1
+Cutoff time: 4.670990000000001
+Result time: 3.315
+Total CPU time: 280.55185
+the result has length = 5 and content = ["SAT", 3.315, 0, 0.0, -1]
+getAlgoResultsForInstsAndParams.
+  Trial 1 for calling: ruby example_zlib/zlib_wrapper.rb data/random4.png "" 1.35599 2147483647 -1 -level 1 -memLevel 7 -strategy 2 -wbits 28 > /tmp/tmp-2025-04-0500:11:08-0.9234919548034668
+Executing cmd: ruby example_zlib/zlib_wrapper.rb data/random4.png "" 1.35599 2147483647 -1 -level 1 -memLevel 7 -strategy 2 -wbits 28 > /tmp/tmp-2025-04-0500:11:08-0.9234919548034668
+Result: SAT, 3.305, 0, 0, -1
+Minimum runtime: 0.1
+Cutoff time: 1.35599
+Result time: 3.305
+Total CPU time: 281.90784
+the result has length = 5 and content = ["SAT", 3.305, 0, 0.0, -1]
+the result has length = 5 and content = ["SAT", 2.055, 0, 0.0, -1]
+the result has length = 5 and content = ["SAT", 3.315, 0, 0.0, -1]
+the result has length = 5 and content = ["SAT", 3.305, 0, 0.0, -1]
+the result has length = 5 and content = ["SAT", 2.055, 0, 0.0, -1]
+the result has length = 5 and content = ["SAT", 3.315, 0, 0.0, -1]
+the result has length = 5 and content = ["SAT", 3.305, 0, 0.0, -1]
+the result has length = 5 and content = ["SAT", 2.055, 0, 0.0, -1]
+the result has length = 5 and content = ["SAT", 3.315, 0, 0.0, -1]
+the result has length = 5 and content = ["SAT", 3.305, 0, 0.0, -1]
+        -> worse: (["pruned", 2] [based on 3 runs with cutoff 30.0])
+Total CPU Time 281.90784,  timeout 300.0
+Total CPU Time 281.90784,  timeout 300.0
+now 2025-04-05 00:11:11 +0800; start 2025-04-05 00:05:03 +0800; time-start 368.147021227; maxWall 8640000.0
+    Changing ["memLevel: 7->6"], evaluating ...
+getAlgoResultsForInstsAndParams.
+  Trial 1 for calling: ruby example_zlib/zlib_wrapper.rb data/random1.txt "" 6.72599 2147483647 -1 -level 1 -memLevel 6 -strategy 2 -wbits 29 > /tmp/tmp-2025-04-0500:11:11-0.24361276626586914
+Executing cmd: ruby example_zlib/zlib_wrapper.rb data/random1.txt "" 6.72599 2147483647 -1 -level 1 -memLevel 6 -strategy 2 -wbits 29 > /tmp/tmp-2025-04-0500:11:11-0.24361276626586914
+Result: SAT, 2.012, 0, 0, -1
+Minimum runtime: 0.1
+Cutoff time: 6.72599
+Result time: 2.012
+Total CPU time: 283.91984
+the result has length = 5 and content = ["SAT", 2.012, 0, 0.0, -1]
+getAlgoResultsForInstsAndParams.
+  Trial 1 for calling: ruby example_zlib/zlib_wrapper.rb data/random3.png "" 4.713990000000001 2147483647 -1 -level 1 -memLevel 6 -strategy 2 -wbits 29 > /tmp/tmp-2025-04-0500:11:13-0.34278440475463867
+Executing cmd: ruby example_zlib/zlib_wrapper.rb data/random3.png "" 4.713990000000001 2147483647 -1 -level 1 -memLevel 6 -strategy 2 -wbits 29 > /tmp/tmp-2025-04-0500:11:13-0.34278440475463867
+Result: SAT, 2.862, 0, 0, -1
+Minimum runtime: 0.1
+Cutoff time: 4.713990000000001
+Result time: 2.862
+Total CPU time: 286.78184000000005
+the result has length = 5 and content = ["SAT", 2.862, 0, 0.0, -1]
+88/100000, 286.78184000000005/300.0
+getAlgoResultsForInstsAndParams.
+  Trial 1 for calling: ruby example_zlib/zlib_wrapper.rb data/random4.png "" 1.8519900000000002 2147483647 -1 -level 1 -memLevel 6 -strategy 2 -wbits 29 > /tmp/tmp-2025-04-0500:11:16-0.10359740257263184
+Executing cmd: ruby example_zlib/zlib_wrapper.rb data/random4.png "" 1.8519900000000002 2147483647 -1 -level 1 -memLevel 6 -strategy 2 -wbits 29 > /tmp/tmp-2025-04-0500:11:16-0.10359740257263184
+Result: SAT, 2.863, 0, 0, -1
+Minimum runtime: 0.1
+Cutoff time: 1.8519900000000002
+Result time: 2.863
+Total CPU time: 288.63383000000005
+the result has length = 5 and content = ["SAT", 2.863, 0, 0.0, -1]
+the result has length = 5 and content = ["SAT", 2.012, 0, 0.0, -1]
+the result has length = 5 and content = ["SAT", 2.862, 0, 0.0, -1]
+the result has length = 5 and content = ["SAT", 2.863, 0, 0.0, -1]
+the result has length = 5 and content = ["SAT", 2.012, 0, 0.0, -1]
+the result has length = 5 and content = ["SAT", 2.862, 0, 0.0, -1]
+the result has length = 5 and content = ["SAT", 2.863, 0, 0.0, -1]
+the result has length = 5 and content = ["SAT", 2.012, 0, 0.0, -1]
+the result has length = 5 and content = ["SAT", 2.862, 0, 0.0, -1]
+the result has length = 5 and content = ["SAT", 2.863, 0, 0.0, -1]
+        -> worse: (["pruned", 2] [based on 3 runs with cutoff 30.0])
+Total CPU Time 288.63383000000005,  timeout 300.0
+Total CPU Time 288.63383000000005,  timeout 300.0
+now 2025-04-05 00:11:19 +0800; start 2025-04-05 00:05:03 +0800; time-start 376.069219369; maxWall 8640000.0
+    Changing ["strategy: 2->4"], evaluating ...
+getAlgoResultsForInstsAndParams.
+  Trial 1 for calling: ruby example_zlib/zlib_wrapper.rb data/random1.txt "" 6.72599 2147483647 -1 -level 1 -memLevel 7 -strategy 4 -wbits 29 > /tmp/tmp-2025-04-0500:11:19-0.8009874820709229
+Executing cmd: ruby example_zlib/zlib_wrapper.rb data/random1.txt "" 6.72599 2147483647 -1 -level 1 -memLevel 7 -strategy 4 -wbits 29 > /tmp/tmp-2025-04-0500:11:19-0.8009874820709229
+Result: SAT, 3.532, 0, 0, -1
+Minimum runtime: 0.1
+Cutoff time: 6.72599
+Result time: 3.532
+Total CPU time: 292.16583
+the result has length = 5 and content = ["SAT", 3.532, 0, 0.0, -1]
+getAlgoResultsForInstsAndParams.
+  Trial 1 for calling: ruby example_zlib/zlib_wrapper.rb data/random3.png "" 3.1939900000000003 2147483647 -1 -level 1 -memLevel 7 -strategy 4 -wbits 29 > /tmp/tmp-2025-04-0500:11:23-0.6626005172729492
+Executing cmd: ruby example_zlib/zlib_wrapper.rb data/random3.png "" 3.1939900000000003 2147483647 -1 -level 1 -memLevel 7 -strategy 4 -wbits 29 > /tmp/tmp-2025-04-0500:11:23-0.6626005172729492
+Result: SAT, 4.334, 0, 0, -1
+Minimum runtime: 0.1
+Cutoff time: 3.1939900000000003
+Result time: 4.334
+Total CPU time: 295.35982
+the result has length = 5 and content = ["SAT", 4.334, 0, 0.0, -1]
+the result has length = 5 and content = ["SAT", 3.532, 0, 0.0, -1]
+the result has length = 5 and content = ["SAT", 4.334, 0, 0.0, -1]
+the result has length = 5 and content = ["SAT", 3.532, 0, 0.0, -1]
+the result has length = 5 and content = ["SAT", 4.334, 0, 0.0, -1]
+the result has length = 5 and content = ["SAT", 3.532, 0, 0.0, -1]
+the result has length = 5 and content = ["SAT", 4.334, 0, 0.0, -1]
+        -> worse: (["pruned", 2] [based on 3 runs with cutoff 30.0])
+Total CPU Time 295.35982,  timeout 300.0
+Total CPU Time 295.35982,  timeout 300.0
+now 2025-04-05 00:11:27 +0800; start 2025-04-05 00:05:03 +0800; time-start 384.0539631; maxWall 8640000.0
+    Changing ["level: 1->2"], evaluating ...
+getAlgoResultsForInstsAndParams.
+  Trial 1 for calling: ruby example_zlib/zlib_wrapper.rb data/random1.txt "" 6.72599 2147483647 -1 -level 2 -memLevel 7 -strategy 2 -wbits 29 > /tmp/tmp-2025-04-0500:11:27-0.7026550769805908
+Executing cmd: ruby example_zlib/zlib_wrapper.rb data/random1.txt "" 6.72599 2147483647 -1 -level 2 -memLevel 7 -strategy 2 -wbits 29 > /tmp/tmp-2025-04-0500:11:27-0.7026550769805908
+Result: SAT, 1.943, 0, 0, -1
+Minimum runtime: 0.1
+Cutoff time: 6.72599
+Result time: 1.943
+Total CPU time: 297.30282
+the result has length = 5 and content = ["SAT", 1.943, 0, 0.0, -1]
+92/100000, 297.30282/300.0
+getAlgoResultsForInstsAndParams.
+  Trial 1 for calling: ruby example_zlib/zlib_wrapper.rb data/random3.png "" 4.782990000000001 2147483647 -1 -level 2 -memLevel 7 -strategy 2 -wbits 29 > /tmp/tmp-2025-04-0500:11:29-0.9757709503173828
+Executing cmd: ruby example_zlib/zlib_wrapper.rb data/random3.png "" 4.782990000000001 2147483647 -1 -level 2 -memLevel 7 -strategy 2 -wbits 29 > /tmp/tmp-2025-04-0500:11:29-0.9757709503173828
+Result: SAT, 2.376, 0, 0, -1
+Minimum runtime: 0.1
+Cutoff time: 4.782990000000001
+Result time: 2.376
+Total CPU time: 299.67882
+the result has length = 5 and content = ["SAT", 2.376, 0, 0.0, -1]
+getAlgoResultsForInstsAndParams.
+  Trial 1 for calling: ruby example_zlib/zlib_wrapper.rb data/random4.png "" 2.4069900000000004 2147483647 -1 -level 2 -memLevel 7 -strategy 2 -wbits 29 > /tmp/tmp-2025-04-0500:11:32-0.005016326904296875
+Executing cmd: ruby example_zlib/zlib_wrapper.rb data/random4.png "" 2.4069900000000004 2147483647 -1 -level 2 -memLevel 7 -strategy 2 -wbits 29 > /tmp/tmp-2025-04-0500:11:32-0.005016326904296875
+Result: SAT, 2.403, 0, 0, -1
+Minimum runtime: 0.1
+Cutoff time: 2.4069900000000004
+Result time: 2.403
+Total CPU time: 302.08182
+the result has length = 5 and content = ["SAT", 2.403, 0, 0.0, -1]
+the result has length = 5 and content = ["SAT", 1.943, 0, 0.0, -1]
+the result has length = 5 and content = ["SAT", 2.376, 0, 0.0, -1]
+the result has length = 5 and content = ["SAT", 2.403, 0, 0.0, -1]
+the result has length = 5 and content = ["SAT", 1.943, 0, 0.0, -1]
+the result has length = 5 and content = ["SAT", 2.376, 0, 0.0, -1]
+the result has length = 5 and content = ["SAT", 2.403, 0, 0.0, -1]
+the result has length = 5 and content = ["SAT", 1.943, 0, 0.0, -1]
+the result has length = 5 and content = ["SAT", 2.376, 0, 0.0, -1]
+the result has length = 5 and content = ["SAT", 2.403, 0, 0.0, -1]
+        -> worse: (["pruned", 2] [based on 3 runs with cutoff 30.0])
+Total CPU Time 302.08182,  timeout 300.0
+Total CPU Time 302.08182,  timeout 300.0
+ParamILS has reached the specified CPU time limit of 300.0 seconds => stopping the search now.
+   LM for iteration 1: level=1 memLevel=7 strategy=2 wbits=29 (2.2386666666666666 [based on 3 runs with cutoff 30.0])
+
+========== DETAILED RESULTS (iteration 1): ==========
+[["SAT", 1.95, 0, 0.0, -1]]
+the result has length = 5 and content = ["SAT", 1.95, 0, 0.0, -1]
+[["SAT", 2.378, 0, 0.0, -1]]
+the result has length = 5 and content = ["SAT", 2.378, 0, 0.0, -1]
+[["SAT", 2.388, 0, 0.0, -1]]
+the result has length = 5 and content = ["SAT", 2.388, 0, 0.0, -1]
+data/random1.txt: 1.95		[based on 1 runs]
+data/random3.png: 2.378		[based on 1 runs]
+data/random4.png: 2.388		[based on 1 runs]
+================================================
+
+==================================================================
+Best parameter configuration found so far (end of iteration 1): level=1, memLevel=7, strategy=2, wbits=29
+==================================================================
+Training quality of this incumbent parameter configuration: 2.2386666666666666, based on 3 runs with cutoff 30.0
+==================================================================
+
+Comparing LM against incumbent:
+level=1 memLevel=7 strategy=2 wbits=29 (2.2386666666666666 [based on 3 runs with cutoff 30.0])
+level=1 memLevel=7 strategy=2 wbits=29 (2.2386666666666666 [based on 3 runs with cutoff 30.0])
+LM better, change incumbent
+New Incumbent: 302.08182, 2.2386666666666666 [3, 30.0]. With state level=1, memLevel=7, strategy=2, wbits=29
+Total CPU Time 302.08182,  timeout 300.0
+Total CPU Time 302.08182,  timeout 300.0
+ParamILS has reached the specified CPU time limit of 300.0 seconds => stopping the search now.
+Final solution for depth 1 with limit N=3, and cutoff time=30.0.
+New Incumbent: 302.08182, 2.2386666666666666 [3, 30.0]. With state level=1, memLevel=7, strategy=2, wbits=29
+
+==================================================================
+ParamILS is finished.
+==================================================================
+
+Final best parameter configuration found: level=1, memLevel=7, strategy=2, wbits=29
+==================================================================
+Active parameters: level=1, memLevel=7, strategy=2, wbits=29
+
+==================================================================
+Training quality of this final best found parameter configuration: 2.2386666666666666, based on 3 runs with cutoff 30.0
+==================================================================
+
+
+==================================================================
+Computing validation result on independent data -- 2 runs with cutoff time 30.0...
+==================================================================
+getAlgoResultsForInstsAndParams.
+  Trial 1 for calling: ruby example_zlib/zlib_wrapper.rb data/random2.txt "" 30.000000000000004 2147483647 -1 -level 1 -memLevel 7 -strategy 2 -wbits 29 > /tmp/tmp-2025-04-0500:11:34-0.70353102684021
+Executing cmd: ruby example_zlib/zlib_wrapper.rb data/random2.txt "" 30.000000000000004 2147483647 -1 -level 1 -memLevel 7 -strategy 2 -wbits 29 > /tmp/tmp-2025-04-0500:11:34-0.70353102684021
+Result: SAT, 0.229, 0, 0, -1
+  Trial 1 for calling: ruby example_zlib/zlib_wrapper.rb data/random1.png "" 30.000000000000004 2147483647 -1 -level 1 -memLevel 7 -strategy 2 -wbits 29 > /tmp/tmp-2025-04-0500:11:34-0.5279502868652344
+Executing cmd: ruby example_zlib/zlib_wrapper.rb data/random1.png "" 30.000000000000004 2147483647 -1 -level 1 -memLevel 7 -strategy 2 -wbits 29 > /tmp/tmp-2025-04-0500:11:34-0.5279502868652344
+Result: SAT, 0.029, 0, 0, -1
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.229
+Total CPU time: 302.31082
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.029
+Total CPU time: 302.41082
+the result has length = 5 and content = ["SAT", 0.229, 0, 0.0, -1]
+the result has length = 5 and content = ["SAT", 0.029, 0, 0.0, -1]
+data/random2.txt: 0.229
+data/random1.png: 0.029
+Combined result: 0.129
+
+================================================================
+Final best parameter configuration: level=1, memLevel=7, strategy=2, wbits=29
+==================================================================
+Active parameters: level=1, memLevel=7, strategy=2, wbits=29
+
+================================================================
+Training quality of this final best found parameter configuration: 2.2386666666666666, based on 3 runs with cutoff 30.0
+Test quality of this final best found parameter configuration: 0.129, based on 2 independent runs with cutoff 30.0
+==================================================================

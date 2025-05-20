@@ -1,0 +1,37 @@
+Traceback (most recent call last):
+  File "/home/jim/magpie/examples/scipy/necessary/run_updated.py", line 3, in <module>
+    import numpy as np
+  File "/home/jim/magpie/.venv/lib/python3.11/site-packages/numpy/__init__.py", line 149, in <module>
+    from . import lib
+  File "/home/jim/magpie/.venv/lib/python3.11/site-packages/numpy/lib/__init__.py", line 23, in <module>
+    from . import index_tricks
+  File "/home/jim/magpie/.venv/lib/python3.11/site-packages/numpy/lib/index_tricks.py", line 13, in <module>
+    from .function_base import diff
+  File "<frozen importlib._bootstrap>", line 1178, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1149, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 690, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 936, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1069, in get_code
+  File "<frozen importlib._bootstrap_external>", line 729, in _compile_bytecode
+KeyboardInterrupt
+/home/jim/magpie/examples/scipy/necessary/run_single.sh: Interrupt
+
+ Performance counter stats for '/home/jim/magpie/examples/scipy/necessary/run_single.sh /home/jim/magpie/examples/scipy/necessary/data/complex_function_8.py --jac=2-point --maxiter=100 --method=CG --tol=0.0001':
+
+            619,01 msec task-clock                       #    5,165 CPUs utilized             
+              4255      context-switches                 #    6,874 K/sec                     
+                 8      cpu-migrations                   #   12,924 /sec                      
+              3279      page-faults                      #    5,297 K/sec                     
+        1842972589      cycles                           #    2,977 GHz                       
+         239465259      stalled-cycles-frontend          #   12,99% frontend cycles idle      
+        3105101145      instructions                     #    1,68  insn per cycle            
+                                                  #    0,08  stalled cycles per insn   
+         617375419      branches                         #  997,357 M/sec                     
+           7453837      branch-misses                    #    1,21% of all branches           
+
+       0,119850549 seconds time elapsed
+
+       0,170007000 seconds user
+       0,447864000 seconds sys
+
+

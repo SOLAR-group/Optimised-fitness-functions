@@ -17,7 +17,7 @@ Two types of language-agnostic source code representations are supported: line-b
 For the latter we recommend the [srcML](https://www.srcml.org/) tool with out-of-the-box support for C/C++/C# and Java.  
 Finally, Magpie also enables parameter tuning and algorithm configuration, both independently and concurrently of the source code search process.
 
-
+##
 ## Requirements
 
 - Unix (Linux/macOS/etc; untested on Windows)
@@ -68,5 +68,10 @@ Everything you need to know about Magpie and the new Optimised Fitness Function 
 - [Algorithm configuration model](./docs/params_model.md)
 
 
+**For ParamILS experiments**
+- [Go to this folder](./ParamILS_experiments)
 
+
+**For LLM based experiments**
+- [Go to this folder](./LLM_experiments)
 

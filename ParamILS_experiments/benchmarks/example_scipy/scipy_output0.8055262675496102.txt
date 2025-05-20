@@ -1,0 +1,50 @@
+{'fun': <function complex_objective_function at 0x79e7c4dccd60>, 'x0': array([0.56529063, 0.53068793, 0.31318337, 0.07001355, 0.24512838,
+       0.40046551, 0.98884565, 0.66666428, 0.53822809, 0.95987286]), 'method': 'CG', 'jac': '2-point', 'constraints': (), 'tol': 0.0001, 'options': {'maxiter': 100, 'disp': False}}
+Traceback (most recent call last):
+  File "/home/jim/magpie/examples/scipy/necessary/run_updated.py", line 86, in <module>
+    result = minimize(**minimize_args)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/jim/magpie/.venv/lib/python3.11/site-packages/scipy/optimize/_minimize.py", line 706, in minimize
+    res = _minimize_cg(fun, x0, args, jac, callback, **options)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/jim/magpie/.venv/lib/python3.11/site-packages/scipy/optimize/_optimize.py", line 1723, in _minimize_cg
+    sf = _prepare_scalar_function(fun, x0, jac=jac, args=args, epsilon=eps,
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/jim/magpie/.venv/lib/python3.11/site-packages/scipy/optimize/_optimize.py", line 288, in _prepare_scalar_function
+    sf = ScalarFunction(fun, x0, args, grad, hess,
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/jim/magpie/.venv/lib/python3.11/site-packages/scipy/optimize/_differentiable_functions.py", line 185, in __init__
+    self._update_grad()
+  File "/home/jim/magpie/.venv/lib/python3.11/site-packages/scipy/optimize/_differentiable_functions.py", line 267, in _update_grad
+    self._update_grad_impl()
+  File "/home/jim/magpie/.venv/lib/python3.11/site-packages/scipy/optimize/_differentiable_functions.py", line 181, in update_grad
+    self.g = approx_derivative(fun_wrapped, self.x, f0=self.f,
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/jim/magpie/.venv/lib/python3.11/site-packages/scipy/optimize/_numdiff.py", line 519, in approx_derivative
+    return _dense_difference(fun_wrapped, x0, f0, h,
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/jim/magpie/.venv/lib/python3.11/site-packages/scipy/optimize/_numdiff.py", line 590, in _dense_difference
+    df = fun(x) - f0
+         ^^^^^^
+  File "/home/jim/magpie/.venv/lib/python3.11/site-packages/scipy/optimize/_numdiff.py", line 470, in fun_wrapped
+    f = np.atleast_1d(fun(x, *args, **kwargs))
+                      ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/jim/magpie/.venv/lib/python3.11/site-packages/scipy/optimize/_differentiable_functions.py", line 145, in fun_wrapped
+    fx = fun(np.copy(x), *args)
+         ^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/jim/magpie/examples/scipy/necessary/data/complex_function_0.py", line 7, in complex_objective_function
+    result += np.sum(np.sin(x) * np.sin(x))
+                     ^^^^^^^^^
+KeyboardInterrupt
+/home/jim/magpie/examples/scipy/necessary/run_single.sh: Interrupt
+
+ Performance counter stats for '/home/jim/magpie/examples/scipy/necessary/run_single.sh /home/jim/magpie/examples/scipy/necessary/data/complex_function_0.py --jac=2-point --maxiter=100 --method=CG --tol=0.0001':
+
+         109284988      cache-references                                                      
+
+       0,442575967 seconds time elapsed
+
+       1,384172000 seconds user
+       0,699936000 seconds sys
+
+

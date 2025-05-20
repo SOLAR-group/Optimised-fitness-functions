@@ -1,0 +1,779 @@
+Call: /usr/bin/ruby ../scripts/param_ils_2_3_run.rb "-scenariofile" "example_lpg/scenario-lpg.txt" "-numRun" "1" "-maxEvals" "100000" "-maxIts" "10000" "-approach" "basic" "-validN" "30"
+
+
+WARNING: N=2000 is greater than the number of entries
+in the @instances array. This can happen if the algorithm is
+deterministic and the number of training instances is smaller than N,
+or if the instance_seed_file is provided by the user and has less
+entries than N. Clamping N and maxDetail to 3
+WARNING: validN=30 is greater than the number
+of entries in the @test_instances array. This can happen if the
+algorithm is deterministic and the number of test instances is smaller
+than validN, or if the test_instance_seed_file is provided by the user
+and has less entries than validN. Clamping validN to
+2
+seed: 2468
+algo: ruby example_lpg/lpg_wrapper.rb
+tunerTimeout (CPU time): 300.0
+maxWallTime: 8640000.0
+maxEvals: 100000
+run_obj: runtime
+overall_obj: mean
+instance_file: /home/jim/magpie/examples/lpg/necessary/instances.txt
+test_instance_file: /home/jim/magpie/examples/lpg/necessary/test-instances.txt
+N: 3
+cutoff_time: 30.0
+cutoff_length: 2147483647
+R: 10
+pertubation_strength_basic: 
+pertubation_strength_scaling: false
+p_restart: 0.01
+Run 2
+Level 
+========================================================
+Starting ILS for level 1, i.e. a limit of N=3, and cutoff time=30.0.
+Current CPU time = 0, this run goes until 300.0 
+========================================================
+New Incumbent: 0, 100000000 [0, 0]. With state lowmemory=None, noise=0.1, repeats=5, restarts=9, search_steps=500, static_noise=None
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 3.475
+Total CPU time: 3.475
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 1.924
+Total CPU time: 5.399
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 4.373
+Total CPU time: 9.772
+ Same incumbent, new precision:
+New Incumbent: 9.772, 3.2573333333333334 [3, 30.0]. With state lowmemory=None, noise=0.1, repeats=5, restarts=9, search_steps=500, static_noise=None
+Total CPU Time 9.772,  timeout 300.0
+Total CPU Time 9.772,  timeout 300.0
+Minimum runtime: 0.1
+Cutoff time: 9.782
+Result time: 1.987
+Total CPU time: 11.759
+4/100000, 11.759/300.0
+Minimum runtime: 0.1
+Cutoff time: 7.795000000000001
+Result time: 2.142
+Total CPU time: 13.901
+Minimum runtime: 0.1
+Cutoff time: 5.6530000000000005
+Result time: 5.427
+Total CPU time: 19.328
+New inc: 3.185333333333333
+New Incumbent: 19.328, 3.185333333333333 [3, 30.0]. With state lowmemory=True, noise=0.2, repeats=16, restarts=16, search_steps=700, static_noise=None
+          -> Take improving step to random lowmemory=True noise=0.2 repeats=16 restarts=16 search_steps=700 static_noise=None (3.185333333333333 [based on 3 runs with cutoff 30.0])
+
+Total CPU Time 19.328,  timeout 300.0
+Total CPU Time 19.328,  timeout 300.0
+Minimum runtime: 0.1
+Cutoff time: 9.565990000000001
+Result time: 30.0
+Total CPU time: 28.893990000000002
+7/100000, 28.893990000000002/300.0
+        -> Worse random: lowmemory=None noise=1.0 repeats=9 restarts=5 search_steps=900 static_noise=None (["pruned", 1] [based on 3 runs with cutoff 30.0])
+Total CPU Time 28.893990000000002,  timeout 300.0
+Total CPU Time 28.893990000000002,  timeout 300.0
+Minimum runtime: 0.1
+Cutoff time: 9.565990000000001
+Result time: 2.023
+Total CPU time: 30.916990000000002
+Minimum runtime: 0.1
+Cutoff time: 7.5429900000000005
+Result time: 2.197
+Total CPU time: 33.11399
+Minimum runtime: 0.1
+Cutoff time: 5.3459900000000005
+Result time: 3.186
+Total CPU time: 36.29999
+New inc: 2.468666666666667
+New Incumbent: 36.29999, 2.468666666666667 [3, 30.0]. With state lowmemory=None, noise=0.2, repeats=4, restarts=19, search_steps=1000, static_noise=None
+          -> Take improving step to random lowmemory=None noise=0.2 repeats=4 restarts=19 search_steps=1000 static_noise=None (2.468666666666667 [based on 3 runs with cutoff 30.0])
+
+Total CPU Time 36.29999,  timeout 300.0
+Total CPU Time 36.29999,  timeout 300.0
+Minimum runtime: 0.1
+Cutoff time: 7.416
+Result time: 30.0
+Total CPU time: 43.715990000000005
+11/100000, 43.715990000000005/300.0
+        -> Worse random: lowmemory=None noise=0.6 repeats=13 restarts=2 search_steps=700 static_noise=None (["pruned", 1] [based on 3 runs with cutoff 30.0])
+Total CPU Time 43.715990000000005,  timeout 300.0
+Total CPU Time 43.715990000000005,  timeout 300.0
+Minimum runtime: 0.1
+Cutoff time: 7.416
+Result time: 30.0
+Total CPU time: 51.13199
+        -> Worse random: lowmemory=True noise=1.0 repeats=20 restarts=4 search_steps=900 static_noise=True (["pruned", 1] [based on 3 runs with cutoff 30.0])
+Total CPU Time 51.13199,  timeout 300.0
+Total CPU Time 51.13199,  timeout 300.0
+Minimum runtime: 0.1
+Cutoff time: 7.416
+Result time: 30.0
+Total CPU time: 58.54799
+13/100000, 58.54799/300.0
+        -> Worse random: lowmemory=None noise=0.1 repeats=13 restarts=3 search_steps=200 static_noise=True (["pruned", 1] [based on 3 runs with cutoff 30.0])
+Total CPU Time 58.54799,  timeout 300.0
+Total CPU Time 58.54799,  timeout 300.0
+Minimum runtime: 0.1
+Cutoff time: 7.416
+Result time: 30.0
+Total CPU time: 65.96399
+        -> Worse random: lowmemory=None noise=0.6 repeats=3 restarts=3 search_steps=900 static_noise=True (["pruned", 1] [based on 3 runs with cutoff 30.0])
+Total CPU Time 65.96399,  timeout 300.0
+Total CPU Time 65.96399,  timeout 300.0
+Minimum runtime: 0.1
+Cutoff time: 7.416
+Result time: 30.0
+Total CPU time: 73.37998999999999
+15/100000, 73.37998999999999/300.0
+        -> Worse random: lowmemory=True noise=0.9 repeats=1 restarts=5 search_steps=1000 static_noise=True (["pruned", 1] [based on 3 runs with cutoff 30.0])
+Total CPU Time 73.37998999999999,  timeout 300.0
+Total CPU Time 73.37998999999999,  timeout 300.0
+Minimum runtime: 0.1
+Cutoff time: 7.416
+Result time: 30.0
+Total CPU time: 80.79598999999999
+        -> Worse random: lowmemory=None noise=1.0 repeats=6 restarts=5 search_steps=800 static_noise=None (["pruned", 1] [based on 3 runs with cutoff 30.0])
+Total CPU Time 80.79598999999999,  timeout 300.0
+Total CPU Time 80.79598999999999,  timeout 300.0
+Minimum runtime: 0.1
+Cutoff time: 7.416
+Result time: 2.222
+Total CPU time: 83.01798999999998
+Minimum runtime: 0.1
+Cutoff time: 5.194000000000001
+Result time: 2.213
+Total CPU time: 85.23098999999998
+18/100000, 85.23098999999998/300.0
+Minimum runtime: 0.1
+Cutoff time: 2.9810000000000003
+Result time: 2.607
+Total CPU time: 87.83798999999998
+New inc: 2.3473333333333337
+New Incumbent: 87.83798999999998, 2.3473333333333337 [3, 30.0]. With state lowmemory=True, noise=0.0, repeats=15, restarts=18, search_steps=500, static_noise=True
+          -> Take improving step to random lowmemory=True noise=0.0 repeats=15 restarts=18 search_steps=500 static_noise=True (2.3473333333333337 [based on 3 runs with cutoff 30.0])
+
+   BLS in iteration 1, start with lowmemory=True noise=0.0 repeats=15 restarts=18 search_steps=500 static_noise=True (2.3473333333333337 [based on 3 runs with cutoff 30.0])
+Total CPU Time 87.83798999999998,  timeout 300.0
+Total CPU Time 87.83798999999998,  timeout 300.0
+Total CPU Time 87.83798999999998,  timeout 300.0
+Total CPU Time 87.83798999999998,  timeout 300.0
+    Changing ["restarts: 18->20"], evaluating ...
+Minimum runtime: 0.1
+Cutoff time: 7.0520000000000005
+Result time: 2.244
+Total CPU time: 90.08198999999998
+Minimum runtime: 0.1
+Cutoff time: 4.808000000000001
+Result time: 2.202
+Total CPU time: 92.28398999999997
+Minimum runtime: 0.1
+Cutoff time: 2.6060000000000003
+Result time: 2.505
+Total CPU time: 94.78898999999997
+New inc: 2.3169999999999997
+New Incumbent: 94.78898999999997, 2.3169999999999997 [3, 30.0]. With state lowmemory=True, noise=0.0, repeats=15, restarts=20, search_steps=500, static_noise=True
+          -> Take improving step to neighbour lowmemory=True noise=0.0 repeats=15 restarts=20 search_steps=500 static_noise=True (2.3169999999999997 [based on 3 runs with cutoff 30.0]) with flip 1
+
+Total CPU Time 94.78898999999997,  timeout 300.0
+Total CPU Time 94.78898999999997,  timeout 300.0
+Total CPU Time 94.78898999999997,  timeout 300.0
+Total CPU Time 94.78898999999997,  timeout 300.0
+    Changing ["restarts: 20->3"], evaluating ...
+Minimum runtime: 0.1
+Cutoff time: 6.960990000000001
+Result time: 2.188
+Total CPU time: 96.97698999999997
+23/100000, 96.97698999999997/300.0
+Minimum runtime: 0.1
+Cutoff time: 4.77299
+Result time: 2.177
+Total CPU time: 99.15398999999998
+Minimum runtime: 0.1
+Cutoff time: 2.59599
+Result time: 2.487
+Total CPU time: 101.64098999999997
+New inc: 2.2840000000000003
+New Incumbent: 101.64098999999997, 2.2840000000000003 [3, 30.0]. With state lowmemory=True, noise=0.0, repeats=15, restarts=3, search_steps=500, static_noise=True
+          -> Take improving step to neighbour lowmemory=True noise=0.0 repeats=15 restarts=3 search_steps=500 static_noise=True (2.2840000000000003 [based on 3 runs with cutoff 30.0]) with flip 2
+
+Total CPU Time 101.64098999999997,  timeout 300.0
+Total CPU Time 101.64098999999997,  timeout 300.0
+Total CPU Time 101.64098999999997,  timeout 300.0
+Total CPU Time 101.64098999999997,  timeout 300.0
+    Changing ["search_steps: 500->400"], evaluating ...
+Minimum runtime: 0.1
+Cutoff time: 6.862000000000001
+Result time: 3.915
+Total CPU time: 105.55598999999998
+Minimum runtime: 0.1
+Cutoff time: 2.947
+Result time: 6.646
+Total CPU time: 108.50298999999998
+27/100000, 108.50298999999998/300.0
+        -> worse: (["pruned", 2] [based on 3 runs with cutoff 30.0])
+Total CPU Time 108.50298999999998,  timeout 300.0
+Total CPU Time 108.50298999999998,  timeout 300.0
+    Changing ["noise: 0.0->0.3"], evaluating ...
+Minimum runtime: 0.1
+Cutoff time: 6.862000000000001
+Result time: 30.0
+Total CPU time: 115.36498999999998
+        -> worse: (["pruned", 1] [based on 3 runs with cutoff 30.0])
+Total CPU Time 115.36498999999998,  timeout 300.0
+Total CPU Time 115.36498999999998,  timeout 300.0
+    Changing ["repeats: 15->11"], evaluating ...
+Minimum runtime: 0.1
+Cutoff time: 6.862000000000001
+Result time: 2.572
+Total CPU time: 117.93698999999998
+Minimum runtime: 0.1
+Cutoff time: 4.29
+Result time: 2.702
+Total CPU time: 120.63898999999998
+30/100000, 120.63898999999998/300.0
+Minimum runtime: 0.1
+Cutoff time: 1.588
+Result time: 2.876
+Total CPU time: 122.22698999999997
+        -> worse: (["pruned", 2] [based on 3 runs with cutoff 30.0])
+Total CPU Time 122.22698999999997,  timeout 300.0
+Total CPU Time 122.22698999999997,  timeout 300.0
+    Changing ["repeats: 15->18"], evaluating ...
+Minimum runtime: 0.1
+Cutoff time: 6.862000000000001
+Result time: 2.646
+Total CPU time: 124.87298999999997
+Minimum runtime: 0.1
+Cutoff time: 4.216
+Result time: 2.341
+Total CPU time: 127.21398999999997
+Minimum runtime: 0.1
+Cutoff time: 1.8750000000000002
+Result time: 2.956
+Total CPU time: 129.08898999999997
+        -> worse: (["pruned", 2] [based on 3 runs with cutoff 30.0])
+Total CPU Time 129.08898999999997,  timeout 300.0
+Total CPU Time 129.08898999999997,  timeout 300.0
+    Changing ["repeats: 15->1"], evaluating ...
+Minimum runtime: 0.1
+Cutoff time: 6.862000000000001
+Result time: 2.745
+Total CPU time: 131.83398999999997
+35/100000, 131.83398999999997/300.0
+Minimum runtime: 0.1
+Cutoff time: 4.117
+Result time: 2.279
+Total CPU time: 134.11298999999997
+Minimum runtime: 0.1
+Cutoff time: 1.838
+Result time: 2.885
+Total CPU time: 135.95098999999996
+        -> worse: (["pruned", 2] [based on 3 runs with cutoff 30.0])
+Total CPU Time 135.95098999999996,  timeout 300.0
+Total CPU Time 135.95098999999996,  timeout 300.0
+    Changing ["restarts: 3->5"], evaluating ...
+Minimum runtime: 0.1
+Cutoff time: 6.862000000000001
+Result time: 2.175
+Total CPU time: 138.12598999999997
+Minimum runtime: 0.1
+Cutoff time: 4.687
+Result time: 2.103
+Total CPU time: 140.22898999999998
+Minimum runtime: 0.1
+Cutoff time: 2.58399
+Result time: 2.417
+Total CPU time: 142.64598999999998
+40/100000, 142.64598999999998/300.0
+New inc: 2.231666666666667
+New Incumbent: 142.64598999999998, 2.231666666666667 [3, 30.0]. With state lowmemory=True, noise=0.0, repeats=15, restarts=5, search_steps=500, static_noise=True
+          -> Take improving step to neighbour lowmemory=True noise=0.0 repeats=15 restarts=5 search_steps=500 static_noise=True (2.231666666666667 [based on 3 runs with cutoff 30.0]) with flip 3
+
+Total CPU Time 142.64598999999998,  timeout 300.0
+Total CPU Time 142.64598999999998,  timeout 300.0
+Total CPU Time 142.64598999999998,  timeout 300.0
+Total CPU Time 142.64598999999998,  timeout 300.0
+    Changing ["repeats: 15->17"], evaluating ...
+Minimum runtime: 0.1
+Cutoff time: 6.705000000000001
+Result time: 2.117
+Total CPU time: 144.76298999999997
+Minimum runtime: 0.1
+Cutoff time: 4.588
+Result time: 2.102
+Total CPU time: 146.86498999999998
+Minimum runtime: 0.1
+Cutoff time: 2.486
+Result time: 2.414
+Total CPU time: 149.27898999999996
+New inc: 2.211
+New Incumbent: 149.27898999999996, 2.211 [3, 30.0]. With state lowmemory=True, noise=0.0, repeats=17, restarts=5, search_steps=500, static_noise=True
+          -> Take improving step to neighbour lowmemory=True noise=0.0 repeats=17 restarts=5 search_steps=500 static_noise=True (2.211 [based on 3 runs with cutoff 30.0]) with flip 4
+
+Total CPU Time 149.27898999999996,  timeout 300.0
+Total CPU Time 149.27898999999996,  timeout 300.0
+Total CPU Time 149.27898999999996,  timeout 300.0
+Total CPU Time 149.27898999999996,  timeout 300.0
+    Changing ["repeats: 17->13"], evaluating ...
+Minimum runtime: 0.1
+Cutoff time: 6.64299
+Result time: 2.105
+Total CPU time: 151.38398999999995
+Minimum runtime: 0.1
+Cutoff time: 4.537990000000001
+Result time: 2.09
+Total CPU time: 153.47398999999996
+45/100000, 153.47398999999996/300.0
+Minimum runtime: 0.1
+Cutoff time: 2.4479900000000003
+Result time: 2.403
+Total CPU time: 155.87698999999995
+New inc: 2.1993333333333336
+New Incumbent: 155.87698999999995, 2.1993333333333336 [3, 30.0]. With state lowmemory=True, noise=0.0, repeats=13, restarts=5, search_steps=500, static_noise=True
+          -> Take improving step to neighbour lowmemory=True noise=0.0 repeats=13 restarts=5 search_steps=500 static_noise=True (2.1993333333333336 [based on 3 runs with cutoff 30.0]) with flip 5
+
+Total CPU Time 155.87698999999995,  timeout 300.0
+Total CPU Time 155.87698999999995,  timeout 300.0
+Total CPU Time 155.87698999999995,  timeout 300.0
+Total CPU Time 155.87698999999995,  timeout 300.0
+    Changing ["restarts: 5->19"], evaluating ...
+Minimum runtime: 0.1
+Cutoff time: 6.6080000000000005
+Result time: 2.104
+Total CPU time: 157.98098999999996
+Minimum runtime: 0.1
+Cutoff time: 4.5040000000000004
+Result time: 2.085
+Total CPU time: 160.06598999999997
+Minimum runtime: 0.1
+Cutoff time: 2.419
+Result time: 2.39
+Total CPU time: 162.45598999999996
+New inc: 2.193
+New Incumbent: 162.45598999999996, 2.193 [3, 30.0]. With state lowmemory=True, noise=0.0, repeats=13, restarts=19, search_steps=500, static_noise=True
+          -> Take improving step to neighbour lowmemory=True noise=0.0 repeats=13 restarts=19 search_steps=500 static_noise=True (2.193 [based on 3 runs with cutoff 30.0]) with flip 6
+
+Total CPU Time 162.45598999999996,  timeout 300.0
+Total CPU Time 162.45598999999996,  timeout 300.0
+Total CPU Time 162.45598999999996,  timeout 300.0
+Total CPU Time 162.45598999999996,  timeout 300.0
+    Changing ["restarts: 19->11"], evaluating ...
+Minimum runtime: 0.1
+Cutoff time: 6.589
+Result time: 2.093
+Total CPU time: 164.54898999999995
+50/100000, 164.54898999999995/300.0
+Minimum runtime: 0.1
+Cutoff time: 4.496
+Result time: 2.095
+Total CPU time: 166.64398999999995
+Minimum runtime: 0.1
+Cutoff time: 2.40099
+Result time: 2.363
+Total CPU time: 169.00698999999994
+New inc: 2.183666666666667
+New Incumbent: 169.00698999999994, 2.183666666666667 [3, 30.0]. With state lowmemory=True, noise=0.0, repeats=13, restarts=11, search_steps=500, static_noise=True
+          -> Take improving step to neighbour lowmemory=True noise=0.0 repeats=13 restarts=11 search_steps=500 static_noise=True (2.183666666666667 [based on 3 runs with cutoff 30.0]) with flip 7
+
+Total CPU Time 169.00698999999994,  timeout 300.0
+Total CPU Time 169.00698999999994,  timeout 300.0
+Total CPU Time 169.00698999999994,  timeout 300.0
+Total CPU Time 169.00698999999994,  timeout 300.0
+    Changing ["repeats: 13->7"], evaluating ...
+Minimum runtime: 0.1
+Cutoff time: 6.561000000000001
+Result time: 2.072
+Total CPU time: 171.07898999999995
+Minimum runtime: 0.1
+Cutoff time: 4.489000000000001
+Result time: 2.066
+Total CPU time: 173.14498999999995
+Minimum runtime: 0.1
+Cutoff time: 2.423
+Result time: 2.361
+Total CPU time: 175.50598999999994
+55/100000, 175.50598999999994/300.0
+New inc: 2.1663333333333337
+New Incumbent: 175.50598999999994, 2.1663333333333337 [3, 30.0]. With state lowmemory=True, noise=0.0, repeats=7, restarts=11, search_steps=500, static_noise=True
+          -> Take improving step to neighbour lowmemory=True noise=0.0 repeats=7 restarts=11 search_steps=500 static_noise=True (2.1663333333333337 [based on 3 runs with cutoff 30.0]) with flip 8
+
+Total CPU Time 175.50598999999994,  timeout 300.0
+Total CPU Time 175.50598999999994,  timeout 300.0
+Total CPU Time 175.50598999999994,  timeout 300.0
+Total CPU Time 175.50598999999994,  timeout 300.0
+    Changing ["restarts: 11->14"], evaluating ...
+Minimum runtime: 0.1
+Cutoff time: 6.509
+Result time: 2.083
+Total CPU time: 177.58898999999994
+Minimum runtime: 0.1
+Cutoff time: 4.426
+Result time: 2.065
+Total CPU time: 179.65398999999994
+Minimum runtime: 0.1
+Cutoff time: 2.361
+Result time: 2.391
+Total CPU time: 182.01498999999993
+        -> worse: (["pruned", 2] [based on 3 runs with cutoff 30.0])
+Total CPU Time 182.01498999999993,  timeout 300.0
+Total CPU Time 182.01498999999993,  timeout 300.0
+    Changing ["restarts: 11->2"], evaluating ...
+Minimum runtime: 0.1
+Cutoff time: 6.509
+Result time: 2.081
+Total CPU time: 184.09598999999992
+Minimum runtime: 0.1
+Cutoff time: 4.428
+Result time: 2.064
+Total CPU time: 186.1599899999999
+60/100000, 186.1599899999999/300.0
+Minimum runtime: 0.1
+Cutoff time: 2.3640000000000003
+Result time: 2.353
+Total CPU time: 188.51298999999992
+New inc: 2.166
+New Incumbent: 188.51298999999992, 2.166 [3, 30.0]. With state lowmemory=True, noise=0.0, repeats=7, restarts=2, search_steps=500, static_noise=True
+          -> Take improving step to neighbour lowmemory=True noise=0.0 repeats=7 restarts=2 search_steps=500 static_noise=True (2.166 [based on 3 runs with cutoff 30.0]) with flip 9
+
+Total CPU Time 188.51298999999992,  timeout 300.0
+Total CPU Time 188.51298999999992,  timeout 300.0
+Total CPU Time 188.51298999999992,  timeout 300.0
+Total CPU Time 188.51298999999992,  timeout 300.0
+    Changing ["repeats: 7->20"], evaluating ...
+Minimum runtime: 0.1
+Cutoff time: 6.50799
+Result time: 2.072
+Total CPU time: 190.58498999999992
+Minimum runtime: 0.1
+Cutoff time: 4.43599
+Result time: 2.047
+Total CPU time: 192.63198999999992
+Minimum runtime: 0.1
+Cutoff time: 2.38899
+Result time: 2.389
+Total CPU time: 195.02097999999992
+        -> worse: (["pruned", 2] [based on 3 runs with cutoff 30.0])
+Total CPU Time 195.02097999999992,  timeout 300.0
+Total CPU Time 195.02097999999992,  timeout 300.0
+    Changing ["noise: 0.0->0.9"], evaluating ...
+Minimum runtime: 0.1
+Cutoff time: 6.50799
+Result time: 30.0
+Total CPU time: 201.52896999999993
+65/100000, 201.52896999999993/300.0
+        -> worse: (["pruned", 1] [based on 3 runs with cutoff 30.0])
+Total CPU Time 201.52896999999993,  timeout 300.0
+Total CPU Time 201.52896999999993,  timeout 300.0
+    Changing ["search_steps: 500->600"], evaluating ...
+Minimum runtime: 0.1
+Cutoff time: 6.50799
+Result time: 2.51
+Total CPU time: 204.03896999999992
+Minimum runtime: 0.1
+Cutoff time: 3.99799
+Result time: 2.445
+Total CPU time: 206.4839699999999
+Minimum runtime: 0.1
+Cutoff time: 1.55299
+Result time: 2.871
+Total CPU time: 208.0369599999999
+        -> worse: (["pruned", 2] [based on 3 runs with cutoff 30.0])
+Total CPU Time 208.0369599999999,  timeout 300.0
+Total CPU Time 208.0369599999999,  timeout 300.0
+Total CPU Time 208.0369599999999,  timeout 300.0
+Total CPU Time 208.0369599999999,  timeout 300.0
+    Changing ["repeats: 7->10"], evaluating ...
+Minimum runtime: 0.1
+Cutoff time: 6.50799
+Result time: 2.439
+Total CPU time: 210.4759599999999
+Minimum runtime: 0.1
+Cutoff time: 4.06899
+Result time: 2.647
+Total CPU time: 213.1229599999999
+70/100000, 213.1229599999999/300.0
+Minimum runtime: 0.1
+Cutoff time: 1.42199
+Result time: 2.625
+Total CPU time: 214.5449499999999
+        -> worse: (["pruned", 2] [based on 3 runs with cutoff 30.0])
+Total CPU Time 214.5449499999999,  timeout 300.0
+Total CPU Time 214.5449499999999,  timeout 300.0
+    Changing ["restarts: 2->9"], evaluating ...
+Minimum runtime: 0.1
+Cutoff time: 6.50799
+Result time: 2.477
+Total CPU time: 217.0219499999999
+Minimum runtime: 0.1
+Cutoff time: 4.03099
+Result time: 2.589
+Total CPU time: 219.6109499999999
+Minimum runtime: 0.1
+Cutoff time: 1.44199
+Result time: 2.484
+Total CPU time: 221.0529399999999
+        -> worse: (["pruned", 2] [based on 3 runs with cutoff 30.0])
+Total CPU Time 221.0529399999999,  timeout 300.0
+Total CPU Time 221.0529399999999,  timeout 300.0
+    Changing ["static_noise: True->None"], evaluating ...
+Minimum runtime: 0.1
+Cutoff time: 6.50799
+Result time: 2.865
+Total CPU time: 223.9179399999999
+75/100000, 223.9179399999999/300.0
+Minimum runtime: 0.1
+Cutoff time: 3.64299
+Result time: 2.662
+Total CPU time: 226.5799399999999
+Minimum runtime: 0.1
+Cutoff time: 0.98099
+Result time: 2.832
+Total CPU time: 227.5609299999999
+        -> worse: (["pruned", 2] [based on 3 runs with cutoff 30.0])
+Total CPU Time 227.5609299999999,  timeout 300.0
+Total CPU Time 227.5609299999999,  timeout 300.0
+    Changing ["search_steps: 500->800"], evaluating ...
+Minimum runtime: 0.1
+Cutoff time: 6.50799
+Result time: 2.345
+Total CPU time: 229.9059299999999
+Minimum runtime: 0.1
+Cutoff time: 4.162990000000001
+Result time: 2.263
+Total CPU time: 232.1689299999999
+Minimum runtime: 0.1
+Cutoff time: 1.89999
+Result time: 2.55
+Total CPU time: 234.0689199999999
+80/100000, 234.0689199999999/300.0
+        -> worse: (["pruned", 2] [based on 3 runs with cutoff 30.0])
+Total CPU Time 234.0689199999999,  timeout 300.0
+Total CPU Time 234.0689199999999,  timeout 300.0
+    Changing ["repeats: 7->9"], evaluating ...
+Minimum runtime: 0.1
+Cutoff time: 6.50799
+Result time: 2.426
+Total CPU time: 236.4949199999999
+Minimum runtime: 0.1
+Cutoff time: 4.08199
+Result time: 2.272
+Total CPU time: 238.76691999999989
+Minimum runtime: 0.1
+Cutoff time: 1.8099900000000002
+Result time: 2.721
+Total CPU time: 240.57690999999988
+        -> worse: (["pruned", 2] [based on 3 runs with cutoff 30.0])
+Total CPU Time 240.57690999999988,  timeout 300.0
+Total CPU Time 240.57690999999988,  timeout 300.0
+    Changing ["noise: 0.0->0.6"], evaluating ...
+Minimum runtime: 0.1
+Cutoff time: 6.50799
+Result time: 30.0
+Total CPU time: 247.0848999999999
+84/100000, 247.0848999999999/300.0
+        -> worse: (["pruned", 1] [based on 3 runs with cutoff 30.0])
+Total CPU Time 247.0848999999999,  timeout 300.0
+Total CPU Time 247.0848999999999,  timeout 300.0
+    Changing ["repeats: 7->6"], evaluating ...
+Minimum runtime: 0.1
+Cutoff time: 6.50799
+Result time: 2.774
+Total CPU time: 249.8588999999999
+Minimum runtime: 0.1
+Cutoff time: 3.7339900000000004
+Result time: 2.659
+Total CPU time: 252.51789999999988
+Minimum runtime: 0.1
+Cutoff time: 1.0749900000000001
+Result time: 2.804
+Total CPU time: 253.5928899999999
+        -> worse: (["pruned", 2] [based on 3 runs with cutoff 30.0])
+Total CPU Time 253.5928899999999,  timeout 300.0
+Total CPU Time 253.5928899999999,  timeout 300.0
+    Changing ["noise: 0.0->0.2"], evaluating ...
+Minimum runtime: 0.1
+Cutoff time: 6.50799
+Result time: 11.917
+Total CPU time: 260.1008799999999
+88/100000, 260.1008799999999/300.0
+        -> worse: (["pruned", 1] [based on 3 runs with cutoff 30.0])
+Total CPU Time 260.1008799999999,  timeout 300.0
+Total CPU Time 260.1008799999999,  timeout 300.0
+    Changing ["restarts: 2->18"], evaluating ...
+Minimum runtime: 0.1
+Cutoff time: 6.50799
+Result time: 2.43
+Total CPU time: 262.5308799999999
+Minimum runtime: 0.1
+Cutoff time: 4.077990000000001
+Result time: 2.695
+Total CPU time: 265.2258799999999
+Minimum runtime: 0.1
+Cutoff time: 1.3829900000000002
+Result time: 2.818
+Total CPU time: 266.6088699999999
+        -> worse: (["pruned", 2] [based on 3 runs with cutoff 30.0])
+Total CPU Time 266.6088699999999,  timeout 300.0
+Total CPU Time 266.6088699999999,  timeout 300.0
+    Changing ["noise: 0.0->0.1"], evaluating ...
+Minimum runtime: 0.1
+Cutoff time: 6.50799
+Result time: 5.343
+Total CPU time: 271.95186999999993
+92/100000, 271.95186999999993/300.0
+Minimum runtime: 0.1
+Cutoff time: 1.1649900000000002
+Result time: 2.357
+Total CPU time: 273.1168599999999
+        -> worse: (["pruned", 2] [based on 3 runs with cutoff 30.0])
+Total CPU Time 273.1168599999999,  timeout 300.0
+Total CPU Time 273.1168599999999,  timeout 300.0
+    Changing ["repeats: 7->15"], evaluating ...
+Minimum runtime: 0.1
+Cutoff time: 6.50799
+Result time: 2.753
+Total CPU time: 275.8698599999999
+Minimum runtime: 0.1
+Cutoff time: 3.7549900000000003
+Result time: 2.618
+Total CPU time: 278.4878599999999
+Minimum runtime: 0.1
+Cutoff time: 1.1369900000000002
+Result time: 2.947
+Total CPU time: 279.6248499999999
+        -> worse: (["pruned", 2] [based on 3 runs with cutoff 30.0])
+Total CPU Time 279.6248499999999,  timeout 300.0
+Total CPU Time 279.6248499999999,  timeout 300.0
+    Changing ["restarts: 2->13"], evaluating ...
+Minimum runtime: 0.1
+Cutoff time: 6.50799
+Result time: 2.532
+Total CPU time: 282.1568499999999
+97/100000, 282.1568499999999/300.0
+Minimum runtime: 0.1
+Cutoff time: 3.9759900000000004
+Result time: 2.6
+Total CPU time: 284.75684999999993
+Minimum runtime: 0.1
+Cutoff time: 1.37599
+Result time: 2.941
+Total CPU time: 286.13283999999993
+        -> worse: (["pruned", 2] [based on 3 runs with cutoff 30.0])
+Total CPU Time 286.13283999999993,  timeout 300.0
+Total CPU Time 286.13283999999993,  timeout 300.0
+    Changing ["repeats: 7->11"], evaluating ...
+Minimum runtime: 0.1
+Cutoff time: 6.50799
+Result time: 2.669
+Total CPU time: 288.8018399999999
+Minimum runtime: 0.1
+Cutoff time: 3.8389900000000003
+Result time: 2.487
+Total CPU time: 291.28883999999994
+Minimum runtime: 0.1
+Cutoff time: 1.35199
+Result time: 3.043
+Total CPU time: 292.64082999999994
+102/100000, 292.64082999999994/300.0
+        -> worse: (["pruned", 2] [based on 3 runs with cutoff 30.0])
+Total CPU Time 292.64082999999994,  timeout 300.0
+Total CPU Time 292.64082999999994,  timeout 300.0
+    Changing ["restarts: 2->1"], evaluating ...
+Minimum runtime: 0.1
+Cutoff time: 6.50799
+Result time: 2.403
+Total CPU time: 295.04382999999996
+Minimum runtime: 0.1
+Cutoff time: 4.10499
+Result time: 2.553
+Total CPU time: 297.59682999999995
+Minimum runtime: 0.1
+Cutoff time: 1.5519900000000002
+Result time: 2.716
+Total CPU time: 299.14881999999994
+        -> worse: (["pruned", 2] [based on 3 runs with cutoff 30.0])
+Total CPU Time 299.14881999999994,  timeout 300.0
+Total CPU Time 299.14881999999994,  timeout 300.0
+    Changing ["restarts: 2->5"], evaluating ...
+Minimum runtime: 0.1
+Cutoff time: 6.50799
+Result time: 2.691
+Total CPU time: 301.8398199999999
+Minimum runtime: 0.1
+Cutoff time: 3.81699
+Result time: 2.641
+Total CPU time: 304.48081999999994
+107/100000, 304.48081999999994/300.0
+Minimum runtime: 0.1
+Cutoff time: 1.17599
+Result time: 3.07
+Total CPU time: 305.65680999999995
+        -> worse: (["pruned", 2] [based on 3 runs with cutoff 30.0])
+Total CPU Time 305.65680999999995,  timeout 300.0
+Total CPU Time 305.65680999999995,  timeout 300.0
+ParamILS has reached the specified CPU time limit of 300.0 seconds => stopping the search now.
+   LM for iteration 1: lowmemory=True noise=0.0 repeats=7 restarts=2 search_steps=500 static_noise=True (2.166 [based on 3 runs with cutoff 30.0])
+
+========== DETAILED RESULTS (iteration 1): ==========
+================================================
+
+==================================================================
+Best parameter configuration found so far (end of iteration 1): lowmemory=True, noise=0.0, repeats=7, restarts=2, search_steps=500, static_noise=True
+==================================================================
+Training quality of this incumbent parameter configuration: 2.166, based on 3 runs with cutoff 30.0
+==================================================================
+
+Comparing LM against incumbent:
+lowmemory=True noise=0.0 repeats=7 restarts=2 search_steps=500 static_noise=True (2.166 [based on 3 runs with cutoff 30.0])
+lowmemory=True noise=0.0 repeats=7 restarts=2 search_steps=500 static_noise=True (2.166 [based on 3 runs with cutoff 30.0])
+LM better, change incumbent
+New Incumbent: 305.65680999999995, 2.166 [3, 30.0]. With state lowmemory=True, noise=0.0, repeats=7, restarts=2, search_steps=500, static_noise=True
+Total CPU Time 305.65680999999995,  timeout 300.0
+Total CPU Time 305.65680999999995,  timeout 300.0
+ParamILS has reached the specified CPU time limit of 300.0 seconds => stopping the search now.
+Final solution for depth 1 with limit N=3, and cutoff time=30.0.
+New Incumbent: 305.65680999999995, 2.166 [3, 30.0]. With state lowmemory=True, noise=0.0, repeats=7, restarts=2, search_steps=500, static_noise=True
+
+==================================================================
+ParamILS is finished.
+==================================================================
+
+Final best parameter configuration found: lowmemory=True, noise=0.0, repeats=7, restarts=2, search_steps=500, static_noise=True
+==================================================================
+Active parameters: lowmemory=True, noise=0.0, repeats=7, restarts=2, search_steps=500, static_noise=True
+
+==================================================================
+Training quality of this final best found parameter configuration: 2.166, based on 3 runs with cutoff 30.0
+==================================================================
+
+
+==================================================================
+Computing validation result on independent data -- 2 runs with cutoff time 30.0...
+==================================================================
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 2.68
+Total CPU time: 308.33680999999996
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 1.853
+Total CPU time: 310.18980999999997
+blocksworld/problems/pfile01-005.pddl: 2.68
+blocksworld/problems/pfile01-004.pddl: 1.853
+Combined result: 2.2665
+
+================================================================
+Final best parameter configuration: lowmemory=True, noise=0.0, repeats=7, restarts=2, search_steps=500, static_noise=True
+==================================================================
+Active parameters: lowmemory=True, noise=0.0, repeats=7, restarts=2, search_steps=500, static_noise=True
+
+================================================================
+Training quality of this final best found parameter configuration: 2.166, based on 3 runs with cutoff 30.0
+Test quality of this final best found parameter configuration: 2.2665, based on 2 independent runs with cutoff 30.0
+==================================================================

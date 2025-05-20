@@ -1,0 +1,371 @@
+Call: /usr/bin/ruby ../scripts/param_ils_2_3_run.rb "-scenariofile" "example_zlib/scenario-zlib-cycles.txt" "-numRun" "1" "-maxEvals" "100000" "-maxIts" "10000" "-approach" "basic" "-validN" "30"
+
+
+WARNING: N=2000 is greater than the number of entries
+in the @instances array. This can happen if the algorithm is
+deterministic and the number of training instances is smaller than N,
+or if the instance_seed_file is provided by the user and has less
+entries than N. Clamping N and maxDetail to 3
+WARNING: validN=30 is greater than the number
+of entries in the @test_instances array. This can happen if the
+algorithm is deterministic and the number of test instances is smaller
+than validN, or if the test_instance_seed_file is provided by the user
+and has less entries than validN. Clamping validN to
+2
+seed: 2468
+algo: ruby example_zlib/zlib_wrapper_cycles.rb
+tunerTimeout (CPU time): 300.0
+maxWallTime: 8640000.0
+maxEvals: 100000
+run_obj: perf
+overall_obj: mean
+instance_file: /home/jim/magpie/examples/zlib/necessary/instances.txt
+test_instance_file: /home/jim/magpie/examples/zlib/necessary/test-instances.txt
+N: 3
+cutoff_time: 30.0
+cutoff_length: 2147483647
+R: 10
+pertubation_strength_basic: 
+pertubation_strength_scaling: false
+p_restart: 0.01
+Run 2
+Level 
+========================================================
+Starting ILS for level 1, i.e. a limit of N=3, and cutoff time=30.0.
+Current CPU time = 0, this run goes until 300.0 
+========================================================
+New Incumbent: 0, 100000000 [0, 0]. With state level=6, memLevel=5, strategy=3, wbits=28
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 2.284
+Total CPU time: 2.284
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 4.039
+Total CPU time: 6.3229999999999995
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 4.046
+Total CPU time: 10.369
+3/100000, 10.369/300.0
+ Same incumbent, new precision:
+New Incumbent: 10.369, 1.0e+19 [3, 30.0]. With state level=6, memLevel=5, strategy=3, wbits=28
+Total CPU Time 10.369,  timeout 300.0
+Total CPU Time 10.369,  timeout 300.0
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 3.632
+Total CPU time: 14.001
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 5.653
+Total CPU time: 19.654
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 5.641
+Total CPU time: 25.295
+6/100000, 25.295/300.0
+          -> Take improving step to random level=3 memLevel=5 strategy=4 wbits=28 (1.0e+19 [based on 3 runs with cutoff 30.0])
+
+Total CPU Time 25.295,  timeout 300.0
+Total CPU Time 25.295,  timeout 300.0
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 3.692
+Total CPU time: 28.987000000000002
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 6.103
+Total CPU time: 35.09
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 6.107
+Total CPU time: 41.197
+9/100000, 41.197/300.0
+          -> Take improving step to random level=7 memLevel=5 strategy=4 wbits=27 (1.0e+19 [based on 3 runs with cutoff 30.0])
+
+Total CPU Time 41.197,  timeout 300.0
+Total CPU Time 41.197,  timeout 300.0
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 8.876
+Total CPU time: 50.073
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 12.591
+Total CPU time: 62.664
+11/100000, 62.664/300.0
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 12.604
+Total CPU time: 75.268
+12/100000, 75.268/300.0
+          -> Take improving step to random level=9 memLevel=9 strategy=4 wbits=25 (1.0e+19 [based on 3 runs with cutoff 30.0])
+
+Total CPU Time 75.268,  timeout 300.0
+Total CPU Time 75.268,  timeout 300.0
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 3.621
+Total CPU time: 78.889
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 8.864
+Total CPU time: 87.753
+14/100000, 87.753/300.0
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 8.942
+Total CPU time: 96.695
+          -> Take improving step to random level=3 memLevel=3 strategy=3 wbits=30 (1.0e+19 [based on 3 runs with cutoff 30.0])
+
+Total CPU Time 96.695,  timeout 300.0
+Total CPU Time 96.695,  timeout 300.0
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 4.165
+Total CPU time: 100.86
+16/100000, 100.86/300.0
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 4.505
+Total CPU time: 105.365
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 4.505
+Total CPU time: 109.86999999999999
+          -> Take improving step to random level=3 memLevel=7 strategy=4 wbits=31 (1.0e+19 [based on 3 runs with cutoff 30.0])
+
+Total CPU Time 109.86999999999999,  timeout 300.0
+Total CPU Time 109.86999999999999,  timeout 300.0
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 3.531
+Total CPU time: 113.401
+19/100000, 113.401/300.0
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 6.675
+Total CPU time: 120.076
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 6.691
+Total CPU time: 126.767
+21/100000, 126.767/300.0
+          -> Take improving step to random level=5 memLevel=5 strategy=0 wbits=26 (1.0e+19 [based on 3 runs with cutoff 30.0])
+
+Total CPU Time 126.767,  timeout 300.0
+Total CPU Time 126.767,  timeout 300.0
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 2.255
+Total CPU time: 129.022
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 4.011
+Total CPU time: 133.033
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 4.046
+Total CPU time: 137.07899999999998
+24/100000, 137.07899999999998/300.0
+          -> Take improving step to random level=7 memLevel=5 strategy=2 wbits=28 (1.0e+19 [based on 3 runs with cutoff 30.0])
+
+Total CPU Time 137.07899999999998,  timeout 300.0
+Total CPU Time 137.07899999999998,  timeout 300.0
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 3.596
+Total CPU time: 140.67499999999998
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 4.626
+Total CPU time: 145.301
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 4.628
+Total CPU time: 149.92899999999997
+27/100000, 149.92899999999997/300.0
+          -> Take improving step to random level=4 memLevel=9 strategy=1 wbits=29 (1.0e+19 [based on 3 runs with cutoff 30.0])
+
+Total CPU Time 149.92899999999997,  timeout 300.0
+Total CPU Time 149.92899999999997,  timeout 300.0
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 2.416
+Total CPU time: 152.34499999999997
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 5.336
+Total CPU time: 157.68099999999998
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 5.4
+Total CPU time: 163.081
+30/100000, 163.081/300.0
+          -> Take improving step to random level=2 memLevel=5 strategy=2 wbits=26 (1.0e+19 [based on 3 runs with cutoff 30.0])
+
+Total CPU Time 163.081,  timeout 300.0
+Total CPU Time 163.081,  timeout 300.0
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 2.29
+Total CPU time: 165.37099999999998
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 3.611
+Total CPU time: 168.98199999999997
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 3.618
+Total CPU time: 172.59999999999997
+          -> Take improving step to random level=8 memLevel=7 strategy=2 wbits=27 (1.0e+19 [based on 3 runs with cutoff 30.0])
+
+   BLS in iteration 1, start with level=8 memLevel=7 strategy=2 wbits=27 (1.0e+19 [based on 3 runs with cutoff 30.0])
+Total CPU Time 172.59999999999997,  timeout 300.0
+Total CPU Time 172.59999999999997,  timeout 300.0
+Total CPU Time 172.59999999999997,  timeout 300.0
+Total CPU Time 172.59999999999997,  timeout 300.0
+    Changing ["memLevel: 7->1"], evaluating ...
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 8.365
+Total CPU time: 180.96499999999997
+34/100000, 180.96499999999997/300.0
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 12.253
+Total CPU time: 193.21799999999996
+35/100000, 193.21799999999996/300.0
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 12.228
+Total CPU time: 205.44599999999997
+36/100000, 205.44599999999997/300.0
+          -> Take improving step to neighbour level=8 memLevel=1 strategy=2 wbits=27 (1.0e+19 [based on 3 runs with cutoff 30.0]) with flip 1
+
+Total CPU Time 205.44599999999997,  timeout 300.0
+Total CPU Time 205.44599999999997,  timeout 300.0
+Total CPU Time 205.44599999999997,  timeout 300.0
+Total CPU Time 205.44599999999997,  timeout 300.0
+    Changing ["level: 8->4"], evaluating ...
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 8.242
+Total CPU time: 213.68799999999996
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 12.237
+Total CPU time: 225.92499999999995
+38/100000, 225.92499999999995/300.0
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 12.403
+Total CPU time: 238.32799999999995
+39/100000, 238.32799999999995/300.0
+          -> Take improving step to neighbour level=4 memLevel=1 strategy=2 wbits=27 (1.0e+19 [based on 3 runs with cutoff 30.0]) with flip 2
+
+Total CPU Time 238.32799999999995,  timeout 300.0
+Total CPU Time 238.32799999999995,  timeout 300.0
+Total CPU Time 238.32799999999995,  timeout 300.0
+Total CPU Time 238.32799999999995,  timeout 300.0
+    Changing ["level: 4->9"], evaluating ...
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 8.309
+Total CPU time: 246.63699999999994
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 12.225
+Total CPU time: 258.86199999999997
+41/100000, 258.86199999999997/300.0
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 12.38
+Total CPU time: 271.24199999999996
+42/100000, 271.24199999999996/300.0
+          -> Take improving step to neighbour level=9 memLevel=1 strategy=2 wbits=27 (1.0e+19 [based on 3 runs with cutoff 30.0]) with flip 3
+
+Total CPU Time 271.24199999999996,  timeout 300.0
+Total CPU Time 271.24199999999996,  timeout 300.0
+Total CPU Time 271.24199999999996,  timeout 300.0
+Total CPU Time 271.24199999999996,  timeout 300.0
+    Changing ["wbits: 27->31"], evaluating ...
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 8.185
+Total CPU time: 279.42699999999996
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 12.22
+Total CPU time: 291.647
+44/100000, 291.647/300.0
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 12.208
+Total CPU time: 303.855
+45/100000, 303.855/300.0
+          -> Take improving step to neighbour level=9 memLevel=1 strategy=2 wbits=31 (1.0e+19 [based on 3 runs with cutoff 30.0]) with flip 4
+
+Total CPU Time 303.855,  timeout 300.0
+Total CPU Time 303.855,  timeout 300.0
+ParamILS has reached the specified CPU time limit of 300.0 seconds => stopping the search now.
+   LM for iteration 1: level=9 memLevel=1 strategy=2 wbits=31 (1.0e+19 [based on 3 runs with cutoff 30.0])
+
+========== DETAILED RESULTS (iteration 1): ==========
+================================================
+
+==================================================================
+Best parameter configuration found so far (end of iteration 1): level=6, memLevel=5, strategy=3, wbits=28
+==================================================================
+Training quality of this incumbent parameter configuration: 1.0e+19, based on 3 runs with cutoff 30.0
+==================================================================
+
+Comparing LM against incumbent:
+level=9 memLevel=1 strategy=2 wbits=31 (1.0e+19 [based on 3 runs with cutoff 30.0])
+level=6 memLevel=5 strategy=3 wbits=28 (1.0e+19 [based on 3 runs with cutoff 30.0])
+LM better, change incumbent
+New Incumbent: 303.855, 1.0e+19 [3, 30.0]. With state level=9, memLevel=1, strategy=2, wbits=31
+Total CPU Time 303.855,  timeout 300.0
+Total CPU Time 303.855,  timeout 300.0
+ParamILS has reached the specified CPU time limit of 300.0 seconds => stopping the search now.
+Final solution for depth 1 with limit N=3, and cutoff time=30.0.
+New Incumbent: 303.855, 1.0e+19 [3, 30.0]. With state level=9, memLevel=1, strategy=2, wbits=31
+
+==================================================================
+ParamILS is finished.
+==================================================================
+
+Final best parameter configuration found: level=9, memLevel=1, strategy=2, wbits=31
+==================================================================
+Active parameters: level=9, memLevel=1, strategy=2, wbits=31
+
+==================================================================
+Training quality of this final best found parameter configuration: 1.0e+19, based on 3 runs with cutoff 30.0
+==================================================================
+
+
+==================================================================
+Computing validation result on independent data -- 2 runs with cutoff time 30.0...
+==================================================================
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.876
+Total CPU time: 304.731
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.077
+Total CPU time: 304.831
+data/random2.txt: 10000000000000000000
+data/random1.png: 10000000000000000000
+Combined result: 1.0e+19
+
+================================================================
+Final best parameter configuration: level=9, memLevel=1, strategy=2, wbits=31
+==================================================================
+Active parameters: level=9, memLevel=1, strategy=2, wbits=31
+
+================================================================
+Training quality of this final best found parameter configuration: 1.0e+19, based on 3 runs with cutoff 30.0
+Test quality of this final best found parameter configuration: 1.0e+19, based on 2 independent runs with cutoff 30.0
+==================================================================

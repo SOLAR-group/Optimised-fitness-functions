@@ -1,0 +1,1 @@
+Child: ["ParamSetting(('minisat_simplified.params', 'param', 'rinc'), 2880.2035951064063)", "ParamSetting(('minisat_simplified.params', 'param', 'cl-lim'), 11433)", "ParamSetting(('minisat_simplified.params', 'param', 'cla-decay'), 0.16797289610419508)", "ParamSetting(('minisat_simplified.params', 'param', 'pre'), 'True')"]

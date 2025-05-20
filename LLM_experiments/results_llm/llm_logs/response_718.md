@@ -1,0 +1,1 @@
+Child: ["SrcmlStmtDeletion(('org.sat4j.core/src/main/java/org/sat4j/minisat/core/Solver.java.xml', 'stmt', 765))", "SrcmlStmtDeletion(('org.sat4j.core/src/main/java/org/sat4j/minisat/core/Solver.java.xml', 'stmt', 196))", "SrcmlStmtDeletion(('org.sat4j.core/src/main/java/org/sat4j/minisat/core/Solver.java.xml', 'stmt', 672))"]

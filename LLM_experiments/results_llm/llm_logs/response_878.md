@@ -1,0 +1,1 @@
+Child: ["ParamSetting(('weka.params', 'param', 'P'), 3)", "ParamSetting(('weka.params', 'param', 'K'), 2)", "ParamSetting(('weka.params', 'param', 'I'), 14)", "ParamSetting(('weka.params', 'param', 'M'), 2)", "ParamSetting(('weka.params', 'param', 'I'), 4)", "ParamSetting(('weka.params', 'param', 'M'), 1)"]

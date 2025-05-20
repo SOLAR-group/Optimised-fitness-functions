@@ -1,0 +1,2188 @@
+Call: /usr/bin/ruby ../scripts/param_ils_2_3_run.rb "-scenariofile" "example_weka/scenario-weka-perf-time.txt" "-numRun" "1" "-maxEvals" "100000" "-maxIts" "10000" "-approach" "basic" "-validN" "30"
+
+
+WARNING: N=2000 is greater than the number of entries
+in the @instances array. This can happen if the algorithm is
+deterministic and the number of training instances is smaller than N,
+or if the instance_seed_file is provided by the user and has less
+entries than N. Clamping N and maxDetail to 10
+WARNING: validN=30 is greater than the number
+of entries in the @test_instances array. This can happen if the
+algorithm is deterministic and the number of test instances is smaller
+than validN, or if the test_instance_seed_file is provided by the user
+and has less entries than validN. Clamping validN to
+2
+seed: 2468
+algo: ruby example_weka/weka_wrapper_perf_time.rb
+tunerTimeout (CPU time): 300.0
+maxWallTime: 8640000.0
+maxEvals: 100000
+run_obj: perf
+overall_obj: mean
+instance_file: /home/jim/magpie/examples/weka/necessary/instances.txt
+test_instance_file: /home/jim/magpie/examples/weka/necessary/test-instances.txt
+N: 10
+cutoff_time: 30.0
+cutoff_length: 2147483647
+R: 10
+pertubation_strength_basic: 
+pertubation_strength_scaling: false
+p_restart: 0.01
+Run 2
+Level 
+========================================================
+Starting ILS for level 1, i.e. a limit of N=10, and cutoff time=30.0.
+Current CPU time = 0, this run goes until 300.0 
+========================================================
+New Incumbent: 0, 100000000 [0, 0]. With state B=False, K=0, M=1, N=0, U=False, V=0.001, num-decimal-places=2
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.411
+Total CPU time: 0.411
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.565
+Total CPU time: 0.976
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.431
+Total CPU time: 1.407
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.39
+Total CPU time: 1.7970000000000002
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.578
+Total CPU time: 2.375
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 1.507
+Total CPU time: 3.8819999999999997
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.421
+Total CPU time: 4.303
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.36
+Total CPU time: 4.663
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.479
+Total CPU time: 5.142
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 2.507
+Total CPU time: 7.649000000000001
+ Same incumbent, new precision:
+New Incumbent: 7.649000000000001, 1.000000000000708e+18 [10, 30.0]. With state B=False, K=0, M=1, N=0, U=False, V=0.001, num-decimal-places=2
+Total CPU Time 7.649000000000001,  timeout 300.0
+Total CPU Time 7.649000000000001,  timeout 300.0
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.418
+Total CPU time: 8.067
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.534
+Total CPU time: 8.601
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.423
+Total CPU time: 9.024000000000001
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.403
+Total CPU time: 9.427000000000001
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.638
+Total CPU time: 10.065000000000001
+15/100000, 10.065000000000001/300.0
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 1.431
+Total CPU time: 11.496000000000002
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.418
+Total CPU time: 11.914000000000001
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.321
+Total CPU time: 12.235000000000001
+        -> Worse random: B=False K=10 M=5 N=70 U=False V=0.05 num-decimal-places=5 (["pruned", 8] [based on 10 runs with cutoff 30.0])
+Total CPU Time 12.235000000000001,  timeout 300.0
+Total CPU Time 12.235000000000001,  timeout 300.0
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.405
+Total CPU time: 12.64
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.585
+Total CPU time: 13.225000000000001
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.425
+Total CPU time: 13.650000000000002
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.384
+Total CPU time: 14.034000000000002
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.691
+Total CPU time: 14.725000000000003
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 1.266
+Total CPU time: 15.991000000000003
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.421
+Total CPU time: 16.412000000000003
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.317
+Total CPU time: 16.729000000000003
+        -> Worse random: B=True K=80 M=10 N=80 U=True V=0.02 num-decimal-places=1 (["pruned", 8] [based on 10 runs with cutoff 30.0])
+Total CPU Time 16.729000000000003,  timeout 300.0
+Total CPU Time 16.729000000000003,  timeout 300.0
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.406
+Total CPU time: 17.135
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.553
+Total CPU time: 17.688000000000002
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.422
+Total CPU time: 18.110000000000003
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.387
+Total CPU time: 18.497000000000003
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.649
+Total CPU time: 19.146000000000004
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 1.393
+Total CPU time: 20.539000000000005
+32/100000, 20.539000000000005/300.0
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.429
+Total CPU time: 20.968000000000004
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.332
+Total CPU time: 21.300000000000004
+        -> Worse random: B=True K=10 M=3 N=30 U=False V=0.005 num-decimal-places=4 (["pruned", 8] [based on 10 runs with cutoff 30.0])
+Total CPU Time 21.300000000000004,  timeout 300.0
+Total CPU Time 21.300000000000004,  timeout 300.0
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.401
+Total CPU time: 21.701000000000004
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.613
+Total CPU time: 22.314000000000004
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.433
+Total CPU time: 22.747000000000003
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.393
+Total CPU time: 23.140000000000004
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.727
+Total CPU time: 23.867000000000004
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 1.351
+Total CPU time: 25.218000000000004
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.439
+Total CPU time: 25.657000000000004
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.319
+Total CPU time: 25.976000000000003
+        -> Worse random: B=False K=40 M=5 N=60 U=True V=0.02 num-decimal-places=5 (["pruned", 8] [based on 10 runs with cutoff 30.0])
+Total CPU Time 25.976000000000003,  timeout 300.0
+Total CPU Time 25.976000000000003,  timeout 300.0
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.385
+Total CPU time: 26.361000000000004
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.51
+Total CPU time: 26.871000000000006
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.437
+Total CPU time: 27.308000000000007
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.422
+Total CPU time: 27.730000000000008
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.616
+Total CPU time: 28.346000000000007
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 1.37
+Total CPU time: 29.716000000000008
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.415
+Total CPU time: 30.131000000000007
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.319
+Total CPU time: 30.450000000000006
+        -> Worse random: B=True K=5 M=7 N=40 U=False V=0.01 num-decimal-places=4 (["pruned", 8] [based on 10 runs with cutoff 30.0])
+Total CPU Time 30.450000000000006,  timeout 300.0
+Total CPU Time 30.450000000000006,  timeout 300.0
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.412
+Total CPU time: 30.862000000000005
+51/100000, 30.862000000000005/300.0
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.577
+Total CPU time: 31.439000000000007
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.433
+Total CPU time: 31.872000000000007
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.391
+Total CPU time: 32.263000000000005
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.758
+Total CPU time: 33.02100000000001
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 1.287
+Total CPU time: 34.30800000000001
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.424
+Total CPU time: 34.732000000000006
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.366
+Total CPU time: 35.098000000000006
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.532
+Total CPU time: 35.63000000000001
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 2.196
+Total CPU time: 37.82600000000001
+New inc: 1.0000000000006776e+18
+New Incumbent: 37.82600000000001, 1.0000000000006776e+18 [10, 30.0]. With state B=True, K=70, M=5, N=10, U=True, V=0.02, num-decimal-places=3
+          -> Take improving step to random B=True K=70 M=5 N=10 U=True V=0.02 num-decimal-places=3 (1.0000000000006776e+18 [based on 10 runs with cutoff 30.0])
+
+Total CPU Time 37.82600000000001,  timeout 300.0
+Total CPU Time 37.82600000000001,  timeout 300.0
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.407
+Total CPU time: 38.233000000000004
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.604
+Total CPU time: 38.837
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.428
+Total CPU time: 39.265
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.399
+Total CPU time: 39.664
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.711
+Total CPU time: 40.375
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 1.312
+Total CPU time: 41.687
+66/100000, 41.687/300.0
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.424
+Total CPU time: 42.111
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.317
+Total CPU time: 42.428
+        -> Worse random: B=False K=50 M=7 N=60 U=True V=0.005 num-decimal-places=1 (["pruned", 8] [based on 10 runs with cutoff 30.0])
+Total CPU Time 42.428,  timeout 300.0
+Total CPU Time 42.428,  timeout 300.0
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.397
+Total CPU time: 42.824999999999996
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.62
+Total CPU time: 43.44499999999999
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.423
+Total CPU time: 43.867999999999995
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.388
+Total CPU time: 44.25599999999999
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.721
+Total CPU time: 44.97699999999999
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 1.232
+Total CPU time: 46.20899999999999
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.43
+Total CPU time: 46.63899999999999
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.322
+Total CPU time: 46.96099999999999
+        -> Worse random: B=False K=50 M=10 N=70 U=True V=0.02 num-decimal-places=2 (["pruned", 8] [based on 10 runs with cutoff 30.0])
+Total CPU Time 46.96099999999999,  timeout 300.0
+Total CPU Time 46.96099999999999,  timeout 300.0
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.4
+Total CPU time: 47.36099999999999
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.56
+Total CPU time: 47.92099999999999
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.42
+Total CPU time: 48.340999999999994
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.4
+Total CPU time: 48.74099999999999
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.656
+Total CPU time: 49.39699999999999
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 1.313
+Total CPU time: 50.709999999999994
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.427
+Total CPU time: 51.13699999999999
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.328
+Total CPU time: 51.464999999999996
+        -> Worse random: B=False K=10 M=6 N=40 U=False V=0.005 num-decimal-places=5 (["pruned", 8] [based on 10 runs with cutoff 30.0])
+Total CPU Time 51.464999999999996,  timeout 300.0
+Total CPU Time 51.464999999999996,  timeout 300.0
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.4
+Total CPU time: 51.864999999999995
+85/100000, 51.864999999999995/300.0
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.59
+Total CPU time: 52.455
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.443
+Total CPU time: 52.897999999999996
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.397
+Total CPU time: 53.294999999999995
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.722
+Total CPU time: 54.016999999999996
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 1.375
+Total CPU time: 55.391999999999996
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.433
+Total CPU time: 55.824999999999996
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.319
+Total CPU time: 56.144
+        -> Worse random: B=True K=20 M=2 N=40 U=False V=0.001 num-decimal-places=1 (["pruned", 8] [based on 10 runs with cutoff 30.0])
+   BLS in iteration 1, start with B=True K=70 M=5 N=10 U=True V=0.02 num-decimal-places=3 (1.0000000000006776e+18 [based on 10 runs with cutoff 30.0])
+Total CPU Time 56.144,  timeout 300.0
+Total CPU Time 56.144,  timeout 300.0
+Total CPU Time 56.144,  timeout 300.0
+Total CPU Time 56.144,  timeout 300.0
+    Changing ["K: 70->10"], evaluating ...
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.395
+Total CPU time: 56.539
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.529
+Total CPU time: 57.068000000000005
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.425
+Total CPU time: 57.493
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.385
+Total CPU time: 57.878
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.654
+Total CPU time: 58.532000000000004
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 1.343
+Total CPU time: 59.875
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.433
+Total CPU time: 60.308
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.359
+Total CPU time: 60.667
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.5
+Total CPU time: 61.167
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 2.08
+Total CPU time: 63.247
+102/100000, 63.247/300.0
+New inc: 1.0000000000006529e+18
+New Incumbent: 63.247, 1.0000000000006529e+18 [10, 30.0]. With state B=True, K=10, M=5, N=10, U=True, V=0.02, num-decimal-places=3
+          -> Take improving step to neighbour B=True K=10 M=5 N=10 U=True V=0.02 num-decimal-places=3 (1.0000000000006529e+18 [based on 10 runs with cutoff 30.0]) with flip 1
+
+Total CPU Time 63.247,  timeout 300.0
+Total CPU Time 63.247,  timeout 300.0
+Total CPU Time 63.247,  timeout 300.0
+Total CPU Time 63.247,  timeout 300.0
+    Changing ["M: 5->9"], evaluating ...
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.4
+Total CPU time: 63.647
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.548
+Total CPU time: 64.195
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.418
+Total CPU time: 64.613
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.404
+Total CPU time: 65.017
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.664
+Total CPU time: 65.681
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 1.262
+Total CPU time: 66.943
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.424
+Total CPU time: 67.367
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.383
+Total CPU time: 67.75
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.505
+Total CPU time: 68.255
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 1.965
+Total CPU time: 70.22
+New inc: 1.0000000000006387e+18
+New Incumbent: 70.22, 1.0000000000006387e+18 [10, 30.0]. With state B=True, K=10, M=9, N=10, U=True, V=0.02, num-decimal-places=3
+          -> Take improving step to neighbour B=True K=10 M=9 N=10 U=True V=0.02 num-decimal-places=3 (1.0000000000006387e+18 [based on 10 runs with cutoff 30.0]) with flip 2
+
+Total CPU Time 70.22,  timeout 300.0
+Total CPU Time 70.22,  timeout 300.0
+Total CPU Time 70.22,  timeout 300.0
+Total CPU Time 70.22,  timeout 300.0
+    Changing ["N: 10->40"], evaluating ...
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.404
+Total CPU time: 70.624
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.528
+Total CPU time: 71.152
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.417
+Total CPU time: 71.569
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.402
+Total CPU time: 71.971
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.631
+Total CPU time: 72.602
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 1.27
+Total CPU time: 73.872
+118/100000, 73.872/300.0
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.425
+Total CPU time: 74.297
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.318
+Total CPU time: 74.615
+        -> worse: (["pruned", 8] [based on 10 runs with cutoff 30.0])
+Total CPU Time 74.615,  timeout 300.0
+Total CPU Time 74.615,  timeout 300.0
+    Changing ["K: 10->80"], evaluating ...
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.393
+Total CPU time: 75.008
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.595
+Total CPU time: 75.603
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.429
+Total CPU time: 76.032
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.394
+Total CPU time: 76.426
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.726
+Total CPU time: 77.152
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 1.23
+Total CPU time: 78.382
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.421
+Total CPU time: 78.80300000000001
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.373
+Total CPU time: 79.17600000000002
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.5
+Total CPU time: 79.67600000000002
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 2.208
+Total CPU time: 81.88400000000001
+        -> worse: (1.000000000000671e+18 [based on 10 runs with cutoff 30.0])
+Total CPU Time 81.88400000000001,  timeout 300.0
+Total CPU Time 81.88400000000001,  timeout 300.0
+    Changing ["N: 10->100"], evaluating ...
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.404
+Total CPU time: 82.28800000000001
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.524
+Total CPU time: 82.81200000000001
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.437
+Total CPU time: 83.24900000000001
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.396
+Total CPU time: 83.64500000000001
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.653
+Total CPU time: 84.29800000000002
+135/100000, 84.29800000000002/300.0
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 1.313
+Total CPU time: 85.61100000000002
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.418
+Total CPU time: 86.02900000000002
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.337
+Total CPU time: 86.36600000000003
+        -> worse: (["pruned", 8] [based on 10 runs with cutoff 30.0])
+Total CPU Time 86.36600000000003,  timeout 300.0
+Total CPU Time 86.36600000000003,  timeout 300.0
+    Changing ["N: 10->70"], evaluating ...
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.408
+Total CPU time: 86.77400000000003
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.548
+Total CPU time: 87.32200000000003
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.425
+Total CPU time: 87.74700000000003
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.395
+Total CPU time: 88.14200000000002
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.629
+Total CPU time: 88.77100000000003
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 1.32
+Total CPU time: 90.09100000000002
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.414
+Total CPU time: 90.50500000000002
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.31
+Total CPU time: 90.81500000000003
+        -> worse: (["pruned", 8] [based on 10 runs with cutoff 30.0])
+Total CPU Time 90.81500000000003,  timeout 300.0
+Total CPU Time 90.81500000000003,  timeout 300.0
+    Changing ["N: 10->30"], evaluating ...
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.401
+Total CPU time: 91.21600000000002
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.534
+Total CPU time: 91.75000000000003
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.428
+Total CPU time: 92.17800000000003
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.4
+Total CPU time: 92.57800000000003
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.649
+Total CPU time: 93.22700000000003
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 1.318
+Total CPU time: 94.54500000000003
+152/100000, 94.54500000000003/300.0
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.423
+Total CPU time: 94.96800000000003
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.33
+Total CPU time: 95.29800000000003
+        -> worse: (["pruned", 8] [based on 10 runs with cutoff 30.0])
+Total CPU Time 95.29800000000003,  timeout 300.0
+Total CPU Time 95.29800000000003,  timeout 300.0
+    Changing ["num-decimal-places: 3->5"], evaluating ...
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.401
+Total CPU time: 95.69900000000003
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.553
+Total CPU time: 96.25200000000002
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.416
+Total CPU time: 96.66800000000002
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.398
+Total CPU time: 97.06600000000002
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.674
+Total CPU time: 97.74000000000002
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 1.285
+Total CPU time: 99.02500000000002
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.425
+Total CPU time: 99.45000000000002
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.37
+Total CPU time: 99.82000000000002
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.51
+Total CPU time: 100.33000000000003
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 2.002
+Total CPU time: 102.33200000000002
+        -> worse: (1.0000000000006455e+18 [based on 10 runs with cutoff 30.0])
+Total CPU Time 102.33200000000002,  timeout 300.0
+Total CPU Time 102.33200000000002,  timeout 300.0
+    Changing ["M: 9->6"], evaluating ...
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.398
+Total CPU time: 102.73000000000002
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.546
+Total CPU time: 103.27600000000002
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.443
+Total CPU time: 103.71900000000002
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.389
+Total CPU time: 104.10800000000002
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.642
+Total CPU time: 104.75000000000001
+169/100000, 104.75000000000001/300.0
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 1.341
+Total CPU time: 106.09100000000001
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.433
+Total CPU time: 106.52400000000002
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.356
+Total CPU time: 106.88000000000001
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.507
+Total CPU time: 107.38700000000001
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 2.069
+Total CPU time: 109.45600000000002
+        -> worse: (1.0000000000006537e+18 [based on 10 runs with cutoff 30.0])
+Total CPU Time 109.45600000000002,  timeout 300.0
+Total CPU Time 109.45600000000002,  timeout 300.0
+    Changing ["V: 0.02->0.03"], evaluating ...
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.402
+Total CPU time: 109.85800000000002
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.528
+Total CPU time: 110.38600000000002
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.435
+Total CPU time: 110.82100000000003
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.387
+Total CPU time: 111.20800000000003
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.619
+Total CPU time: 111.82700000000003
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 1.286
+Total CPU time: 113.11300000000003
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.432
+Total CPU time: 113.54500000000003
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.377
+Total CPU time: 113.92200000000003
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.52
+Total CPU time: 114.44200000000002
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 1.975
+Total CPU time: 116.41700000000002
+184/100000, 116.41700000000002/300.0
+        -> worse: (1.0000000000006394e+18 [based on 10 runs with cutoff 30.0])
+Total CPU Time 116.41700000000002,  timeout 300.0
+Total CPU Time 116.41700000000002,  timeout 300.0
+    Changing ["V: 0.02->0.005"], evaluating ...
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.401
+Total CPU time: 116.81800000000001
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.542
+Total CPU time: 117.36000000000001
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.428
+Total CPU time: 117.78800000000001
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.405
+Total CPU time: 118.19300000000001
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.632
+Total CPU time: 118.82500000000002
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 1.303
+Total CPU time: 120.12800000000001
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.427
+Total CPU time: 120.55500000000002
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.351
+Total CPU time: 120.90600000000002
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.502
+Total CPU time: 121.40800000000002
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 1.915
+Total CPU time: 123.32300000000002
+New inc: 1.0000000000006345e+18
+New Incumbent: 123.32300000000002, 1.0000000000006345e+18 [10, 30.0]. With state B=True, K=10, M=9, N=10, U=True, V=0.005, num-decimal-places=3
+          -> Take improving step to neighbour B=True K=10 M=9 N=10 U=True V=0.005 num-decimal-places=3 (1.0000000000006345e+18 [based on 10 runs with cutoff 30.0]) with flip 3
+
+Total CPU Time 123.32300000000002,  timeout 300.0
+Total CPU Time 123.32300000000002,  timeout 300.0
+Total CPU Time 123.32300000000002,  timeout 300.0
+Total CPU Time 123.32300000000002,  timeout 300.0
+    Changing ["K: 10->70"], evaluating ...
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.399
+Total CPU time: 123.72200000000002
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.558
+Total CPU time: 124.28000000000003
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.418
+Total CPU time: 124.69800000000004
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.397
+Total CPU time: 125.09500000000004
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.687
+Total CPU time: 125.78200000000004
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 1.285
+Total CPU time: 127.06700000000004
+200/100000, 127.06700000000004/300.0
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.439
+Total CPU time: 127.50600000000003
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.355
+Total CPU time: 127.86100000000003
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.512
+Total CPU time: 128.37300000000002
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 2.071
+Total CPU time: 130.44400000000002
+        -> worse: (1.0000000000006551e+18 [based on 10 runs with cutoff 30.0])
+Total CPU Time 130.44400000000002,  timeout 300.0
+Total CPU Time 130.44400000000002,  timeout 300.0
+    Changing ["V: 0.005->0.05"], evaluating ...
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.39
+Total CPU time: 130.834
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.554
+Total CPU time: 131.388
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.419
+Total CPU time: 131.80700000000002
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.389
+Total CPU time: 132.19600000000003
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.64
+Total CPU time: 132.836
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 1.263
+Total CPU time: 134.09900000000002
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.441
+Total CPU time: 134.54000000000002
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.349
+Total CPU time: 134.889
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.496
+Total CPU time: 135.38500000000002
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 1.914
+Total CPU time: 137.299
+214/100000, 137.299/300.0
+New inc: 1.0000000000006285e+18
+New Incumbent: 137.299, 1.0000000000006285e+18 [10, 30.0]. With state B=True, K=10, M=9, N=10, U=True, V=0.05, num-decimal-places=3
+          -> Take improving step to neighbour B=True K=10 M=9 N=10 U=True V=0.05 num-decimal-places=3 (1.0000000000006285e+18 [based on 10 runs with cutoff 30.0]) with flip 4
+
+Total CPU Time 137.299,  timeout 300.0
+Total CPU Time 137.299,  timeout 300.0
+Total CPU Time 137.299,  timeout 300.0
+Total CPU Time 137.299,  timeout 300.0
+    Changing ["M: 9->6"], evaluating ...
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.4
+Total CPU time: 137.699
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.555
+Total CPU time: 138.25400000000002
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.427
+Total CPU time: 138.681
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.389
+Total CPU time: 139.07000000000002
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.631
+Total CPU time: 139.70100000000002
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 1.285
+Total CPU time: 140.98600000000002
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.426
+Total CPU time: 141.412
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.347
+Total CPU time: 141.75900000000001
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.503
+Total CPU time: 142.262
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 1.994
+Total CPU time: 144.256
+        -> worse: (1.0000000000006387e+18 [based on 10 runs with cutoff 30.0])
+Total CPU Time 144.256,  timeout 300.0
+Total CPU Time 144.256,  timeout 300.0
+Total CPU Time 144.256,  timeout 300.0
+Total CPU Time 144.256,  timeout 300.0
+    Changing ["M: 9->5"], evaluating ...
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.384
+Total CPU time: 144.64
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.519
+Total CPU time: 145.159
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.433
+Total CPU time: 145.59199999999998
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.389
+Total CPU time: 145.981
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.643
+Total CPU time: 146.624
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 1.343
+Total CPU time: 147.96699999999998
+230/100000, 147.96699999999998/300.0
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.415
+Total CPU time: 148.38199999999998
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.362
+Total CPU time: 148.74399999999997
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.516
+Total CPU time: 149.25999999999996
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 2.086
+Total CPU time: 151.34599999999998
+        -> worse: (1.0000000000006536e+18 [based on 10 runs with cutoff 30.0])
+Total CPU Time 151.34599999999998,  timeout 300.0
+Total CPU Time 151.34599999999998,  timeout 300.0
+    Changing ["K: 10->40"], evaluating ...
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.406
+Total CPU time: 151.75199999999998
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.604
+Total CPU time: 152.356
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.435
+Total CPU time: 152.791
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.401
+Total CPU time: 153.192
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.723
+Total CPU time: 153.91500000000002
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 1.208
+Total CPU time: 155.12300000000002
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.44
+Total CPU time: 155.56300000000002
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.363
+Total CPU time: 155.92600000000002
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.497
+Total CPU time: 156.42300000000003
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 2.049
+Total CPU time: 158.47200000000004
+244/100000, 158.47200000000004/300.0
+        -> worse: (1.0000000000006547e+18 [based on 10 runs with cutoff 30.0])
+Total CPU Time 158.47200000000004,  timeout 300.0
+Total CPU Time 158.47200000000004,  timeout 300.0
+    Changing ["M: 9->3"], evaluating ...
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.393
+Total CPU time: 158.86500000000004
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.542
+Total CPU time: 159.40700000000004
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.43
+Total CPU time: 159.83700000000005
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.4
+Total CPU time: 160.23700000000005
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.63
+Total CPU time: 160.86700000000005
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 1.38
+Total CPU time: 162.24700000000004
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.444
+Total CPU time: 162.69100000000003
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.342
+Total CPU time: 163.03300000000004
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.5
+Total CPU time: 163.53300000000004
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 2.188
+Total CPU time: 165.72100000000003
+        -> worse: (1.0000000000006679e+18 [based on 10 runs with cutoff 30.0])
+Total CPU Time 165.72100000000003,  timeout 300.0
+Total CPU Time 165.72100000000003,  timeout 300.0
+    Changing ["K: 10->5"], evaluating ...
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.405
+Total CPU time: 166.12600000000003
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.508
+Total CPU time: 166.63400000000004
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.421
+Total CPU time: 167.05500000000004
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.397
+Total CPU time: 167.45200000000003
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.615
+Total CPU time: 168.06700000000004
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 1.313
+Total CPU time: 169.38000000000002
+260/100000, 169.38000000000002/300.0
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.418
+Total CPU time: 169.79800000000003
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.343
+Total CPU time: 170.14100000000002
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.48
+Total CPU time: 170.621
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 2.086
+Total CPU time: 172.70700000000002
+        -> worse: (1.0000000000006417e+18 [based on 10 runs with cutoff 30.0])
+Total CPU Time 172.70700000000002,  timeout 300.0
+Total CPU Time 172.70700000000002,  timeout 300.0
+    Changing ["num-decimal-places: 3->2"], evaluating ...
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.397
+Total CPU time: 173.104
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.542
+Total CPU time: 173.64600000000002
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.429
+Total CPU time: 174.07500000000002
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.391
+Total CPU time: 174.466
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.65
+Total CPU time: 175.116
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 1.295
+Total CPU time: 176.411
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.429
+Total CPU time: 176.84
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.369
+Total CPU time: 177.209
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.484
+Total CPU time: 177.693
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 1.978
+Total CPU time: 179.67100000000002
+274/100000, 179.67100000000002/300.0
+        -> worse: (1.0000000000006376e+18 [based on 10 runs with cutoff 30.0])
+Total CPU Time 179.67100000000002,  timeout 300.0
+Total CPU Time 179.67100000000002,  timeout 300.0
+    Changing ["K: 10->0"], evaluating ...
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.391
+Total CPU time: 180.062
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.529
+Total CPU time: 180.591
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.429
+Total CPU time: 181.02
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.388
+Total CPU time: 181.40800000000002
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.586
+Total CPU time: 181.99400000000003
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 1.238
+Total CPU time: 183.23200000000003
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.417
+Total CPU time: 183.64900000000003
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.365
+Total CPU time: 184.01400000000004
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.475
+Total CPU time: 184.48900000000003
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 1.948
+Total CPU time: 186.43700000000004
+New inc: 1.0000000000006203e+18
+New Incumbent: 186.43700000000004, 1.0000000000006203e+18 [10, 30.0]. With state B=True, K=0, M=9, N=10, U=True, V=0.05, num-decimal-places=3
+          -> Take improving step to neighbour B=True K=0 M=9 N=10 U=True V=0.05 num-decimal-places=3 (1.0000000000006203e+18 [based on 10 runs with cutoff 30.0]) with flip 5
+
+Total CPU Time 186.43700000000004,  timeout 300.0
+Total CPU Time 186.43700000000004,  timeout 300.0
+Total CPU Time 186.43700000000004,  timeout 300.0
+Total CPU Time 186.43700000000004,  timeout 300.0
+    Changing ["M: 9->5"], evaluating ...
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.398
+Total CPU time: 186.83500000000004
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.521
+Total CPU time: 187.35600000000002
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.411
+Total CPU time: 187.76700000000002
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.394
+Total CPU time: 188.16100000000003
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.586
+Total CPU time: 188.74700000000004
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 1.303
+Total CPU time: 190.05000000000004
+290/100000, 190.05000000000004/300.0
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.42
+Total CPU time: 190.47000000000003
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.374
+Total CPU time: 190.84400000000002
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.48
+Total CPU time: 191.324
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 2.133
+Total CPU time: 193.45700000000002
+        -> worse: (1.0000000000006447e+18 [based on 10 runs with cutoff 30.0])
+Total CPU Time 193.45700000000002,  timeout 300.0
+Total CPU Time 193.45700000000002,  timeout 300.0
+    Changing ["N: 10->100"], evaluating ...
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.38
+Total CPU time: 193.83700000000002
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.518
+Total CPU time: 194.35500000000002
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.425
+Total CPU time: 194.78000000000003
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.381
+Total CPU time: 195.16100000000003
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.592
+Total CPU time: 195.75300000000004
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 1.298
+Total CPU time: 197.05100000000004
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.406
+Total CPU time: 197.45700000000005
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.319
+Total CPU time: 197.77600000000004
+        -> worse: (["pruned", 8] [based on 10 runs with cutoff 30.0])
+Total CPU Time 197.77600000000004,  timeout 300.0
+Total CPU Time 197.77600000000004,  timeout 300.0
+    Changing ["M: 9->1"], evaluating ...
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.401
+Total CPU time: 198.17700000000005
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.527
+Total CPU time: 198.70400000000004
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.422
+Total CPU time: 199.12600000000003
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.402
+Total CPU time: 199.52800000000002
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.605
+Total CPU time: 200.133
+307/100000, 200.133/300.0
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 1.4
+Total CPU time: 201.53300000000002
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.426
+Total CPU time: 201.959
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.348
+Total CPU time: 202.30700000000002
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.477
+Total CPU time: 202.78400000000002
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 2.354
+Total CPU time: 205.13800000000003
+        -> worse: (1.0000000000006783e+18 [based on 10 runs with cutoff 30.0])
+Total CPU Time 205.13800000000003,  timeout 300.0
+Total CPU Time 205.13800000000003,  timeout 300.0
+    Changing ["N: 10->0"], evaluating ...
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.411
+Total CPU time: 205.54900000000004
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.517
+Total CPU time: 206.06600000000003
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.423
+Total CPU time: 206.48900000000003
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.389
+Total CPU time: 206.87800000000004
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.612
+Total CPU time: 207.49000000000004
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 1.323
+Total CPU time: 208.81300000000005
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.438
+Total CPU time: 209.25100000000003
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.357
+Total CPU time: 209.60800000000003
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.468
+Total CPU time: 210.07600000000002
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 1.994
+Total CPU time: 212.07000000000002
+322/100000, 212.07000000000002/300.0
+        -> worse: (1.0000000000006336e+18 [based on 10 runs with cutoff 30.0])
+Total CPU Time 212.07000000000002,  timeout 300.0
+Total CPU Time 212.07000000000002,  timeout 300.0
+    Changing ["N: 10->40"], evaluating ...
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.412
+Total CPU time: 212.48200000000003
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.526
+Total CPU time: 213.00800000000004
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.44
+Total CPU time: 213.44800000000004
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.383
+Total CPU time: 213.83100000000005
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.623
+Total CPU time: 214.45400000000004
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 1.277
+Total CPU time: 215.73100000000002
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.43
+Total CPU time: 216.16100000000003
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.324
+Total CPU time: 216.48500000000004
+        -> worse: (["pruned", 8] [based on 10 runs with cutoff 30.0])
+Total CPU Time 216.48500000000004,  timeout 300.0
+Total CPU Time 216.48500000000004,  timeout 300.0
+    Changing ["N: 10->50"], evaluating ...
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.379
+Total CPU time: 216.86400000000003
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.523
+Total CPU time: 217.38700000000003
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.408
+Total CPU time: 217.79500000000002
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.396
+Total CPU time: 218.191
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.594
+Total CPU time: 218.785
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 1.292
+Total CPU time: 220.077
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.416
+Total CPU time: 220.493
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.326
+Total CPU time: 220.819
+        -> worse: (["pruned", 8] [based on 10 runs with cutoff 30.0])
+Total CPU Time 220.819,  timeout 300.0
+Total CPU Time 220.819,  timeout 300.0
+Total CPU Time 220.819,  timeout 300.0
+Total CPU Time 220.819,  timeout 300.0
+    Changing ["K: 0->20"], evaluating ...
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.385
+Total CPU time: 221.20399999999998
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.568
+Total CPU time: 221.772
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.427
+Total CPU time: 222.19899999999998
+341/100000, 222.19899999999998/300.0
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.39
+Total CPU time: 222.58899999999997
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.701
+Total CPU time: 223.28999999999996
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 1.19
+Total CPU time: 224.47999999999996
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.416
+Total CPU time: 224.89599999999996
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.368
+Total CPU time: 225.26399999999995
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.492
+Total CPU time: 225.75599999999994
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 1.976
+Total CPU time: 227.73199999999994
+        -> worse: (1.0000000000006372e+18 [based on 10 runs with cutoff 30.0])
+Total CPU Time 227.73199999999994,  timeout 300.0
+Total CPU Time 227.73199999999994,  timeout 300.0
+    Changing ["K: 0->90"], evaluating ...
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.415
+Total CPU time: 228.14699999999993
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.563
+Total CPU time: 228.70999999999992
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.42
+Total CPU time: 229.1299999999999
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.405
+Total CPU time: 229.5349999999999
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.705
+Total CPU time: 230.23999999999992
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 1.232
+Total CPU time: 231.47199999999992
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.432
+Total CPU time: 231.9039999999999
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.361
+Total CPU time: 232.2649999999999
+356/100000, 232.2649999999999/300.0
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.511
+Total CPU time: 232.7759999999999
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 2.276
+Total CPU time: 235.0519999999999
+        -> worse: (1.0000000000006728e+18 [based on 10 runs with cutoff 30.0])
+Total CPU Time 235.0519999999999,  timeout 300.0
+Total CPU Time 235.0519999999999,  timeout 300.0
+    Changing ["U: True->False"], evaluating ...
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.39
+Total CPU time: 235.4419999999999
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.518
+Total CPU time: 235.9599999999999
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.432
+Total CPU time: 236.39199999999988
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.39
+Total CPU time: 236.78199999999987
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.581
+Total CPU time: 237.36299999999986
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 1.233
+Total CPU time: 238.59599999999986
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.433
+Total CPU time: 239.02899999999985
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.345
+Total CPU time: 239.37399999999985
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.461
+Total CPU time: 239.83499999999987
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 2.038
+Total CPU time: 241.87299999999988
+        -> worse: (1.000000000000625e+18 [based on 10 runs with cutoff 30.0])
+Total CPU Time 241.87299999999988,  timeout 300.0
+Total CPU Time 241.87299999999988,  timeout 300.0
+    Changing ["M: 9->7"], evaluating ...
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.384
+Total CPU time: 242.25699999999986
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.515
+Total CPU time: 242.77199999999985
+370/100000, 242.77199999999985/300.0
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.427
+Total CPU time: 243.19899999999984
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.398
+Total CPU time: 243.59699999999984
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.601
+Total CPU time: 244.19799999999984
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 1.275
+Total CPU time: 245.47299999999984
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.418
+Total CPU time: 245.89099999999985
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.357
+Total CPU time: 246.24799999999985
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.485
+Total CPU time: 246.73299999999986
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 1.991
+Total CPU time: 248.72399999999988
+        -> worse: (1.0000000000006271e+18 [based on 10 runs with cutoff 30.0])
+Total CPU Time 248.72399999999988,  timeout 300.0
+Total CPU Time 248.72399999999988,  timeout 300.0
+    Changing ["V: 0.05->0.005"], evaluating ...
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.404
+Total CPU time: 249.12799999999987
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.517
+Total CPU time: 249.64499999999987
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.432
+Total CPU time: 250.07699999999986
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.389
+Total CPU time: 250.46599999999987
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.615
+Total CPU time: 251.08099999999988
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 1.245
+Total CPU time: 252.32599999999988
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.416
+Total CPU time: 252.74199999999988
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.354
+Total CPU time: 253.0959999999999
+386/100000, 253.0959999999999/300.0
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.483
+Total CPU time: 253.5789999999999
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 1.979
+Total CPU time: 255.5579999999999
+        -> worse: (1.0000000000006254e+18 [based on 10 runs with cutoff 30.0])
+Total CPU Time 255.5579999999999,  timeout 300.0
+Total CPU Time 255.5579999999999,  timeout 300.0
+    Changing ["M: 9->2"], evaluating ...
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.391
+Total CPU time: 255.9489999999999
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.529
+Total CPU time: 256.4779999999999
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.419
+Total CPU time: 256.8969999999999
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.388
+Total CPU time: 257.28499999999985
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.612
+Total CPU time: 257.8969999999999
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 1.402
+Total CPU time: 259.29899999999986
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.432
+Total CPU time: 259.7309999999999
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.347
+Total CPU time: 260.07799999999986
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.494
+Total CPU time: 260.5719999999999
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 2.286
+Total CPU time: 262.8579999999999
+        -> worse: (1.0000000000006734e+18 [based on 10 runs with cutoff 30.0])
+Total CPU Time 262.8579999999999,  timeout 300.0
+Total CPU Time 262.8579999999999,  timeout 300.0
+    Changing ["num-decimal-places: 3->4"], evaluating ...
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.398
+Total CPU time: 263.2559999999999
+399/100000, 263.2559999999999/300.0
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.502
+Total CPU time: 263.7579999999999
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.425
+Total CPU time: 264.18299999999994
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.395
+Total CPU time: 264.5779999999999
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.604
+Total CPU time: 265.1819999999999
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 1.213
+Total CPU time: 266.3949999999999
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.428
+Total CPU time: 266.8229999999999
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.364
+Total CPU time: 267.1869999999999
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.465
+Total CPU time: 267.6519999999999
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 1.948
+Total CPU time: 269.59999999999985
+New inc: 1.0000000000006161e+18
+New Incumbent: 269.59999999999985, 1.0000000000006161e+18 [10, 30.0]. With state B=True, K=0, M=9, N=10, U=True, V=0.05, num-decimal-places=4
+          -> Take improving step to neighbour B=True K=0 M=9 N=10 U=True V=0.05 num-decimal-places=4 (1.0000000000006161e+18 [based on 10 runs with cutoff 30.0]) with flip 6
+
+Total CPU Time 269.59999999999985,  timeout 300.0
+Total CPU Time 269.59999999999985,  timeout 300.0
+Total CPU Time 269.59999999999985,  timeout 300.0
+Total CPU Time 269.59999999999985,  timeout 300.0
+    Changing ["M: 9->10"], evaluating ...
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.403
+Total CPU time: 270.0029999999999
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.511
+Total CPU time: 270.5139999999999
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.442
+Total CPU time: 270.9559999999999
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.395
+Total CPU time: 271.3509999999999
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.609
+Total CPU time: 271.95999999999987
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 1.211
+Total CPU time: 273.1709999999999
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.415
+Total CPU time: 273.5859999999999
+415/100000, 273.5859999999999/300.0
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.347
+Total CPU time: 273.9329999999999
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.487
+Total CPU time: 274.4199999999999
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 1.865
+Total CPU time: 276.2849999999999
+New inc: 1.0000000000006093e+18
+New Incumbent: 276.2849999999999, 1.0000000000006093e+18 [10, 30.0]. With state B=True, K=0, M=10, N=10, U=True, V=0.05, num-decimal-places=4
+          -> Take improving step to neighbour B=True K=0 M=10 N=10 U=True V=0.05 num-decimal-places=4 (1.0000000000006093e+18 [based on 10 runs with cutoff 30.0]) with flip 7
+
+Total CPU Time 276.2849999999999,  timeout 300.0
+Total CPU Time 276.2849999999999,  timeout 300.0
+Total CPU Time 276.2849999999999,  timeout 300.0
+Total CPU Time 276.2849999999999,  timeout 300.0
+    Changing ["K: 0->10"], evaluating ...
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.417
+Total CPU time: 276.7019999999999
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.534
+Total CPU time: 277.2359999999999
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.427
+Total CPU time: 277.6629999999999
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.394
+Total CPU time: 278.0569999999999
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.659
+Total CPU time: 278.7159999999999
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 1.279
+Total CPU time: 279.9949999999999
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.429
+Total CPU time: 280.42399999999986
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.354
+Total CPU time: 280.77799999999985
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.496
+Total CPU time: 281.27399999999983
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 1.895
+Total CPU time: 283.1689999999998
+        -> worse: (1.0000000000006301e+18 [based on 10 runs with cutoff 30.0])
+Total CPU Time 283.1689999999998,  timeout 300.0
+Total CPU Time 283.1689999999998,  timeout 300.0
+    Changing ["K: 0->50"], evaluating ...
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.398
+Total CPU time: 283.56699999999984
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.584
+Total CPU time: 284.15099999999984
+430/100000, 284.15099999999984/300.0
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.438
+Total CPU time: 284.5889999999998
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.398
+Total CPU time: 284.98699999999985
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.681
+Total CPU time: 285.66799999999984
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 1.146
+Total CPU time: 286.81399999999985
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.436
+Total CPU time: 287.24999999999983
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.351
+Total CPU time: 287.60099999999983
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.49
+Total CPU time: 288.09099999999984
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 1.899
+Total CPU time: 289.98999999999984
+        -> worse: (1.000000000000625e+18 [based on 10 runs with cutoff 30.0])
+Total CPU Time 289.98999999999984,  timeout 300.0
+Total CPU Time 289.98999999999984,  timeout 300.0
+    Changing ["U: True->False"], evaluating ...
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.374
+Total CPU time: 290.36399999999986
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.537
+Total CPU time: 290.90099999999984
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.416
+Total CPU time: 291.31699999999984
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.404
+Total CPU time: 291.72099999999983
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.587
+Total CPU time: 292.3079999999998
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 1.186
+Total CPU time: 293.4939999999998
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.426
+Total CPU time: 293.9199999999998
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.367
+Total CPU time: 294.2869999999998
+446/100000, 294.2869999999998/300.0
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.483
+Total CPU time: 294.7699999999998
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 1.959
+Total CPU time: 296.7289999999998
+        -> worse: (1.0000000000006179e+18 [based on 10 runs with cutoff 30.0])
+Total CPU Time 296.7289999999998,  timeout 300.0
+Total CPU Time 296.7289999999998,  timeout 300.0
+    Changing ["num-decimal-places: 4->5"], evaluating ...
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.395
+Total CPU time: 297.1239999999998
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.517
+Total CPU time: 297.6409999999998
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.436
+Total CPU time: 298.07699999999977
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.393
+Total CPU time: 298.46999999999974
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.598
+Total CPU time: 299.06799999999976
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 1.224
+Total CPU time: 300.29199999999975
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.427
+Total CPU time: 300.71899999999977
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.361
+Total CPU time: 301.07999999999976
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.473
+Total CPU time: 301.55299999999977
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 2.07
+Total CPU time: 303.62299999999976
+        -> worse: (1.0000000000006301e+18 [based on 10 runs with cutoff 30.0])
+Total CPU Time 303.62299999999976,  timeout 300.0
+Total CPU Time 303.62299999999976,  timeout 300.0
+ParamILS has reached the specified CPU time limit of 300.0 seconds => stopping the search now.
+   LM for iteration 1: B=True K=0 M=10 N=10 U=True V=0.05 num-decimal-places=4 (1.0000000000006093e+18 [based on 10 runs with cutoff 30.0])
+
+========== DETAILED RESULTS (iteration 1): ==========
+================================================
+
+==================================================================
+Best parameter configuration found so far (end of iteration 1): B=True, K=0, M=10, N=10, U=True, V=0.05, num-decimal-places=4
+==================================================================
+Training quality of this incumbent parameter configuration: 1.0000000000006093e+18, based on 10 runs with cutoff 30.0
+==================================================================
+
+Comparing LM against incumbent:
+B=True K=0 M=10 N=10 U=True V=0.05 num-decimal-places=4 (1.0000000000006093e+18 [based on 10 runs with cutoff 30.0])
+B=True K=0 M=10 N=10 U=True V=0.05 num-decimal-places=4 (1.0000000000006093e+18 [based on 10 runs with cutoff 30.0])
+LM better, change incumbent
+New Incumbent: 303.62299999999976, 1.0000000000006093e+18 [10, 30.0]. With state B=True, K=0, M=10, N=10, U=True, V=0.05, num-decimal-places=4
+Total CPU Time 303.62299999999976,  timeout 300.0
+Total CPU Time 303.62299999999976,  timeout 300.0
+ParamILS has reached the specified CPU time limit of 300.0 seconds => stopping the search now.
+Final solution for depth 1 with limit N=10, and cutoff time=30.0.
+New Incumbent: 303.62299999999976, 1.0000000000006093e+18 [10, 30.0]. With state B=True, K=0, M=10, N=10, U=True, V=0.05, num-decimal-places=4
+
+==================================================================
+ParamILS is finished.
+==================================================================
+
+Final best parameter configuration found: B=True, K=0, M=10, N=10, U=True, V=0.05, num-decimal-places=4
+==================================================================
+Active parameters: B=True, K=0, M=10, N=10, U=True, V=0.05, num-decimal-places=4
+
+==================================================================
+Training quality of this final best found parameter configuration: 1.0000000000006093e+18, based on 10 runs with cutoff 30.0
+==================================================================
+
+
+==================================================================
+Computing validation result on independent data -- 2 runs with cutoff time 30.0...
+==================================================================
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.599
+Total CPU time: 304.22199999999975
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 1.257
+Total CPU time: 305.47899999999976
+/home/jim/magpie/examples/weka/necessary/data/segment.arff: 583188.0
+/home/jim/magpie/examples/weka/necessary/data/test.arff: 1236295.0
+Combined result: 909741.5
+
+================================================================
+Final best parameter configuration: B=True, K=0, M=10, N=10, U=True, V=0.05, num-decimal-places=4
+==================================================================
+Active parameters: B=True, K=0, M=10, N=10, U=True, V=0.05, num-decimal-places=4
+
+================================================================
+Training quality of this final best found parameter configuration: 1.0000000000006093e+18, based on 10 runs with cutoff 30.0
+Test quality of this final best found parameter configuration: 909741.5, based on 2 independent runs with cutoff 30.0
+==================================================================

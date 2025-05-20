@@ -1,0 +1,1 @@
+Child: ["ParamSetting(('minisat_simplified.params', 'param', 'rinc'), 11946.478749175185)", "ParamSetting(('minisat_simplified.params', 'param', 'cl-lim'), 11433)", "ParamSetting(('minisat_simplified.params', 'param', 'pre'), 'True')"]

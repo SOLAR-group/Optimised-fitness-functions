@@ -1,0 +1,1 @@
+Child: ["ParamSetting(('test.params', 'param', 'INITCONFLICTBOUND'), 76)", "ParamSetting(('test.params', 'param', 'VARDECAY'), 0.31718469790285775)", "ParamSetting(('test.params', 'param', 'RESTARTS'), 'ArminRestarts')", "ParamSetting(('test.params', 'param', 'LUBYFACTOR'), 137)"]

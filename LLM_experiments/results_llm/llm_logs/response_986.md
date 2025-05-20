@@ -1,0 +1,1 @@
+Child: ["ParamSetting(('scipy.params', 'param', 'jac'), 'cs')", "ParamSetting(('scipy.params', 'param', 'maxiter'), 6745)"]

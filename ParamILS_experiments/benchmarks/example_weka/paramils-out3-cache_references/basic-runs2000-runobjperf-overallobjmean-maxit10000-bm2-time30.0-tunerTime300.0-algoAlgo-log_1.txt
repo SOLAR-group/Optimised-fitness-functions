@@ -1,0 +1,146 @@
+Call: /usr/bin/ruby ../scripts/param_ils_2_3_run.rb "-scenariofile" "example_weka/scenario-weka-cache-references.txt" "-numRun" "1" "-maxEvals" "100000" "-maxIts" "10000" "-approach" "basic" "-validN" "30"
+
+
+WARNING: N=2000 is greater than the number of entries
+in the @instances array. This can happen if the algorithm is
+deterministic and the number of training instances is smaller than N,
+or if the instance_seed_file is provided by the user and has less
+entries than N. Clamping N and maxDetail to 10
+WARNING: validN=30 is greater than the number
+of entries in the @test_instances array. This can happen if the
+algorithm is deterministic and the number of test instances is smaller
+than validN, or if the test_instance_seed_file is provided by the user
+and has less entries than validN. Clamping validN to
+2
+seed: 2468
+algo: ruby example_weka/weka_wrapper_cache_references.rb
+tunerTimeout (CPU time): 300.0
+maxWallTime: 8640000.0
+maxEvals: 100000
+run_obj: perf
+overall_obj: mean
+instance_file: /home/jim/magpie/examples/weka/necessary/instances.txt
+test_instance_file: /home/jim/magpie/examples/weka/necessary/test-instances.txt
+N: 10
+cutoff_time: 30.0
+cutoff_length: 2147483647
+R: 10
+pertubation_strength_basic: 
+pertubation_strength_scaling: false
+p_restart: 0.01
+Run 2
+Level 
+========================================================
+Starting ILS for level 1, i.e. a limit of N=10, and cutoff time=30.0.
+Current CPU time = 0, this run goes until 300.0 
+========================================================
+New Incumbent: 0, 100000000 [0, 0]. With state B=False, K=0, M=1, N=0, U=False, V=0.001, num-decimal-places=2
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 30.010000000000005
+Total CPU time: 30.000000000000004
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 30.010000000000005
+Total CPU time: 60.00000000000001
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 30.010000000000005
+Total CPU time: 90.00000000000001
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 30.010000000000005
+Total CPU time: 120.00000000000001
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 30.010000000000005
+Total CPU time: 150.00000000000003
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 30.010000000000005
+Total CPU time: 180.00000000000003
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 30.010000000000005
+Total CPU time: 210.00000000000003
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 30.010000000000005
+Total CPU time: 240.00000000000003
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 30.010000000000005
+Total CPU time: 270.00000000000006
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 30.010000000000005
+Total CPU time: 300.00000000000006
+10/100000, 300.00000000000006/300.0
+ Same incumbent, new precision:
+New Incumbent: 300.00000000000006, 1.0e+19 [10, 30.0]. With state B=False, K=0, M=1, N=0, U=False, V=0.001, num-decimal-places=2
+Total CPU Time 300.00000000000006,  timeout 300.0
+Total CPU Time 300.00000000000006,  timeout 300.0
+ParamILS has reached the specified CPU time limit of 300.0 seconds => stopping the search now.
+   BLS in iteration 1, start with B=False K=0 M=1 N=0 U=False V=0.001 num-decimal-places=2 (1.0e+19 [based on 10 runs with cutoff 30.0])
+Total CPU Time 300.00000000000006,  timeout 300.0
+Total CPU Time 300.00000000000006,  timeout 300.0
+ParamILS has reached the specified CPU time limit of 300.0 seconds => stopping the search now.
+   LM for iteration 1: B=False K=0 M=1 N=0 U=False V=0.001 num-decimal-places=2 (1.0e+19 [based on 10 runs with cutoff 30.0])
+
+========== DETAILED RESULTS (iteration 1): ==========
+================================================
+
+==================================================================
+Best parameter configuration found so far (end of iteration 1): B=False, K=0, M=1, N=0, U=False, V=0.001, num-decimal-places=2
+==================================================================
+Training quality of this incumbent parameter configuration: 1.0e+19, based on 10 runs with cutoff 30.0
+==================================================================
+
+Comparing LM against incumbent:
+B=False K=0 M=1 N=0 U=False V=0.001 num-decimal-places=2 (1.0e+19 [based on 10 runs with cutoff 30.0])
+B=False K=0 M=1 N=0 U=False V=0.001 num-decimal-places=2 (1.0e+19 [based on 10 runs with cutoff 30.0])
+LM better, change incumbent
+New Incumbent: 300.00000000000006, 1.0e+19 [10, 30.0]. With state B=False, K=0, M=1, N=0, U=False, V=0.001, num-decimal-places=2
+Total CPU Time 300.00000000000006,  timeout 300.0
+Total CPU Time 300.00000000000006,  timeout 300.0
+ParamILS has reached the specified CPU time limit of 300.0 seconds => stopping the search now.
+Final solution for depth 1 with limit N=10, and cutoff time=30.0.
+New Incumbent: 300.00000000000006, 1.0e+19 [10, 30.0]. With state B=False, K=0, M=1, N=0, U=False, V=0.001, num-decimal-places=2
+
+==================================================================
+ParamILS is finished.
+==================================================================
+
+Final best parameter configuration found: B=False, K=0, M=1, N=0, U=False, V=0.001, num-decimal-places=2
+==================================================================
+Active parameters: B=False, K=0, M=1, N=0, U=False, V=0.001, num-decimal-places=2
+
+==================================================================
+Training quality of this final best found parameter configuration: 1.0e+19, based on 10 runs with cutoff 30.0
+==================================================================
+
+
+==================================================================
+Computing validation result on independent data -- 2 runs with cutoff time 30.0...
+==================================================================
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 30.010000000000005
+Total CPU time: 330.00000000000006
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 30.010000000000005
+Total CPU time: 360.00000000000006
+/home/jim/magpie/examples/weka/necessary/data/segment.arff: 10000000000000000000
+/home/jim/magpie/examples/weka/necessary/data/test.arff: 10000000000000000000
+Combined result: 1.0e+19
+
+================================================================
+Final best parameter configuration: B=False, K=0, M=1, N=0, U=False, V=0.001, num-decimal-places=2
+==================================================================
+Active parameters: B=False, K=0, M=1, N=0, U=False, V=0.001, num-decimal-places=2
+
+================================================================
+Training quality of this final best found parameter configuration: 1.0e+19, based on 10 runs with cutoff 30.0
+Test quality of this final best found parameter configuration: 1.0e+19, based on 2 independent runs with cutoff 30.0
+==================================================================

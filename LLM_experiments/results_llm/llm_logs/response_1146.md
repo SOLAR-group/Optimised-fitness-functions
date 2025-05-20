@@ -1,0 +1,1 @@
+Child: ["ParamSetting(('minisat_advanced.params', 'param', 'lbd-cut'), 4.273724199634221)", "ParamSetting(('minisat_advanced.params', 'param', 'rinc'), 11495.988984228043)", "ParamSetting(('minisat_advanced.params', 'param', 'rnd-seed'), 271615972)"]

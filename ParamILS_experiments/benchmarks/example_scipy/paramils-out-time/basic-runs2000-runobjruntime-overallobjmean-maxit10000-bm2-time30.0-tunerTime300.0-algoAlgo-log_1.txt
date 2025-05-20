@@ -1,0 +1,2552 @@
+Call: /usr/bin/ruby ../scripts/param_ils_2_3_run.rb "-scenariofile" "example_scipy/scenario-scipy.txt" "-numRun" "1" "-maxEvals" "100000" "-maxIts" "10000" "-approach" "basic" "-validN" "30"
+
+
+WARNING: N=2000 is greater than the number of entries
+in the @instances array. This can happen if the algorithm is
+deterministic and the number of training instances is smaller than N,
+or if the instance_seed_file is provided by the user and has less
+entries than N. Clamping N and maxDetail to 7
+WARNING: validN=30 is greater than the number
+of entries in the @test_instances array. This can happen if the
+algorithm is deterministic and the number of test instances is smaller
+than validN, or if the test_instance_seed_file is provided by the user
+and has less entries than validN. Clamping validN to
+2
+seed: 2468
+algo: ruby example_scipy/scipy_wrapper.rb
+tunerTimeout (CPU time): 300.0
+maxWallTime: 8640000.0
+maxEvals: 100000
+run_obj: runtime
+overall_obj: mean
+instance_file: /home/jim/magpie/examples/scipy/necessary/instances.txt
+test_instance_file: /home/jim/magpie/examples/scipy/necessary/test-instances.txt
+N: 7
+cutoff_time: 30.0
+cutoff_length: 2147483647
+R: 10
+pertubation_strength_basic: 
+pertubation_strength_scaling: false
+p_restart: 0.01
+Run 2
+Level 
+========================================================
+Starting ILS for level 1, i.e. a limit of N=7, and cutoff time=30.0.
+Current CPU time = 0, this run goes until 300.0 
+========================================================
+New Incumbent: 0, 100000000 [0, 0]. With state disp=False, jac=2-point, maxiter=100, method=CG, tol=0.0001
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 1.888
+Total CPU time: 1.888
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 1.555
+Total CPU time: 3.4429999999999996
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 1.129
+Total CPU time: 4.571999999999999
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 1.185
+Total CPU time: 5.757
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 1.163
+Total CPU time: 6.92
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 1.264
+Total CPU time: 8.184
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 1.358
+Total CPU time: 9.542
+ Same incumbent, new precision:
+New Incumbent: 9.542, 1.3631428571428572 [7, 30.0]. With state disp=False, jac=2-point, maxiter=100, method=CG, tol=0.0001
+Total CPU Time 9.542,  timeout 300.0
+Total CPU Time 9.542,  timeout 300.0
+Minimum runtime: 0.1
+Cutoff time: 9.552000000000001
+Result time: 17.687
+Total CPU time: 19.094
+8/100000, 19.094/300.0
+        -> Worse random: disp=False jac=cs maxiter=200 method=SLSQP tol=0.0005 (["pruned", 1] [based on 7 runs with cutoff 30.0])
+Total CPU Time 19.094,  timeout 300.0
+Total CPU Time 19.094,  timeout 300.0
+Minimum runtime: 0.1
+Cutoff time: 9.552000000000001
+Result time: 1.289
+Total CPU time: 20.383000000000003
+Minimum runtime: 0.1
+Cutoff time: 8.263
+Result time: 1.286
+Total CPU time: 21.669000000000004
+Minimum runtime: 0.1
+Cutoff time: 6.977
+Result time: 1.172
+Total CPU time: 22.841000000000005
+Minimum runtime: 0.1
+Cutoff time: 5.805000000000001
+Result time: 1.136
+Total CPU time: 23.977000000000004
+Minimum runtime: 0.1
+Cutoff time: 4.66899
+Result time: 1.18
+Total CPU time: 25.157000000000004
+Minimum runtime: 0.1
+Cutoff time: 3.4890000000000003
+Result time: 1.094
+Total CPU time: 26.251000000000005
+Minimum runtime: 0.1
+Cutoff time: 2.3949900000000004
+Result time: 1.404
+Total CPU time: 27.655000000000005
+New inc: 1.223
+New Incumbent: 27.655000000000005, 1.223 [7, 30.0]. With state disp=True, jac=True, maxiter=10000, method=trust-constr, tol=0.00001
+          -> Take improving step to random disp=True jac=True maxiter=10000 method=trust-constr tol=0.00001 (1.223 [based on 7 runs with cutoff 30.0])
+
+Total CPU Time 27.655000000000005,  timeout 300.0
+Total CPU Time 27.655000000000005,  timeout 300.0
+Minimum runtime: 0.1
+Cutoff time: 8.571000000000002
+Result time: 1.617
+Total CPU time: 29.272000000000006
+16/100000, 29.272000000000006/300.0
+Minimum runtime: 0.1
+Cutoff time: 6.954000000000001
+Result time: 1.349
+Total CPU time: 30.621000000000006
+Minimum runtime: 0.1
+Cutoff time: 5.605
+Result time: 1.835
+Total CPU time: 32.456
+Minimum runtime: 0.1
+Cutoff time: 3.7699900000000004
+Result time: 1.523
+Total CPU time: 33.979000000000006
+Minimum runtime: 0.1
+Cutoff time: 2.2470000000000003
+Result time: 1.298
+Total CPU time: 35.27700000000001
+Minimum runtime: 0.1
+Cutoff time: 0.9490000000000001
+Result time: 1.183
+Total CPU time: 36.226000000000006
+        -> Worse random: disp=True jac=2-point maxiter=50 method=CG tol=0.0005 (["pruned", 6] [based on 7 runs with cutoff 30.0])
+Total CPU Time 36.226000000000006,  timeout 300.0
+Total CPU Time 36.226000000000006,  timeout 300.0
+Minimum runtime: 0.1
+Cutoff time: 8.571000000000002
+Result time: 0.701
+Total CPU time: 36.92700000000001
+Minimum runtime: 0.1
+Cutoff time: 7.870000000000001
+Result time: 0.753
+Total CPU time: 37.68000000000001
+Minimum runtime: 0.1
+Cutoff time: 7.117000000000001
+Result time: 0.699
+Total CPU time: 38.379000000000005
+Minimum runtime: 0.1
+Cutoff time: 6.4179900000000005
+Result time: 0.701
+Total CPU time: 39.080000000000005
+Minimum runtime: 0.1
+Cutoff time: 5.7170000000000005
+Result time: 0.699
+Total CPU time: 39.779
+26/100000, 39.779/300.0
+Minimum runtime: 0.1
+Cutoff time: 5.018000000000001
+Result time: 0.671
+Total CPU time: 40.45
+Minimum runtime: 0.1
+Cutoff time: 4.346990000000001
+Result time: 0.777
+Total CPU time: 41.227000000000004
+New inc: 0.7144285714285715
+New Incumbent: 41.227000000000004, 0.7144285714285715 [7, 30.0]. With state disp=False, jac=cs, maxiter=10000, method=COBYLA, tol=0.001
+          -> Take improving step to random disp=False jac=cs maxiter=10000 method=COBYLA tol=0.001 (0.7144285714285715 [based on 7 runs with cutoff 30.0])
+
+Total CPU Time 41.227000000000004,  timeout 300.0
+Total CPU Time 41.227000000000004,  timeout 300.0
+Minimum runtime: 0.1
+Cutoff time: 5.011
+Result time: 1.185
+Total CPU time: 42.412000000000006
+Minimum runtime: 0.1
+Cutoff time: 3.8260000000000005
+Result time: 1.37
+Total CPU time: 43.782000000000004
+Minimum runtime: 0.1
+Cutoff time: 2.4560000000000004
+Result time: 1.708
+Total CPU time: 45.49
+Minimum runtime: 0.1
+Cutoff time: 0.7480000000000001
+Result time: 1.157
+Total CPU time: 46.238
+        -> Worse random: disp=True jac=True maxiter=200 method=L-BFGS-B tol=0.00001 (["pruned", 4] [based on 7 runs with cutoff 30.0])
+Total CPU Time 46.238,  timeout 300.0
+Total CPU Time 46.238,  timeout 300.0
+Minimum runtime: 0.1
+Cutoff time: 5.011
+Result time: 1.145
+Total CPU time: 47.383
+Minimum runtime: 0.1
+Cutoff time: 3.866
+Result time: 1.851
+Total CPU time: 49.234
+Minimum runtime: 0.1
+Cutoff time: 2.015
+Result time: 1.322
+Total CPU time: 50.556000000000004
+35/100000, 50.556000000000004/300.0
+Minimum runtime: 0.1
+Cutoff time: 0.6930000000000001
+Result time: 1.132
+Total CPU time: 51.249
+        -> Worse random: disp=False jac=True maxiter=500 method=BFGS tol=0.0005 (["pruned", 4] [based on 7 runs with cutoff 30.0])
+Total CPU Time 51.249,  timeout 300.0
+Total CPU Time 51.249,  timeout 300.0
+Minimum runtime: 0.1
+Cutoff time: 5.011
+Result time: 1.783
+Total CPU time: 53.032000000000004
+Minimum runtime: 0.1
+Cutoff time: 3.228
+Result time: 1.285
+Total CPU time: 54.317
+Minimum runtime: 0.1
+Cutoff time: 1.943
+Result time: 2.24
+Total CPU time: 56.26
+        -> Worse random: disp=True jac=3-point maxiter=200 method=Powell tol=0.001 (["pruned", 3] [based on 7 runs with cutoff 30.0])
+Total CPU Time 56.26,  timeout 300.0
+Total CPU Time 56.26,  timeout 300.0
+Minimum runtime: 0.1
+Cutoff time: 5.011
+Result time: 1.947
+Total CPU time: 58.207
+Minimum runtime: 0.1
+Cutoff time: 3.064
+Result time: 1.907
+Total CPU time: 60.114000000000004
+Minimum runtime: 0.1
+Cutoff time: 1.157
+Result time: 1.89
+Total CPU time: 61.271
+42/100000, 61.271/300.0
+        -> Worse random: disp=True jac=cs maxiter=20 method=SLSQP tol=0.001 (["pruned", 3] [based on 7 runs with cutoff 30.0])
+Total CPU Time 61.271,  timeout 300.0
+Total CPU Time 61.271,  timeout 300.0
+Minimum runtime: 0.1
+Cutoff time: 5.011
+Result time: 0.842
+Total CPU time: 62.113
+Minimum runtime: 0.1
+Cutoff time: 4.1690000000000005
+Result time: 0.787
+Total CPU time: 62.9
+Minimum runtime: 0.1
+Cutoff time: 3.382
+Result time: 0.838
+Total CPU time: 63.738
+Minimum runtime: 0.1
+Cutoff time: 2.544
+Result time: 0.816
+Total CPU time: 64.554
+Minimum runtime: 0.1
+Cutoff time: 1.7280000000000002
+Result time: 0.858
+Total CPU time: 65.412
+Minimum runtime: 0.1
+Cutoff time: 0.8700000000000001
+Result time: 0.755
+Total CPU time: 66.167
+Minimum runtime: 0.1
+Cutoff time: 0.115
+Result time: 0.692
+Total CPU time: 66.282
+        -> Worse random: disp=False jac=cs maxiter=50 method=trust-constr tol=0.0005 (["pruned", 6] [based on 7 runs with cutoff 30.0])
+Total CPU Time 66.282,  timeout 300.0
+Total CPU Time 66.282,  timeout 300.0
+Minimum runtime: 0.1
+Cutoff time: 5.011
+Result time: 21.968
+Total CPU time: 71.29299999999999
+50/100000, 71.29299999999999/300.0
+        -> Worse random: disp=False jac=3-point maxiter=2000 method=Nelder-Mead tol=0.001 (["pruned", 1] [based on 7 runs with cutoff 30.0])
+   BLS in iteration 1, start with disp=False jac=cs maxiter=10000 method=COBYLA tol=0.001 (0.7144285714285715 [based on 7 runs with cutoff 30.0])
+Total CPU Time 71.29299999999999,  timeout 300.0
+Total CPU Time 71.29299999999999,  timeout 300.0
+Total CPU Time 71.29299999999999,  timeout 300.0
+Total CPU Time 71.29299999999999,  timeout 300.0
+    Changing ["maxiter: 10000->2000"], evaluating ...
+Minimum runtime: 0.1
+Cutoff time: 5.011
+Result time: 0.749
+Total CPU time: 72.04199999999999
+Minimum runtime: 0.1
+Cutoff time: 4.2620000000000005
+Result time: 0.682
+Total CPU time: 72.72399999999999
+Minimum runtime: 0.1
+Cutoff time: 3.58
+Result time: 0.69
+Total CPU time: 73.41399999999999
+Minimum runtime: 0.1
+Cutoff time: 2.89
+Result time: 0.737
+Total CPU time: 74.15099999999998
+Minimum runtime: 0.1
+Cutoff time: 2.153
+Result time: 0.726
+Total CPU time: 74.87699999999998
+Minimum runtime: 0.1
+Cutoff time: 1.427
+Result time: 0.694
+Total CPU time: 75.57099999999998
+Minimum runtime: 0.1
+Cutoff time: 0.73299
+Result time: 0.672
+Total CPU time: 76.24299999999998
+New inc: 0.7071428571428572
+New Incumbent: 76.24299999999998, 0.7071428571428572 [7, 30.0]. With state disp=False, jac=cs, maxiter=2000, method=COBYLA, tol=0.001
+          -> Take improving step to neighbour disp=False jac=cs maxiter=2000 method=COBYLA tol=0.001 (0.7071428571428572 [based on 7 runs with cutoff 30.0]) with flip 1
+
+Total CPU Time 76.24299999999998,  timeout 300.0
+Total CPU Time 76.24299999999998,  timeout 300.0
+Total CPU Time 76.24299999999998,  timeout 300.0
+Total CPU Time 76.24299999999998,  timeout 300.0
+    Changing ["maxiter: 2000->100"], evaluating ...
+Minimum runtime: 0.1
+Cutoff time: 4.96
+Result time: 0.649
+Total CPU time: 76.89199999999998
+Minimum runtime: 0.1
+Cutoff time: 4.311
+Result time: 0.652
+Total CPU time: 77.54399999999998
+Minimum runtime: 0.1
+Cutoff time: 3.6590000000000003
+Result time: 0.654
+Total CPU time: 78.19799999999998
+Minimum runtime: 0.1
+Cutoff time: 3.0050000000000003
+Result time: 0.653
+Total CPU time: 78.85099999999998
+Minimum runtime: 0.1
+Cutoff time: 2.3520000000000003
+Result time: 0.652
+Total CPU time: 79.50299999999999
+Minimum runtime: 0.1
+Cutoff time: 1.7000000000000002
+Result time: 0.669
+Total CPU time: 80.17199999999998
+Minimum runtime: 0.1
+Cutoff time: 1.03099
+Result time: 0.655
+Total CPU time: 80.82699999999998
+New inc: 0.6548571428571429
+New Incumbent: 80.82699999999998, 0.6548571428571429 [7, 30.0]. With state disp=False, jac=cs, maxiter=100, method=COBYLA, tol=0.001
+          -> Take improving step to neighbour disp=False jac=cs maxiter=100 method=COBYLA tol=0.001 (0.6548571428571429 [based on 7 runs with cutoff 30.0]) with flip 2
+
+Total CPU Time 80.82699999999998,  timeout 300.0
+Total CPU Time 80.82699999999998,  timeout 300.0
+Total CPU Time 80.82699999999998,  timeout 300.0
+Total CPU Time 80.82699999999998,  timeout 300.0
+    Changing ["method: COBYLA->Nelder-Mead"], evaluating ...
+Minimum runtime: 0.1
+Cutoff time: 4.594
+Result time: 0.806
+Total CPU time: 81.63299999999998
+65/100000, 81.63299999999998/300.0
+Minimum runtime: 0.1
+Cutoff time: 3.7880000000000003
+Result time: 0.834
+Total CPU time: 82.46699999999998
+Minimum runtime: 0.1
+Cutoff time: 2.954
+Result time: 0.811
+Total CPU time: 83.27799999999999
+Minimum runtime: 0.1
+Cutoff time: 2.1430000000000002
+Result time: 0.805
+Total CPU time: 84.083
+Minimum runtime: 0.1
+Cutoff time: 1.338
+Result time: 0.834
+Total CPU time: 84.917
+Minimum runtime: 0.1
+Cutoff time: 0.504
+Result time: 0.756
+Total CPU time: 85.421
+        -> worse: (["pruned", 6] [based on 7 runs with cutoff 30.0])
+Total CPU Time 85.421,  timeout 300.0
+Total CPU Time 85.421,  timeout 300.0
+    Changing ["method: COBYLA->L-BFGS-B"], evaluating ...
+Minimum runtime: 0.1
+Cutoff time: 4.594
+Result time: 0.749
+Total CPU time: 86.17
+Minimum runtime: 0.1
+Cutoff time: 3.845
+Result time: 0.762
+Total CPU time: 86.932
+Minimum runtime: 0.1
+Cutoff time: 3.083
+Result time: 0.794
+Total CPU time: 87.726
+Minimum runtime: 0.1
+Cutoff time: 2.289
+Result time: 0.787
+Total CPU time: 88.513
+Minimum runtime: 0.1
+Cutoff time: 1.5020000000000002
+Result time: 1.053
+Total CPU time: 89.566
+Minimum runtime: 0.1
+Cutoff time: 0.449
+Result time: 0.793
+Total CPU time: 90.015
+        -> worse: (["pruned", 6] [based on 7 runs with cutoff 30.0])
+Total CPU Time 90.015,  timeout 300.0
+Total CPU Time 90.015,  timeout 300.0
+    Changing ["jac: cs->False"], evaluating ...
+Minimum runtime: 0.1
+Cutoff time: 4.594
+Result time: 0.655
+Total CPU time: 90.67
+Minimum runtime: 0.1
+Cutoff time: 3.9390000000000005
+Result time: 0.653
+Total CPU time: 91.32300000000001
+Minimum runtime: 0.1
+Cutoff time: 3.2860000000000005
+Result time: 0.642
+Total CPU time: 91.965
+79/100000, 91.965/300.0
+Minimum runtime: 0.1
+Cutoff time: 2.644
+Result time: 0.654
+Total CPU time: 92.619
+Minimum runtime: 0.1
+Cutoff time: 1.9900000000000002
+Result time: 0.636
+Total CPU time: 93.255
+Minimum runtime: 0.1
+Cutoff time: 1.354
+Result time: 0.659
+Total CPU time: 93.914
+Minimum runtime: 0.1
+Cutoff time: 0.6950000000000001
+Result time: 0.65
+Total CPU time: 94.56400000000001
+New inc: 0.6498571428571429
+New Incumbent: 94.56400000000001, 0.6498571428571429 [7, 30.0]. With state disp=False, jac=False, maxiter=100, method=COBYLA, tol=0.001
+          -> Take improving step to neighbour disp=False jac=False maxiter=100 method=COBYLA tol=0.001 (0.6498571428571429 [based on 7 runs with cutoff 30.0]) with flip 3
+
+Total CPU Time 94.56400000000001,  timeout 300.0
+Total CPU Time 94.56400000000001,  timeout 300.0
+Total CPU Time 94.56400000000001,  timeout 300.0
+Total CPU Time 94.56400000000001,  timeout 300.0
+    Changing ["jac: False->None"], evaluating ...
+Minimum runtime: 0.1
+Cutoff time: 4.559
+Result time: 0.647
+Total CPU time: 95.21100000000001
+Minimum runtime: 0.1
+Cutoff time: 3.9120000000000004
+Result time: 0.655
+Total CPU time: 95.86600000000001
+Minimum runtime: 0.1
+Cutoff time: 3.257
+Result time: 0.652
+Total CPU time: 96.51800000000001
+Minimum runtime: 0.1
+Cutoff time: 2.6050000000000004
+Result time: 0.648
+Total CPU time: 97.16600000000001
+Minimum runtime: 0.1
+Cutoff time: 1.957
+Result time: 0.657
+Total CPU time: 97.82300000000001
+Minimum runtime: 0.1
+Cutoff time: 1.3
+Result time: 0.663
+Total CPU time: 98.486
+Minimum runtime: 0.1
+Cutoff time: 0.6369900000000001
+Result time: 0.645
+Total CPU time: 99.12299
+        -> worse: (["pruned", 6] [based on 7 runs with cutoff 30.0])
+Total CPU Time 99.12299,  timeout 300.0
+Total CPU Time 99.12299,  timeout 300.0
+    Changing ["maxiter: 100->50"], evaluating ...
+Minimum runtime: 0.1
+Cutoff time: 4.559
+Result time: 0.448
+Total CPU time: 99.57099
+Minimum runtime: 0.1
+Cutoff time: 4.111000000000001
+Result time: 0.446
+Total CPU time: 100.01698999999999
+Minimum runtime: 0.1
+Cutoff time: 3.6650000000000005
+Result time: 0.464
+Total CPU time: 100.48098999999999
+Minimum runtime: 0.1
+Cutoff time: 3.201
+Result time: 0.451
+Total CPU time: 100.93198999999998
+Minimum runtime: 0.1
+Cutoff time: 2.7500000000000004
+Result time: 0.45
+Total CPU time: 101.38198999999999
+Minimum runtime: 0.1
+Cutoff time: 2.29999
+Result time: 0.455
+Total CPU time: 101.83698999999999
+Minimum runtime: 0.1
+Cutoff time: 1.8450000000000002
+Result time: 0.408
+Total CPU time: 102.24498999999999
+97/100000, 102.24498999999999/300.0
+New inc: 0.44600000000000006
+New Incumbent: 102.24498999999999, 0.44600000000000006 [7, 30.0]. With state disp=False, jac=False, maxiter=50, method=COBYLA, tol=0.001
+          -> Take improving step to neighbour disp=False jac=False maxiter=50 method=COBYLA tol=0.001 (0.44600000000000006 [based on 7 runs with cutoff 30.0]) with flip 4
+
+Total CPU Time 102.24498999999999,  timeout 300.0
+Total CPU Time 102.24498999999999,  timeout 300.0
+Total CPU Time 102.24498999999999,  timeout 300.0
+Total CPU Time 102.24498999999999,  timeout 300.0
+    Changing ["jac: False->3-point"], evaluating ...
+Minimum runtime: 0.1
+Cutoff time: 3.132
+Result time: 0.459
+Total CPU time: 102.70398999999999
+Minimum runtime: 0.1
+Cutoff time: 2.673
+Result time: 0.449
+Total CPU time: 103.15298999999999
+Minimum runtime: 0.1
+Cutoff time: 2.224
+Result time: 0.464
+Total CPU time: 103.61698999999999
+Minimum runtime: 0.1
+Cutoff time: 1.7600000000000002
+Result time: 0.465
+Total CPU time: 104.08198999999999
+Minimum runtime: 0.1
+Cutoff time: 1.2950000000000002
+Result time: 0.448
+Total CPU time: 104.52998999999998
+Minimum runtime: 0.1
+Cutoff time: 0.8470000000000001
+Result time: 0.456
+Total CPU time: 104.98598999999999
+Minimum runtime: 0.1
+Cutoff time: 0.391
+Result time: 0.455
+Total CPU time: 105.37698999999999
+        -> worse: (["pruned", 6] [based on 7 runs with cutoff 30.0])
+Total CPU Time 105.37698999999999,  timeout 300.0
+Total CPU Time 105.37698999999999,  timeout 300.0
+    Changing ["method: COBYLA->Powell"], evaluating ...
+Minimum runtime: 0.1
+Cutoff time: 3.132
+Result time: 2.054
+Total CPU time: 107.43099
+Minimum runtime: 0.1
+Cutoff time: 1.078
+Result time: 1.809
+Total CPU time: 108.50899
+        -> worse: (["pruned", 2] [based on 7 runs with cutoff 30.0])
+Total CPU Time 108.50899,  timeout 300.0
+Total CPU Time 108.50899,  timeout 300.0
+    Changing ["maxiter: 50->5000"], evaluating ...
+Minimum runtime: 0.1
+Cutoff time: 3.132
+Result time: 0.642
+Total CPU time: 109.15099
+Minimum runtime: 0.1
+Cutoff time: 2.49
+Result time: 0.785
+Total CPU time: 109.93598999999999
+Minimum runtime: 0.1
+Cutoff time: 1.705
+Result time: 0.698
+Total CPU time: 110.63398999999998
+Minimum runtime: 0.1
+Cutoff time: 1.0070000000000001
+Result time: 0.7
+Total CPU time: 111.33398999999999
+Minimum runtime: 0.1
+Cutoff time: 0.30700000000000005
+Result time: 0.674
+Total CPU time: 111.64098999999999
+        -> worse: (["pruned", 5] [based on 7 runs with cutoff 30.0])
+Total CPU Time 111.64098999999999,  timeout 300.0
+Total CPU Time 111.64098999999999,  timeout 300.0
+    Changing ["disp: False->True"], evaluating ...
+Minimum runtime: 0.1
+Cutoff time: 3.132
+Result time: 0.408
+Total CPU time: 112.04898999999999
+Minimum runtime: 0.1
+Cutoff time: 2.724
+Result time: 0.452
+Total CPU time: 112.50098999999999
+113/100000, 112.50098999999999/300.0
+Minimum runtime: 0.1
+Cutoff time: 2.2720000000000002
+Result time: 0.451
+Total CPU time: 112.95198999999998
+Minimum runtime: 0.1
+Cutoff time: 1.8210000000000002
+Result time: 0.45
+Total CPU time: 113.40198999999998
+Minimum runtime: 0.1
+Cutoff time: 1.3710000000000002
+Result time: 0.455
+Total CPU time: 113.85698999999998
+Minimum runtime: 0.1
+Cutoff time: 0.916
+Result time: 0.461
+Total CPU time: 114.31798999999998
+Minimum runtime: 0.1
+Cutoff time: 0.455
+Result time: 0.462
+Total CPU time: 114.77298999999998
+        -> worse: (["pruned", 6] [based on 7 runs with cutoff 30.0])
+Total CPU Time 114.77298999999998,  timeout 300.0
+Total CPU Time 114.77298999999998,  timeout 300.0
+    Changing ["tol: 0.001->0.00005"], evaluating ...
+Minimum runtime: 0.1
+Cutoff time: 3.132
+Result time: 0.443
+Total CPU time: 115.21598999999998
+Minimum runtime: 0.1
+Cutoff time: 2.689
+Result time: 0.445
+Total CPU time: 115.66098999999997
+Minimum runtime: 0.1
+Cutoff time: 2.244
+Result time: 0.449
+Total CPU time: 116.10998999999997
+Minimum runtime: 0.1
+Cutoff time: 1.7950000000000002
+Result time: 0.453
+Total CPU time: 116.56298999999997
+Minimum runtime: 0.1
+Cutoff time: 1.342
+Result time: 0.453
+Total CPU time: 117.01598999999997
+Minimum runtime: 0.1
+Cutoff time: 0.8890000000000001
+Result time: 0.468
+Total CPU time: 117.48398999999998
+Minimum runtime: 0.1
+Cutoff time: 0.42100000000000004
+Result time: 0.452
+Total CPU time: 117.90498999999998
+        -> worse: (["pruned", 6] [based on 7 runs with cutoff 30.0])
+Total CPU Time 117.90498999999998,  timeout 300.0
+Total CPU Time 117.90498999999998,  timeout 300.0
+    Changing ["method: COBYLA->BFGS"], evaluating ...
+Minimum runtime: 0.1
+Cutoff time: 3.132
+Result time: 1.461
+Total CPU time: 119.36598999999998
+Minimum runtime: 0.1
+Cutoff time: 1.671
+Result time: 1.305
+Total CPU time: 120.67098999999999
+Minimum runtime: 0.1
+Cutoff time: 0.36600000000000005
+Result time: 1.492
+Total CPU time: 121.03698999999999
+        -> worse: (["pruned", 3] [based on 7 runs with cutoff 30.0])
+Total CPU Time 121.03698999999999,  timeout 300.0
+Total CPU Time 121.03698999999999,  timeout 300.0
+    Changing ["method: COBYLA->trust-constr"], evaluating ...
+Minimum runtime: 0.1
+Cutoff time: 3.132
+Result time: 0.725
+Total CPU time: 121.76198999999998
+Minimum runtime: 0.1
+Cutoff time: 2.407
+Result time: 0.746
+Total CPU time: 122.50798999999998
+130/100000, 122.50798999999998/300.0
+Minimum runtime: 0.1
+Cutoff time: 1.661
+Result time: 0.74
+Total CPU time: 123.24798999999997
+Minimum runtime: 0.1
+Cutoff time: 0.921
+Result time: 0.786
+Total CPU time: 124.03398999999997
+Minimum runtime: 0.1
+Cutoff time: 0.135
+Result time: 0.737
+Total CPU time: 124.16898999999998
+        -> worse: (["pruned", 5] [based on 7 runs with cutoff 30.0])
+Total CPU Time 124.16898999999998,  timeout 300.0
+Total CPU Time 124.16898999999998,  timeout 300.0
+    Changing ["tol: 0.001->0.01"], evaluating ...
+Minimum runtime: 0.1
+Cutoff time: 3.132
+Result time: 0.453
+Total CPU time: 124.62198999999998
+Minimum runtime: 0.1
+Cutoff time: 2.6790000000000003
+Result time: 0.465
+Total CPU time: 125.08698999999999
+Minimum runtime: 0.1
+Cutoff time: 2.214
+Result time: 0.447
+Total CPU time: 125.53398999999999
+Minimum runtime: 0.1
+Cutoff time: 1.7670000000000001
+Result time: 0.458
+Total CPU time: 125.99198999999999
+Minimum runtime: 0.1
+Cutoff time: 1.3090000000000002
+Result time: 0.462
+Total CPU time: 126.45398999999999
+Minimum runtime: 0.1
+Cutoff time: 0.8470000000000001
+Result time: 0.474
+Total CPU time: 126.92799
+Minimum runtime: 0.1
+Cutoff time: 0.37300000000000005
+Result time: 0.452
+Total CPU time: 127.30099
+        -> worse: (["pruned", 6] [based on 7 runs with cutoff 30.0])
+Total CPU Time 127.30099,  timeout 300.0
+Total CPU Time 127.30099,  timeout 300.0
+    Changing ["method: COBYLA->CG"], evaluating ...
+Minimum runtime: 0.1
+Cutoff time: 3.132
+Result time: 1.423
+Total CPU time: 128.72399
+Minimum runtime: 0.1
+Cutoff time: 1.709
+Result time: 1.307
+Total CPU time: 130.03098999999997
+Minimum runtime: 0.1
+Cutoff time: 0.402
+Result time: 1.567
+Total CPU time: 130.43298999999996
+        -> worse: (["pruned", 3] [based on 7 runs with cutoff 30.0])
+Total CPU Time 130.43298999999996,  timeout 300.0
+Total CPU Time 130.43298999999996,  timeout 300.0
+    Changing ["tol: 0.001->0.00001"], evaluating ...
+Minimum runtime: 0.1
+Cutoff time: 3.132
+Result time: 0.455
+Total CPU time: 130.88798999999997
+Minimum runtime: 0.1
+Cutoff time: 2.677
+Result time: 0.471
+Total CPU time: 131.35898999999998
+Minimum runtime: 0.1
+Cutoff time: 2.206
+Result time: 0.442
+Total CPU time: 131.80098999999998
+Minimum runtime: 0.1
+Cutoff time: 1.7640000000000002
+Result time: 0.446
+Total CPU time: 132.24698999999998
+Minimum runtime: 0.1
+Cutoff time: 1.318
+Result time: 0.443
+Total CPU time: 132.68999
+148/100000, 132.68999/300.0
+Minimum runtime: 0.1
+Cutoff time: 0.8750000000000001
+Result time: 0.446
+Total CPU time: 133.13599
+Minimum runtime: 0.1
+Cutoff time: 0.42900000000000005
+Result time: 0.452
+Total CPU time: 133.56499
+        -> worse: (["pruned", 6] [based on 7 runs with cutoff 30.0])
+Total CPU Time 133.56499,  timeout 300.0
+Total CPU Time 133.56499,  timeout 300.0
+    Changing ["jac: False->2-point"], evaluating ...
+Minimum runtime: 0.1
+Cutoff time: 3.132
+Result time: 0.409
+Total CPU time: 133.97399
+Minimum runtime: 0.1
+Cutoff time: 2.7230000000000003
+Result time: 0.447
+Total CPU time: 134.42099
+Minimum runtime: 0.1
+Cutoff time: 2.2760000000000002
+Result time: 0.455
+Total CPU time: 134.87599
+Minimum runtime: 0.1
+Cutoff time: 1.8210000000000002
+Result time: 0.457
+Total CPU time: 135.33299
+Minimum runtime: 0.1
+Cutoff time: 1.364
+Result time: 0.457
+Total CPU time: 135.78999
+Minimum runtime: 0.1
+Cutoff time: 0.907
+Result time: 0.465
+Total CPU time: 136.25499
+Minimum runtime: 0.1
+Cutoff time: 0.44200000000000006
+Result time: 0.45
+Total CPU time: 136.69699
+        -> worse: (["pruned", 6] [based on 7 runs with cutoff 30.0])
+Total CPU Time 136.69699,  timeout 300.0
+Total CPU Time 136.69699,  timeout 300.0
+    Changing ["maxiter: 50->10"], evaluating ...
+Minimum runtime: 0.1
+Cutoff time: 3.132
+Result time: 0.285
+Total CPU time: 136.98199
+Minimum runtime: 0.1
+Cutoff time: 2.8470000000000004
+Result time: 0.28
+Total CPU time: 137.26199
+Minimum runtime: 0.1
+Cutoff time: 2.567
+Result time: 0.298
+Total CPU time: 137.55999
+Minimum runtime: 0.1
+Cutoff time: 2.269
+Result time: 0.292
+Total CPU time: 137.85199
+Minimum runtime: 0.1
+Cutoff time: 1.977
+Result time: 0.29
+Total CPU time: 138.14199
+Minimum runtime: 0.1
+Cutoff time: 1.687
+Result time: 0.312
+Total CPU time: 138.45399
+Minimum runtime: 0.1
+Cutoff time: 1.3750000000000002
+Result time: 0.284
+Total CPU time: 138.73799
+New inc: 0.29157142857142854
+New Incumbent: 138.73799, 0.29157142857142854 [7, 30.0]. With state disp=False, jac=False, maxiter=10, method=COBYLA, tol=0.001
+          -> Take improving step to neighbour disp=False jac=False maxiter=10 method=COBYLA tol=0.001 (0.29157142857142854 [based on 7 runs with cutoff 30.0]) with flip 5
+
+Total CPU Time 138.73799,  timeout 300.0
+Total CPU Time 138.73799,  timeout 300.0
+Total CPU Time 138.73799,  timeout 300.0
+Total CPU Time 138.73799,  timeout 300.0
+    Changing ["method: COBYLA->TNC"], evaluating ...
+Minimum runtime: 0.1
+Cutoff time: 2.05099
+Result time: 0.69
+Total CPU time: 139.42799
+Minimum runtime: 0.1
+Cutoff time: 1.3610000000000002
+Result time: 0.708
+Total CPU time: 140.13599
+Minimum runtime: 0.1
+Cutoff time: 0.653
+Result time: 0.742
+Total CPU time: 140.78898999999998
+        -> worse: (["pruned", 3] [based on 7 runs with cutoff 30.0])
+Total CPU Time 140.78898999999998,  timeout 300.0
+Total CPU Time 140.78898999999998,  timeout 300.0
+    Changing ["tol: 0.001->0.0005"], evaluating ...
+Minimum runtime: 0.1
+Cutoff time: 2.05099
+Result time: 0.289
+Total CPU time: 141.07798999999997
+Minimum runtime: 0.1
+Cutoff time: 1.7620000000000002
+Result time: 0.315
+Total CPU time: 141.39298999999997
+Minimum runtime: 0.1
+Cutoff time: 1.4469900000000002
+Result time: 0.289
+Total CPU time: 141.68198999999996
+Minimum runtime: 0.1
+Cutoff time: 1.15799
+Result time: 0.291
+Total CPU time: 141.97298999999995
+Minimum runtime: 0.1
+Cutoff time: 0.8670000000000001
+Result time: 0.296
+Total CPU time: 142.26898999999995
+Minimum runtime: 0.1
+Cutoff time: 0.57099
+Result time: 0.302
+Total CPU time: 142.57098999999994
+Minimum runtime: 0.1
+Cutoff time: 0.26899
+Result time: 0.294
+Total CPU time: 142.83997999999994
+174/100000, 142.83997999999994/300.0
+        -> worse: (["pruned", 6] [based on 7 runs with cutoff 30.0])
+Total CPU Time 142.83997999999994,  timeout 300.0
+Total CPU Time 142.83997999999994,  timeout 300.0
+    Changing ["maxiter: 10->500"], evaluating ...
+Minimum runtime: 0.1
+Cutoff time: 2.05099
+Result time: 0.728
+Total CPU time: 143.56797999999995
+Minimum runtime: 0.1
+Cutoff time: 1.3230000000000002
+Result time: 0.75
+Total CPU time: 144.31797999999995
+Minimum runtime: 0.1
+Cutoff time: 0.57299
+Result time: 0.68
+Total CPU time: 144.89096999999995
+        -> worse: (["pruned", 3] [based on 7 runs with cutoff 30.0])
+Total CPU Time 144.89096999999995,  timeout 300.0
+Total CPU Time 144.89096999999995,  timeout 300.0
+    Changing ["tol: 0.001->0.0001"], evaluating ...
+Minimum runtime: 0.1
+Cutoff time: 2.05099
+Result time: 0.276
+Total CPU time: 145.16696999999996
+Minimum runtime: 0.1
+Cutoff time: 1.7750000000000001
+Result time: 0.294
+Total CPU time: 145.46096999999997
+Minimum runtime: 0.1
+Cutoff time: 1.481
+Result time: 0.283
+Total CPU time: 145.74396999999996
+Minimum runtime: 0.1
+Cutoff time: 1.1980000000000002
+Result time: 0.294
+Total CPU time: 146.03796999999997
+Minimum runtime: 0.1
+Cutoff time: 0.9039900000000001
+Result time: 0.304
+Total CPU time: 146.34196999999998
+Minimum runtime: 0.1
+Cutoff time: 0.59999
+Result time: 0.298
+Total CPU time: 146.63996999999998
+Minimum runtime: 0.1
+Cutoff time: 0.30199000000000004
+Result time: 0.295
+Total CPU time: 146.93496999999996
+        -> worse: (["pruned", 6] [based on 7 runs with cutoff 30.0])
+Total CPU Time 146.93496999999996,  timeout 300.0
+Total CPU Time 146.93496999999996,  timeout 300.0
+    Changing ["method: COBYLA->Powell"], evaluating ...
+Minimum runtime: 0.1
+Cutoff time: 2.05099
+Result time: 0.659
+Total CPU time: 147.59396999999996
+Minimum runtime: 0.1
+Cutoff time: 1.3920000000000001
+Result time: 1.459
+Total CPU time: 148.98596999999995
+        -> worse: (["pruned", 2] [based on 7 runs with cutoff 30.0])
+Total CPU Time 148.98596999999995,  timeout 300.0
+Total CPU Time 148.98596999999995,  timeout 300.0
+Total CPU Time 148.98596999999995,  timeout 300.0
+Total CPU Time 148.98596999999995,  timeout 300.0
+    Changing ["method: COBYLA->SLSQP"], evaluating ...
+Minimum runtime: 0.1
+Cutoff time: 2.05099
+Result time: 1.084
+Total CPU time: 150.06996999999996
+Minimum runtime: 0.1
+Cutoff time: 0.9669900000000001
+Result time: 1.096
+Total CPU time: 151.03695999999997
+        -> worse: (["pruned", 2] [based on 7 runs with cutoff 30.0])
+Total CPU Time 151.03695999999997,  timeout 300.0
+Total CPU Time 151.03695999999997,  timeout 300.0
+    Changing ["maxiter: 10->2000"], evaluating ...
+Minimum runtime: 0.1
+Cutoff time: 2.05099
+Result time: 0.678
+Total CPU time: 151.71495999999996
+Minimum runtime: 0.1
+Cutoff time: 1.3730000000000002
+Result time: 0.702
+Total CPU time: 152.41695999999996
+Minimum runtime: 0.1
+Cutoff time: 0.671
+Result time: 0.744
+Total CPU time: 153.08795999999995
+191/100000, 153.08795999999995/300.0
+        -> worse: (["pruned", 3] [based on 7 runs with cutoff 30.0])
+Total CPU Time 153.08795999999995,  timeout 300.0
+Total CPU Time 153.08795999999995,  timeout 300.0
+    Changing ["maxiter: 10->1000"], evaluating ...
+Minimum runtime: 0.1
+Cutoff time: 2.05099
+Result time: 0.7
+Total CPU time: 153.78795999999994
+Minimum runtime: 0.1
+Cutoff time: 1.3510000000000002
+Result time: 0.765
+Total CPU time: 154.55295999999993
+Minimum runtime: 0.1
+Cutoff time: 0.5860000000000001
+Result time: 0.725
+Total CPU time: 155.13895999999994
+        -> worse: (["pruned", 3] [based on 7 runs with cutoff 30.0])
+Total CPU Time 155.13895999999994,  timeout 300.0
+Total CPU Time 155.13895999999994,  timeout 300.0
+    Changing ["jac: False->True"], evaluating ...
+Minimum runtime: 0.1
+Cutoff time: 2.05099
+Result time: 0.292
+Total CPU time: 155.43095999999994
+Minimum runtime: 0.1
+Cutoff time: 1.7590000000000001
+Result time: 0.284
+Total CPU time: 155.71495999999993
+Minimum runtime: 0.1
+Cutoff time: 1.475
+Result time: 0.3
+Total CPU time: 156.01495999999995
+Minimum runtime: 0.1
+Cutoff time: 1.175
+Result time: 0.295
+Total CPU time: 156.30995999999993
+Minimum runtime: 0.1
+Cutoff time: 0.8800000000000001
+Result time: 0.298
+Total CPU time: 156.60795999999993
+Minimum runtime: 0.1
+Cutoff time: 0.5820000000000001
+Result time: 0.295
+Total CPU time: 156.90295999999992
+Minimum runtime: 0.1
+Cutoff time: 0.28700000000000003
+Result time: 0.297
+Total CPU time: 157.18995999999993
+        -> worse: (["pruned", 6] [based on 7 runs with cutoff 30.0])
+Total CPU Time 157.18995999999993,  timeout 300.0
+Total CPU Time 157.18995999999993,  timeout 300.0
+    Changing ["jac: False->3-point"], evaluating ...
+Minimum runtime: 0.1
+Cutoff time: 2.05099
+Result time: 0.29
+Total CPU time: 157.47995999999992
+Minimum runtime: 0.1
+Cutoff time: 1.7610000000000001
+Result time: 0.317
+Total CPU time: 157.79695999999993
+Minimum runtime: 0.1
+Cutoff time: 1.4440000000000002
+Result time: 0.299
+Total CPU time: 158.09595999999993
+Minimum runtime: 0.1
+Cutoff time: 1.145
+Result time: 0.3
+Total CPU time: 158.39595999999995
+Minimum runtime: 0.1
+Cutoff time: 0.8450000000000001
+Result time: 0.299
+Total CPU time: 158.69495999999995
+Minimum runtime: 0.1
+Cutoff time: 0.546
+Result time: 0.304
+Total CPU time: 158.99895999999995
+Minimum runtime: 0.1
+Cutoff time: 0.24200000000000002
+Result time: 0.289
+Total CPU time: 159.24095999999994
+        -> worse: (["pruned", 6] [based on 7 runs with cutoff 30.0])
+Total CPU Time 159.24095999999994,  timeout 300.0
+Total CPU Time 159.24095999999994,  timeout 300.0
+    Changing ["maxiter: 10->200"], evaluating ...
+Minimum runtime: 0.1
+Cutoff time: 2.05099
+Result time: 0.724
+Total CPU time: 159.96495999999993
+Minimum runtime: 0.1
+Cutoff time: 1.3270000000000002
+Result time: 0.672
+Total CPU time: 160.63695999999993
+Minimum runtime: 0.1
+Cutoff time: 0.655
+Result time: 0.699
+Total CPU time: 161.29195999999993
+        -> worse: (["pruned", 3] [based on 7 runs with cutoff 30.0])
+Total CPU Time 161.29195999999993,  timeout 300.0
+Total CPU Time 161.29195999999993,  timeout 300.0
+    Changing ["tol: 0.001->0.00005"], evaluating ...
+Minimum runtime: 0.1
+Cutoff time: 2.05099
+Result time: 0.291
+Total CPU time: 161.58295999999993
+Minimum runtime: 0.1
+Cutoff time: 1.7600000000000002
+Result time: 0.288
+Total CPU time: 161.87095999999994
+Minimum runtime: 0.1
+Cutoff time: 1.4720000000000002
+Result time: 0.293
+Total CPU time: 162.16395999999995
+Minimum runtime: 0.1
+Cutoff time: 1.179
+Result time: 0.299
+Total CPU time: 162.46295999999995
+Minimum runtime: 0.1
+Cutoff time: 0.8800000000000001
+Result time: 0.309
+Total CPU time: 162.77195999999995
+Minimum runtime: 0.1
+Cutoff time: 0.5710000000000001
+Result time: 0.308
+Total CPU time: 163.07995999999994
+Minimum runtime: 0.1
+Cutoff time: 0.263
+Result time: 0.293
+Total CPU time: 163.34295999999995
+218/100000, 163.34295999999995/300.0
+        -> worse: (["pruned", 6] [based on 7 runs with cutoff 30.0])
+Total CPU Time 163.34295999999995,  timeout 300.0
+Total CPU Time 163.34295999999995,  timeout 300.0
+    Changing ["disp: False->True"], evaluating ...
+Minimum runtime: 0.1
+Cutoff time: 2.05099
+Result time: 0.301
+Total CPU time: 163.64395999999994
+Minimum runtime: 0.1
+Cutoff time: 1.7500000000000002
+Result time: 0.301
+Total CPU time: 163.94495999999992
+Minimum runtime: 0.1
+Cutoff time: 1.449
+Result time: 0.309
+Total CPU time: 164.25395999999992
+Minimum runtime: 0.1
+Cutoff time: 1.13999
+Result time: 0.296
+Total CPU time: 164.5499599999999
+Minimum runtime: 0.1
+Cutoff time: 0.84399
+Result time: 0.3
+Total CPU time: 164.84995999999992
+Minimum runtime: 0.1
+Cutoff time: 0.5439900000000001
+Result time: 0.314
+Total CPU time: 165.16395999999992
+Minimum runtime: 0.1
+Cutoff time: 0.22999000000000003
+Result time: 0.302
+Total CPU time: 165.3939499999999
+        -> worse: (["pruned", 6] [based on 7 runs with cutoff 30.0])
+Total CPU Time 165.3939499999999,  timeout 300.0
+Total CPU Time 165.3939499999999,  timeout 300.0
+    Changing ["method: COBYLA->CG"], evaluating ...
+Minimum runtime: 0.1
+Cutoff time: 2.05099
+Result time: 1.317
+Total CPU time: 166.7109499999999
+Minimum runtime: 0.1
+Cutoff time: 0.7340000000000001
+Result time: 1.346
+Total CPU time: 167.44494999999992
+        -> worse: (["pruned", 2] [based on 7 runs with cutoff 30.0])
+Total CPU Time 167.44494999999992,  timeout 300.0
+Total CPU Time 167.44494999999992,  timeout 300.0
+    Changing ["jac: False->None"], evaluating ...
+Minimum runtime: 0.1
+Cutoff time: 2.05099
+Result time: 0.277
+Total CPU time: 167.7219499999999
+Minimum runtime: 0.1
+Cutoff time: 1.7739900000000002
+Result time: 0.306
+Total CPU time: 168.02794999999992
+Minimum runtime: 0.1
+Cutoff time: 1.4680000000000002
+Result time: 0.266
+Total CPU time: 168.2939499999999
+Minimum runtime: 0.1
+Cutoff time: 1.2020000000000002
+Result time: 0.3
+Total CPU time: 168.59394999999992
+Minimum runtime: 0.1
+Cutoff time: 0.9019900000000001
+Result time: 0.303
+Total CPU time: 168.89694999999992
+Minimum runtime: 0.1
+Cutoff time: 0.5990000000000001
+Result time: 0.312
+Total CPU time: 169.20894999999993
+Minimum runtime: 0.1
+Cutoff time: 0.28700000000000003
+Result time: 0.307
+Total CPU time: 169.49594999999994
+        -> worse: (["pruned", 6] [based on 7 runs with cutoff 30.0])
+Total CPU Time 169.49594999999994,  timeout 300.0
+Total CPU Time 169.49594999999994,  timeout 300.0
+    Changing ["maxiter: 10->10000"], evaluating ...
+Minimum runtime: 0.1
+Cutoff time: 2.05099
+Result time: 0.692
+Total CPU time: 170.18794999999994
+Minimum runtime: 0.1
+Cutoff time: 1.3590000000000002
+Result time: 0.842
+Total CPU time: 171.02994999999996
+Minimum runtime: 0.1
+Cutoff time: 0.517
+Result time: 0.835
+Total CPU time: 171.54694999999995
+        -> worse: (["pruned", 3] [based on 7 runs with cutoff 30.0])
+Total CPU Time 171.54694999999995,  timeout 300.0
+Total CPU Time 171.54694999999995,  timeout 300.0
+    Changing ["jac: False->cs"], evaluating ...
+Minimum runtime: 0.1
+Cutoff time: 2.05099
+Result time: 0.297
+Total CPU time: 171.84394999999995
+Minimum runtime: 0.1
+Cutoff time: 1.7540000000000002
+Result time: 0.314
+Total CPU time: 172.15794999999994
+Minimum runtime: 0.1
+Cutoff time: 1.4400000000000002
+Result time: 0.305
+Total CPU time: 172.46294999999995
+Minimum runtime: 0.1
+Cutoff time: 1.135
+Result time: 0.305
+Total CPU time: 172.76794999999996
+Minimum runtime: 0.1
+Cutoff time: 0.8300000000000001
+Result time: 0.306
+Total CPU time: 173.07394999999997
+Minimum runtime: 0.1
+Cutoff time: 0.5239900000000001
+Result time: 0.286
+Total CPU time: 173.35994999999997
+243/100000, 173.35994999999997/300.0
+Minimum runtime: 0.1
+Cutoff time: 0.23800000000000002
+Result time: 0.299
+Total CPU time: 173.59794999999997
+        -> worse: (["pruned", 6] [based on 7 runs with cutoff 30.0])
+Total CPU Time 173.59794999999997,  timeout 300.0
+Total CPU Time 173.59794999999997,  timeout 300.0
+    Changing ["maxiter: 10->20"], evaluating ...
+Minimum runtime: 0.1
+Cutoff time: 2.05099
+Result time: 0.365
+Total CPU time: 173.96294999999998
+Minimum runtime: 0.1
+Cutoff time: 1.6860000000000002
+Result time: 0.347
+Total CPU time: 174.30995
+Minimum runtime: 0.1
+Cutoff time: 1.3390000000000002
+Result time: 0.347
+Total CPU time: 174.65695
+Minimum runtime: 0.1
+Cutoff time: 0.9920000000000001
+Result time: 0.336
+Total CPU time: 174.99295
+Minimum runtime: 0.1
+Cutoff time: 0.6559900000000001
+Result time: 0.338
+Total CPU time: 175.33095
+Minimum runtime: 0.1
+Cutoff time: 0.31799000000000005
+Result time: 0.352
+Total CPU time: 175.64894
+        -> worse: (["pruned", 6] [based on 7 runs with cutoff 30.0])
+Total CPU Time 175.64894,  timeout 300.0
+Total CPU Time 175.64894,  timeout 300.0
+    Changing ["method: COBYLA->BFGS"], evaluating ...
+Minimum runtime: 0.1
+Cutoff time: 2.05099
+Result time: 1.377
+Total CPU time: 177.02594000000002
+Minimum runtime: 0.1
+Cutoff time: 0.674
+Result time: 1.323
+Total CPU time: 177.69994000000003
+        -> worse: (["pruned", 2] [based on 7 runs with cutoff 30.0])
+Total CPU Time 177.69994000000003,  timeout 300.0
+Total CPU Time 177.69994000000003,  timeout 300.0
+    Changing ["tol: 0.001->0.00001"], evaluating ...
+Minimum runtime: 0.1
+Cutoff time: 2.05099
+Result time: 0.297
+Total CPU time: 177.99694000000002
+Minimum runtime: 0.1
+Cutoff time: 1.7540000000000002
+Result time: 0.298
+Total CPU time: 178.29494000000003
+Minimum runtime: 0.1
+Cutoff time: 1.4560000000000002
+Result time: 0.317
+Total CPU time: 178.61194000000003
+Minimum runtime: 0.1
+Cutoff time: 1.139
+Result time: 0.311
+Total CPU time: 178.92294000000004
+Minimum runtime: 0.1
+Cutoff time: 0.8280000000000001
+Result time: 0.315
+Total CPU time: 179.23794000000004
+Minimum runtime: 0.1
+Cutoff time: 0.513
+Result time: 0.316
+Total CPU time: 179.55394000000004
+Minimum runtime: 0.1
+Cutoff time: 0.19699000000000003
+Result time: 0.309
+Total CPU time: 179.75093000000004
+        -> worse: (["pruned", 6] [based on 7 runs with cutoff 30.0])
+Total CPU Time 179.75093000000004,  timeout 300.0
+Total CPU Time 179.75093000000004,  timeout 300.0
+    Changing ["method: COBYLA->L-BFGS-B"], evaluating ...
+Minimum runtime: 0.1
+Cutoff time: 2.05099
+Result time: 1.204
+Total CPU time: 180.95493000000005
+Minimum runtime: 0.1
+Cutoff time: 0.8470000000000001
+Result time: 0.881
+Total CPU time: 181.80193000000006
+        -> worse: (["pruned", 2] [based on 7 runs with cutoff 30.0])
+Total CPU Time 181.80193000000006,  timeout 300.0
+Total CPU Time 181.80193000000006,  timeout 300.0
+    Changing ["tol: 0.001->0.01"], evaluating ...
+Minimum runtime: 0.1
+Cutoff time: 2.05099
+Result time: 0.299
+Total CPU time: 182.10093000000006
+Minimum runtime: 0.1
+Cutoff time: 1.7520000000000002
+Result time: 0.307
+Total CPU time: 182.40793000000005
+Minimum runtime: 0.1
+Cutoff time: 1.445
+Result time: 0.321
+Total CPU time: 182.72893000000005
+Minimum runtime: 0.1
+Cutoff time: 1.12399
+Result time: 0.309
+Total CPU time: 183.03793000000005
+Minimum runtime: 0.1
+Cutoff time: 0.8150000000000001
+Result time: 0.312
+Total CPU time: 183.34993000000006
+Minimum runtime: 0.1
+Cutoff time: 0.50299
+Result time: 0.304
+Total CPU time: 183.65393000000006
+267/100000, 183.65393000000006/300.0
+Minimum runtime: 0.1
+Cutoff time: 0.19899000000000003
+Result time: 0.307
+Total CPU time: 183.85292000000007
+        -> worse: (["pruned", 6] [based on 7 runs with cutoff 30.0])
+Total CPU Time 183.85292000000007,  timeout 300.0
+Total CPU Time 183.85292000000007,  timeout 300.0
+Total CPU Time 183.85292000000007,  timeout 300.0
+Total CPU Time 183.85292000000007,  timeout 300.0
+Total CPU Time 183.85292000000007,  timeout 300.0
+Total CPU Time 183.85292000000007,  timeout 300.0
+    Changing ["method: COBYLA->Nelder-Mead"], evaluating ...
+Minimum runtime: 0.1
+Cutoff time: 2.05099
+Result time: 0.359
+Total CPU time: 184.21192000000008
+Minimum runtime: 0.1
+Cutoff time: 1.6920000000000002
+Result time: 0.376
+Total CPU time: 184.58792000000008
+Minimum runtime: 0.1
+Cutoff time: 1.316
+Result time: 0.362
+Total CPU time: 184.94992000000008
+Minimum runtime: 0.1
+Cutoff time: 0.9540000000000001
+Result time: 0.35
+Total CPU time: 185.29992000000007
+Minimum runtime: 0.1
+Cutoff time: 0.60399
+Result time: 0.373
+Total CPU time: 185.67292000000006
+Minimum runtime: 0.1
+Cutoff time: 0.231
+Result time: 0.357
+Total CPU time: 185.90392000000006
+        -> worse: (["pruned", 6] [based on 7 runs with cutoff 30.0])
+Total CPU Time 185.90392000000006,  timeout 300.0
+Total CPU Time 185.90392000000006,  timeout 300.0
+    Changing ["method: COBYLA->trust-constr"], evaluating ...
+Minimum runtime: 0.1
+Cutoff time: 2.05099
+Result time: 0.717
+Total CPU time: 186.62092000000007
+Minimum runtime: 0.1
+Cutoff time: 1.33399
+Result time: 0.704
+Total CPU time: 187.32492000000008
+Minimum runtime: 0.1
+Cutoff time: 0.63
+Result time: 0.709
+Total CPU time: 187.95492000000007
+        -> worse: (["pruned", 3] [based on 7 runs with cutoff 30.0])
+Total CPU Time 187.95492000000007,  timeout 300.0
+Total CPU Time 187.95492000000007,  timeout 300.0
+    Changing ["jac: False->2-point"], evaluating ...
+Minimum runtime: 0.1
+Cutoff time: 2.05099
+Result time: 0.295
+Total CPU time: 188.24992000000006
+Minimum runtime: 0.1
+Cutoff time: 1.7560000000000002
+Result time: 0.306
+Total CPU time: 188.55592000000007
+Minimum runtime: 0.1
+Cutoff time: 1.4500000000000002
+Result time: 0.3
+Total CPU time: 188.85592000000008
+Minimum runtime: 0.1
+Cutoff time: 1.14999
+Result time: 0.314
+Total CPU time: 189.16992000000008
+Minimum runtime: 0.1
+Cutoff time: 0.8359900000000001
+Result time: 0.309
+Total CPU time: 189.47892000000007
+Minimum runtime: 0.1
+Cutoff time: 0.5269900000000001
+Result time: 0.312
+Total CPU time: 189.79092000000009
+Minimum runtime: 0.1
+Cutoff time: 0.21500000000000002
+Result time: 0.306
+Total CPU time: 190.0059200000001
+        -> worse: (["pruned", 6] [based on 7 runs with cutoff 30.0])
+   LM for iteration 1: disp=False jac=False maxiter=10 method=COBYLA tol=0.001 (0.29157142857142854 [based on 7 runs with cutoff 30.0])
+
+========== DETAILED RESULTS (iteration 1): ==========
+================================================
+
+==================================================================
+Best parameter configuration found so far (end of iteration 1): disp=False, jac=False, maxiter=10, method=COBYLA, tol=0.001
+==================================================================
+Training quality of this incumbent parameter configuration: 0.29157142857142854, based on 7 runs with cutoff 30.0
+==================================================================
+
+Comparing LM against incumbent:
+disp=False jac=False maxiter=10 method=COBYLA tol=0.001 (0.29157142857142854 [based on 7 runs with cutoff 30.0])
+disp=False jac=False maxiter=10 method=COBYLA tol=0.001 (0.29157142857142854 [based on 7 runs with cutoff 30.0])
+LM better, change incumbent
+New Incumbent: 190.0059200000001, 0.29157142857142854 [7, 30.0]. With state disp=False, jac=False, maxiter=10, method=COBYLA, tol=0.001
+Total CPU Time 190.0059200000001,  timeout 300.0
+Total CPU Time 190.0059200000001,  timeout 300.0
+284/100000, 190.0059200000001/300.0
+iteration 2, flip 7, evaluation count 284
+    perturb to ---> disp=False jac=False maxiter=10 method=COBYLA tol=0.00005 (["pruned", 6] [based on 7 runs with cutoff 30.0])
+    perturb to ---> disp=False jac=False maxiter=200 method=COBYLA tol=0.00005 (100000000 [based on 0 runs with cutoff 0])
+    perturb to ---> disp=False jac=False maxiter=200 method=COBYLA tol=0.00001 (100000000 [based on 0 runs with cutoff 0])
+Minimum runtime: 0.1
+Cutoff time: 4.09199
+Result time: 0.859
+Total CPU time: 190.8649200000001
+Minimum runtime: 0.1
+Cutoff time: 3.2329900000000005
+Result time: 0.874
+Total CPU time: 191.7389200000001
+Minimum runtime: 0.1
+Cutoff time: 2.3589900000000004
+Result time: 0.873
+Total CPU time: 192.61192000000008
+Minimum runtime: 0.1
+Cutoff time: 1.4860000000000002
+Result time: 0.84
+Total CPU time: 193.4519200000001
+Minimum runtime: 0.1
+Cutoff time: 0.646
+Result time: 0.873
+Total CPU time: 194.09792000000007
+289/100000, 194.09792000000007/300.0
+   BLS in iteration 2, start with disp=False jac=False maxiter=200 method=COBYLA tol=0.00001 (["pruned", 5] [based on 7 runs with cutoff 30.0])
+Total CPU Time 194.09792000000007,  timeout 300.0
+Total CPU Time 194.09792000000007,  timeout 300.0
+Total CPU Time 194.09792000000007,  timeout 300.0
+Total CPU Time 194.09792000000007,  timeout 300.0
+    Changing ["maxiter: 200->50"], evaluating ...
+          -> Take improving step to neighbour disp=False jac=False maxiter=50 method=COBYLA tol=0.00001 (0.4507142857142857 [based on 7 runs with cutoff 30.0]) with flip 7
+
+Total CPU Time 194.09792000000007,  timeout 300.0
+Total CPU Time 194.09792000000007,  timeout 300.0
+Total CPU Time 194.09792000000007,  timeout 300.0
+Total CPU Time 194.09792000000007,  timeout 300.0
+    Changing ["maxiter: 50->10000"], evaluating ...
+Minimum runtime: 0.1
+Cutoff time: 3.1649900000000004
+Result time: 0.868
+Total CPU time: 194.96592000000007
+Minimum runtime: 0.1
+Cutoff time: 2.29699
+Result time: 0.93
+Total CPU time: 195.89592000000007
+Minimum runtime: 0.1
+Cutoff time: 1.3669900000000001
+Result time: 0.806
+Total CPU time: 196.7019200000001
+Minimum runtime: 0.1
+Cutoff time: 0.5609900000000001
+Result time: 0.874
+Total CPU time: 197.2629100000001
+        -> worse: (["pruned", 4] [based on 7 runs with cutoff 30.0])
+Total CPU Time 197.2629100000001,  timeout 300.0
+Total CPU Time 197.2629100000001,  timeout 300.0
+    Changing ["tol: 0.00001->0.001"], evaluating ...
+          -> Take improving step to neighbour disp=False jac=False maxiter=50 method=COBYLA tol=0.001 (0.44600000000000006 [based on 7 runs with cutoff 30.0]) with flip 8
+
+Total CPU Time 197.2629100000001,  timeout 300.0
+Total CPU Time 197.2629100000001,  timeout 300.0
+Total CPU Time 197.2629100000001,  timeout 300.0
+Total CPU Time 197.2629100000001,  timeout 300.0
+    Changing ["tol: 0.001->0.00005"], evaluating ...
+        -> worse: (["pruned", 6] [based on 7 runs with cutoff 30.0])
+Total CPU Time 197.2629100000001,  timeout 300.0
+Total CPU Time 197.2629100000001,  timeout 300.0
+    Changing ["maxiter: 50->100"], evaluating ...
+        -> worse: (0.6498571428571429 [based on 7 runs with cutoff 30.0])
+Total CPU Time 197.2629100000001,  timeout 300.0
+Total CPU Time 197.2629100000001,  timeout 300.0
+    Changing ["method: COBYLA->trust-constr"], evaluating ...
+        -> worse: (["pruned", 5] [based on 7 runs with cutoff 30.0])
+Total CPU Time 197.2629100000001,  timeout 300.0
+Total CPU Time 197.2629100000001,  timeout 300.0
+    Changing ["maxiter: 50->1000"], evaluating ...
+Minimum runtime: 0.1
+Cutoff time: 0.9420000000000001
+Result time: 0.807
+Total CPU time: 198.06991000000008
+Minimum runtime: 0.1
+Cutoff time: 0.135
+Result time: 0.698
+Total CPU time: 198.20491000000007
+        -> worse: (["pruned", 5] [based on 7 runs with cutoff 30.0])
+Total CPU Time 198.20491000000007,  timeout 300.0
+Total CPU Time 198.20491000000007,  timeout 300.0
+    Changing ["tol: 0.001->0.0001"], evaluating ...
+Minimum runtime: 0.1
+Cutoff time: 3.132
+Result time: 0.467
+Total CPU time: 198.67191000000008
+Minimum runtime: 0.1
+Cutoff time: 2.665
+Result time: 0.479
+Total CPU time: 199.1509100000001
+Minimum runtime: 0.1
+Cutoff time: 2.1860000000000004
+Result time: 0.478
+Total CPU time: 199.6289100000001
+Minimum runtime: 0.1
+Cutoff time: 1.7080000000000002
+Result time: 0.467
+Total CPU time: 200.09591000000012
+Minimum runtime: 0.1
+Cutoff time: 1.241
+Result time: 0.46
+Total CPU time: 200.55591000000013
+Minimum runtime: 0.1
+Cutoff time: 0.781
+Result time: 0.469
+Total CPU time: 201.02491000000012
+Minimum runtime: 0.1
+Cutoff time: 0.312
+Result time: 0.459
+Total CPU time: 201.33691000000013
+        -> worse: (["pruned", 6] [based on 7 runs with cutoff 30.0])
+Total CPU Time 201.33691000000013,  timeout 300.0
+Total CPU Time 201.33691000000013,  timeout 300.0
+    Changing ["jac: False->3-point"], evaluating ...
+        -> worse: (["pruned", 6] [based on 7 runs with cutoff 30.0])
+Total CPU Time 201.33691000000013,  timeout 300.0
+Total CPU Time 201.33691000000013,  timeout 300.0
+    Changing ["maxiter: 50->20"], evaluating ...
+Minimum runtime: 0.1
+Cutoff time: 1.0470000000000002
+Result time: 0.344
+Total CPU time: 201.68091000000013
+          -> Take improving step to neighbour disp=False jac=False maxiter=20 method=COBYLA tol=0.001 (0.347 [based on 7 runs with cutoff 30.0]) with flip 9
+
+Total CPU Time 201.68091000000013,  timeout 300.0
+Total CPU Time 201.68091000000013,  timeout 300.0
+Total CPU Time 201.68091000000013,  timeout 300.0
+Total CPU Time 201.68091000000013,  timeout 300.0
+    Changing ["method: COBYLA->BFGS"], evaluating ...
+Minimum runtime: 0.1
+Cutoff time: 2.43899
+Result time: 1.2
+Total CPU time: 202.8809100000001
+Minimum runtime: 0.1
+Cutoff time: 1.23899
+Result time: 1.197
+Total CPU time: 204.07791000000012
+Minimum runtime: 0.1
+Cutoff time: 0.041990000000000006
+Result time: 1.42
+Total CPU time: 204.1779100000001
+306/100000, 204.1779100000001/300.0
+        -> worse: (["pruned", 3] [based on 7 runs with cutoff 30.0])
+Total CPU Time 204.1779100000001,  timeout 300.0
+Total CPU Time 204.1779100000001,  timeout 300.0
+    Changing ["maxiter: 20->500"], evaluating ...
+Minimum runtime: 0.1
+Cutoff time: 0.28099
+Result time: 0.662
+Total CPU time: 204.4589000000001
+        -> worse: (["pruned", 4] [based on 7 runs with cutoff 30.0])
+Total CPU Time 204.4589000000001,  timeout 300.0
+Total CPU Time 204.4589000000001,  timeout 300.0
+    Changing ["tol: 0.001->0.0001"], evaluating ...
+Minimum runtime: 0.1
+Cutoff time: 2.43899
+Result time: 0.344
+Total CPU time: 204.8029000000001
+Minimum runtime: 0.1
+Cutoff time: 2.09499
+Result time: 0.349
+Total CPU time: 205.1519000000001
+Minimum runtime: 0.1
+Cutoff time: 1.7459900000000002
+Result time: 0.358
+Total CPU time: 205.5099000000001
+Minimum runtime: 0.1
+Cutoff time: 1.3880000000000001
+Result time: 0.36
+Total CPU time: 205.86990000000011
+Minimum runtime: 0.1
+Cutoff time: 1.0279900000000002
+Result time: 0.355
+Total CPU time: 206.2249000000001
+Minimum runtime: 0.1
+Cutoff time: 0.6729900000000001
+Result time: 0.352
+Total CPU time: 206.5769000000001
+Minimum runtime: 0.1
+Cutoff time: 0.32099000000000005
+Result time: 0.346
+Total CPU time: 206.8978900000001
+        -> worse: (["pruned", 6] [based on 7 runs with cutoff 30.0])
+Total CPU Time 206.8978900000001,  timeout 300.0
+Total CPU Time 206.8978900000001,  timeout 300.0
+    Changing ["jac: False->cs"], evaluating ...
+Minimum runtime: 0.1
+Cutoff time: 2.43899
+Result time: 0.346
+Total CPU time: 207.2438900000001
+Minimum runtime: 0.1
+Cutoff time: 2.0929900000000004
+Result time: 0.339
+Total CPU time: 207.5828900000001
+Minimum runtime: 0.1
+Cutoff time: 1.7539900000000002
+Result time: 0.339
+Total CPU time: 207.9218900000001
+Minimum runtime: 0.1
+Cutoff time: 1.4149900000000002
+Result time: 0.341
+Total CPU time: 208.2628900000001
+Minimum runtime: 0.1
+Cutoff time: 1.07399
+Result time: 0.339
+Total CPU time: 208.6018900000001
+Minimum runtime: 0.1
+Cutoff time: 0.73499
+Result time: 0.353
+Total CPU time: 208.95489000000012
+Minimum runtime: 0.1
+Cutoff time: 0.38199000000000005
+Result time: 0.351
+Total CPU time: 209.30589000000012
+          -> Take improving step to neighbour disp=False jac=cs maxiter=20 method=COBYLA tol=0.001 (0.344 [based on 7 runs with cutoff 30.0]) with flip 10
+
+Total CPU Time 209.30589000000012,  timeout 300.0
+Total CPU Time 209.30589000000012,  timeout 300.0
+Total CPU Time 209.30589000000012,  timeout 300.0
+Total CPU Time 209.30589000000012,  timeout 300.0
+    Changing ["maxiter: 20->1000"], evaluating ...
+Minimum runtime: 0.1
+Cutoff time: 2.41799
+Result time: 0.72
+Total CPU time: 210.02589000000012
+Minimum runtime: 0.1
+Cutoff time: 1.6980000000000002
+Result time: 0.789
+Total CPU time: 210.8148900000001
+Minimum runtime: 0.1
+Cutoff time: 0.909
+Result time: 0.75
+Total CPU time: 211.5648900000001
+Minimum runtime: 0.1
+Cutoff time: 0.159
+Result time: 0.706
+Total CPU time: 211.7238900000001
+        -> worse: (["pruned", 4] [based on 7 runs with cutoff 30.0])
+Total CPU Time 211.7238900000001,  timeout 300.0
+Total CPU Time 211.7238900000001,  timeout 300.0
+    Changing ["maxiter: 20->10"], evaluating ...
+          -> Take improving step to neighbour disp=False jac=cs maxiter=10 method=COBYLA tol=0.001 (0.3017142857142857 [based on 7 runs with cutoff 30.0]) with flip 11
+
+Total CPU Time 211.7238900000001,  timeout 300.0
+Total CPU Time 211.7238900000001,  timeout 300.0
+Total CPU Time 211.7238900000001,  timeout 300.0
+Total CPU Time 211.7238900000001,  timeout 300.0
+    Changing ["tol: 0.001->0.01"], evaluating ...
+Minimum runtime: 0.1
+Cutoff time: 2.1220000000000003
+Result time: 0.299
+Total CPU time: 212.0228900000001
+Minimum runtime: 0.1
+Cutoff time: 1.8230000000000002
+Result time: 0.298
+Total CPU time: 212.3208900000001
+Minimum runtime: 0.1
+Cutoff time: 1.5250000000000001
+Result time: 0.307
+Total CPU time: 212.6278900000001
+Minimum runtime: 0.1
+Cutoff time: 1.2180000000000002
+Result time: 0.317
+Total CPU time: 212.9448900000001
+Minimum runtime: 0.1
+Cutoff time: 0.901
+Result time: 0.307
+Total CPU time: 213.2518900000001
+Minimum runtime: 0.1
+Cutoff time: 0.5940000000000001
+Result time: 0.322
+Total CPU time: 213.5738900000001
+Minimum runtime: 0.1
+Cutoff time: 0.272
+Result time: 0.308
+Total CPU time: 213.84589000000008
+        -> worse: (["pruned", 6] [based on 7 runs with cutoff 30.0])
+Total CPU Time 213.84589000000008,  timeout 300.0
+Total CPU Time 213.84589000000008,  timeout 300.0
+    Changing ["disp: False->True"], evaluating ...
+Minimum runtime: 0.1
+Cutoff time: 2.1220000000000003
+Result time: 0.3
+Total CPU time: 214.1458900000001
+Minimum runtime: 0.1
+Cutoff time: 1.822
+Result time: 0.297
+Total CPU time: 214.4428900000001
+334/100000, 214.4428900000001/300.0
+Minimum runtime: 0.1
+Cutoff time: 1.5250000000000001
+Result time: 0.307
+Total CPU time: 214.74989000000008
+Minimum runtime: 0.1
+Cutoff time: 1.2180000000000002
+Result time: 0.308
+Total CPU time: 215.05789000000007
+Minimum runtime: 0.1
+Cutoff time: 0.91
+Result time: 0.306
+Total CPU time: 215.36389000000008
+Minimum runtime: 0.1
+Cutoff time: 0.6040000000000001
+Result time: 0.303
+Total CPU time: 215.66689000000008
+Minimum runtime: 0.1
+Cutoff time: 0.30100000000000005
+Result time: 0.319
+Total CPU time: 215.96789000000007
+        -> worse: (["pruned", 6] [based on 7 runs with cutoff 30.0])
+Total CPU Time 215.96789000000007,  timeout 300.0
+Total CPU Time 215.96789000000007,  timeout 300.0
+    Changing ["method: COBYLA->CG"], evaluating ...
+Minimum runtime: 0.1
+Cutoff time: 2.1220000000000003
+Result time: 1.146
+Total CPU time: 217.11389000000005
+Minimum runtime: 0.1
+Cutoff time: 0.9760000000000001
+Result time: 0.668
+Total CPU time: 217.78189000000006
+Minimum runtime: 0.1
+Cutoff time: 0.30800000000000005
+Result time: 1.684
+Total CPU time: 218.08989000000005
+        -> worse: (["pruned", 3] [based on 7 runs with cutoff 30.0])
+Total CPU Time 218.08989000000005,  timeout 300.0
+Total CPU Time 218.08989000000005,  timeout 300.0
+    Changing ["maxiter: 10->2000"], evaluating ...
+        -> worse: (0.7071428571428572 [based on 7 runs with cutoff 30.0])
+Total CPU Time 218.08989000000005,  timeout 300.0
+Total CPU Time 218.08989000000005,  timeout 300.0
+    Changing ["jac: cs->None"], evaluating ...
+          -> Take improving step to neighbour disp=False jac=None maxiter=10 method=COBYLA tol=0.001 (0.2958571428571429 [based on 7 runs with cutoff 30.0]) with flip 12
+
+Total CPU Time 218.08989000000005,  timeout 300.0
+Total CPU Time 218.08989000000005,  timeout 300.0
+Total CPU Time 218.08989000000005,  timeout 300.0
+Total CPU Time 218.08989000000005,  timeout 300.0
+    Changing ["maxiter: 10->20"], evaluating ...
+Minimum runtime: 0.1
+Cutoff time: 2.081
+Result time: 0.327
+Total CPU time: 218.41689000000005
+Minimum runtime: 0.1
+Cutoff time: 1.7540000000000002
+Result time: 0.336
+Total CPU time: 218.75289000000006
+Minimum runtime: 0.1
+Cutoff time: 1.4180000000000001
+Result time: 0.341
+Total CPU time: 219.09389000000007
+Minimum runtime: 0.1
+Cutoff time: 1.0770000000000002
+Result time: 0.349
+Total CPU time: 219.44289000000006
+Minimum runtime: 0.1
+Cutoff time: 0.7280000000000001
+Result time: 0.35
+Total CPU time: 219.79289000000006
+Minimum runtime: 0.1
+Cutoff time: 0.37800000000000006
+Result time: 0.323
+Total CPU time: 220.11589000000006
+Minimum runtime: 0.1
+Cutoff time: 0.05500000000000001
+Result time: 0.338
+Total CPU time: 220.21589000000006
+        -> worse: (["pruned", 6] [based on 7 runs with cutoff 30.0])
+Total CPU Time 220.21589000000006,  timeout 300.0
+Total CPU Time 220.21589000000006,  timeout 300.0
+    Changing ["disp: False->True"], evaluating ...
+Minimum runtime: 0.1
+Cutoff time: 2.081
+Result time: 0.298
+Total CPU time: 220.51389000000006
+Minimum runtime: 0.1
+Cutoff time: 1.7830000000000001
+Result time: 0.308
+Total CPU time: 220.82189000000005
+Minimum runtime: 0.1
+Cutoff time: 1.475
+Result time: 0.307
+Total CPU time: 221.12889000000004
+Minimum runtime: 0.1
+Cutoff time: 1.1680000000000001
+Result time: 0.317
+Total CPU time: 221.44589000000005
+Minimum runtime: 0.1
+Cutoff time: 0.8510000000000001
+Result time: 0.301
+Total CPU time: 221.74689000000004
+Minimum runtime: 0.1
+Cutoff time: 0.55
+Result time: 0.312
+Total CPU time: 222.05889000000005
+Minimum runtime: 0.1
+Cutoff time: 0.23800000000000002
+Result time: 0.31
+Total CPU time: 222.29689000000005
+        -> worse: (["pruned", 6] [based on 7 runs with cutoff 30.0])
+Total CPU Time 222.29689000000005,  timeout 300.0
+Total CPU Time 222.29689000000005,  timeout 300.0
+    Changing ["tol: 0.001->0.00005"], evaluating ...
+Minimum runtime: 0.1
+Cutoff time: 2.081
+Result time: 0.307
+Total CPU time: 222.60389000000004
+Minimum runtime: 0.1
+Cutoff time: 1.7740000000000002
+Result time: 0.301
+Total CPU time: 222.90489000000002
+Minimum runtime: 0.1
+Cutoff time: 1.473
+Result time: 0.3
+Total CPU time: 223.20489000000003
+Minimum runtime: 0.1
+Cutoff time: 1.173
+Result time: 0.3
+Total CPU time: 223.50489000000005
+Minimum runtime: 0.1
+Cutoff time: 0.8730000000000001
+Result time: 0.287
+Total CPU time: 223.79189000000005
+Minimum runtime: 0.1
+Cutoff time: 0.5860000000000001
+Result time: 0.307
+Total CPU time: 224.09889000000004
+Minimum runtime: 0.1
+Cutoff time: 0.279
+Result time: 0.298
+Total CPU time: 224.37789000000004
+        -> worse: (["pruned", 6] [based on 7 runs with cutoff 30.0])
+Total CPU Time 224.37789000000004,  timeout 300.0
+Total CPU Time 224.37789000000004,  timeout 300.0
+    Changing ["method: COBYLA->SLSQP"], evaluating ...
+Minimum runtime: 0.1
+Cutoff time: 2.081
+Result time: 1.087
+Total CPU time: 225.46489000000003
+364/100000, 225.46489000000003/300.0
+Minimum runtime: 0.1
+Cutoff time: 0.9940000000000001
+Result time: 1.075
+Total CPU time: 226.45889000000003
+        -> worse: (["pruned", 2] [based on 7 runs with cutoff 30.0])
+Total CPU Time 226.45889000000003,  timeout 300.0
+Total CPU Time 226.45889000000003,  timeout 300.0
+    Changing ["maxiter: 10->200"], evaluating ...
+Minimum runtime: 0.1
+Cutoff time: 2.081
+Result time: 0.8
+Total CPU time: 227.25889000000004
+Minimum runtime: 0.1
+Cutoff time: 1.2810000000000001
+Result time: 0.658
+Total CPU time: 227.91689000000002
+Minimum runtime: 0.1
+Cutoff time: 0.623
+Result time: 0.707
+Total CPU time: 228.53989
+        -> worse: (["pruned", 3] [based on 7 runs with cutoff 30.0])
+Total CPU Time 228.53989,  timeout 300.0
+Total CPU Time 228.53989,  timeout 300.0
+    Changing ["method: COBYLA->CG"], evaluating ...
+Minimum runtime: 0.1
+Cutoff time: 2.081
+Result time: 1.233
+Total CPU time: 229.77289000000002
+Minimum runtime: 0.1
+Cutoff time: 0.8480000000000001
+Result time: 1.715
+Total CPU time: 230.62089000000003
+        -> worse: (["pruned", 2] [based on 7 runs with cutoff 30.0])
+Total CPU Time 230.62089000000003,  timeout 300.0
+Total CPU Time 230.62089000000003,  timeout 300.0
+    Changing ["jac: None->3-point"], evaluating ...
+        -> worse: (["pruned", 6] [based on 7 runs with cutoff 30.0])
+Total CPU Time 230.62089000000003,  timeout 300.0
+Total CPU Time 230.62089000000003,  timeout 300.0
+    Changing ["maxiter: 10->500"], evaluating ...
+Minimum runtime: 0.1
+Cutoff time: 2.081
+Result time: 0.749
+Total CPU time: 231.36989000000003
+Minimum runtime: 0.1
+Cutoff time: 1.332
+Result time: 0.76
+Total CPU time: 232.12989000000002
+Minimum runtime: 0.1
+Cutoff time: 0.5720000000000001
+Result time: 0.735
+Total CPU time: 232.70189000000002
+        -> worse: (["pruned", 3] [based on 7 runs with cutoff 30.0])
+Total CPU Time 232.70189000000002,  timeout 300.0
+Total CPU Time 232.70189000000002,  timeout 300.0
+    Changing ["maxiter: 10->2000"], evaluating ...
+Minimum runtime: 0.1
+Cutoff time: 2.081
+Result time: 0.683
+Total CPU time: 233.38489
+Minimum runtime: 0.1
+Cutoff time: 1.3980000000000001
+Result time: 0.748
+Total CPU time: 234.13289
+Minimum runtime: 0.1
+Cutoff time: 0.65
+Result time: 0.785
+Total CPU time: 234.78289
+        -> worse: (["pruned", 3] [based on 7 runs with cutoff 30.0])
+Total CPU Time 234.78289,  timeout 300.0
+Total CPU Time 234.78289,  timeout 300.0
+    Changing ["jac: None->False"], evaluating ...
+          -> Take improving step to neighbour disp=False jac=False maxiter=10 method=COBYLA tol=0.001 (0.29157142857142854 [based on 7 runs with cutoff 30.0]) with flip 13
+
+Total CPU Time 234.78289,  timeout 300.0
+Total CPU Time 234.78289,  timeout 300.0
+Total CPU Time 234.78289,  timeout 300.0
+Total CPU Time 234.78289,  timeout 300.0
+Total CPU Time 234.78289,  timeout 300.0
+Total CPU Time 234.78289,  timeout 300.0
+    Changing ["jac: False->2-point"], evaluating ...
+        -> worse: (["pruned", 6] [based on 7 runs with cutoff 30.0])
+Total CPU Time 234.78289,  timeout 300.0
+Total CPU Time 234.78289,  timeout 300.0
+    Changing ["maxiter: 10->10000"], evaluating ...
+        -> worse: (["pruned", 3] [based on 7 runs with cutoff 30.0])
+Total CPU Time 234.78289,  timeout 300.0
+Total CPU Time 234.78289,  timeout 300.0
+    Changing ["method: COBYLA->trust-constr"], evaluating ...
+        -> worse: (["pruned", 3] [based on 7 runs with cutoff 30.0])
+Total CPU Time 234.78289,  timeout 300.0
+Total CPU Time 234.78289,  timeout 300.0
+    Changing ["tol: 0.001->0.0001"], evaluating ...
+        -> worse: (["pruned", 6] [based on 7 runs with cutoff 30.0])
+Total CPU Time 234.78289,  timeout 300.0
+Total CPU Time 234.78289,  timeout 300.0
+    Changing ["method: COBYLA->BFGS"], evaluating ...
+        -> worse: (["pruned", 2] [based on 7 runs with cutoff 30.0])
+Total CPU Time 234.78289,  timeout 300.0
+Total CPU Time 234.78289,  timeout 300.0
+    Changing ["method: COBYLA->SLSQP"], evaluating ...
+        -> worse: (["pruned", 2] [based on 7 runs with cutoff 30.0])
+Total CPU Time 234.78289,  timeout 300.0
+Total CPU Time 234.78289,  timeout 300.0
+    Changing ["tol: 0.001->0.00005"], evaluating ...
+        -> worse: (["pruned", 6] [based on 7 runs with cutoff 30.0])
+Total CPU Time 234.78289,  timeout 300.0
+Total CPU Time 234.78289,  timeout 300.0
+Total CPU Time 234.78289,  timeout 300.0
+Total CPU Time 234.78289,  timeout 300.0
+Total CPU Time 234.78289,  timeout 300.0
+Total CPU Time 234.78289,  timeout 300.0
+Total CPU Time 234.78289,  timeout 300.0
+Total CPU Time 234.78289,  timeout 300.0
+    Changing ["maxiter: 10->5000"], evaluating ...
+        -> worse: (["pruned", 3] [based on 7 runs with cutoff 30.0])
+Total CPU Time 234.78289,  timeout 300.0
+Total CPU Time 234.78289,  timeout 300.0
+    Changing ["method: COBYLA->L-BFGS-B"], evaluating ...
+        -> worse: (["pruned", 2] [based on 7 runs with cutoff 30.0])
+Total CPU Time 234.78289,  timeout 300.0
+Total CPU Time 234.78289,  timeout 300.0
+Total CPU Time 234.78289,  timeout 300.0
+Total CPU Time 234.78289,  timeout 300.0
+    Changing ["tol: 0.001->0.0005"], evaluating ...
+        -> worse: (["pruned", 6] [based on 7 runs with cutoff 30.0])
+Total CPU Time 234.78289,  timeout 300.0
+Total CPU Time 234.78289,  timeout 300.0
+Total CPU Time 234.78289,  timeout 300.0
+Total CPU Time 234.78289,  timeout 300.0
+    Changing ["maxiter: 10->2000"], evaluating ...
+        -> worse: (["pruned", 3] [based on 7 runs with cutoff 30.0])
+Total CPU Time 234.78289,  timeout 300.0
+Total CPU Time 234.78289,  timeout 300.0
+    Changing ["maxiter: 10->200"], evaluating ...
+        -> worse: (["pruned", 3] [based on 7 runs with cutoff 30.0])
+Total CPU Time 234.78289,  timeout 300.0
+Total CPU Time 234.78289,  timeout 300.0
+    Changing ["disp: False->True"], evaluating ...
+        -> worse: (["pruned", 6] [based on 7 runs with cutoff 30.0])
+Total CPU Time 234.78289,  timeout 300.0
+Total CPU Time 234.78289,  timeout 300.0
+    Changing ["method: COBYLA->CG"], evaluating ...
+        -> worse: (["pruned", 2] [based on 7 runs with cutoff 30.0])
+Total CPU Time 234.78289,  timeout 300.0
+Total CPU Time 234.78289,  timeout 300.0
+    Changing ["tol: 0.001->0.01"], evaluating ...
+        -> worse: (["pruned", 6] [based on 7 runs with cutoff 30.0])
+Total CPU Time 234.78289,  timeout 300.0
+Total CPU Time 234.78289,  timeout 300.0
+    Changing ["method: COBYLA->Nelder-Mead"], evaluating ...
+        -> worse: (["pruned", 6] [based on 7 runs with cutoff 30.0])
+Total CPU Time 234.78289,  timeout 300.0
+Total CPU Time 234.78289,  timeout 300.0
+    Changing ["jac: False->True"], evaluating ...
+        -> worse: (["pruned", 6] [based on 7 runs with cutoff 30.0])
+Total CPU Time 234.78289,  timeout 300.0
+Total CPU Time 234.78289,  timeout 300.0
+    Changing ["method: COBYLA->Powell"], evaluating ...
+        -> worse: (["pruned", 2] [based on 7 runs with cutoff 30.0])
+Total CPU Time 234.78289,  timeout 300.0
+Total CPU Time 234.78289,  timeout 300.0
+Total CPU Time 234.78289,  timeout 300.0
+Total CPU Time 234.78289,  timeout 300.0
+    Changing ["method: COBYLA->TNC"], evaluating ...
+        -> worse: (["pruned", 3] [based on 7 runs with cutoff 30.0])
+Total CPU Time 234.78289,  timeout 300.0
+Total CPU Time 234.78289,  timeout 300.0
+Total CPU Time 234.78289,  timeout 300.0
+Total CPU Time 234.78289,  timeout 300.0
+    Changing ["tol: 0.001->0.00001"], evaluating ...
+        -> worse: (["pruned", 6] [based on 7 runs with cutoff 30.0])
+   LM for iteration 2: disp=False jac=False maxiter=10 method=COBYLA tol=0.001 (0.29157142857142854 [based on 7 runs with cutoff 30.0])
+
+========== DETAILED RESULTS (iteration 2): ==========
+================================================
+
+==================================================================
+Best parameter configuration found so far (end of iteration 2): disp=False, jac=False, maxiter=10, method=COBYLA, tol=0.001
+==================================================================
+Training quality of this incumbent parameter configuration: 0.29157142857142854, based on 7 runs with cutoff 30.0
+==================================================================
+
+Comparing LM against incumbent:
+disp=False jac=False maxiter=10 method=COBYLA tol=0.001 (0.29157142857142854 [based on 7 runs with cutoff 30.0])
+disp=False jac=False maxiter=10 method=COBYLA tol=0.001 (0.29157142857142854 [based on 7 runs with cutoff 30.0])
+LM better, change incumbent
+New Incumbent: 234.78289, 0.29157142857142854 [7, 30.0]. With state disp=False, jac=False, maxiter=10, method=COBYLA, tol=0.001
+same state as last ILS: disp=False jac=False maxiter=10 method=COBYLA tol=0.001 (0.29157142857142854 [based on 7 runs with cutoff 30.0])
+Total CPU Time 234.78289,  timeout 300.0
+Total CPU Time 234.78289,  timeout 300.0
+376/100000, 234.78289/300.0
+iteration 3, flip 15, evaluation count 376
+    perturb to ---> disp=False jac=False maxiter=10 method=SLSQP tol=0.001 (["pruned", 2] [based on 7 runs with cutoff 30.0])
+    perturb to ---> disp=False jac=False maxiter=10 method=L-BFGS-B tol=0.001 (["pruned", 2] [based on 7 runs with cutoff 30.0])
+    perturb to ---> disp=False jac=False maxiter=100 method=L-BFGS-B tol=0.001 (100000000 [based on 0 runs with cutoff 0])
+Minimum runtime: 0.1
+Cutoff time: 4.09199
+Result time: 1.179
+Total CPU time: 235.96189
+377/100000, 235.96189/300.0
+Minimum runtime: 0.1
+Cutoff time: 2.91299
+Result time: 0.85
+Total CPU time: 236.81189
+Minimum runtime: 0.1
+Cutoff time: 2.06299
+Result time: 1.021
+Total CPU time: 237.83289
+Minimum runtime: 0.1
+Cutoff time: 1.042
+Result time: 0.864
+Total CPU time: 238.69689
+Minimum runtime: 0.1
+Cutoff time: 0.17800000000000002
+Result time: 1.147
+Total CPU time: 238.87489
+   BLS in iteration 3, start with disp=False jac=False maxiter=100 method=L-BFGS-B tol=0.001 (["pruned", 5] [based on 7 runs with cutoff 30.0])
+Total CPU Time 238.87489,  timeout 300.0
+Total CPU Time 238.87489,  timeout 300.0
+Total CPU Time 238.87489,  timeout 300.0
+Total CPU Time 238.87489,  timeout 300.0
+    Changing ["maxiter: 100->10000"], evaluating ...
+Minimum runtime: 0.1
+Cutoff time: 4.09199
+Result time: 0.972
+Total CPU time: 239.84689
+Minimum runtime: 0.1
+Cutoff time: 3.11999
+Result time: 1.018
+Total CPU time: 240.86489
+Minimum runtime: 0.1
+Cutoff time: 2.1019900000000002
+Result time: 1.277
+Total CPU time: 242.14189
+Minimum runtime: 0.1
+Cutoff time: 0.8250000000000001
+Result time: 1.119
+Total CPU time: 242.96688999999998
+        -> worse: (["pruned", 4] [based on 7 runs with cutoff 30.0])
+Total CPU Time 242.96688999999998,  timeout 300.0
+Total CPU Time 242.96688999999998,  timeout 300.0
+    Changing ["method: L-BFGS-B->TNC"], evaluating ...
+Minimum runtime: 0.1
+Cutoff time: 4.09199
+Result time: 1.149
+Total CPU time: 244.11588999999998
+Minimum runtime: 0.1
+Cutoff time: 2.9429900000000004
+Result time: 1.206
+Total CPU time: 245.32188999999997
+Minimum runtime: 0.1
+Cutoff time: 1.737
+Result time: 1.366
+Total CPU time: 246.68788999999998
+388/100000, 246.68788999999998/300.0
+Minimum runtime: 0.1
+Cutoff time: 0.37099000000000004
+Result time: 0.392
+Total CPU time: 247.05888
+        -> worse: (["pruned", 4] [based on 7 runs with cutoff 30.0])
+Total CPU Time 247.05888,  timeout 300.0
+Total CPU Time 247.05888,  timeout 300.0
+    Changing ["jac: False->None"], evaluating ...
+Minimum runtime: 0.1
+Cutoff time: 4.09199
+Result time: 1.032
+Total CPU time: 248.09088
+Minimum runtime: 0.1
+Cutoff time: 3.0599900000000004
+Result time: 0.886
+Total CPU time: 248.97688
+Minimum runtime: 0.1
+Cutoff time: 2.1739900000000003
+Result time: 0.894
+Total CPU time: 249.87088
+Minimum runtime: 0.1
+Cutoff time: 1.2799900000000002
+Result time: 0.93
+Total CPU time: 250.80088
+Minimum runtime: 0.1
+Cutoff time: 0.34999
+Result time: 1.008
+Total CPU time: 251.15087
+          -> Take improving step to neighbour disp=False jac=None maxiter=100 method=L-BFGS-B tol=0.001 (["pruned", 5] [based on 7 runs with cutoff 30.0]) with flip 15
+
+Total CPU Time 251.15087,  timeout 300.0
+Total CPU Time 251.15087,  timeout 300.0
+Total CPU Time 251.15087,  timeout 300.0
+Total CPU Time 251.15087,  timeout 300.0
+    Changing ["method: L-BFGS-B->trust-constr"], evaluating ...
+Minimum runtime: 0.1
+Cutoff time: 4.09199
+Result time: 0.739
+Total CPU time: 251.88987
+Minimum runtime: 0.1
+Cutoff time: 3.353
+Result time: 0.799
+Total CPU time: 252.68887
+Minimum runtime: 0.1
+Cutoff time: 2.55399
+Result time: 0.751
+Total CPU time: 253.43987
+Minimum runtime: 0.1
+Cutoff time: 1.80299
+Result time: 0.764
+Total CPU time: 254.20387000000002
+Minimum runtime: 0.1
+Cutoff time: 1.03899
+Result time: 0.936
+Total CPU time: 255.13987000000003
+Minimum runtime: 0.1
+Cutoff time: 0.10299000000000001
+Result time: 0.989
+Total CPU time: 255.24286000000004
+          -> Take improving step to neighbour disp=False jac=None maxiter=100 method=trust-constr tol=0.001 (["pruned", 6] [based on 7 runs with cutoff 30.0]) with flip 16
+
+Total CPU Time 255.24286000000004,  timeout 300.0
+Total CPU Time 255.24286000000004,  timeout 300.0
+Total CPU Time 255.24286000000004,  timeout 300.0
+Total CPU Time 255.24286000000004,  timeout 300.0
+    Changing ["maxiter: 100->2000"], evaluating ...
+Minimum runtime: 0.1
+Cutoff time: 4.09199
+Result time: 1.075
+Total CPU time: 256.31786000000005
+Minimum runtime: 0.1
+Cutoff time: 3.0169900000000003
+Result time: 0.74
+Total CPU time: 257.05786000000006
+402/100000, 257.05786000000006/300.0
+Minimum runtime: 0.1
+Cutoff time: 2.27699
+Result time: 0.737
+Total CPU time: 257.7948600000001
+Minimum runtime: 0.1
+Cutoff time: 1.5399900000000002
+Result time: 0.972
+Total CPU time: 258.76686000000007
+Minimum runtime: 0.1
+Cutoff time: 0.56799
+Result time: 0.762
+Total CPU time: 259.3348500000001
+        -> worse: (["pruned", 5] [based on 7 runs with cutoff 30.0])
+Total CPU Time 259.3348500000001,  timeout 300.0
+Total CPU Time 259.3348500000001,  timeout 300.0
+    Changing ["jac: None->True"], evaluating ...
+Minimum runtime: 0.1
+Cutoff time: 4.09199
+Result time: 0.761
+Total CPU time: 260.0958500000001
+Minimum runtime: 0.1
+Cutoff time: 3.3309900000000003
+Result time: 0.757
+Total CPU time: 260.8528500000001
+Minimum runtime: 0.1
+Cutoff time: 2.5739900000000002
+Result time: 0.768
+Total CPU time: 261.6208500000001
+Minimum runtime: 0.1
+Cutoff time: 1.8059900000000002
+Result time: 0.749
+Total CPU time: 262.3698500000001
+Minimum runtime: 0.1
+Cutoff time: 1.05699
+Result time: 0.8
+Total CPU time: 263.1698500000001
+Minimum runtime: 0.1
+Cutoff time: 0.25699
+Result time: 1.03
+Total CPU time: 263.4268400000001
+          -> Take improving step to neighbour disp=False jac=True maxiter=100 method=trust-constr tol=0.001 (["pruned", 6] [based on 7 runs with cutoff 30.0]) with flip 17
+
+Total CPU Time 263.4268400000001,  timeout 300.0
+Total CPU Time 263.4268400000001,  timeout 300.0
+Total CPU Time 263.4268400000001,  timeout 300.0
+Total CPU Time 263.4268400000001,  timeout 300.0
+    Changing ["jac: True->cs"], evaluating ...
+Minimum runtime: 0.1
+Cutoff time: 4.09199
+Result time: 0.916
+Total CPU time: 264.3428400000001
+Minimum runtime: 0.1
+Cutoff time: 3.176
+Result time: 0.805
+Total CPU time: 265.1478400000001
+Minimum runtime: 0.1
+Cutoff time: 2.3709900000000004
+Result time: 0.757
+Total CPU time: 265.9048400000001
+Minimum runtime: 0.1
+Cutoff time: 1.61399
+Result time: 0.805
+Total CPU time: 266.7098400000001
+Minimum runtime: 0.1
+Cutoff time: 0.8089900000000001
+Result time: 0.964
+Total CPU time: 267.5188300000001
+416/100000, 267.5188300000001/300.0
+        -> worse: (["pruned", 5] [based on 7 runs with cutoff 30.0])
+Total CPU Time 267.5188300000001,  timeout 300.0
+Total CPU Time 267.5188300000001,  timeout 300.0
+    Changing ["method: trust-constr->Powell"], evaluating ...
+Minimum runtime: 0.1
+Cutoff time: 4.09199
+Result time: 1.928
+Total CPU time: 269.4468300000001
+Minimum runtime: 0.1
+Cutoff time: 2.16399
+Result time: 2.498
+Total CPU time: 271.6108200000001
+        -> worse: (["pruned", 2] [based on 7 runs with cutoff 30.0])
+Total CPU Time 271.6108200000001,  timeout 300.0
+Total CPU Time 271.6108200000001,  timeout 300.0
+    Changing ["maxiter: 100->200"], evaluating ...
+Minimum runtime: 0.1
+Cutoff time: 4.09199
+Result time: 0.932
+Total CPU time: 272.5428200000001
+Minimum runtime: 0.1
+Cutoff time: 3.15999
+Result time: 0.886
+Total CPU time: 273.42882000000014
+Minimum runtime: 0.1
+Cutoff time: 2.2739900000000004
+Result time: 0.8
+Total CPU time: 274.22882000000016
+Minimum runtime: 0.1
+Cutoff time: 1.4739900000000001
+Result time: 0.739
+Total CPU time: 274.96782000000013
+Minimum runtime: 0.1
+Cutoff time: 0.73499
+Result time: 0.883
+Total CPU time: 275.7028100000001
+        -> worse: (["pruned", 5] [based on 7 runs with cutoff 30.0])
+Total CPU Time 275.7028100000001,  timeout 300.0
+Total CPU Time 275.7028100000001,  timeout 300.0
+    Changing ["jac: True->3-point"], evaluating ...
+Minimum runtime: 0.1
+Cutoff time: 4.09199
+Result time: 1.186
+Total CPU time: 276.8888100000001
+Minimum runtime: 0.1
+Cutoff time: 2.90599
+Result time: 1.195
+Total CPU time: 278.0838100000001
+425/100000, 278.0838100000001/300.0
+Minimum runtime: 0.1
+Cutoff time: 1.7109900000000002
+Result time: 1.27
+Total CPU time: 279.35381000000007
+Minimum runtime: 0.1
+Cutoff time: 0.44099000000000005
+Result time: 1.28
+Total CPU time: 279.79480000000007
+        -> worse: (["pruned", 4] [based on 7 runs with cutoff 30.0])
+Total CPU Time 279.79480000000007,  timeout 300.0
+Total CPU Time 279.79480000000007,  timeout 300.0
+    Changing ["tol: 0.001->0.00001"], evaluating ...
+Minimum runtime: 0.1
+Cutoff time: 4.09199
+Result time: 1.297
+Total CPU time: 281.0918000000001
+Minimum runtime: 0.1
+Cutoff time: 2.7950000000000004
+Result time: 1.267
+Total CPU time: 282.3588000000001
+Minimum runtime: 0.1
+Cutoff time: 1.5279900000000002
+Result time: 1.415
+Total CPU time: 283.7738000000001
+Minimum runtime: 0.1
+Cutoff time: 0.11299000000000001
+Result time: 1.11
+Total CPU time: 283.88679000000013
+        -> worse: (["pruned", 4] [based on 7 runs with cutoff 30.0])
+Total CPU Time 283.88679000000013,  timeout 300.0
+Total CPU Time 283.88679000000013,  timeout 300.0
+    Changing ["maxiter: 100->1000"], evaluating ...
+Minimum runtime: 0.1
+Cutoff time: 4.09199
+Result time: 0.737
+Total CPU time: 284.62379000000016
+Minimum runtime: 0.1
+Cutoff time: 3.3549900000000004
+Result time: 0.744
+Total CPU time: 285.3677900000002
+Minimum runtime: 0.1
+Cutoff time: 2.61099
+Result time: 0.711
+Total CPU time: 286.0787900000002
+Minimum runtime: 0.1
+Cutoff time: 1.9000000000000001
+Result time: 0.835
+Total CPU time: 286.9137900000002
+Minimum runtime: 0.1
+Cutoff time: 1.0650000000000002
+Result time: 0.761
+Total CPU time: 287.6747900000002
+Minimum runtime: 0.1
+Cutoff time: 0.30400000000000005
+Result time: 0.805
+Total CPU time: 287.9787900000002
+          -> Take improving step to neighbour disp=False jac=True maxiter=1000 method=trust-constr tol=0.001 (["pruned", 6] [based on 7 runs with cutoff 30.0]) with flip 18
+
+Total CPU Time 287.9787900000002,  timeout 300.0
+Total CPU Time 287.9787900000002,  timeout 300.0
+Total CPU Time 287.9787900000002,  timeout 300.0
+Total CPU Time 287.9787900000002,  timeout 300.0
+    Changing ["jac: True->3-point"], evaluating ...
+Minimum runtime: 0.1
+Cutoff time: 4.09199
+Result time: 1.281
+Total CPU time: 289.2597900000002
+438/100000, 289.2597900000002/300.0
+Minimum runtime: 0.1
+Cutoff time: 2.8110000000000004
+Result time: 1.386
+Total CPU time: 290.6457900000002
+Minimum runtime: 0.1
+Cutoff time: 1.425
+Result time: 1.184
+Total CPU time: 291.82979000000023
+Minimum runtime: 0.1
+Cutoff time: 0.24099
+Result time: 1.198
+Total CPU time: 292.07078000000024
+        -> worse: (["pruned", 4] [based on 7 runs with cutoff 30.0])
+Total CPU Time 292.07078000000024,  timeout 300.0
+Total CPU Time 292.07078000000024,  timeout 300.0
+    Changing ["maxiter: 1000->10000"], evaluating ...
+Minimum runtime: 0.1
+Cutoff time: 4.09199
+Result time: 0.74
+Total CPU time: 292.81078000000025
+Minimum runtime: 0.1
+Cutoff time: 3.3519900000000002
+Result time: 0.854
+Total CPU time: 293.66478000000023
+Minimum runtime: 0.1
+Cutoff time: 2.49799
+Result time: 0.789
+Total CPU time: 294.4537800000002
+Minimum runtime: 0.1
+Cutoff time: 1.7089900000000002
+Result time: 0.752
+Total CPU time: 295.20578000000023
+Minimum runtime: 0.1
+Cutoff time: 0.9570000000000001
+Result time: 0.748
+Total CPU time: 295.9537800000002
+Minimum runtime: 0.1
+Cutoff time: 0.20899
+Result time: 0.938
+Total CPU time: 296.16277000000025
+          -> Take improving step to neighbour disp=False jac=True maxiter=10000 method=trust-constr tol=0.001 (["pruned", 6] [based on 7 runs with cutoff 30.0]) with flip 19
+
+Total CPU Time 296.16277000000025,  timeout 300.0
+Total CPU Time 296.16277000000025,  timeout 300.0
+Total CPU Time 296.16277000000025,  timeout 300.0
+Total CPU Time 296.16277000000025,  timeout 300.0
+    Changing ["tol: 0.001->0.0005"], evaluating ...
+Minimum runtime: 0.1
+Cutoff time: 4.09199
+Result time: 0.804
+Total CPU time: 296.9667700000002
+Minimum runtime: 0.1
+Cutoff time: 3.28799
+Result time: 0.847
+Total CPU time: 297.8137700000002
+Minimum runtime: 0.1
+Cutoff time: 2.44099
+Result time: 1.248
+Total CPU time: 299.0617700000002
+Minimum runtime: 0.1
+Cutoff time: 1.19299
+Result time: 0.792
+Total CPU time: 299.85377000000017
+451/100000, 299.85377000000017/300.0
+Minimum runtime: 0.1
+Cutoff time: 0.401
+Result time: 0.838
+Total CPU time: 300.2547700000002
+        -> worse: (["pruned", 5] [based on 7 runs with cutoff 30.0])
+Total CPU Time 300.2547700000002,  timeout 300.0
+Total CPU Time 300.2547700000002,  timeout 300.0
+ParamILS has reached the specified CPU time limit of 300.0 seconds => stopping the search now.
+   LM for iteration 3: disp=False jac=True maxiter=10000 method=trust-constr tol=0.001 (["pruned", 6] [based on 7 runs with cutoff 30.0])
+
+========== DETAILED RESULTS (iteration 3): ==========
+================================================
+
+==================================================================
+Best parameter configuration found so far (end of iteration 3): disp=False, jac=False, maxiter=10, method=COBYLA, tol=0.001
+==================================================================
+Training quality of this incumbent parameter configuration: 0.29157142857142854, based on 7 runs with cutoff 30.0
+==================================================================
+
+Comparing LM against incumbent:
+disp=False jac=True maxiter=10000 method=trust-constr tol=0.001 (["pruned", 6] [based on 7 runs with cutoff 30.0])
+disp=False jac=False maxiter=10 method=COBYLA tol=0.001 (0.29157142857142854 [based on 7 runs with cutoff 30.0])
+Incumbent better, keeping it
+rejecting worse disp=False jac=True maxiter=10000 method=trust-constr tol=0.001 (["pruned", 3] [based on 7 runs with cutoff 30.0]), going back to disp=False jac=False maxiter=10 method=COBYLA tol=0.001 (0.29157142857142854 [based on 7 runs with cutoff 30.0])
+Total CPU Time 300.2547700000002,  timeout 300.0
+Total CPU Time 300.2547700000002,  timeout 300.0
+ParamILS has reached the specified CPU time limit of 300.0 seconds => stopping the search now.
+Final solution for depth 1 with limit N=7, and cutoff time=30.0.
+New Incumbent: 300.2547700000002, 0.29157142857142854 [7, 30.0]. With state disp=False, jac=False, maxiter=10, method=COBYLA, tol=0.001
+
+==================================================================
+ParamILS is finished.
+==================================================================
+
+Final best parameter configuration found: disp=False, jac=False, maxiter=10, method=COBYLA, tol=0.001
+==================================================================
+Active parameters: disp=False, jac=False, maxiter=10, method=COBYLA, tol=0.001
+
+==================================================================
+Training quality of this final best found parameter configuration: 0.29157142857142854, based on 7 runs with cutoff 30.0
+==================================================================
+
+
+==================================================================
+Computing validation result on independent data -- 2 runs with cutoff time 30.0...
+==================================================================
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.3
+Total CPU time: 300.5547700000002
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.312
+Total CPU time: 300.8667700000002
+/home/jim/magpie/examples/scipy/necessary/data/complex_function_1.py: 0.3
+/home/jim/magpie/examples/scipy/necessary/data/complex_function_2.py: 0.312
+Combined result: 0.306
+
+================================================================
+Final best parameter configuration: disp=False, jac=False, maxiter=10, method=COBYLA, tol=0.001
+==================================================================
+Active parameters: disp=False, jac=False, maxiter=10, method=COBYLA, tol=0.001
+
+================================================================
+Training quality of this final best found parameter configuration: 0.29157142857142854, based on 7 runs with cutoff 30.0
+Test quality of this final best found parameter configuration: 0.306, based on 2 independent runs with cutoff 30.0
+==================================================================

@@ -1,0 +1,1 @@
+Child: ["ParamSetting(('minisat_advanced.params', 'param', 'sub-lim$bounded'), 6419)", "ParamSetting(('minisat_advanced.params', 'param', 'elim'), 'True')", "ParamSetting(('minisat_advanced.params', 'param', '@sub-lim$flag'), 'False')", "ParamSetting(('minisat_advanced.params', 'param', 'var-decay'), 0.825520469471721)"]

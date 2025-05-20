@@ -1,0 +1,1 @@
+Child: ["ParamSetting(('minisat_advanced.params', 'param', 'lbd-cut'), 4.273724199634221)", "ParamSetting(('minisat_advanced.params', 'param', 'grow'), -6920)"]

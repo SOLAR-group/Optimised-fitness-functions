@@ -1,0 +1,1 @@
+Child: ["SrcmlStmtInsertion(('core/Solver.cc.xml', '_inter_block', 147), ('core/Solver.cc.xml', 'stmt', 4))", "SrcmlStmtInsertion(('core/Solver.cc.xml', '_inter_block', 520), ('core/Solver.cc.xml', 'stmt', 266))", "SrcmlStmtDeletion(('core/Solver.cc.xml', 'stmt', 163))", "SrcmlStmtDeletion(('core/Solver.cc.xml', 'stmt', 384))"]

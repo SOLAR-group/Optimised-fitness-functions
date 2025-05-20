@@ -1,0 +1,715 @@
+max wall time = 8640000
+/home/jim/paramils2.3.8-source/example_zlib/zlib-params.txt
+4 parameters in total
+0 parameters are conditional.
+0 parameter combinations are forbidden.
+num_params = 4, num_combos=2835
+WARNING: N=2000 is greater than the number of entries
+in the @instances array. This can happen if the algorithm is
+deterministic and the number of training instances is smaller than N,
+or if the instance_seed_file is provided by the user and has less
+entries than N. Clamping N and maxDetail to 3
+WARNING: validN=30 is greater than the number
+of entries in the @test_instances array. This can happen if the
+algorithm is deterministic and the number of test instances is smaller
+than validN, or if the test_instance_seed_file is provided by the user
+and has less entries than validN. Clamping validN to
+2
+seed: 2468
+Run 2
+Level 
+========================================================
+Starting ILS for level 1, i.e. a limit of N=3, and cutoff time=30.0.
+Current CPU time = 0, this run goes until 300.0 
+========================================================
+New Incumbent: 0, 100000000 [0, 0]. With state level=6, memLevel=5, strategy=3, wbits=28
+getAlgoResultsForInstsAndParams.
+  Trial 1 for calling: ruby example_zlib/zlib_wrapper_branches.rb data/random1.txt "" 30.000000000000004 2147483647 -1 -level 6 -memLevel 5 -strategy 3 -wbits 28 > /tmp/tmp-2025-03-2700:38:49-0.16654682159423828
+Executing cmd: ruby example_zlib/zlib_wrapper_branches.rb data/random1.txt "" 30.000000000000004 2147483647 -1 -level 6 -memLevel 5 -strategy 3 -wbits 28 > /tmp/tmp-2025-03-2700:38:49-0.16654682159423828
+Result: CRASHED, 2.279, 0,  2642040739, -1
+WARNING: Run crashed.
+  Trial 1 for calling: ruby example_zlib/zlib_wrapper_branches.rb data/random3.png "" 30.000000000000004 2147483647 -1 -level 6 -memLevel 5 -strategy 3 -wbits 28 > /tmp/tmp-2025-03-2700:38:51-0.7098701000213623
+Executing cmd: ruby example_zlib/zlib_wrapper_branches.rb data/random3.png "" 30.000000000000004 2147483647 -1 -level 6 -memLevel 5 -strategy 3 -wbits 28 > /tmp/tmp-2025-03-2700:38:51-0.7098701000213623
+Result: CRASHED, 4.049, 0,  3936383809, -1
+WARNING: Run crashed.
+  Trial 1 for calling: ruby example_zlib/zlib_wrapper_branches.rb data/random4.png "" 30.000000000000004 2147483647 -1 -level 6 -memLevel 5 -strategy 3 -wbits 28 > /tmp/tmp-2025-03-2700:38:55-0.8596217632293701
+Executing cmd: ruby example_zlib/zlib_wrapper_branches.rb data/random4.png "" 30.000000000000004 2147483647 -1 -level 6 -memLevel 5 -strategy 3 -wbits 28 > /tmp/tmp-2025-03-2700:38:55-0.8596217632293701
+Result: CRASHED, 4.03, 0,  3936345302, -1
+WARNING: Run crashed.
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 2.279
+Total CPU time: 2.279
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 4.049
+Total CPU time: 6.328
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 4.03
+Total CPU time: 10.358
+the result has length = 5 and content = ["CRASHED", 2.279, 0, 2642040739.0, -1]
+i am inide the perf = 2642040739.0
+the result has length = 5 and content = ["CRASHED", 4.049, 0, 3936383809.0, -1]
+i am inide the perf = 3936383809.0
+the result has length = 5 and content = ["CRASHED", 4.03, 0, 3936345302.0, -1]
+i am inide the perf = 3936345302.0
+3/100000, 10.358/300.0
+ Same incumbent, new precision:
+New Incumbent: 10.358, 1.0e+19 [3, 30.0]. With state level=6, memLevel=5, strategy=3, wbits=28
+Total CPU Time 10.358,  timeout 300.0
+Total CPU Time 10.358,  timeout 300.0
+now 2025-03-27 00:38:59 +0800; start 2025-03-27 00:38:49 +0800; time-start 10.548519713; maxWall 8640000.0
+getAlgoResultsForInstsAndParams.
+  Trial 1 for calling: ruby example_zlib/zlib_wrapper_branches.rb data/random1.txt "" 30.000000000000004 2147483647 -1 -level 3 -memLevel 5 -strategy 4 -wbits 28 > /tmp/tmp-2025-03-2700:38:59-0.3919672966003418
+Executing cmd: ruby example_zlib/zlib_wrapper_branches.rb data/random1.txt "" 30.000000000000004 2147483647 -1 -level 3 -memLevel 5 -strategy 4 -wbits 28 > /tmp/tmp-2025-03-2700:38:59-0.3919672966003418
+Result: CRASHED, 3.618, 0,  3266893261, -1
+WARNING: Run crashed.
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 3.618
+Total CPU time: 13.976
+the result has length = 5 and content = ["CRASHED", 3.618, 0, 3266893261.0, -1]
+i am inide the perf = 3266893261.0
+getAlgoResultsForInstsAndParams.
+  Trial 1 for calling: ruby example_zlib/zlib_wrapper_branches.rb data/random3.png "" 30.000000000000004 2147483647 -1 -level 3 -memLevel 5 -strategy 4 -wbits 28 > /tmp/tmp-2025-03-2700:39:03-0.8785367012023926
+Executing cmd: ruby example_zlib/zlib_wrapper_branches.rb data/random3.png "" 30.000000000000004 2147483647 -1 -level 3 -memLevel 5 -strategy 4 -wbits 28 > /tmp/tmp-2025-03-2700:39:03-0.8785367012023926
+Result: CRASHED, 5.632, 0,  4810073904, -1
+WARNING: Run crashed.
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 5.632
+Total CPU time: 19.608
+the result has length = 5 and content = ["CRASHED", 5.632, 0, 4810073904.0, -1]
+i am inide the perf = 4810073904.0
+getAlgoResultsForInstsAndParams.
+  Trial 1 for calling: ruby example_zlib/zlib_wrapper_branches.rb data/random4.png "" 30.000000000000004 2147483647 -1 -level 3 -memLevel 5 -strategy 4 -wbits 28 > /tmp/tmp-2025-03-2700:39:09-0.29399871826171875
+Executing cmd: ruby example_zlib/zlib_wrapper_branches.rb data/random4.png "" 30.000000000000004 2147483647 -1 -level 3 -memLevel 5 -strategy 4 -wbits 28 > /tmp/tmp-2025-03-2700:39:09-0.29399871826171875
+Result: CRASHED, 5.645, 0,  4810141990, -1
+WARNING: Run crashed.
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 5.645
+Total CPU time: 25.253
+the result has length = 5 and content = ["CRASHED", 5.645, 0, 4810141990.0, -1]
+i am inide the perf = 4810141990.0
+6/100000, 25.253/300.0
+          -> Take improving step to random level=3 memLevel=5 strategy=4 wbits=28 (1.0e+19 [based on 3 runs with cutoff 30.0])
+
+Total CPU Time 25.253,  timeout 300.0
+Total CPU Time 25.253,  timeout 300.0
+now 2025-03-27 00:39:14 +0800; start 2025-03-27 00:38:49 +0800; time-start 25.635054941; maxWall 8640000.0
+getAlgoResultsForInstsAndParams.
+  Trial 1 for calling: ruby example_zlib/zlib_wrapper_branches.rb data/random1.txt "" 30.000000000000004 2147483647 -1 -level 7 -memLevel 5 -strategy 4 -wbits 27 > /tmp/tmp-2025-03-2700:39:14-0.7702724933624268
+Executing cmd: ruby example_zlib/zlib_wrapper_branches.rb data/random1.txt "" 30.000000000000004 2147483647 -1 -level 7 -memLevel 5 -strategy 4 -wbits 27 > /tmp/tmp-2025-03-2700:39:14-0.7702724933624268
+Result: CRASHED, 3.703, 0,  3504986593, -1
+WARNING: Run crashed.
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 3.703
+Total CPU time: 28.956
+the result has length = 5 and content = ["CRASHED", 3.703, 0, 3504986593.0, -1]
+i am inide the perf = 3504986593.0
+getAlgoResultsForInstsAndParams.
+  Trial 1 for calling: ruby example_zlib/zlib_wrapper_branches.rb data/random3.png "" 30.000000000000004 2147483647 -1 -level 7 -memLevel 5 -strategy 4 -wbits 27 > /tmp/tmp-2025-03-2700:39:18-0.10034751892089844
+Executing cmd: ruby example_zlib/zlib_wrapper_branches.rb data/random3.png "" 30.000000000000004 2147483647 -1 -level 7 -memLevel 5 -strategy 4 -wbits 27 > /tmp/tmp-2025-03-2700:39:18-0.10034751892089844
+Result: CRASHED, 6.103, 0,  5356809990, -1
+WARNING: Run crashed.
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 6.103
+Total CPU time: 35.059
+the result has length = 5 and content = ["CRASHED", 6.103, 0, 5356809990.0, -1]
+i am inide the perf = 5356809990.0
+getAlgoResultsForInstsAndParams.
+  Trial 1 for calling: ruby example_zlib/zlib_wrapper_branches.rb data/random4.png "" 30.000000000000004 2147483647 -1 -level 7 -memLevel 5 -strategy 4 -wbits 27 > /tmp/tmp-2025-03-2700:39:24-0.8935034275054932
+Executing cmd: ruby example_zlib/zlib_wrapper_branches.rb data/random4.png "" 30.000000000000004 2147483647 -1 -level 7 -memLevel 5 -strategy 4 -wbits 27 > /tmp/tmp-2025-03-2700:39:24-0.8935034275054932
+Result: CRASHED, 6.125, 0,  5355894699, -1
+WARNING: Run crashed.
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 6.125
+Total CPU time: 41.184
+the result has length = 5 and content = ["CRASHED", 6.125, 0, 5355894699.0, -1]
+i am inide the perf = 5355894699.0
+9/100000, 41.184/300.0
+          -> Take improving step to random level=7 memLevel=5 strategy=4 wbits=27 (1.0e+19 [based on 3 runs with cutoff 30.0])
+
+Total CPU Time 41.184,  timeout 300.0
+Total CPU Time 41.184,  timeout 300.0
+now 2025-03-27 00:39:30 +0800; start 2025-03-27 00:38:49 +0800; time-start 41.750885722; maxWall 8640000.0
+getAlgoResultsForInstsAndParams.
+  Trial 1 for calling: ruby example_zlib/zlib_wrapper_branches.rb data/random1.txt "" 30.000000000000004 2147483647 -1 -level 9 -memLevel 9 -strategy 4 -wbits 25 > /tmp/tmp-2025-03-2700:39:30-0.16560959815979004
+Executing cmd: ruby example_zlib/zlib_wrapper_branches.rb data/random1.txt "" 30.000000000000004 2147483647 -1 -level 9 -memLevel 9 -strategy 4 -wbits 25 > /tmp/tmp-2025-03-2700:39:30-0.16560959815979004
+Result: CRASHED, 8.882, 0,  28626937254, -1
+WARNING: Run crashed.
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 8.882
+Total CPU time: 50.065999999999995
+the result has length = 5 and content = ["CRASHED", 8.882, 0, 28626937254.0, -1]
+i am inide the perf = 28626937254.0
+getAlgoResultsForInstsAndParams.
+  Trial 1 for calling: ruby example_zlib/zlib_wrapper_branches.rb data/random3.png "" 30.000000000000004 2147483647 -1 -level 9 -memLevel 9 -strategy 4 -wbits 25 > /tmp/tmp-2025-03-2700:39:39-0.7483212947845459
+Executing cmd: ruby example_zlib/zlib_wrapper_branches.rb data/random3.png "" 30.000000000000004 2147483647 -1 -level 9 -memLevel 9 -strategy 4 -wbits 25 > /tmp/tmp-2025-03-2700:39:39-0.7483212947845459
+Result: CRASHED, 12.499, 0,  39940419176, -1
+WARNING: Run crashed.
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 12.499
+Total CPU time: 62.565
+the result has length = 5 and content = ["CRASHED", 12.499, 0, 39940419176.0, -1]
+i am inide the perf = 39940419176.0
+11/100000, 62.565/300.0
+getAlgoResultsForInstsAndParams.
+  Trial 1 for calling: ruby example_zlib/zlib_wrapper_branches.rb data/random4.png "" 30.000000000000004 2147483647 -1 -level 9 -memLevel 9 -strategy 4 -wbits 25 > /tmp/tmp-2025-03-2700:39:52-0.6760263442993164
+Executing cmd: ruby example_zlib/zlib_wrapper_branches.rb data/random4.png "" 30.000000000000004 2147483647 -1 -level 9 -memLevel 9 -strategy 4 -wbits 25 > /tmp/tmp-2025-03-2700:39:52-0.6760263442993164
+Result: CRASHED, 12.512, 0,  39938352052, -1
+WARNING: Run crashed.
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 12.512
+Total CPU time: 75.077
+the result has length = 5 and content = ["CRASHED", 12.512, 0, 39938352052.0, -1]
+i am inide the perf = 39938352052.0
+12/100000, 75.077/300.0
+          -> Take improving step to random level=9 memLevel=9 strategy=4 wbits=25 (1.0e+19 [based on 3 runs with cutoff 30.0])
+
+Total CPU Time 75.077,  timeout 300.0
+Total CPU Time 75.077,  timeout 300.0
+now 2025-03-27 00:40:04 +0800; start 2025-03-27 00:38:49 +0800; time-start 75.814180844; maxWall 8640000.0
+getAlgoResultsForInstsAndParams.
+  Trial 1 for calling: ruby example_zlib/zlib_wrapper_branches.rb data/random1.txt "" 30.000000000000004 2147483647 -1 -level 3 -memLevel 3 -strategy 3 -wbits 30 > /tmp/tmp-2025-03-2700:40:04-0.20579802989959717
+Executing cmd: ruby example_zlib/zlib_wrapper_branches.rb data/random1.txt "" 30.000000000000004 2147483647 -1 -level 3 -memLevel 3 -strategy 3 -wbits 30 > /tmp/tmp-2025-03-2700:40:04-0.20579802989959717
+Result: CRASHED, 3.657, 0,  4155998129, -1
+WARNING: Run crashed.
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 3.657
+Total CPU time: 78.734
+the result has length = 5 and content = ["CRASHED", 3.657, 0, 4155998129.0, -1]
+i am inide the perf = 4155998129.0
+getAlgoResultsForInstsAndParams.
+  Trial 1 for calling: ruby example_zlib/zlib_wrapper_branches.rb data/random3.png "" 30.000000000000004 2147483647 -1 -level 3 -memLevel 3 -strategy 3 -wbits 30 > /tmp/tmp-2025-03-2700:40:08-0.7358765602111816
+Executing cmd: ruby example_zlib/zlib_wrapper_branches.rb data/random3.png "" 30.000000000000004 2147483647 -1 -level 3 -memLevel 3 -strategy 3 -wbits 30 > /tmp/tmp-2025-03-2700:40:08-0.7358765602111816
+Result: CRASHED, 8.982, 0,  8775234386, -1
+WARNING: Run crashed.
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 8.982
+Total CPU time: 87.716
+the result has length = 5 and content = ["CRASHED", 8.982, 0, 8775234386.0, -1]
+i am inide the perf = 8775234386.0
+14/100000, 87.716/300.0
+getAlgoResultsForInstsAndParams.
+  Trial 1 for calling: ruby example_zlib/zlib_wrapper_branches.rb data/random4.png "" 30.000000000000004 2147483647 -1 -level 3 -memLevel 3 -strategy 3 -wbits 30 > /tmp/tmp-2025-03-2700:40:17-0.4071826934814453
+Executing cmd: ruby example_zlib/zlib_wrapper_branches.rb data/random4.png "" 30.000000000000004 2147483647 -1 -level 3 -memLevel 3 -strategy 3 -wbits 30 > /tmp/tmp-2025-03-2700:40:17-0.4071826934814453
+Result: CRASHED, 8.923, 0,  8777140731, -1
+WARNING: Run crashed.
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 8.923
+Total CPU time: 96.639
+the result has length = 5 and content = ["CRASHED", 8.923, 0, 8777140731.0, -1]
+i am inide the perf = 8777140731.0
+          -> Take improving step to random level=3 memLevel=3 strategy=3 wbits=30 (1.0e+19 [based on 3 runs with cutoff 30.0])
+
+Total CPU Time 96.639,  timeout 300.0
+Total CPU Time 96.639,  timeout 300.0
+now 2025-03-27 00:40:26 +0800; start 2025-03-27 00:38:49 +0800; time-start 97.569265286; maxWall 8640000.0
+getAlgoResultsForInstsAndParams.
+  Trial 1 for calling: ruby example_zlib/zlib_wrapper_branches.rb data/random1.txt "" 30.000000000000004 2147483647 -1 -level 3 -memLevel 7 -strategy 4 -wbits 31 > /tmp/tmp-2025-03-2700:40:26-0.5867493152618408
+Executing cmd: ruby example_zlib/zlib_wrapper_branches.rb data/random1.txt "" 30.000000000000004 2147483647 -1 -level 3 -memLevel 7 -strategy 4 -wbits 31 > /tmp/tmp-2025-03-2700:40:26-0.5867493152618408
+Result: CRASHED, 4.204, 0,  3469559184, -1
+WARNING: Run crashed.
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 4.204
+Total CPU time: 100.84299999999999
+the result has length = 5 and content = ["CRASHED", 4.204, 0, 3469559184.0, -1]
+i am inide the perf = 3469559184.0
+16/100000, 100.84299999999999/300.0
+getAlgoResultsForInstsAndParams.
+  Trial 1 for calling: ruby example_zlib/zlib_wrapper_branches.rb data/random3.png "" 30.000000000000004 2147483647 -1 -level 3 -memLevel 7 -strategy 4 -wbits 31 > /tmp/tmp-2025-03-2700:40:30-0.45754683017730713
+Executing cmd: ruby example_zlib/zlib_wrapper_branches.rb data/random3.png "" 30.000000000000004 2147483647 -1 -level 3 -memLevel 7 -strategy 4 -wbits 31 > /tmp/tmp-2025-03-2700:40:30-0.45754683017730713
+Result: CRASHED, 4.493, 0,  3690017304, -1
+WARNING: Run crashed.
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 4.493
+Total CPU time: 105.33599999999998
+the result has length = 5 and content = ["CRASHED", 4.493, 0, 3690017304.0, -1]
+i am inide the perf = 3690017304.0
+getAlgoResultsForInstsAndParams.
+  Trial 1 for calling: ruby example_zlib/zlib_wrapper_branches.rb data/random4.png "" 30.000000000000004 2147483647 -1 -level 3 -memLevel 7 -strategy 4 -wbits 31 > /tmp/tmp-2025-03-2700:40:35-0.2708446979522705
+Executing cmd: ruby example_zlib/zlib_wrapper_branches.rb data/random4.png "" 30.000000000000004 2147483647 -1 -level 3 -memLevel 7 -strategy 4 -wbits 31 > /tmp/tmp-2025-03-2700:40:35-0.2708446979522705
+Result: CRASHED, 4.472, 0,  3689514468, -1
+WARNING: Run crashed.
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 4.472
+Total CPU time: 109.80799999999998
+the result has length = 5 and content = ["CRASHED", 4.472, 0, 3689514468.0, -1]
+i am inide the perf = 3689514468.0
+          -> Take improving step to random level=3 memLevel=7 strategy=4 wbits=31 (1.0e+19 [based on 3 runs with cutoff 30.0])
+
+Total CPU Time 109.80799999999998,  timeout 300.0
+Total CPU Time 109.80799999999998,  timeout 300.0
+now 2025-03-27 00:40:40 +0800; start 2025-03-27 00:38:49 +0800; time-start 110.912073728; maxWall 8640000.0
+getAlgoResultsForInstsAndParams.
+  Trial 1 for calling: ruby example_zlib/zlib_wrapper_branches.rb data/random1.txt "" 30.000000000000004 2147483647 -1 -level 5 -memLevel 5 -strategy 0 -wbits 26 > /tmp/tmp-2025-03-2700:40:40-0.159027099609375
+Executing cmd: ruby example_zlib/zlib_wrapper_branches.rb data/random1.txt "" 30.000000000000004 2147483647 -1 -level 5 -memLevel 5 -strategy 0 -wbits 26 > /tmp/tmp-2025-03-2700:40:40-0.159027099609375
+Result: CRASHED, 3.506, 0,  3759169315, -1
+WARNING: Run crashed.
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 3.506
+Total CPU time: 113.31399999999998
+the result has length = 5 and content = ["CRASHED", 3.506, 0, 3759169315.0, -1]
+i am inide the perf = 3759169315.0
+19/100000, 113.31399999999998/300.0
+getAlgoResultsForInstsAndParams.
+  Trial 1 for calling: ruby example_zlib/zlib_wrapper_branches.rb data/random3.png "" 30.000000000000004 2147483647 -1 -level 5 -memLevel 5 -strategy 0 -wbits 26 > /tmp/tmp-2025-03-2700:40:43-0.2291555404663086
+Executing cmd: ruby example_zlib/zlib_wrapper_branches.rb data/random3.png "" 30.000000000000004 2147483647 -1 -level 5 -memLevel 5 -strategy 0 -wbits 26 > /tmp/tmp-2025-03-2700:40:43-0.2291555404663086
+Result: CRASHED, 6.644, 0,  6923468894, -1
+WARNING: Run crashed.
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 6.644
+Total CPU time: 119.95799999999998
+the result has length = 5 and content = ["CRASHED", 6.644, 0, 6923468894.0, -1]
+i am inide the perf = 6923468894.0
+getAlgoResultsForInstsAndParams.
+  Trial 1 for calling: ruby example_zlib/zlib_wrapper_branches.rb data/random4.png "" 30.000000000000004 2147483647 -1 -level 5 -memLevel 5 -strategy 0 -wbits 26 > /tmp/tmp-2025-03-2700:40:50-0.9672508239746094
+Executing cmd: ruby example_zlib/zlib_wrapper_branches.rb data/random4.png "" 30.000000000000004 2147483647 -1 -level 5 -memLevel 5 -strategy 0 -wbits 26 > /tmp/tmp-2025-03-2700:40:50-0.9672508239746094
+Result: CRASHED, 6.747, 0,  6922861202, -1
+WARNING: Run crashed.
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 6.747
+Total CPU time: 126.70499999999998
+the result has length = 5 and content = ["CRASHED", 6.747, 0, 6922861202.0, -1]
+i am inide the perf = 6922861202.0
+21/100000, 126.70499999999998/300.0
+          -> Take improving step to random level=5 memLevel=5 strategy=0 wbits=26 (1.0e+19 [based on 3 runs with cutoff 30.0])
+
+Total CPU Time 126.70499999999998,  timeout 300.0
+Total CPU Time 126.70499999999998,  timeout 300.0
+now 2025-03-27 00:40:57 +0800; start 2025-03-27 00:38:49 +0800; time-start 127.98582032; maxWall 8640000.0
+getAlgoResultsForInstsAndParams.
+  Trial 1 for calling: ruby example_zlib/zlib_wrapper_branches.rb data/random1.txt "" 30.000000000000004 2147483647 -1 -level 7 -memLevel 5 -strategy 2 -wbits 28 > /tmp/tmp-2025-03-2700:40:57-0.21827316284179688
+Executing cmd: ruby example_zlib/zlib_wrapper_branches.rb data/random1.txt "" 30.000000000000004 2147483647 -1 -level 7 -memLevel 5 -strategy 2 -wbits 28 > /tmp/tmp-2025-03-2700:40:57-0.21827316284179688
+Result: CRASHED, 2.263, 0,  2426112066, -1
+WARNING: Run crashed.
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 2.263
+Total CPU time: 128.968
+the result has length = 5 and content = ["CRASHED", 2.263, 0, 2426112066.0, -1]
+i am inide the perf = 2426112066.0
+getAlgoResultsForInstsAndParams.
+  Trial 1 for calling: ruby example_zlib/zlib_wrapper_branches.rb data/random3.png "" 30.000000000000004 2147483647 -1 -level 7 -memLevel 5 -strategy 2 -wbits 28 > /tmp/tmp-2025-03-2700:40:59-0.5792324542999268
+Executing cmd: ruby example_zlib/zlib_wrapper_branches.rb data/random3.png "" 30.000000000000004 2147483647 -1 -level 7 -memLevel 5 -strategy 2 -wbits 28 > /tmp/tmp-2025-03-2700:40:59-0.5792324542999268
+Result: CRASHED, 3.979, 0,  3647413844, -1
+WARNING: Run crashed.
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 3.979
+Total CPU time: 132.947
+the result has length = 5 and content = ["CRASHED", 3.979, 0, 3647413844.0, -1]
+i am inide the perf = 3647413844.0
+getAlgoResultsForInstsAndParams.
+  Trial 1 for calling: ruby example_zlib/zlib_wrapper_branches.rb data/random4.png "" 30.000000000000004 2147483647 -1 -level 7 -memLevel 5 -strategy 2 -wbits 28 > /tmp/tmp-2025-03-2700:41:03-0.8507213592529297
+Executing cmd: ruby example_zlib/zlib_wrapper_branches.rb data/random4.png "" 30.000000000000004 2147483647 -1 -level 7 -memLevel 5 -strategy 2 -wbits 28 > /tmp/tmp-2025-03-2700:41:03-0.8507213592529297
+Result: CRASHED, 3.983, 0,  3647599463, -1
+WARNING: Run crashed.
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 3.983
+Total CPU time: 136.93
+the result has length = 5 and content = ["CRASHED", 3.983, 0, 3647599463.0, -1]
+i am inide the perf = 3647599463.0
+24/100000, 136.93/300.0
+          -> Take improving step to random level=7 memLevel=5 strategy=2 wbits=28 (1.0e+19 [based on 3 runs with cutoff 30.0])
+
+Total CPU Time 136.93,  timeout 300.0
+Total CPU Time 136.93,  timeout 300.0
+now 2025-03-27 00:41:07 +0800; start 2025-03-27 00:38:49 +0800; time-start 138.370649256; maxWall 8640000.0
+getAlgoResultsForInstsAndParams.
+  Trial 1 for calling: ruby example_zlib/zlib_wrapper_branches.rb data/random1.txt "" 30.000000000000004 2147483647 -1 -level 4 -memLevel 9 -strategy 1 -wbits 29 > /tmp/tmp-2025-03-2700:41:07-0.051201820373535156
+Executing cmd: ruby example_zlib/zlib_wrapper_branches.rb data/random1.txt "" 30.000000000000004 2147483647 -1 -level 4 -memLevel 9 -strategy 1 -wbits 29 > /tmp/tmp-2025-03-2700:41:07-0.051201820373535156
+Result: CRASHED, 3.528, 0,  4067072748, -1
+WARNING: Run crashed.
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 3.528
+Total CPU time: 140.458
+the result has length = 5 and content = ["CRASHED", 3.528, 0, 4067072748.0, -1]
+i am inide the perf = 4067072748.0
+getAlgoResultsForInstsAndParams.
+  Trial 1 for calling: ruby example_zlib/zlib_wrapper_branches.rb data/random3.png "" 30.000000000000004 2147483647 -1 -level 4 -memLevel 9 -strategy 1 -wbits 29 > /tmp/tmp-2025-03-2700:41:11-0.012510299682617188
+Executing cmd: ruby example_zlib/zlib_wrapper_branches.rb data/random3.png "" 30.000000000000004 2147483647 -1 -level 4 -memLevel 9 -strategy 1 -wbits 29 > /tmp/tmp-2025-03-2700:41:11-0.012510299682617188
+Result: CRASHED, 4.643, 0,  5565619107, -1
+WARNING: Run crashed.
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 4.643
+Total CPU time: 145.101
+the result has length = 5 and content = ["CRASHED", 4.643, 0, 5565619107.0, -1]
+i am inide the perf = 5565619107.0
+getAlgoResultsForInstsAndParams.
+  Trial 1 for calling: ruby example_zlib/zlib_wrapper_branches.rb data/random4.png "" 30.000000000000004 2147483647 -1 -level 4 -memLevel 9 -strategy 1 -wbits 29 > /tmp/tmp-2025-03-2700:41:15-0.8446810245513916
+Executing cmd: ruby example_zlib/zlib_wrapper_branches.rb data/random4.png "" 30.000000000000004 2147483647 -1 -level 4 -memLevel 9 -strategy 1 -wbits 29 > /tmp/tmp-2025-03-2700:41:15-0.8446810245513916
+Result: CRASHED, 4.609, 0,  5558752317, -1
+WARNING: Run crashed.
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 4.609
+Total CPU time: 149.71
+the result has length = 5 and content = ["CRASHED", 4.609, 0, 5558752317.0, -1]
+i am inide the perf = 5558752317.0
+27/100000, 149.71/300.0
+          -> Take improving step to random level=4 memLevel=9 strategy=1 wbits=29 (1.0e+19 [based on 3 runs with cutoff 30.0])
+
+Total CPU Time 149.71,  timeout 300.0
+Total CPU Time 149.71,  timeout 300.0
+now 2025-03-27 00:41:20 +0800; start 2025-03-27 00:38:49 +0800; time-start 151.311403666; maxWall 8640000.0
+getAlgoResultsForInstsAndParams.
+  Trial 1 for calling: ruby example_zlib/zlib_wrapper_branches.rb data/random1.txt "" 30.000000000000004 2147483647 -1 -level 2 -memLevel 5 -strategy 2 -wbits 26 > /tmp/tmp-2025-03-2700:41:20-0.6828575134277344
+Executing cmd: ruby example_zlib/zlib_wrapper_branches.rb data/random1.txt "" 30.000000000000004 2147483647 -1 -level 2 -memLevel 5 -strategy 2 -wbits 26 > /tmp/tmp-2025-03-2700:41:20-0.6828575134277344
+Result: CRASHED, 2.391, 0,  3037957100, -1
+WARNING: Run crashed.
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 2.391
+Total CPU time: 152.101
+the result has length = 5 and content = ["CRASHED", 2.391, 0, 3037957100.0, -1]
+i am inide the perf = 3037957100.0
+getAlgoResultsForInstsAndParams.
+  Trial 1 for calling: ruby example_zlib/zlib_wrapper_branches.rb data/random3.png "" 30.000000000000004 2147483647 -1 -level 2 -memLevel 5 -strategy 2 -wbits 26 > /tmp/tmp-2025-03-2700:41:22-0.49205923080444336
+Executing cmd: ruby example_zlib/zlib_wrapper_branches.rb data/random3.png "" 30.000000000000004 2147483647 -1 -level 2 -memLevel 5 -strategy 2 -wbits 26 > /tmp/tmp-2025-03-2700:41:22-0.49205923080444336
+Result: CRASHED, 5.314, 0,  6034935402, -1
+WARNING: Run crashed.
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 5.314
+Total CPU time: 157.415
+the result has length = 5 and content = ["CRASHED", 5.314, 0, 6034935402.0, -1]
+i am inide the perf = 6034935402.0
+getAlgoResultsForInstsAndParams.
+  Trial 1 for calling: ruby example_zlib/zlib_wrapper_branches.rb data/random4.png "" 30.000000000000004 2147483647 -1 -level 2 -memLevel 5 -strategy 2 -wbits 26 > /tmp/tmp-2025-03-2700:41:28-0.42261743545532227
+Executing cmd: ruby example_zlib/zlib_wrapper_branches.rb data/random4.png "" 30.000000000000004 2147483647 -1 -level 2 -memLevel 5 -strategy 2 -wbits 26 > /tmp/tmp-2025-03-2700:41:28-0.42261743545532227
+Result: CRASHED, 5.326, 0,  6034288038, -1
+WARNING: Run crashed.
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 5.326
+Total CPU time: 162.74099999999999
+the result has length = 5 and content = ["CRASHED", 5.326, 0, 6034288038.0, -1]
+i am inide the perf = 6034288038.0
+30/100000, 162.74099999999999/300.0
+          -> Take improving step to random level=2 memLevel=5 strategy=2 wbits=26 (1.0e+19 [based on 3 runs with cutoff 30.0])
+
+Total CPU Time 162.74099999999999,  timeout 300.0
+Total CPU Time 162.74099999999999,  timeout 300.0
+now 2025-03-27 00:41:33 +0800; start 2025-03-27 00:38:49 +0800; time-start 164.497865631; maxWall 8640000.0
+getAlgoResultsForInstsAndParams.
+  Trial 1 for calling: ruby example_zlib/zlib_wrapper_branches.rb data/random1.txt "" 30.000000000000004 2147483647 -1 -level 8 -memLevel 7 -strategy 2 -wbits 27 > /tmp/tmp-2025-03-2700:41:33-0.21544885635375977
+Executing cmd: ruby example_zlib/zlib_wrapper_branches.rb data/random1.txt "" 30.000000000000004 2147483647 -1 -level 8 -memLevel 7 -strategy 2 -wbits 27 > /tmp/tmp-2025-03-2700:41:33-0.21544885635375977
+Result: CRASHED, 2.288, 0,  3452945380, -1
+WARNING: Run crashed.
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 2.288
+Total CPU time: 165.029
+the result has length = 5 and content = ["CRASHED", 2.288, 0, 3452945380.0, -1]
+i am inide the perf = 3452945380.0
+getAlgoResultsForInstsAndParams.
+  Trial 1 for calling: ruby example_zlib/zlib_wrapper_branches.rb data/random3.png "" 30.000000000000004 2147483647 -1 -level 8 -memLevel 7 -strategy 2 -wbits 27 > /tmp/tmp-2025-03-2700:41:35-0.1085512638092041
+Executing cmd: ruby example_zlib/zlib_wrapper_branches.rb data/random3.png "" 30.000000000000004 2147483647 -1 -level 8 -memLevel 7 -strategy 2 -wbits 27 > /tmp/tmp-2025-03-2700:41:35-0.1085512638092041
+Result: CRASHED, 3.666, 0,  5256956088, -1
+WARNING: Run crashed.
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 3.666
+Total CPU time: 168.695
+the result has length = 5 and content = ["CRASHED", 3.666, 0, 5256956088.0, -1]
+i am inide the perf = 5256956088.0
+getAlgoResultsForInstsAndParams.
+  Trial 1 for calling: ruby example_zlib/zlib_wrapper_branches.rb data/random4.png "" 30.000000000000004 2147483647 -1 -level 8 -memLevel 7 -strategy 2 -wbits 27 > /tmp/tmp-2025-03-2700:41:39-0.0005128383636474609
+Executing cmd: ruby example_zlib/zlib_wrapper_branches.rb data/random4.png "" 30.000000000000004 2147483647 -1 -level 8 -memLevel 7 -strategy 2 -wbits 27 > /tmp/tmp-2025-03-2700:41:39-0.0005128383636474609
+Result: CRASHED, 3.667, 0,  5254145914, -1
+WARNING: Run crashed.
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 3.667
+Total CPU time: 172.362
+the result has length = 5 and content = ["CRASHED", 3.667, 0, 5254145914.0, -1]
+i am inide the perf = 5254145914.0
+          -> Take improving step to random level=8 memLevel=7 strategy=2 wbits=27 (1.0e+19 [based on 3 runs with cutoff 30.0])
+
+   BLS in iteration 1, start with level=8 memLevel=7 strategy=2 wbits=27 (1.0e+19 [based on 3 runs with cutoff 30.0])
+Total CPU Time 172.362,  timeout 300.0
+Total CPU Time 172.362,  timeout 300.0
+now 2025-03-27 00:41:43 +0800; start 2025-03-27 00:38:49 +0800; time-start 174.290657452; maxWall 8640000.0
+Total CPU Time 172.362,  timeout 300.0
+Total CPU Time 172.362,  timeout 300.0
+now 2025-03-27 00:41:43 +0800; start 2025-03-27 00:38:49 +0800; time-start 174.290844487; maxWall 8640000.0
+    Changing ["memLevel: 7->1"], evaluating ...
+getAlgoResultsForInstsAndParams.
+  Trial 1 for calling: ruby example_zlib/zlib_wrapper_branches.rb data/random1.txt "" 30.000000000000004 2147483647 -1 -level 8 -memLevel 1 -strategy 2 -wbits 27 > /tmp/tmp-2025-03-2700:41:43-0.12975740432739258
+Executing cmd: ruby example_zlib/zlib_wrapper_branches.rb data/random1.txt "" 30.000000000000004 2147483647 -1 -level 8 -memLevel 1 -strategy 2 -wbits 27 > /tmp/tmp-2025-03-2700:41:43-0.12975740432739258
+Result: CRASHED, 8.218, 0,  10205843717, -1
+WARNING: Run crashed.
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 8.218
+Total CPU time: 180.57999999999998
+the result has length = 5 and content = ["CRASHED", 8.218, 0, 10205843717.0, -1]
+i am inide the perf = 10205843717.0
+34/100000, 180.57999999999998/300.0
+getAlgoResultsForInstsAndParams.
+  Trial 1 for calling: ruby example_zlib/zlib_wrapper_branches.rb data/random3.png "" 30.000000000000004 2147483647 -1 -level 8 -memLevel 1 -strategy 2 -wbits 27 > /tmp/tmp-2025-03-2700:41:51-0.9943947792053223
+Executing cmd: ruby example_zlib/zlib_wrapper_branches.rb data/random3.png "" 30.000000000000004 2147483647 -1 -level 8 -memLevel 1 -strategy 2 -wbits 27 > /tmp/tmp-2025-03-2700:41:51-0.9943947792053223
+Result: CRASHED, 12.257, 0,  13684311536, -1
+WARNING: Run crashed.
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 12.257
+Total CPU time: 192.837
+the result has length = 5 and content = ["CRASHED", 12.257, 0, 13684311536.0, -1]
+i am inide the perf = 13684311536.0
+35/100000, 192.837/300.0
+getAlgoResultsForInstsAndParams.
+  Trial 1 for calling: ruby example_zlib/zlib_wrapper_branches.rb data/random4.png "" 30.000000000000004 2147483647 -1 -level 8 -memLevel 1 -strategy 2 -wbits 27 > /tmp/tmp-2025-03-2700:42:03-0.3335702419281006
+Executing cmd: ruby example_zlib/zlib_wrapper_branches.rb data/random4.png "" 30.000000000000004 2147483647 -1 -level 8 -memLevel 1 -strategy 2 -wbits 27 > /tmp/tmp-2025-03-2700:42:03-0.3335702419281006
+Result: CRASHED, 12.247, 0,  13683310716, -1
+WARNING: Run crashed.
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 12.247
+Total CPU time: 205.084
+the result has length = 5 and content = ["CRASHED", 12.247, 0, 13683310716.0, -1]
+i am inide the perf = 13683310716.0
+36/100000, 205.084/300.0
+          -> Take improving step to neighbour level=8 memLevel=1 strategy=2 wbits=27 (1.0e+19 [based on 3 runs with cutoff 30.0]) with flip 1
+
+Total CPU Time 205.084,  timeout 300.0
+Total CPU Time 205.084,  timeout 300.0
+now 2025-03-27 00:42:16 +0800; start 2025-03-27 00:38:49 +0800; time-start 207.186479892; maxWall 8640000.0
+Total CPU Time 205.084,  timeout 300.0
+Total CPU Time 205.084,  timeout 300.0
+now 2025-03-27 00:42:16 +0800; start 2025-03-27 00:38:49 +0800; time-start 207.186613428; maxWall 8640000.0
+    Changing ["level: 8->4"], evaluating ...
+getAlgoResultsForInstsAndParams.
+  Trial 1 for calling: ruby example_zlib/zlib_wrapper_branches.rb data/random1.txt "" 30.000000000000004 2147483647 -1 -level 4 -memLevel 1 -strategy 2 -wbits 27 > /tmp/tmp-2025-03-2700:42:16-0.5671834945678711
+Executing cmd: ruby example_zlib/zlib_wrapper_branches.rb data/random1.txt "" 30.000000000000004 2147483647 -1 -level 4 -memLevel 1 -strategy 2 -wbits 27 > /tmp/tmp-2025-03-2700:42:16-0.5671834945678711
+Result: CRASHED, 8.297, 0,  10205818918, -1
+WARNING: Run crashed.
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 8.297
+Total CPU time: 213.381
+the result has length = 5 and content = ["CRASHED", 8.297, 0, 10205818918.0, -1]
+i am inide the perf = 10205818918.0
+getAlgoResultsForInstsAndParams.
+  Trial 1 for calling: ruby example_zlib/zlib_wrapper_branches.rb data/random3.png "" 30.000000000000004 2147483647 -1 -level 4 -memLevel 1 -strategy 2 -wbits 27 > /tmp/tmp-2025-03-2700:42:24-0.6006314754486084
+Executing cmd: ruby example_zlib/zlib_wrapper_branches.rb data/random3.png "" 30.000000000000004 2147483647 -1 -level 4 -memLevel 1 -strategy 2 -wbits 27 > /tmp/tmp-2025-03-2700:42:24-0.6006314754486084
+Result: CRASHED, 12.303, 0,  13685130574, -1
+WARNING: Run crashed.
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 12.303
+Total CPU time: 225.684
+the result has length = 5 and content = ["CRASHED", 12.303, 0, 13685130574.0, -1]
+i am inide the perf = 13685130574.0
+38/100000, 225.684/300.0
+getAlgoResultsForInstsAndParams.
+  Trial 1 for calling: ruby example_zlib/zlib_wrapper_branches.rb data/random4.png "" 30.000000000000004 2147483647 -1 -level 4 -memLevel 1 -strategy 2 -wbits 27 > /tmp/tmp-2025-03-2700:42:37-0.8462638854980469
+Executing cmd: ruby example_zlib/zlib_wrapper_branches.rb data/random4.png "" 30.000000000000004 2147483647 -1 -level 4 -memLevel 1 -strategy 2 -wbits 27 > /tmp/tmp-2025-03-2700:42:37-0.8462638854980469
+Result: CRASHED, 12.228, 0,  13684895839, -1
+WARNING: Run crashed.
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 12.228
+Total CPU time: 237.912
+the result has length = 5 and content = ["CRASHED", 12.228, 0, 13684895839.0, -1]
+i am inide the perf = 13684895839.0
+39/100000, 237.912/300.0
+          -> Take improving step to neighbour level=4 memLevel=1 strategy=2 wbits=27 (1.0e+19 [based on 3 runs with cutoff 30.0]) with flip 2
+
+Total CPU Time 237.912,  timeout 300.0
+Total CPU Time 237.912,  timeout 300.0
+now 2025-03-27 00:42:49 +0800; start 2025-03-27 00:38:49 +0800; time-start 240.209185846; maxWall 8640000.0
+Total CPU Time 237.912,  timeout 300.0
+Total CPU Time 237.912,  timeout 300.0
+now 2025-03-27 00:42:49 +0800; start 2025-03-27 00:38:49 +0800; time-start 240.209547973; maxWall 8640000.0
+    Changing ["level: 4->9"], evaluating ...
+getAlgoResultsForInstsAndParams.
+  Trial 1 for calling: ruby example_zlib/zlib_wrapper_branches.rb data/random1.txt "" 30.000000000000004 2147483647 -1 -level 9 -memLevel 1 -strategy 2 -wbits 27 > /tmp/tmp-2025-03-2700:42:49-0.5447206497192383
+Executing cmd: ruby example_zlib/zlib_wrapper_branches.rb data/random1.txt "" 30.000000000000004 2147483647 -1 -level 9 -memLevel 1 -strategy 2 -wbits 27 > /tmp/tmp-2025-03-2700:42:49-0.5447206497192383
+Result: CRASHED, 8.202, 0,  10205731964, -1
+WARNING: Run crashed.
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 8.202
+Total CPU time: 246.114
+the result has length = 5 and content = ["CRASHED", 8.202, 0, 10205731964.0, -1]
+i am inide the perf = 10205731964.0
+getAlgoResultsForInstsAndParams.
+  Trial 1 for calling: ruby example_zlib/zlib_wrapper_branches.rb data/random3.png "" 30.000000000000004 2147483647 -1 -level 9 -memLevel 1 -strategy 2 -wbits 27 > /tmp/tmp-2025-03-2700:42:57-0.05925917625427246
+Executing cmd: ruby example_zlib/zlib_wrapper_branches.rb data/random3.png "" 30.000000000000004 2147483647 -1 -level 9 -memLevel 1 -strategy 2 -wbits 27 > /tmp/tmp-2025-03-2700:42:57-0.05925917625427246
+Result: CRASHED, 12.223, 0,  13683764039, -1
+WARNING: Run crashed.
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 12.223
+Total CPU time: 258.337
+the result has length = 5 and content = ["CRASHED", 12.223, 0, 13683764039.0, -1]
+i am inide the perf = 13683764039.0
+41/100000, 258.337/300.0
+getAlgoResultsForInstsAndParams.
+  Trial 1 for calling: ruby example_zlib/zlib_wrapper_branches.rb data/random4.png "" 30.000000000000004 2147483647 -1 -level 9 -memLevel 1 -strategy 2 -wbits 27 > /tmp/tmp-2025-03-2700:43:09-0.29192888736724854
+Executing cmd: ruby example_zlib/zlib_wrapper_branches.rb data/random4.png "" 30.000000000000004 2147483647 -1 -level 9 -memLevel 1 -strategy 2 -wbits 27 > /tmp/tmp-2025-03-2700:43:09-0.29192888736724854
+Result: CRASHED, 12.227, 0,  13684072838, -1
+WARNING: Run crashed.
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 12.227
+Total CPU time: 270.56399999999996
+the result has length = 5 and content = ["CRASHED", 12.227, 0, 13684072838.0, -1]
+i am inide the perf = 13684072838.0
+42/100000, 270.56399999999996/300.0
+          -> Take improving step to neighbour level=9 memLevel=1 strategy=2 wbits=27 (1.0e+19 [based on 3 runs with cutoff 30.0]) with flip 3
+
+Total CPU Time 270.56399999999996,  timeout 300.0
+Total CPU Time 270.56399999999996,  timeout 300.0
+now 2025-03-27 00:43:22 +0800; start 2025-03-27 00:38:49 +0800; time-start 273.054929994; maxWall 8640000.0
+Total CPU Time 270.56399999999996,  timeout 300.0
+Total CPU Time 270.56399999999996,  timeout 300.0
+now 2025-03-27 00:43:22 +0800; start 2025-03-27 00:38:49 +0800; time-start 273.055075055; maxWall 8640000.0
+    Changing ["wbits: 27->31"], evaluating ...
+getAlgoResultsForInstsAndParams.
+  Trial 1 for calling: ruby example_zlib/zlib_wrapper_branches.rb data/random1.txt "" 30.000000000000004 2147483647 -1 -level 9 -memLevel 1 -strategy 2 -wbits 31 > /tmp/tmp-2025-03-2700:43:22-0.16604137420654297
+Executing cmd: ruby example_zlib/zlib_wrapper_branches.rb data/random1.txt "" 30.000000000000004 2147483647 -1 -level 9 -memLevel 1 -strategy 2 -wbits 31 > /tmp/tmp-2025-03-2700:43:22-0.16604137420654297
+Result: CRASHED, 8.243, 0,  10187178326, -1
+WARNING: Run crashed.
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 8.243
+Total CPU time: 278.80699999999996
+the result has length = 5 and content = ["CRASHED", 8.243, 0, 10187178326.0, -1]
+i am inide the perf = 10187178326.0
+getAlgoResultsForInstsAndParams.
+  Trial 1 for calling: ruby example_zlib/zlib_wrapper_branches.rb data/random3.png "" 30.000000000000004 2147483647 -1 -level 9 -memLevel 1 -strategy 2 -wbits 31 > /tmp/tmp-2025-03-2700:43:30-0.1281120777130127
+Executing cmd: ruby example_zlib/zlib_wrapper_branches.rb data/random3.png "" 30.000000000000004 2147483647 -1 -level 9 -memLevel 1 -strategy 2 -wbits 31 > /tmp/tmp-2025-03-2700:43:30-0.1281120777130127
+Result: CRASHED, 12.291, 0,  13649626815, -1
+WARNING: Run crashed.
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 12.291
+Total CPU time: 291.09799999999996
+the result has length = 5 and content = ["CRASHED", 12.291, 0, 13649626815.0, -1]
+i am inide the perf = 13649626815.0
+44/100000, 291.09799999999996/300.0
+getAlgoResultsForInstsAndParams.
+  Trial 1 for calling: ruby example_zlib/zlib_wrapper_branches.rb data/random4.png "" 30.000000000000004 2147483647 -1 -level 9 -memLevel 1 -strategy 2 -wbits 31 > /tmp/tmp-2025-03-2700:43:42-0.9248145818710327
+Executing cmd: ruby example_zlib/zlib_wrapper_branches.rb data/random4.png "" 30.000000000000004 2147483647 -1 -level 9 -memLevel 1 -strategy 2 -wbits 31 > /tmp/tmp-2025-03-2700:43:42-0.9248145818710327
+Result: CRASHED, 12.214, 0,  13649379029, -1
+WARNING: Run crashed.
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 12.214
+Total CPU time: 303.31199999999995
+the result has length = 5 and content = ["CRASHED", 12.214, 0, 13649379029.0, -1]
+i am inide the perf = 13649379029.0
+45/100000, 303.31199999999995/300.0
+          -> Take improving step to neighbour level=9 memLevel=1 strategy=2 wbits=31 (1.0e+19 [based on 3 runs with cutoff 30.0]) with flip 4
+
+Total CPU Time 303.31199999999995,  timeout 300.0
+Total CPU Time 303.31199999999995,  timeout 300.0
+ParamILS has reached the specified CPU time limit of 300.0 seconds => stopping the search now.
+   LM for iteration 1: level=9 memLevel=1 strategy=2 wbits=31 (1.0e+19 [based on 3 runs with cutoff 30.0])
+
+========== DETAILED RESULTS (iteration 1): ==========
+[["CRASHED", 8.243, 0, 10187178326.0, -1]]
+the result has length = 5 and content = ["CRASHED", 8.243, 0, 10187178326.0, -1]
+i am inide the perf = 10187178326.0
+[["CRASHED", 12.291, 0, 13649626815.0, -1]]
+the result has length = 5 and content = ["CRASHED", 12.291, 0, 13649626815.0, -1]
+i am inide the perf = 13649626815.0
+[["CRASHED", 12.214, 0, 13649379029.0, -1]]
+the result has length = 5 and content = ["CRASHED", 12.214, 0, 13649379029.0, -1]
+i am inide the perf = 13649379029.0
+data/random1.txt: 10000000000000000000		[based on 1 runs]
+data/random3.png: 10000000000000000000		[based on 1 runs]
+data/random4.png: 10000000000000000000		[based on 1 runs]
+================================================
+
+==================================================================
+Best parameter configuration found so far (end of iteration 1): level=6, memLevel=5, strategy=3, wbits=28
+==================================================================
+Training quality of this incumbent parameter configuration: 1.0e+19, based on 3 runs with cutoff 30.0
+==================================================================
+
+Comparing LM against incumbent:
+level=9 memLevel=1 strategy=2 wbits=31 (1.0e+19 [based on 3 runs with cutoff 30.0])
+level=6 memLevel=5 strategy=3 wbits=28 (1.0e+19 [based on 3 runs with cutoff 30.0])
+LM better, change incumbent
+New Incumbent: 303.31199999999995, 1.0e+19 [3, 30.0]. With state level=9, memLevel=1, strategy=2, wbits=31
+Total CPU Time 303.31199999999995,  timeout 300.0
+Total CPU Time 303.31199999999995,  timeout 300.0
+ParamILS has reached the specified CPU time limit of 300.0 seconds => stopping the search now.
+Final solution for depth 1 with limit N=3, and cutoff time=30.0.
+New Incumbent: 303.31199999999995, 1.0e+19 [3, 30.0]. With state level=9, memLevel=1, strategy=2, wbits=31
+
+==================================================================
+ParamILS is finished.
+==================================================================
+
+Final best parameter configuration found: level=9, memLevel=1, strategy=2, wbits=31
+==================================================================
+Active parameters: level=9, memLevel=1, strategy=2, wbits=31
+
+==================================================================
+Training quality of this final best found parameter configuration: 1.0e+19, based on 3 runs with cutoff 30.0
+==================================================================
+
+
+==================================================================
+Computing validation result on independent data -- 2 runs with cutoff time 30.0...
+==================================================================
+getAlgoResultsForInstsAndParams.
+  Trial 1 for calling: ruby example_zlib/zlib_wrapper_branches.rb data/random2.txt "" 30.000000000000004 2147483647 -1 -level 9 -memLevel 1 -strategy 2 -wbits 31 > /tmp/tmp-2025-03-2700:43:55-0.8511161804199219
+Executing cmd: ruby example_zlib/zlib_wrapper_branches.rb data/random2.txt "" 30.000000000000004 2147483647 -1 -level 9 -memLevel 1 -strategy 2 -wbits 31 > /tmp/tmp-2025-03-2700:43:55-0.8511161804199219
+Result: CRASHED, 0.883, 0,  1050315093, -1
+WARNING: Run crashed.
+  Trial 1 for calling: ruby example_zlib/zlib_wrapper_branches.rb data/random1.png "" 30.000000000000004 2147483647 -1 -level 9 -memLevel 1 -strategy 2 -wbits 31 > /tmp/tmp-2025-03-2700:43:56-0.6678466796875
+Executing cmd: ruby example_zlib/zlib_wrapper_branches.rb data/random1.png "" 30.000000000000004 2147483647 -1 -level 9 -memLevel 1 -strategy 2 -wbits 31 > /tmp/tmp-2025-03-2700:43:56-0.6678466796875
+Result: CRASHED, 0.088, 0,  54704654, -1
+WARNING: Run crashed.
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.883
+Total CPU time: 304.19499999999994
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.088
+Total CPU time: 304.29499999999996
+the result has length = 5 and content = ["CRASHED", 0.883, 0, 1050315093.0, -1]
+i am inide the perf = 1050315093.0
+the result has length = 5 and content = ["CRASHED", 0.088, 0, 54704654.0, -1]
+i am inide the perf = 54704654.0
+data/random2.txt: 10000000000000000000
+data/random1.png: 10000000000000000000
+Combined result: 1.0e+19
+
+================================================================
+Final best parameter configuration: level=9, memLevel=1, strategy=2, wbits=31
+==================================================================
+Active parameters: level=9, memLevel=1, strategy=2, wbits=31
+
+================================================================
+Training quality of this final best found parameter configuration: 1.0e+19, based on 3 runs with cutoff 30.0
+Test quality of this final best found parameter configuration: 1.0e+19, based on 2 independent runs with cutoff 30.0
+==================================================================

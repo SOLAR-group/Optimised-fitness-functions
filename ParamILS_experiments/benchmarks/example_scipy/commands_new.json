@@ -1,0 +1,30 @@
+{
+    "perf-time": [
+        {
+            "run_directory": "/home/jim/magpie_llm/examples/scipy/necessary/",
+            "command": "bash run_fixed.sh --jac=None --maxiter=10 --method=COBYLA --tol=0.001"
+        },
+        {
+            "run_directory": "/home/jim/magpie_llm/examples/scipy/necessary/",
+            "command": "bash run_fixed.sh --disp=True --jac=cs --maxiter=10 --method=COBYLA --tol=0.00001"
+        },
+        {
+            "run_directory": "/home/jim/magpie_llm/examples/scipy/necessary/",
+            "command": "bash run_fixed.sh --jac=2-point --maxiter=10 --method=COBYLA --tol=0.0001"
+        }
+    ],
+    "cache-references": [
+        {
+            "run_directory": "/home/jim/magpie_llm/examples/scipy/necessary/",
+            "command": "bash run_fixed.sh --jac=None --maxiter=10 --method=COBYLA --tol=0.00005"
+        },
+        {
+            "run_directory": "/home/jim/magpie_llm/examples/scipy/necessary/",
+            "command": "bash run_fixed.sh --jac=3-point --maxiter=10 --method=COBYLA --tol=0.01"
+        },
+        {
+            "run_directory": "/home/jim/magpie_llm/examples/scipy/necessary/",
+            "command": "bash run_fixed.sh --disp=True --jac=3-point --maxiter=10 --method=COBYLA --tol=0.0005"
+        }
+    ]
+}

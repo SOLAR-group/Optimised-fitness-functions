@@ -1,0 +1,3905 @@
+Call: /usr/bin/ruby ../scripts/param_ils_2_3_run.rb "-scenariofile" "example_minisat/scenario-minisat-cycles.txt" "-numRun" "1" "-maxEvals" "100000" "-maxIts" "10000" "-approach" "basic" "-validN" "30"
+
+
+WARNING: N=2000 is greater than the number of entries
+in the @instances array. This can happen if the algorithm is
+deterministic and the number of training instances is smaller than N,
+or if the instance_seed_file is provided by the user and has less
+entries than N. Clamping N and maxDetail to 7
+WARNING: validN=30 is greater than the number
+of entries in the @test_instances array. This can happen if the
+algorithm is deterministic and the number of test instances is smaller
+than validN, or if the test_instance_seed_file is provided by the user
+and has less entries than validN. Clamping validN to
+4
+seed: 2468
+algo: ruby example_minisat/minisat_wrapper_cycles.rb
+tunerTimeout (CPU time): 300.0
+maxWallTime: 8640000.0
+maxEvals: 100000
+run_obj: perf
+overall_obj: mean
+instance_file: example_minisat/necessary/instances.txt
+test_instance_file: example_minisat/necessary/test-instances.txt
+N: 7
+cutoff_time: 30.0
+cutoff_length: 2147483647
+R: 10
+pertubation_strength_basic: 
+pertubation_strength_scaling: false
+p_restart: 0.01
+Run 2
+Level 
+========================================================
+Starting ILS for level 1, i.e. a limit of N=7, and cutoff time=30.0.
+Current CPU time = 0, this run goes until 300.0 
+========================================================
+New Incumbent: 0, 100000000 [0, 0]. With state asymm=False, ccmin-mode=2, cla-decay=0.999, elim=True, gc-frac=0.2, grow=0, luby=True, phase-saving=2, pre=True, rcheck=False, rfirst=100, rinc=2, rnd-freq=0, rnd-init=False, rnd-seed=91648253, simp-gc-frac=0.5, var-decay=0.95, verb=1
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 4.006
+Total CPU time: 4.006
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 2.815
+Total CPU time: 6.821
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 3.962
+Total CPU time: 10.783
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.169
+Total CPU time: 10.952
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.153
+Total CPU time: 11.105
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.106
+Total CPU time: 11.211
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.238
+Total CPU time: 11.449
+7/100000, 11.449/300.0
+ Same incumbent, new precision:
+New Incumbent: 11.449, 6581264230.285714 [7, 30.0]. With state asymm=False, ccmin-mode=2, cla-decay=0.999, elim=True, gc-frac=0.2, grow=0, luby=True, phase-saving=2, pre=True, rcheck=False, rfirst=100, rinc=2, rnd-freq=0, rnd-init=False, rnd-seed=91648253, simp-gc-frac=0.5, var-decay=0.95, verb=1
+Total CPU Time 11.449,  timeout 300.0
+Total CPU Time 11.449,  timeout 300.0
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 3.495
+Total CPU time: 14.943999999999999
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 10.018
+Total CPU time: 24.962
+9/100000, 24.962/300.0
+        -> Worse random: asymm=False ccmin-mode=2 cla-decay=0.998 elim=True gc-frac=0.7 grow=100 luby=True phase-saving=0 pre=True rcheck=False rfirst=50000 rinc=10000 rnd-freq=0.4 rnd-init=True rnd-seed=91648253 simp-gc-frac=0.2 var-decay=0.92 verb=1 (["pruned", 2] [based on 7 runs with cutoff 30.0])
+Total CPU Time 24.962,  timeout 300.0
+Total CPU Time 24.962,  timeout 300.0
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 1.223
+Total CPU time: 26.185
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 1.138
+Total CPU time: 27.323
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 1.269
+Total CPU time: 28.592
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.19
+Total CPU time: 28.782
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.12
+Total CPU time: 28.902
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.082
+Total CPU time: 29.002000000000002
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.599
+Total CPU time: 29.601000000000003
+New inc: 2561968436.714286
+New Incumbent: 29.601000000000003, 2561968436.714286 [7, 30.0]. With state asymm=True, ccmin-mode=1, cla-decay=0.998, elim=True, gc-frac=0.4, grow=-100, luby=True, phase-saving=1, pre=True, rcheck=True, rfirst=500, rinc=500, rnd-freq=0.2, rnd-init=False, rnd-seed=91648253, simp-gc-frac=0.3, var-decay=0.98, verb=1
+          -> Take improving step to random asymm=True ccmin-mode=1 cla-decay=0.998 elim=True gc-frac=0.4 grow=-100 luby=True phase-saving=1 pre=True rcheck=True rfirst=500 rinc=500 rnd-freq=0.2 rnd-init=False rnd-seed=91648253 simp-gc-frac=0.3 var-decay=0.98 verb=1 (2561968436.714286 [based on 7 runs with cutoff 30.0])
+
+Total CPU Time 29.601000000000003,  timeout 300.0
+Total CPU Time 29.601000000000003,  timeout 300.0
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 1.737
+Total CPU time: 31.338
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 1.969
+Total CPU time: 33.307
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 1.237
+Total CPU time: 34.544000000000004
+        -> Worse random: asymm=True ccmin-mode=1 cla-decay=0.998 elim=True gc-frac=0.2 grow=-50000 luby=False phase-saving=0 pre=False rcheck=True rfirst=5000 rinc=10 rnd-freq=0.2 rnd-init=True rnd-seed=91648253 simp-gc-frac=0.3 var-decay=0.97 verb=1 (["pruned", 3] [based on 7 runs with cutoff 30.0])
+Total CPU Time 34.544000000000004,  timeout 300.0
+Total CPU Time 34.544000000000004,  timeout 300.0
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.023
+Total CPU time: 34.644000000000005
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.025
+Total CPU time: 34.74400000000001
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.017
+Total CPU time: 34.84400000000001
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.018
+Total CPU time: 34.94400000000001
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.025
+Total CPU time: 35.04400000000001
+24/100000, 35.04400000000001/300.0
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.017
+Total CPU time: 35.14400000000001
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.022
+Total CPU time: 35.244000000000014
+New inc: 3029144.285714286
+New Incumbent: 35.244000000000014, 3029144.285714286 [7, 30.0]. With state asymm=False, ccmin-mode=0, cla-decay=0.998, elim=False, gc-frac=0.9, grow=-10000, luby=True, phase-saving=1, pre=True, rcheck=False, rfirst=50, rinc=1, rnd-freq=0.4, rnd-init=True, rnd-seed=91648253, simp-gc-frac=0.1, var-decay=0.94, verb=1
+          -> Take improving step to random asymm=False ccmin-mode=0 cla-decay=0.998 elim=False gc-frac=0.9 grow=-10000 luby=True phase-saving=1 pre=True rcheck=False rfirst=50 rinc=1 rnd-freq=0.4 rnd-init=True rnd-seed=91648253 simp-gc-frac=0.1 var-decay=0.94 verb=1 (3029144.285714286 [based on 7 runs with cutoff 30.0])
+
+Total CPU Time 35.244000000000014,  timeout 300.0
+Total CPU Time 35.244000000000014,  timeout 300.0
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 1.626
+Total CPU time: 36.87000000000001
+        -> Worse random: asymm=True ccmin-mode=0 cla-decay=0.998 elim=False gc-frac=0.4 grow=50000 luby=True phase-saving=2 pre=False rcheck=True rfirst=10000 rinc=10000 rnd-freq=0.3 rnd-init=True rnd-seed=91648253 simp-gc-frac=0.1 var-decay=0.99 verb=1 (["pruned", 1] [based on 7 runs with cutoff 30.0])
+Total CPU Time 36.87000000000001,  timeout 300.0
+Total CPU Time 36.87000000000001,  timeout 300.0
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.785
+Total CPU time: 37.65500000000001
+        -> Worse random: asymm=True ccmin-mode=2 cla-decay=0.998 elim=False gc-frac=0.1 grow=10000 luby=True phase-saving=2 pre=True rcheck=True rfirst=50 rinc=500 rnd-freq=0.1 rnd-init=False rnd-seed=91648253 simp-gc-frac=0.1 var-decay=0.94 verb=2 (["pruned", 1] [based on 7 runs with cutoff 30.0])
+Total CPU Time 37.65500000000001,  timeout 300.0
+Total CPU Time 37.65500000000001,  timeout 300.0
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.395
+Total CPU time: 38.05000000000001
+        -> Worse random: asymm=True ccmin-mode=2 cla-decay=0.999 elim=True gc-frac=0.2 grow=-50000 luby=False phase-saving=1 pre=False rcheck=True rfirst=65535 rinc=5000 rnd-freq=0 rnd-init=True rnd-seed=91648253 simp-gc-frac=0.9 var-decay=0.98 verb=0 (["pruned", 1] [based on 7 runs with cutoff 30.0])
+Total CPU Time 38.05000000000001,  timeout 300.0
+Total CPU Time 38.05000000000001,  timeout 300.0
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.025
+Total CPU time: 38.15000000000001
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.022
+Total CPU time: 38.250000000000014
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.024
+Total CPU time: 38.350000000000016
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.016
+Total CPU time: 38.45000000000002
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.025
+Total CPU time: 38.55000000000002
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.024
+Total CPU time: 38.65000000000002
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.027
+Total CPU time: 38.75000000000002
+        -> Worse random: asymm=False ccmin-mode=2 cla-decay=0.999 elim=True gc-frac=0.6 grow=-10000 luby=True phase-saving=1 pre=False rcheck=False rfirst=5000 rinc=1 rnd-freq=0 rnd-init=False rnd-seed=91648253 simp-gc-frac=0.2 var-decay=0.96 verb=0 (3049891.0 [based on 7 runs with cutoff 30.0])
+Total CPU Time 38.75000000000002,  timeout 300.0
+Total CPU Time 38.75000000000002,  timeout 300.0
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 3.579
+Total CPU time: 42.32900000000002
+        -> Worse random: asymm=True ccmin-mode=0 cla-decay=0.992 elim=False gc-frac=0.6 grow=50000 luby=False phase-saving=0 pre=False rcheck=False rfirst=100 rinc=500 rnd-freq=0.4 rnd-init=False rnd-seed=91648253 simp-gc-frac=0.1 var-decay=0.99 verb=2 (["pruned", 1] [based on 7 runs with cutoff 30.0])
+Total CPU Time 42.32900000000002,  timeout 300.0
+Total CPU Time 42.32900000000002,  timeout 300.0
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.285
+Total CPU time: 42.61400000000002
+        -> Worse random: asymm=True ccmin-mode=1 cla-decay=0.999 elim=True gc-frac=0.8 grow=0 luby=True phase-saving=0 pre=False rcheck=True rfirst=1 rinc=500 rnd-freq=0.3 rnd-init=True rnd-seed=91648253 simp-gc-frac=1.0 var-decay=0.90 verb=1 (["pruned", 1] [based on 7 runs with cutoff 30.0])
+   BLS in iteration 1, start with asymm=False ccmin-mode=0 cla-decay=0.998 elim=False gc-frac=0.9 grow=-10000 luby=True phase-saving=1 pre=True rcheck=False rfirst=50 rinc=1 rnd-freq=0.4 rnd-init=True rnd-seed=91648253 simp-gc-frac=0.1 var-decay=0.94 verb=1 (3029144.285714286 [based on 7 runs with cutoff 30.0])
+Total CPU Time 42.61400000000002,  timeout 300.0
+Total CPU Time 42.61400000000002,  timeout 300.0
+Total CPU Time 42.61400000000002,  timeout 300.0
+Total CPU Time 42.61400000000002,  timeout 300.0
+    Changing ["var-decay: 0.94->0.91"], evaluating ...
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.02
+Total CPU time: 42.71400000000002
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.018
+Total CPU time: 42.81400000000002
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.023
+Total CPU time: 42.91400000000002
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.024
+Total CPU time: 43.014000000000024
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.024
+Total CPU time: 43.114000000000026
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.025
+Total CPU time: 43.21400000000003
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.016
+Total CPU time: 43.31400000000003
+        -> worse: (3078070.0 [based on 7 runs with cutoff 30.0])
+Total CPU Time 43.31400000000003,  timeout 300.0
+Total CPU Time 43.31400000000003,  timeout 300.0
+    Changing ["gc-frac: 0.9->0"], evaluating ...
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.022
+Total CPU time: 43.41400000000003
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.04
+Total CPU time: 43.51400000000003
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.017
+Total CPU time: 43.61400000000003
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.026
+Total CPU time: 43.714000000000034
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.026
+Total CPU time: 43.814000000000036
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.023
+Total CPU time: 43.91400000000004
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.017
+Total CPU time: 44.01400000000004
+New inc: 2993069.0
+New Incumbent: 44.01400000000004, 2993069.0 [7, 30.0]. With state asymm=False, ccmin-mode=0, cla-decay=0.998, elim=False, gc-frac=0, grow=-10000, luby=True, phase-saving=1, pre=True, rcheck=False, rfirst=50, rinc=1, rnd-freq=0.4, rnd-init=True, rnd-seed=91648253, simp-gc-frac=0.1, var-decay=0.94, verb=1
+          -> Take improving step to neighbour asymm=False ccmin-mode=0 cla-decay=0.998 elim=False gc-frac=0 grow=-10000 luby=True phase-saving=1 pre=True rcheck=False rfirst=50 rinc=1 rnd-freq=0.4 rnd-init=True rnd-seed=91648253 simp-gc-frac=0.1 var-decay=0.94 verb=1 (2993069.0 [based on 7 runs with cutoff 30.0]) with flip 1
+
+Total CPU Time 44.01400000000004,  timeout 300.0
+Total CPU Time 44.01400000000004,  timeout 300.0
+Total CPU Time 44.01400000000004,  timeout 300.0
+Total CPU Time 44.01400000000004,  timeout 300.0
+    Changing ["verb: 1->0"], evaluating ...
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.016
+Total CPU time: 44.11400000000004
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.024
+Total CPU time: 44.21400000000004
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.019
+Total CPU time: 44.31400000000004
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.016
+Total CPU time: 44.414000000000044
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.023
+Total CPU time: 44.514000000000046
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.023
+Total CPU time: 44.61400000000005
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.026
+Total CPU time: 44.71400000000005
+        -> worse: (3117731.714285714 [based on 7 runs with cutoff 30.0])
+Total CPU Time 44.71400000000005,  timeout 300.0
+Total CPU Time 44.71400000000005,  timeout 300.0
+    Changing ["simp-gc-frac: 0.1->1.0"], evaluating ...
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.025
+Total CPU time: 44.81400000000005
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.04
+Total CPU time: 44.91400000000005
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.016
+Total CPU time: 45.01400000000005
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.022
+Total CPU time: 45.114000000000054
+63/100000, 45.114000000000054/300.0
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.017
+Total CPU time: 45.214000000000055
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.022
+Total CPU time: 45.31400000000006
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.019
+Total CPU time: 45.41400000000006
+        -> worse: (3153360.4285714286 [based on 7 runs with cutoff 30.0])
+Total CPU Time 45.41400000000006,  timeout 300.0
+Total CPU Time 45.41400000000006,  timeout 300.0
+    Changing ["gc-frac: 0->0.4"], evaluating ...
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.016
+Total CPU time: 45.51400000000006
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.016
+Total CPU time: 45.61400000000006
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.017
+Total CPU time: 45.71400000000006
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.023
+Total CPU time: 45.814000000000064
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.026
+Total CPU time: 45.914000000000065
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.026
+Total CPU time: 46.01400000000007
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.025
+Total CPU time: 46.11400000000007
+New inc: 2889024.714285714
+New Incumbent: 46.11400000000007, 2889024.714285714 [7, 30.0]. With state asymm=False, ccmin-mode=0, cla-decay=0.998, elim=False, gc-frac=0.4, grow=-10000, luby=True, phase-saving=1, pre=True, rcheck=False, rfirst=50, rinc=1, rnd-freq=0.4, rnd-init=True, rnd-seed=91648253, simp-gc-frac=0.1, var-decay=0.94, verb=1
+          -> Take improving step to neighbour asymm=False ccmin-mode=0 cla-decay=0.998 elim=False gc-frac=0.4 grow=-10000 luby=True phase-saving=1 pre=True rcheck=False rfirst=50 rinc=1 rnd-freq=0.4 rnd-init=True rnd-seed=91648253 simp-gc-frac=0.1 var-decay=0.94 verb=1 (2889024.714285714 [based on 7 runs with cutoff 30.0]) with flip 2
+
+Total CPU Time 46.11400000000007,  timeout 300.0
+Total CPU Time 46.11400000000007,  timeout 300.0
+Total CPU Time 46.11400000000007,  timeout 300.0
+Total CPU Time 46.11400000000007,  timeout 300.0
+    Changing ["cla-decay: 0.998->0.992"], evaluating ...
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.016
+Total CPU time: 46.21400000000007
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.033
+Total CPU time: 46.31400000000007
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.018
+Total CPU time: 46.41400000000007
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.017
+Total CPU time: 46.514000000000074
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.016
+Total CPU time: 46.614000000000075
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.024
+Total CPU time: 46.71400000000008
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.025
+Total CPU time: 46.81400000000008
+        -> worse: (3032166.5714285714 [based on 7 runs with cutoff 30.0])
+Total CPU Time 46.81400000000008,  timeout 300.0
+Total CPU Time 46.81400000000008,  timeout 300.0
+    Changing ["cla-decay: 0.998->0.990"], evaluating ...
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.024
+Total CPU time: 46.91400000000008
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.026
+Total CPU time: 47.01400000000008
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.017
+Total CPU time: 47.11400000000008
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.017
+Total CPU time: 47.214000000000084
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.022
+Total CPU time: 47.314000000000085
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.023
+Total CPU time: 47.41400000000009
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.024
+Total CPU time: 47.51400000000009
+        -> worse: (2915108.714285714 [based on 7 runs with cutoff 30.0])
+Total CPU Time 47.51400000000009,  timeout 300.0
+Total CPU Time 47.51400000000009,  timeout 300.0
+    Changing ["simp-gc-frac: 0.1->0.3"], evaluating ...
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.016
+Total CPU time: 47.61400000000009
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.016
+Total CPU time: 47.71400000000009
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.035
+Total CPU time: 47.81400000000009
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.022
+Total CPU time: 47.914000000000094
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.016
+Total CPU time: 48.014000000000095
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.017
+Total CPU time: 48.1140000000001
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.024
+Total CPU time: 48.2140000000001
+        -> worse: (3070113.5714285714 [based on 7 runs with cutoff 30.0])
+Total CPU Time 48.2140000000001,  timeout 300.0
+Total CPU Time 48.2140000000001,  timeout 300.0
+    Changing ["var-decay: 0.94->0.90"], evaluating ...
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.023
+Total CPU time: 48.3140000000001
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.025
+Total CPU time: 48.4140000000001
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.026
+Total CPU time: 48.5140000000001
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.024
+Total CPU time: 48.614000000000104
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.017
+Total CPU time: 48.714000000000105
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.016
+Total CPU time: 48.81400000000011
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.026
+Total CPU time: 48.91400000000011
+        -> worse: (2982516.714285714 [based on 7 runs with cutoff 30.0])
+Total CPU Time 48.91400000000011,  timeout 300.0
+Total CPU Time 48.91400000000011,  timeout 300.0
+    Changing ["gc-frac: 0.4->0.1"], evaluating ...
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.025
+Total CPU time: 49.01400000000011
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.018
+Total CPU time: 49.11400000000011
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.043
+Total CPU time: 49.21400000000011
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.024
+Total CPU time: 49.314000000000114
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.018
+Total CPU time: 49.414000000000115
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.026
+Total CPU time: 49.51400000000012
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.025
+Total CPU time: 49.61400000000012
+        -> worse: (2904711.1428571427 [based on 7 runs with cutoff 30.0])
+Total CPU Time 49.61400000000012,  timeout 300.0
+Total CPU Time 49.61400000000012,  timeout 300.0
+    Changing ["rfirst: 50->1"], evaluating ...
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.025
+Total CPU time: 49.71400000000012
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.025
+Total CPU time: 49.81400000000012
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.024
+Total CPU time: 49.91400000000012
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.016
+Total CPU time: 50.014000000000124
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.026
+Total CPU time: 50.114000000000125
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.016
+Total CPU time: 50.21400000000013
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.024
+Total CPU time: 50.31400000000013
+        -> worse: (3085178.5714285714 [based on 7 runs with cutoff 30.0])
+Total CPU Time 50.31400000000013,  timeout 300.0
+Total CPU Time 50.31400000000013,  timeout 300.0
+    Changing ["var-decay: 0.94->0.98"], evaluating ...
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.023
+Total CPU time: 50.41400000000013
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.027
+Total CPU time: 50.51400000000013
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.018
+Total CPU time: 50.61400000000013
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.014
+Total CPU time: 50.714000000000134
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.025
+Total CPU time: 50.814000000000135
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.022
+Total CPU time: 50.91400000000014
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.026
+Total CPU time: 51.01400000000014
+        -> worse: (3179500.1428571427 [based on 7 runs with cutoff 30.0])
+Total CPU Time 51.01400000000014,  timeout 300.0
+Total CPU Time 51.01400000000014,  timeout 300.0
+Total CPU Time 51.01400000000014,  timeout 300.0
+Total CPU Time 51.01400000000014,  timeout 300.0
+    Changing ["cla-decay: 0.998->0.994"], evaluating ...
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.025
+Total CPU time: 51.11400000000014
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.026
+Total CPU time: 51.21400000000014
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.026
+Total CPU time: 51.31400000000014
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.016
+Total CPU time: 51.414000000000144
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.026
+Total CPU time: 51.514000000000145
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.026
+Total CPU time: 51.614000000000146
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.026
+Total CPU time: 51.71400000000015
+        -> worse: (2909868.285714286 [based on 7 runs with cutoff 30.0])
+Total CPU Time 51.71400000000015,  timeout 300.0
+Total CPU Time 51.71400000000015,  timeout 300.0
+    Changing ["rfirst: 50->500"], evaluating ...
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.026
+Total CPU time: 51.81400000000015
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.026
+Total CPU time: 51.91400000000015
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.024
+Total CPU time: 52.01400000000015
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.026
+Total CPU time: 52.11400000000015
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.02
+Total CPU time: 52.214000000000155
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.023
+Total CPU time: 52.314000000000156
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.026
+Total CPU time: 52.41400000000016
+New inc: 2888298.714285714
+New Incumbent: 52.41400000000016, 2888298.714285714 [7, 30.0]. With state asymm=False, ccmin-mode=0, cla-decay=0.998, elim=False, gc-frac=0.4, grow=-10000, luby=True, phase-saving=1, pre=True, rcheck=False, rfirst=500, rinc=1, rnd-freq=0.4, rnd-init=True, rnd-seed=91648253, simp-gc-frac=0.1, var-decay=0.94, verb=1
+          -> Take improving step to neighbour asymm=False ccmin-mode=0 cla-decay=0.998 elim=False gc-frac=0.4 grow=-10000 luby=True phase-saving=1 pre=True rcheck=False rfirst=500 rinc=1 rnd-freq=0.4 rnd-init=True rnd-seed=91648253 simp-gc-frac=0.1 var-decay=0.94 verb=1 (2888298.714285714 [based on 7 runs with cutoff 30.0]) with flip 3
+
+Total CPU Time 52.41400000000016,  timeout 300.0
+Total CPU Time 52.41400000000016,  timeout 300.0
+Total CPU Time 52.41400000000016,  timeout 300.0
+Total CPU Time 52.41400000000016,  timeout 300.0
+    Changing ["simp-gc-frac: 0.1->0.3"], evaluating ...
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.022
+Total CPU time: 52.51400000000016
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.024
+Total CPU time: 52.61400000000016
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.016
+Total CPU time: 52.71400000000016
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.025
+Total CPU time: 52.81400000000016
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.016
+Total CPU time: 52.914000000000165
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.026
+Total CPU time: 53.014000000000166
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.025
+Total CPU time: 53.11400000000017
+        -> worse: (3108344.714285714 [based on 7 runs with cutoff 30.0])
+Total CPU Time 53.11400000000017,  timeout 300.0
+Total CPU Time 53.11400000000017,  timeout 300.0
+    Changing ["gc-frac: 0.4->0.9"], evaluating ...
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.024
+Total CPU time: 53.21400000000017
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.035
+Total CPU time: 53.31400000000017
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.026
+Total CPU time: 53.41400000000017
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.02
+Total CPU time: 53.51400000000017
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.017
+Total CPU time: 53.614000000000175
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.026
+Total CPU time: 53.714000000000176
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.016
+Total CPU time: 53.81400000000018
+        -> worse: (3011596.8571428573 [based on 7 runs with cutoff 30.0])
+Total CPU Time 53.81400000000018,  timeout 300.0
+Total CPU Time 53.81400000000018,  timeout 300.0
+    Changing ["var-decay: 0.94->0.93"], evaluating ...
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.017
+Total CPU time: 53.91400000000018
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.022
+Total CPU time: 54.01400000000018
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.017
+Total CPU time: 54.11400000000018
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.023
+Total CPU time: 54.21400000000018
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.026
+Total CPU time: 54.314000000000185
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.017
+Total CPU time: 54.414000000000186
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.026
+Total CPU time: 54.51400000000019
+        -> worse: (2941995.714285714 [based on 7 runs with cutoff 30.0])
+Total CPU Time 54.51400000000019,  timeout 300.0
+Total CPU Time 54.51400000000019,  timeout 300.0
+    Changing ["luby: True->False"], evaluating ...
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.016
+Total CPU time: 54.61400000000019
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.044
+Total CPU time: 54.71400000000019
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.024
+Total CPU time: 54.81400000000019
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.026
+Total CPU time: 54.91400000000019
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.015
+Total CPU time: 55.014000000000195
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.024
+Total CPU time: 55.114000000000196
+163/100000, 55.114000000000196/300.0
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.026
+Total CPU time: 55.2140000000002
+        -> worse: (2919155.285714286 [based on 7 runs with cutoff 30.0])
+Total CPU Time 55.2140000000002,  timeout 300.0
+Total CPU Time 55.2140000000002,  timeout 300.0
+    Changing ["rnd-init: True->False"], evaluating ...
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.021
+Total CPU time: 55.3140000000002
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.016
+Total CPU time: 55.4140000000002
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.026
+Total CPU time: 55.5140000000002
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.016
+Total CPU time: 55.6140000000002
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.017
+Total CPU time: 55.714000000000205
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.022
+Total CPU time: 55.814000000000206
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.025
+Total CPU time: 55.91400000000021
+        -> worse: (3162699.0 [based on 7 runs with cutoff 30.0])
+Total CPU Time 55.91400000000021,  timeout 300.0
+Total CPU Time 55.91400000000021,  timeout 300.0
+    Changing ["gc-frac: 0.4->0.5"], evaluating ...
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.022
+Total CPU time: 56.01400000000021
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.037
+Total CPU time: 56.11400000000021
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.016
+Total CPU time: 56.21400000000021
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.022
+Total CPU time: 56.31400000000021
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.017
+Total CPU time: 56.414000000000215
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.022
+Total CPU time: 56.514000000000216
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.016
+Total CPU time: 56.61400000000022
+        -> worse: (3175321.714285714 [based on 7 runs with cutoff 30.0])
+Total CPU Time 56.61400000000022,  timeout 300.0
+Total CPU Time 56.61400000000022,  timeout 300.0
+Total CPU Time 56.61400000000022,  timeout 300.0
+Total CPU Time 56.61400000000022,  timeout 300.0
+    Changing ["rinc: 1->2"], evaluating ...
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.692
+Total CPU time: 57.30600000000022
+        -> worse: (["pruned", 1] [based on 7 runs with cutoff 30.0])
+Total CPU Time 57.30600000000022,  timeout 300.0
+Total CPU Time 57.30600000000022,  timeout 300.0
+    Changing ["var-decay: 0.94->0.91"], evaluating ...
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.023
+Total CPU time: 57.40600000000022
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.023
+Total CPU time: 57.50600000000022
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.024
+Total CPU time: 57.60600000000022
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.023
+Total CPU time: 57.70600000000022
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.017
+Total CPU time: 57.806000000000225
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.016
+Total CPU time: 57.906000000000226
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.023
+Total CPU time: 58.00600000000023
+        -> worse: (3033969.714285714 [based on 7 runs with cutoff 30.0])
+Total CPU Time 58.00600000000023,  timeout 300.0
+Total CPU Time 58.00600000000023,  timeout 300.0
+    Changing ["rinc: 1->5000"], evaluating ...
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.127
+Total CPU time: 58.13300000000023
+        -> worse: (["pruned", 1] [based on 7 runs with cutoff 30.0])
+Total CPU Time 58.13300000000023,  timeout 300.0
+Total CPU Time 58.13300000000023,  timeout 300.0
+    Changing ["cla-decay: 0.998->0.996"], evaluating ...
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.026
+Total CPU time: 58.23300000000023
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.023
+Total CPU time: 58.33300000000023
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.023
+Total CPU time: 58.433000000000234
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.024
+Total CPU time: 58.533000000000236
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.034
+Total CPU time: 58.63300000000024
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.024
+Total CPU time: 58.73300000000024
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.017
+Total CPU time: 58.83300000000024
+        -> worse: (3138684.1428571427 [based on 7 runs with cutoff 30.0])
+Total CPU Time 58.83300000000024,  timeout 300.0
+Total CPU Time 58.83300000000024,  timeout 300.0
+    Changing ["gc-frac: 0.4->0.3"], evaluating ...
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.017
+Total CPU time: 58.93300000000024
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.017
+Total CPU time: 59.03300000000024
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.016
+Total CPU time: 59.133000000000244
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.017
+Total CPU time: 59.233000000000246
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.017
+Total CPU time: 59.33300000000025
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.017
+Total CPU time: 59.43300000000025
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.017
+Total CPU time: 59.53300000000025
+        -> worse: (2902639.285714286 [based on 7 runs with cutoff 30.0])
+Total CPU Time 59.53300000000025,  timeout 300.0
+Total CPU Time 59.53300000000025,  timeout 300.0
+    Changing ["rfirst: 500->1000"], evaluating ...
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.024
+Total CPU time: 59.63300000000025
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.016
+Total CPU time: 59.73300000000025
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.017
+Total CPU time: 59.833000000000254
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.024
+Total CPU time: 59.933000000000256
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.025
+Total CPU time: 60.03300000000026
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.022
+Total CPU time: 60.13300000000026
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.019
+Total CPU time: 60.23300000000026
+        -> worse: (3085504.714285714 [based on 7 runs with cutoff 30.0])
+Total CPU Time 60.23300000000026,  timeout 300.0
+Total CPU Time 60.23300000000026,  timeout 300.0
+    Changing ["grow: -10000->-100"], evaluating ...
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.017
+Total CPU time: 60.33300000000026
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.017
+Total CPU time: 60.43300000000026
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.017
+Total CPU time: 60.533000000000264
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.017
+Total CPU time: 60.633000000000266
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.016
+Total CPU time: 60.73300000000027
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.016
+Total CPU time: 60.83300000000027
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.017
+Total CPU time: 60.93300000000027
+        -> worse: (2958911.5714285714 [based on 7 runs with cutoff 30.0])
+Total CPU Time 60.93300000000027,  timeout 300.0
+Total CPU Time 60.93300000000027,  timeout 300.0
+    Changing ["grow: -10000->100"], evaluating ...
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.017
+Total CPU time: 61.03300000000027
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.024
+Total CPU time: 61.13300000000027
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.017
+Total CPU time: 61.233000000000274
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.016
+Total CPU time: 61.333000000000276
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.025
+Total CPU time: 61.43300000000028
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.029
+Total CPU time: 61.53300000000028
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.017
+Total CPU time: 61.63300000000028
+        -> worse: (3040241.285714286 [based on 7 runs with cutoff 30.0])
+Total CPU Time 61.63300000000028,  timeout 300.0
+Total CPU Time 61.63300000000028,  timeout 300.0
+    Changing ["gc-frac: 0.4->0.7"], evaluating ...
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.016
+Total CPU time: 61.73300000000028
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.016
+Total CPU time: 61.83300000000028
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.016
+Total CPU time: 61.933000000000284
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.024
+Total CPU time: 62.033000000000285
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.024
+Total CPU time: 62.13300000000029
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.025
+Total CPU time: 62.23300000000029
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.016
+Total CPU time: 62.33300000000029
+        -> worse: (3034844.4285714286 [based on 7 runs with cutoff 30.0])
+Total CPU Time 62.33300000000029,  timeout 300.0
+Total CPU Time 62.33300000000029,  timeout 300.0
+    Changing ["rnd-freq: 0.4->0.3"], evaluating ...
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.024
+Total CPU time: 62.43300000000029
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.024
+Total CPU time: 62.53300000000029
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.025
+Total CPU time: 62.633000000000294
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.024
+Total CPU time: 62.733000000000295
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.017
+Total CPU time: 62.8330000000003
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.031
+Total CPU time: 62.9330000000003
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.023
+Total CPU time: 63.0330000000003
+        -> worse: (3063056.8571428573 [based on 7 runs with cutoff 30.0])
+Total CPU Time 63.0330000000003,  timeout 300.0
+Total CPU Time 63.0330000000003,  timeout 300.0
+    Changing ["simp-gc-frac: 0.1->0.4"], evaluating ...
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.024
+Total CPU time: 63.1330000000003
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.017
+Total CPU time: 63.2330000000003
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.024
+Total CPU time: 63.333000000000304
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.017
+Total CPU time: 63.433000000000305
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.018
+Total CPU time: 63.53300000000031
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.016
+Total CPU time: 63.63300000000031
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.017
+Total CPU time: 63.73300000000031
+        -> worse: (3129051.4285714286 [based on 7 runs with cutoff 30.0])
+Total CPU Time 63.73300000000031,  timeout 300.0
+Total CPU Time 63.73300000000031,  timeout 300.0
+    Changing ["cla-decay: 0.998->0.990"], evaluating ...
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.016
+Total CPU time: 63.83300000000031
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.023
+Total CPU time: 63.93300000000031
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.016
+Total CPU time: 64.03300000000031
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.016
+Total CPU time: 64.13300000000031
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.017
+Total CPU time: 64.2330000000003
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.024
+Total CPU time: 64.3330000000003
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.036
+Total CPU time: 64.43300000000029
+        -> worse: (3211290.0 [based on 7 runs with cutoff 30.0])
+Total CPU Time 64.43300000000029,  timeout 300.0
+Total CPU Time 64.43300000000029,  timeout 300.0
+    Changing ["cla-decay: 0.998->0.999"], evaluating ...
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.017
+Total CPU time: 64.53300000000029
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.016
+Total CPU time: 64.63300000000028
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.016
+Total CPU time: 64.73300000000027
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.025
+Total CPU time: 64.83300000000027
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.026
+Total CPU time: 64.93300000000026
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.025
+Total CPU time: 65.03300000000026
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.017
+Total CPU time: 65.13300000000025
+257/100000, 65.13300000000025/300.0
+        -> worse: (3003809.714285714 [based on 7 runs with cutoff 30.0])
+Total CPU Time 65.13300000000025,  timeout 300.0
+Total CPU Time 65.13300000000025,  timeout 300.0
+    Changing ["simp-gc-frac: 0.1->0.9"], evaluating ...
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.017
+Total CPU time: 65.23300000000025
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.017
+Total CPU time: 65.33300000000024
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.021
+Total CPU time: 65.43300000000023
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.018
+Total CPU time: 65.53300000000023
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.024
+Total CPU time: 65.63300000000022
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.025
+Total CPU time: 65.73300000000022
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.017
+Total CPU time: 65.83300000000021
+        -> worse: (2896856.8571428573 [based on 7 runs with cutoff 30.0])
+Total CPU Time 65.83300000000021,  timeout 300.0
+Total CPU Time 65.83300000000021,  timeout 300.0
+    Changing ["ccmin-mode: 0->1"], evaluating ...
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.042
+Total CPU time: 65.9330000000002
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.025
+Total CPU time: 66.0330000000002
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.014
+Total CPU time: 66.1330000000002
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.023
+Total CPU time: 66.23300000000019
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.017
+Total CPU time: 66.33300000000018
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.026
+Total CPU time: 66.43300000000018
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.025
+Total CPU time: 66.53300000000017
+        -> worse: (3137815.714285714 [based on 7 runs with cutoff 30.0])
+Total CPU Time 66.53300000000017,  timeout 300.0
+Total CPU Time 66.53300000000017,  timeout 300.0
+    Changing ["grow: -10000->50000"], evaluating ...
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.023
+Total CPU time: 66.63300000000017
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.024
+Total CPU time: 66.73300000000016
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.025
+Total CPU time: 66.83300000000015
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.023
+Total CPU time: 66.93300000000015
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.023
+Total CPU time: 67.03300000000014
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.023
+Total CPU time: 67.13300000000014
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.025
+Total CPU time: 67.23300000000013
+        -> worse: (2983281.5714285714 [based on 7 runs with cutoff 30.0])
+Total CPU Time 67.23300000000013,  timeout 300.0
+Total CPU Time 67.23300000000013,  timeout 300.0
+    Changing ["rfirst: 500->65535"], evaluating ...
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.027
+Total CPU time: 67.33300000000013
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.024
+Total CPU time: 67.43300000000012
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.017
+Total CPU time: 67.53300000000011
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.024
+Total CPU time: 67.63300000000011
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.024
+Total CPU time: 67.7330000000001
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.024
+Total CPU time: 67.8330000000001
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.023
+Total CPU time: 67.93300000000009
+        -> worse: (3153461.5714285714 [based on 7 runs with cutoff 30.0])
+Total CPU Time 67.93300000000009,  timeout 300.0
+Total CPU Time 67.93300000000009,  timeout 300.0
+    Changing ["var-decay: 0.94->0.97"], evaluating ...
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.024
+Total CPU time: 68.03300000000009
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.016
+Total CPU time: 68.13300000000008
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.024
+Total CPU time: 68.23300000000008
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.023
+Total CPU time: 68.33300000000007
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.016
+Total CPU time: 68.43300000000006
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.023
+Total CPU time: 68.53300000000006
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.025
+Total CPU time: 68.63300000000005
+        -> worse: (3284539.5714285714 [based on 7 runs with cutoff 30.0])
+Total CPU Time 68.63300000000005,  timeout 300.0
+Total CPU Time 68.63300000000005,  timeout 300.0
+    Changing ["var-decay: 0.94->0.92"], evaluating ...
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.033
+Total CPU time: 68.73300000000005
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.024
+Total CPU time: 68.83300000000004
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.025
+Total CPU time: 68.93300000000004
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.018
+Total CPU time: 69.03300000000003
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.025
+Total CPU time: 69.13300000000002
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.016
+Total CPU time: 69.23300000000002
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.023
+Total CPU time: 69.33300000000001
+        -> worse: (2931673.0 [based on 7 runs with cutoff 30.0])
+Total CPU Time 69.33300000000001,  timeout 300.0
+Total CPU Time 69.33300000000001,  timeout 300.0
+    Changing ["simp-gc-frac: 0.1->0"], evaluating ...
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.017
+Total CPU time: 69.433
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.016
+Total CPU time: 69.533
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.017
+Total CPU time: 69.633
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.017
+Total CPU time: 69.73299999999999
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.022
+Total CPU time: 69.83299999999998
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.017
+Total CPU time: 69.93299999999998
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.024
+Total CPU time: 70.03299999999997
+        -> worse: (3185743.5714285714 [based on 7 runs with cutoff 30.0])
+Total CPU Time 70.03299999999997,  timeout 300.0
+Total CPU Time 70.03299999999997,  timeout 300.0
+    Changing ["simp-gc-frac: 0.1->0.5"], evaluating ...
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.037
+Total CPU time: 70.13299999999997
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.017
+Total CPU time: 70.23299999999996
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.017
+Total CPU time: 70.33299999999996
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.023
+Total CPU time: 70.43299999999995
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.017
+Total CPU time: 70.53299999999994
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.016
+Total CPU time: 70.63299999999994
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.024
+Total CPU time: 70.73299999999993
+        -> worse: (2968585.714285714 [based on 7 runs with cutoff 30.0])
+Total CPU Time 70.73299999999993,  timeout 300.0
+Total CPU Time 70.73299999999993,  timeout 300.0
+    Changing ["rinc: 1->50000"], evaluating ...
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.126
+Total CPU time: 70.85899999999994
+        -> worse: (["pruned", 1] [based on 7 runs with cutoff 30.0])
+Total CPU Time 70.85899999999994,  timeout 300.0
+Total CPU Time 70.85899999999994,  timeout 300.0
+    Changing ["rnd-freq: 0.4->0.2"], evaluating ...
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.016
+Total CPU time: 70.95899999999993
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.017
+Total CPU time: 71.05899999999993
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.025
+Total CPU time: 71.15899999999992
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.017
+Total CPU time: 71.25899999999992
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.031
+Total CPU time: 71.35899999999991
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.017
+Total CPU time: 71.4589999999999
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.016
+Total CPU time: 71.5589999999999
+        -> worse: (2932716.714285714 [based on 7 runs with cutoff 30.0])
+Total CPU Time 71.5589999999999,  timeout 300.0
+Total CPU Time 71.5589999999999,  timeout 300.0
+    Changing ["grow: -10000->-50000"], evaluating ...
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.017
+Total CPU time: 71.65899999999989
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.024
+Total CPU time: 71.75899999999989
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.023
+Total CPU time: 71.85899999999988
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.024
+Total CPU time: 71.95899999999988
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.024
+Total CPU time: 72.05899999999987
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.023
+Total CPU time: 72.15899999999986
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.026
+Total CPU time: 72.25899999999986
+        -> worse: (3133198.5714285714 [based on 7 runs with cutoff 30.0])
+Total CPU Time 72.25899999999986,  timeout 300.0
+Total CPU Time 72.25899999999986,  timeout 300.0
+    Changing ["grow: -10000->0"], evaluating ...
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.017
+Total CPU time: 72.35899999999985
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.025
+Total CPU time: 72.45899999999985
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.025
+Total CPU time: 72.55899999999984
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.023
+Total CPU time: 72.65899999999984
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.035
+Total CPU time: 72.75899999999983
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.017
+Total CPU time: 72.85899999999982
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.016
+Total CPU time: 72.95899999999982
+        -> worse: (2968683.8571428573 [based on 7 runs with cutoff 30.0])
+Total CPU Time 72.95899999999982,  timeout 300.0
+Total CPU Time 72.95899999999982,  timeout 300.0
+    Changing ["grow: -10000->65535"], evaluating ...
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.017
+Total CPU time: 73.05899999999981
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.025
+Total CPU time: 73.1589999999998
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.016
+Total CPU time: 73.2589999999998
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.017
+Total CPU time: 73.3589999999998
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.017
+Total CPU time: 73.45899999999979
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.026
+Total CPU time: 73.55899999999978
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.024
+Total CPU time: 73.65899999999978
+        -> worse: (2985960.285714286 [based on 7 runs with cutoff 30.0])
+Total CPU Time 73.65899999999978,  timeout 300.0
+Total CPU Time 73.65899999999978,  timeout 300.0
+    Changing ["rfirst: 500->100"], evaluating ...
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.024
+Total CPU time: 73.75899999999977
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.017
+Total CPU time: 73.85899999999977
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.024
+Total CPU time: 73.95899999999976
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.022
+Total CPU time: 74.05899999999976
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.025
+Total CPU time: 74.15899999999975
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.017
+Total CPU time: 74.25899999999974
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.023
+Total CPU time: 74.35899999999974
+        -> worse: (3071372.1428571427 [based on 7 runs with cutoff 30.0])
+Total CPU Time 74.35899999999974,  timeout 300.0
+Total CPU Time 74.35899999999974,  timeout 300.0
+    Changing ["grow: -10000->-1000"], evaluating ...
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.017
+Total CPU time: 74.45899999999973
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.016
+Total CPU time: 74.55899999999973
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.016
+Total CPU time: 74.65899999999972
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.016
+Total CPU time: 74.75899999999972
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.017
+Total CPU time: 74.85899999999971
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.016
+Total CPU time: 74.9589999999997
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.023
+Total CPU time: 75.0589999999997
+        -> worse: (3218813.1428571427 [based on 7 runs with cutoff 30.0])
+Total CPU Time 75.0589999999997,  timeout 300.0
+Total CPU Time 75.0589999999997,  timeout 300.0
+    Changing ["rfirst: 500->10000"], evaluating ...
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.024
+Total CPU time: 75.1589999999997
+357/100000, 75.1589999999997/300.0
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.017
+Total CPU time: 75.25899999999969
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.017
+Total CPU time: 75.35899999999968
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.022
+Total CPU time: 75.45899999999968
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.016
+Total CPU time: 75.55899999999967
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.039
+Total CPU time: 75.65899999999966
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.016
+Total CPU time: 75.75899999999966
+        -> worse: (3209303.714285714 [based on 7 runs with cutoff 30.0])
+Total CPU Time 75.75899999999966,  timeout 300.0
+Total CPU Time 75.75899999999966,  timeout 300.0
+    Changing ["verb: 1->0"], evaluating ...
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.017
+Total CPU time: 75.85899999999965
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.017
+Total CPU time: 75.95899999999965
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.022
+Total CPU time: 76.05899999999964
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.025
+Total CPU time: 76.15899999999964
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.017
+Total CPU time: 76.25899999999963
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.023
+Total CPU time: 76.35899999999963
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.026
+Total CPU time: 76.45899999999962
+        -> worse: (2983318.1428571427 [based on 7 runs with cutoff 30.0])
+Total CPU Time 76.45899999999962,  timeout 300.0
+Total CPU Time 76.45899999999962,  timeout 300.0
+    Changing ["simp-gc-frac: 0.1->0.7"], evaluating ...
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.024
+Total CPU time: 76.55899999999961
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.017
+Total CPU time: 76.65899999999961
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.023
+Total CPU time: 76.7589999999996
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.018
+Total CPU time: 76.8589999999996
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.017
+Total CPU time: 76.95899999999959
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.035
+Total CPU time: 77.05899999999959
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.021
+Total CPU time: 77.15899999999958
+        -> worse: (3155064.5714285714 [based on 7 runs with cutoff 30.0])
+Total CPU Time 77.15899999999958,  timeout 300.0
+Total CPU Time 77.15899999999958,  timeout 300.0
+    Changing ["simp-gc-frac: 0.1->0.6"], evaluating ...
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.025
+Total CPU time: 77.25899999999957
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.026
+Total CPU time: 77.35899999999957
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.023
+Total CPU time: 77.45899999999956
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.017
+Total CPU time: 77.55899999999956
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.024
+Total CPU time: 77.65899999999955
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.023
+Total CPU time: 77.75899999999955
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.017
+Total CPU time: 77.85899999999954
+        -> worse: (3048618.285714286 [based on 7 runs with cutoff 30.0])
+Total CPU Time 77.85899999999954,  timeout 300.0
+Total CPU Time 77.85899999999954,  timeout 300.0
+    Changing ["rnd-freq: 0.4->0.1"], evaluating ...
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.017
+Total CPU time: 77.95899999999953
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.017
+Total CPU time: 78.05899999999953
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.024
+Total CPU time: 78.15899999999952
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.024
+Total CPU time: 78.25899999999952
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.024
+Total CPU time: 78.35899999999951
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.045
+Total CPU time: 78.4589999999995
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.017
+Total CPU time: 78.5589999999995
+        -> worse: (2892757.8571428573 [based on 7 runs with cutoff 30.0])
+Total CPU Time 78.5589999999995,  timeout 300.0
+Total CPU Time 78.5589999999995,  timeout 300.0
+    Changing ["ccmin-mode: 0->2"], evaluating ...
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.016
+Total CPU time: 78.6589999999995
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.017
+Total CPU time: 78.75899999999949
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.017
+Total CPU time: 78.85899999999948
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.017
+Total CPU time: 78.95899999999948
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.017
+Total CPU time: 79.05899999999947
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.024
+Total CPU time: 79.15899999999947
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.017
+Total CPU time: 79.25899999999946
+        -> worse: (2901393.8571428573 [based on 7 runs with cutoff 30.0])
+Total CPU Time 79.25899999999946,  timeout 300.0
+Total CPU Time 79.25899999999946,  timeout 300.0
+    Changing ["rfirst: 500->5000"], evaluating ...
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.023
+Total CPU time: 79.35899999999945
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.017
+Total CPU time: 79.45899999999945
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.017
+Total CPU time: 79.55899999999944
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.026
+Total CPU time: 79.65899999999944
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.017
+Total CPU time: 79.75899999999943
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.023
+Total CPU time: 79.85899999999943
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.022
+Total CPU time: 79.95899999999942
+        -> worse: (3401143.4285714286 [based on 7 runs with cutoff 30.0])
+Total CPU Time 79.95899999999942,  timeout 300.0
+Total CPU Time 79.95899999999942,  timeout 300.0
+    Changing ["simp-gc-frac: 0.1->0.8"], evaluating ...
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.036
+Total CPU time: 80.05899999999941
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.016
+Total CPU time: 80.15899999999941
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.023
+Total CPU time: 80.2589999999994
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.026
+Total CPU time: 80.3589999999994
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.016
+Total CPU time: 80.45899999999939
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.017
+Total CPU time: 80.55899999999939
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.017
+Total CPU time: 80.65899999999938
+        -> worse: (3109578.714285714 [based on 7 runs with cutoff 30.0])
+Total CPU Time 80.65899999999938,  timeout 300.0
+Total CPU Time 80.65899999999938,  timeout 300.0
+    Changing ["grow: -10000->10000"], evaluating ...
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.017
+Total CPU time: 80.75899999999938
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.022
+Total CPU time: 80.85899999999937
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.022
+Total CPU time: 80.95899999999936
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.024
+Total CPU time: 81.05899999999936
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.016
+Total CPU time: 81.15899999999935
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.023
+Total CPU time: 81.25899999999935
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.017
+Total CPU time: 81.35899999999934
+        -> worse: (3300846.5714285714 [based on 7 runs with cutoff 30.0])
+Total CPU Time 81.35899999999934,  timeout 300.0
+Total CPU Time 81.35899999999934,  timeout 300.0
+    Changing ["rfirst: 500->10"], evaluating ...
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.019
+Total CPU time: 81.45899999999934
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.034
+Total CPU time: 81.55899999999933
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.023
+Total CPU time: 81.65899999999932
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.016
+Total CPU time: 81.75899999999932
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.016
+Total CPU time: 81.85899999999931
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.017
+Total CPU time: 81.9589999999993
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.026
+Total CPU time: 82.0589999999993
+        -> worse: (3076095.8571428573 [based on 7 runs with cutoff 30.0])
+Total CPU Time 82.0589999999993,  timeout 300.0
+Total CPU Time 82.0589999999993,  timeout 300.0
+    Changing ["elim: False->True"], evaluating ...
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.023
+Total CPU time: 82.1589999999993
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.026
+Total CPU time: 82.25899999999929
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.017
+Total CPU time: 82.35899999999928
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.017
+Total CPU time: 82.45899999999928
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.024
+Total CPU time: 82.55899999999927
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.022
+Total CPU time: 82.65899999999927
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.026
+Total CPU time: 82.75899999999926
+        -> worse: (3077730.0 [based on 7 runs with cutoff 30.0])
+Total CPU Time 82.75899999999926,  timeout 300.0
+Total CPU Time 82.75899999999926,  timeout 300.0
+    Changing ["phase-saving: 1->2"], evaluating ...
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.017
+Total CPU time: 82.85899999999926
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.023
+Total CPU time: 82.95899999999925
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.017
+Total CPU time: 83.05899999999924
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.024
+Total CPU time: 83.15899999999924
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.025
+Total CPU time: 83.25899999999923
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.016
+Total CPU time: 83.35899999999923
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.016
+Total CPU time: 83.45899999999922
+        -> worse: (2994859.0 [based on 7 runs with cutoff 30.0])
+Total CPU Time 83.45899999999922,  timeout 300.0
+Total CPU Time 83.45899999999922,  timeout 300.0
+    Changing ["rfirst: 500->50000"], evaluating ...
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.024
+Total CPU time: 83.55899999999922
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.024
+Total CPU time: 83.65899999999921
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.024
+Total CPU time: 83.7589999999992
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.017
+Total CPU time: 83.8589999999992
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.017
+Total CPU time: 83.9589999999992
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.017
+Total CPU time: 84.05899999999919
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.016
+Total CPU time: 84.15899999999918
+        -> worse: (3118612.285714286 [based on 7 runs with cutoff 30.0])
+Total CPU Time 84.15899999999918,  timeout 300.0
+Total CPU Time 84.15899999999918,  timeout 300.0
+    Changing ["gc-frac: 0.4->0.1"], evaluating ...
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.024
+Total CPU time: 84.25899999999918
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.023
+Total CPU time: 84.35899999999917
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.026
+Total CPU time: 84.45899999999916
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.017
+Total CPU time: 84.55899999999916
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.024
+Total CPU time: 84.65899999999915
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.024
+Total CPU time: 84.75899999999915
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.017
+Total CPU time: 84.85899999999914
+        -> worse: (3054144.8571428573 [based on 7 runs with cutoff 30.0])
+Total CPU Time 84.85899999999914,  timeout 300.0
+Total CPU Time 84.85899999999914,  timeout 300.0
+    Changing ["rinc: 1->1000"], evaluating ...
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.129
+Total CPU time: 84.98799999999915
+        -> worse: (["pruned", 1] [based on 7 runs with cutoff 30.0])
+Total CPU Time 84.98799999999915,  timeout 300.0
+Total CPU Time 84.98799999999915,  timeout 300.0
+    Changing ["rinc: 1->500"], evaluating ...
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.139
+Total CPU time: 85.12699999999914
+        -> worse: (["pruned", 1] [based on 7 runs with cutoff 30.0])
+Total CPU Time 85.12699999999914,  timeout 300.0
+Total CPU Time 85.12699999999914,  timeout 300.0
+    Changing ["rcheck: False->True"], evaluating ...
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.017
+Total CPU time: 85.22699999999914
+457/100000, 85.22699999999914/300.0
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.024
+Total CPU time: 85.32699999999913
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.024
+Total CPU time: 85.42699999999913
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.016
+Total CPU time: 85.52699999999912
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.017
+Total CPU time: 85.62699999999911
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.041
+Total CPU time: 85.72699999999911
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.017
+Total CPU time: 85.8269999999991
+        -> worse: (3172789.285714286 [based on 7 runs with cutoff 30.0])
+Total CPU Time 85.8269999999991,  timeout 300.0
+Total CPU Time 85.8269999999991,  timeout 300.0
+    Changing ["cla-decay: 0.998->0.992"], evaluating ...
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.017
+Total CPU time: 85.9269999999991
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.018
+Total CPU time: 86.02699999999909
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.023
+Total CPU time: 86.12699999999909
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.016
+Total CPU time: 86.22699999999908
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.017
+Total CPU time: 86.32699999999907
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.016
+Total CPU time: 86.42699999999907
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.026
+Total CPU time: 86.52699999999906
+        -> worse: (3015953.714285714 [based on 7 runs with cutoff 30.0])
+Total CPU Time 86.52699999999906,  timeout 300.0
+Total CPU Time 86.52699999999906,  timeout 300.0
+    Changing ["simp-gc-frac: 0.1->1.0"], evaluating ...
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.023
+Total CPU time: 86.62699999999906
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.016
+Total CPU time: 86.72699999999905
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.017
+Total CPU time: 86.82699999999905
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.026
+Total CPU time: 86.92699999999904
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.015
+Total CPU time: 87.02699999999903
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.017
+Total CPU time: 87.12699999999903
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.039
+Total CPU time: 87.22699999999902
+        -> worse: (3101555.8571428573 [based on 7 runs with cutoff 30.0])
+Total CPU Time 87.22699999999902,  timeout 300.0
+Total CPU Time 87.22699999999902,  timeout 300.0
+    Changing ["pre: True->False"], evaluating ...
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.016
+Total CPU time: 87.32699999999902
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.016
+Total CPU time: 87.42699999999901
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.017
+Total CPU time: 87.526999999999
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.023
+Total CPU time: 87.626999999999
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.016
+Total CPU time: 87.726999999999
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.017
+Total CPU time: 87.82699999999899
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.017
+Total CPU time: 87.92699999999898
+        -> worse: (3020123.0 [based on 7 runs with cutoff 30.0])
+Total CPU Time 87.92699999999898,  timeout 300.0
+Total CPU Time 87.92699999999898,  timeout 300.0
+    Changing ["gc-frac: 0.4->0"], evaluating ...
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.017
+Total CPU time: 88.02699999999898
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.021
+Total CPU time: 88.12699999999897
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.017
+Total CPU time: 88.22699999999897
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.017
+Total CPU time: 88.32699999999896
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.017
+Total CPU time: 88.42699999999896
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.026
+Total CPU time: 88.52699999999895
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.024
+Total CPU time: 88.62699999999894
+        -> worse: (3097077.8571428573 [based on 7 runs with cutoff 30.0])
+Total CPU Time 88.62699999999894,  timeout 300.0
+Total CPU Time 88.62699999999894,  timeout 300.0
+    Changing ["rinc: 1->10"], evaluating ...
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 3.461
+Total CPU time: 92.08799999999894
+        -> worse: (["pruned", 1] [based on 7 runs with cutoff 30.0])
+Total CPU Time 92.08799999999894,  timeout 300.0
+Total CPU Time 92.08799999999894,  timeout 300.0
+    Changing ["grow: -10000->1000"], evaluating ...
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.023
+Total CPU time: 92.18799999999894
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.016
+Total CPU time: 92.28799999999893
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.017
+Total CPU time: 92.38799999999893
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.022
+Total CPU time: 92.48799999999892
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.017
+Total CPU time: 92.58799999999891
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.016
+Total CPU time: 92.68799999999891
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.024
+Total CPU time: 92.7879999999989
+        -> worse: (3159227.714285714 [based on 7 runs with cutoff 30.0])
+Total CPU Time 92.7879999999989,  timeout 300.0
+Total CPU Time 92.7879999999989,  timeout 300.0
+    Changing ["var-decay: 0.94->0.99"], evaluating ...
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.025
+Total CPU time: 92.8879999999989
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.022
+Total CPU time: 92.98799999999889
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.017
+Total CPU time: 93.08799999999889
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.021
+Total CPU time: 93.18799999999888
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.024
+Total CPU time: 93.28799999999887
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.016
+Total CPU time: 93.38799999999887
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.027
+Total CPU time: 93.48799999999886
+        -> worse: (3039938.4285714286 [based on 7 runs with cutoff 30.0])
+Total CPU Time 93.48799999999886,  timeout 300.0
+Total CPU Time 93.48799999999886,  timeout 300.0
+    Changing ["rinc: 1->65535"], evaluating ...
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.15
+Total CPU time: 93.63799999999887
+        -> worse: (["pruned", 1] [based on 7 runs with cutoff 30.0])
+Total CPU Time 93.63799999999887,  timeout 300.0
+Total CPU Time 93.63799999999887,  timeout 300.0
+    Changing ["cla-decay: 0.998->0.994"], evaluating ...
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.017
+Total CPU time: 93.73799999999886
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.024
+Total CPU time: 93.83799999999886
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.017
+Total CPU time: 93.93799999999885
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.018
+Total CPU time: 94.03799999999885
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.025
+Total CPU time: 94.13799999999884
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.026
+Total CPU time: 94.23799999999883
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.016
+Total CPU time: 94.33799999999883
+        -> worse: (2893774.5714285714 [based on 7 runs with cutoff 30.0])
+Total CPU Time 94.33799999999883,  timeout 300.0
+Total CPU Time 94.33799999999883,  timeout 300.0
+    Changing ["phase-saving: 1->0"], evaluating ...
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.023
+Total CPU time: 94.43799999999882
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.023
+Total CPU time: 94.53799999999882
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.024
+Total CPU time: 94.63799999999881
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.034
+Total CPU time: 94.7379999999988
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.027
+Total CPU time: 94.8379999999988
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.026
+Total CPU time: 94.9379999999988
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.026
+Total CPU time: 95.03799999999879
+        -> worse: (3190304.0 [based on 7 runs with cutoff 30.0])
+Total CPU Time 95.03799999999879,  timeout 300.0
+Total CPU Time 95.03799999999879,  timeout 300.0
+    Changing ["simp-gc-frac: 0.1->0.2"], evaluating ...
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.017
+Total CPU time: 95.13799999999878
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.022
+Total CPU time: 95.23799999999878
+523/100000, 95.23799999999878/300.0
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.022
+Total CPU time: 95.33799999999877
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.026
+Total CPU time: 95.43799999999877
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.016
+Total CPU time: 95.53799999999876
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.017
+Total CPU time: 95.63799999999875
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.016
+Total CPU time: 95.73799999999875
+        -> worse: (3094579.5714285714 [based on 7 runs with cutoff 30.0])
+Total CPU Time 95.73799999999875,  timeout 300.0
+Total CPU Time 95.73799999999875,  timeout 300.0
+    Changing ["rinc: 1->100"], evaluating ...
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.135
+Total CPU time: 95.87299999999875
+        -> worse: (["pruned", 1] [based on 7 runs with cutoff 30.0])
+Total CPU Time 95.87299999999875,  timeout 300.0
+Total CPU Time 95.87299999999875,  timeout 300.0
+Total CPU Time 95.87299999999875,  timeout 300.0
+Total CPU Time 95.87299999999875,  timeout 300.0
+    Changing ["var-decay: 0.94->0.90"], evaluating ...
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.016
+Total CPU time: 95.97299999999875
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.032
+Total CPU time: 96.07299999999874
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.026
+Total CPU time: 96.17299999999874
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.025
+Total CPU time: 96.27299999999873
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.017
+Total CPU time: 96.37299999999873
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.016
+Total CPU time: 96.47299999999872
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.017
+Total CPU time: 96.57299999999871
+        -> worse: (3051800.8571428573 [based on 7 runs with cutoff 30.0])
+Total CPU Time 96.57299999999871,  timeout 300.0
+Total CPU Time 96.57299999999871,  timeout 300.0
+    Changing ["rinc: 1->50"], evaluating ...
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.133
+Total CPU time: 96.70599999999871
+        -> worse: (["pruned", 1] [based on 7 runs with cutoff 30.0])
+Total CPU Time 96.70599999999871,  timeout 300.0
+Total CPU Time 96.70599999999871,  timeout 300.0
+    Changing ["var-decay: 0.94->0.95"], evaluating ...
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.023
+Total CPU time: 96.8059999999987
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.024
+Total CPU time: 96.9059999999987
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.026
+Total CPU time: 97.00599999999869
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.024
+Total CPU time: 97.10599999999869
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.017
+Total CPU time: 97.20599999999868
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.036
+Total CPU time: 97.30599999999868
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.023
+Total CPU time: 97.40599999999867
+        -> worse: (3108553.285714286 [based on 7 runs with cutoff 30.0])
+Total CPU Time 97.40599999999867,  timeout 300.0
+Total CPU Time 97.40599999999867,  timeout 300.0
+    Changing ["gc-frac: 0.4->0.8"], evaluating ...
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.019
+Total CPU time: 97.50599999999866
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.026
+Total CPU time: 97.60599999999866
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.022
+Total CPU time: 97.70599999999865
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.025
+Total CPU time: 97.80599999999865
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.017
+Total CPU time: 97.90599999999864
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.022
+Total CPU time: 98.00599999999864
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.026
+Total CPU time: 98.10599999999863
+        -> worse: (2959742.4285714286 [based on 7 runs with cutoff 30.0])
+Total CPU Time 98.10599999999863,  timeout 300.0
+Total CPU Time 98.10599999999863,  timeout 300.0
+    Changing ["rnd-freq: 0.4->0.5"], evaluating ...
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.022
+Total CPU time: 98.20599999999862
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.024
+Total CPU time: 98.30599999999862
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.023
+Total CPU time: 98.40599999999861
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.025
+Total CPU time: 98.50599999999861
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.025
+Total CPU time: 98.6059999999986
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.041
+Total CPU time: 98.7059999999986
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.026
+Total CPU time: 98.80599999999859
+        -> worse: (3097346.1428571427 [based on 7 runs with cutoff 30.0])
+Total CPU Time 98.80599999999859,  timeout 300.0
+Total CPU Time 98.80599999999859,  timeout 300.0
+    Changing ["gc-frac: 0.4->0.2"], evaluating ...
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.026
+Total CPU time: 98.90599999999858
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.026
+Total CPU time: 99.00599999999858
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.016
+Total CPU time: 99.10599999999857
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.025
+Total CPU time: 99.20599999999857
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.026
+Total CPU time: 99.30599999999856
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.015
+Total CPU time: 99.40599999999856
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.016
+Total CPU time: 99.50599999999855
+        -> worse: (2909236.4285714286 [based on 7 runs with cutoff 30.0])
+Total CPU Time 99.50599999999855,  timeout 300.0
+Total CPU Time 99.50599999999855,  timeout 300.0
+    Changing ["gc-frac: 0.4->0.6"], evaluating ...
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.026
+Total CPU time: 99.60599999999855
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.017
+Total CPU time: 99.70599999999854
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.023
+Total CPU time: 99.80599999999853
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.023
+Total CPU time: 99.90599999999853
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.034
+Total CPU time: 100.00599999999852
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.024
+Total CPU time: 100.10599999999852
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.024
+Total CPU time: 100.20599999999851
+        -> worse: (2960954.714285714 [based on 7 runs with cutoff 30.0])
+Total CPU Time 100.20599999999851,  timeout 300.0
+Total CPU Time 100.20599999999851,  timeout 300.0
+    Changing ["asymm: False->True"], evaluating ...
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.02
+Total CPU time: 100.3059999999985
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.023
+Total CPU time: 100.4059999999985
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.026
+Total CPU time: 100.5059999999985
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.018
+Total CPU time: 100.60599999999849
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.017
+Total CPU time: 100.70599999999848
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.017
+Total CPU time: 100.80599999999848
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.016
+Total CPU time: 100.90599999999847
+        -> worse: (2917386.4285714286 [based on 7 runs with cutoff 30.0])
+Total CPU Time 100.90599999999847,  timeout 300.0
+Total CPU Time 100.90599999999847,  timeout 300.0
+    Changing ["verb: 1->2"], evaluating ...
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.017
+Total CPU time: 101.00599999999847
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.017
+Total CPU time: 101.10599999999846
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.024
+Total CPU time: 101.20599999999845
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.026
+Total CPU time: 101.30599999999845
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.031
+Total CPU time: 101.40599999999844
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.026
+Total CPU time: 101.50599999999844
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.015
+Total CPU time: 101.60599999999843
+        -> worse: (2924593.5714285714 [based on 7 runs with cutoff 30.0])
+Total CPU Time 101.60599999999843,  timeout 300.0
+Total CPU Time 101.60599999999843,  timeout 300.0
+    Changing ["var-decay: 0.94->0.98"], evaluating ...
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.024
+Total CPU time: 101.70599999999843
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.026
+Total CPU time: 101.80599999999842
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.024
+Total CPU time: 101.90599999999841
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.027
+Total CPU time: 102.00599999999841
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.022
+Total CPU time: 102.1059999999984
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.017
+Total CPU time: 102.2059999999984
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.023
+Total CPU time: 102.30599999999839
+        -> worse: (3016926.285714286 [based on 7 runs with cutoff 30.0])
+Total CPU Time 102.30599999999839,  timeout 300.0
+Total CPU Time 102.30599999999839,  timeout 300.0
+    Changing ["rnd-freq: 0.4->0"], evaluating ...
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.027
+Total CPU time: 102.40599999999839
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.016
+Total CPU time: 102.50599999999838
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.017
+Total CPU time: 102.60599999999837
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.025
+Total CPU time: 102.70599999999837
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.035
+Total CPU time: 102.80599999999836
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.025
+Total CPU time: 102.90599999999836
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.023
+Total CPU time: 103.00599999999835
+        -> worse: (3028668.8571428573 [based on 7 runs with cutoff 30.0])
+Total CPU Time 103.00599999999835,  timeout 300.0
+Total CPU Time 103.00599999999835,  timeout 300.0
+    Changing ["gc-frac: 0.4->1.0"], evaluating ...
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.017
+Total CPU time: 103.10599999999835
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.023
+Total CPU time: 103.20599999999834
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.022
+Total CPU time: 103.30599999999833
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.017
+Total CPU time: 103.40599999999833
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.017
+Total CPU time: 103.50599999999832
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.024
+Total CPU time: 103.60599999999832
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.017
+Total CPU time: 103.70599999999831
+        -> worse: (3009407.714285714 [based on 7 runs with cutoff 30.0])
+Total CPU Time 103.70599999999831,  timeout 300.0
+Total CPU Time 103.70599999999831,  timeout 300.0
+    Changing ["rinc: 1->10000"], evaluating ...
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.132
+Total CPU time: 103.83799999999832
+        -> worse: (["pruned", 1] [based on 7 runs with cutoff 30.0])
+Total CPU Time 103.83799999999832,  timeout 300.0
+Total CPU Time 103.83799999999832,  timeout 300.0
+    Changing ["var-decay: 0.94->0.96"], evaluating ...
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.024
+Total CPU time: 103.93799999999831
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.025
+Total CPU time: 104.0379999999983
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.038
+Total CPU time: 104.1379999999983
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.024
+Total CPU time: 104.2379999999983
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.016
+Total CPU time: 104.33799999999829
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.026
+Total CPU time: 104.43799999999828
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.025
+Total CPU time: 104.53799999999828
+        -> worse: (3068939.1428571427 [based on 7 runs with cutoff 30.0])
+Total CPU Time 104.53799999999828,  timeout 300.0
+Total CPU Time 104.53799999999828,  timeout 300.0
+    Changing ["grow: -10000->-65535"], evaluating ...
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.024
+Total CPU time: 104.63799999999827
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.02
+Total CPU time: 104.73799999999827
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.018
+Total CPU time: 104.83799999999826
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.021
+Total CPU time: 104.93799999999825
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.025
+Total CPU time: 105.03799999999825
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.024
+Total CPU time: 105.13799999999824
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.016
+Total CPU time: 105.23799999999824
+        -> worse: (2973920.8571428573 [based on 7 runs with cutoff 30.0])
+   LM for iteration 1: asymm=False ccmin-mode=0 cla-decay=0.998 elim=False gc-frac=0.4 grow=-10000 luby=True phase-saving=1 pre=True rcheck=False rfirst=500 rinc=1 rnd-freq=0.4 rnd-init=True rnd-seed=91648253 simp-gc-frac=0.1 var-decay=0.94 verb=1 (2888298.714285714 [based on 7 runs with cutoff 30.0])
+
+========== DETAILED RESULTS (iteration 1): ==========
+================================================
+
+==================================================================
+Best parameter configuration found so far (end of iteration 1): asymm=False, ccmin-mode=0, cla-decay=0.998, elim=False, gc-frac=0.4, grow=-10000, luby=True, phase-saving=1, pre=True, rcheck=False, rfirst=500, rinc=1, rnd-freq=0.4, rnd-init=True, rnd-seed=91648253, simp-gc-frac=0.1, var-decay=0.94, verb=1
+==================================================================
+Training quality of this incumbent parameter configuration: 2888298.714285714, based on 7 runs with cutoff 30.0
+==================================================================
+
+Comparing LM against incumbent:
+asymm=False ccmin-mode=0 cla-decay=0.998 elim=False gc-frac=0.4 grow=-10000 luby=True phase-saving=1 pre=True rcheck=False rfirst=500 rinc=1 rnd-freq=0.4 rnd-init=True rnd-seed=91648253 simp-gc-frac=0.1 var-decay=0.94 verb=1 (2888298.714285714 [based on 7 runs with cutoff 30.0])
+asymm=False ccmin-mode=0 cla-decay=0.998 elim=False gc-frac=0.4 grow=-10000 luby=True phase-saving=1 pre=True rcheck=False rfirst=500 rinc=1 rnd-freq=0.4 rnd-init=True rnd-seed=91648253 simp-gc-frac=0.1 var-decay=0.94 verb=1 (2888298.714285714 [based on 7 runs with cutoff 30.0])
+LM better, change incumbent
+New Incumbent: 105.23799999999824, 2888298.714285714 [7, 30.0]. With state asymm=False, ccmin-mode=0, cla-decay=0.998, elim=False, gc-frac=0.4, grow=-10000, luby=True, phase-saving=1, pre=True, rcheck=False, rfirst=500, rinc=1, rnd-freq=0.4, rnd-init=True, rnd-seed=91648253, simp-gc-frac=0.1, var-decay=0.94, verb=1
+Total CPU Time 105.23799999999824,  timeout 300.0
+Total CPU Time 105.23799999999824,  timeout 300.0
+622/100000, 105.23799999999824/300.0
+iteration 2, flip 5, evaluation count 622
+    perturb to ---> asymm=False ccmin-mode=0 cla-decay=0.998 elim=False gc-frac=0.4 grow=-10000 luby=True phase-saving=1 pre=True rcheck=False rfirst=500 rinc=1 rnd-freq=0.4 rnd-init=True rnd-seed=91648253 simp-gc-frac=0.8 var-decay=0.94 verb=1 (3109578.714285714 [based on 7 runs with cutoff 30.0])
+    perturb to ---> asymm=False ccmin-mode=0 cla-decay=0.998 elim=True gc-frac=0.4 grow=-10000 luby=True phase-saving=1 pre=True rcheck=False rfirst=500 rinc=1 rnd-freq=0.4 rnd-init=True rnd-seed=91648253 simp-gc-frac=0.8 var-decay=0.94 verb=1 (100000000 [based on 0 runs with cutoff 0])
+    perturb to ---> asymm=False ccmin-mode=0 cla-decay=0.999 elim=True gc-frac=0.4 grow=-10000 luby=True phase-saving=1 pre=True rcheck=False rfirst=500 rinc=1 rnd-freq=0.4 rnd-init=True rnd-seed=91648253 simp-gc-frac=0.8 var-decay=0.94 verb=1 (100000000 [based on 0 runs with cutoff 0])
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.025
+Total CPU time: 105.33799999999823
+623/100000, 105.33799999999823/300.0
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.024
+Total CPU time: 105.43799999999823
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.034
+Total CPU time: 105.53799999999822
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.02
+Total CPU time: 105.63799999999821
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.025
+Total CPU time: 105.73799999999821
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.025
+Total CPU time: 105.8379999999982
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.017
+Total CPU time: 105.9379999999982
+   BLS in iteration 2, start with asymm=False ccmin-mode=0 cla-decay=0.999 elim=True gc-frac=0.4 grow=-10000 luby=True phase-saving=1 pre=True rcheck=False rfirst=500 rinc=1 rnd-freq=0.4 rnd-init=True rnd-seed=91648253 simp-gc-frac=0.8 var-decay=0.94 verb=1 (3000803.0 [based on 7 runs with cutoff 30.0])
+Total CPU Time 105.9379999999982,  timeout 300.0
+Total CPU Time 105.9379999999982,  timeout 300.0
+Total CPU Time 105.9379999999982,  timeout 300.0
+Total CPU Time 105.9379999999982,  timeout 300.0
+    Changing ["luby: True->False"], evaluating ...
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.024
+Total CPU time: 106.03799999999819
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.016
+Total CPU time: 106.13799999999819
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.016
+Total CPU time: 106.23799999999818
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.023
+Total CPU time: 106.33799999999817
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.025
+Total CPU time: 106.43799999999817
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.024
+Total CPU time: 106.53799999999816
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.023
+Total CPU time: 106.63799999999816
+        -> worse: (3125762.0 [based on 7 runs with cutoff 30.0])
+Total CPU Time 106.63799999999816,  timeout 300.0
+Total CPU Time 106.63799999999816,  timeout 300.0
+    Changing ["var-decay: 0.94->0.98"], evaluating ...
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.022
+Total CPU time: 106.73799999999815
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.026
+Total CPU time: 106.83799999999815
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.035
+Total CPU time: 106.93799999999814
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.015
+Total CPU time: 107.03799999999814
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.024
+Total CPU time: 107.13799999999813
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.016
+Total CPU time: 107.23799999999812
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.026
+Total CPU time: 107.33799999999812
+        -> worse: (3213712.0 [based on 7 runs with cutoff 30.0])
+Total CPU Time 107.33799999999812,  timeout 300.0
+Total CPU Time 107.33799999999812,  timeout 300.0
+    Changing ["grow: -10000->-65535"], evaluating ...
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.016
+Total CPU time: 107.43799999999811
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.016
+Total CPU time: 107.5379999999981
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.024
+Total CPU time: 107.6379999999981
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.02
+Total CPU time: 107.7379999999981
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.022
+Total CPU time: 107.83799999999809
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.017
+Total CPU time: 107.93799999999808
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.023
+Total CPU time: 108.03799999999808
+        -> worse: (3094974.4285714286 [based on 7 runs with cutoff 30.0])
+Total CPU Time 108.03799999999808,  timeout 300.0
+Total CPU Time 108.03799999999808,  timeout 300.0
+    Changing ["var-decay: 0.94->0.90"], evaluating ...
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.022
+Total CPU time: 108.13799999999807
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.023
+Total CPU time: 108.23799999999807
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.034
+Total CPU time: 108.33799999999806
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.024
+Total CPU time: 108.43799999999806
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.017
+Total CPU time: 108.53799999999805
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.025
+Total CPU time: 108.63799999999804
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.016
+Total CPU time: 108.73799999999804
+        -> worse: (3180854.5714285714 [based on 7 runs with cutoff 30.0])
+Total CPU Time 108.73799999999804,  timeout 300.0
+Total CPU Time 108.73799999999804,  timeout 300.0
+    Changing ["simp-gc-frac: 0.8->0.4"], evaluating ...
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.024
+Total CPU time: 108.83799999999803
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.026
+Total CPU time: 108.93799999999803
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.015
+Total CPU time: 109.03799999999802
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.015
+Total CPU time: 109.13799999999802
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.023
+Total CPU time: 109.23799999999801
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.016
+Total CPU time: 109.337999999998
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.024
+Total CPU time: 109.437999999998
+          -> Take improving step to neighbour asymm=False ccmin-mode=0 cla-decay=0.999 elim=True gc-frac=0.4 grow=-10000 luby=True phase-saving=1 pre=True rcheck=False rfirst=500 rinc=1 rnd-freq=0.4 rnd-init=True rnd-seed=91648253 simp-gc-frac=0.4 var-decay=0.94 verb=1 (2997085.8571428573 [based on 7 runs with cutoff 30.0]) with flip 5
+
+Total CPU Time 109.437999999998,  timeout 300.0
+Total CPU Time 109.437999999998,  timeout 300.0
+Total CPU Time 109.437999999998,  timeout 300.0
+Total CPU Time 109.437999999998,  timeout 300.0
+    Changing ["cla-decay: 0.999->0.996"], evaluating ...
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.025
+Total CPU time: 109.537999999998
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.028
+Total CPU time: 109.63799999999799
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.024
+Total CPU time: 109.73799999999798
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.024
+Total CPU time: 109.83799999999798
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.022
+Total CPU time: 109.93799999999797
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.025
+Total CPU time: 110.03799999999796
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.024
+Total CPU time: 110.13799999999796
+        -> worse: (3027343.714285714 [based on 7 runs with cutoff 30.0])
+Total CPU Time 110.13799999999796,  timeout 300.0
+Total CPU Time 110.13799999999796,  timeout 300.0
+    Changing ["grow: -10000->65535"], evaluating ...
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.026
+Total CPU time: 110.23799999999795
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.015
+Total CPU time: 110.33799999999795
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.016
+Total CPU time: 110.43799999999794
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.016
+Total CPU time: 110.53799999999794
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.017
+Total CPU time: 110.63799999999793
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.025
+Total CPU time: 110.73799999999792
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.024
+Total CPU time: 110.83799999999792
+New inc: 2875614.1428571427
+New Incumbent: 110.83799999999792, 2875614.1428571427 [7, 30.0]. With state asymm=False, ccmin-mode=0, cla-decay=0.999, elim=True, gc-frac=0.4, grow=65535, luby=True, phase-saving=1, pre=True, rcheck=False, rfirst=500, rinc=1, rnd-freq=0.4, rnd-init=True, rnd-seed=91648253, simp-gc-frac=0.4, var-decay=0.94, verb=1
+          -> Take improving step to neighbour asymm=False ccmin-mode=0 cla-decay=0.999 elim=True gc-frac=0.4 grow=65535 luby=True phase-saving=1 pre=True rcheck=False rfirst=500 rinc=1 rnd-freq=0.4 rnd-init=True rnd-seed=91648253 simp-gc-frac=0.4 var-decay=0.94 verb=1 (2875614.1428571427 [based on 7 runs with cutoff 30.0]) with flip 6
+
+Total CPU Time 110.83799999999792,  timeout 300.0
+Total CPU Time 110.83799999999792,  timeout 300.0
+Total CPU Time 110.83799999999792,  timeout 300.0
+Total CPU Time 110.83799999999792,  timeout 300.0
+    Changing ["gc-frac: 0.4->0"], evaluating ...
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.025
+Total CPU time: 110.93799999999791
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.029
+Total CPU time: 111.03799999999791
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.026
+Total CPU time: 111.1379999999979
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.021
+Total CPU time: 111.2379999999979
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.017
+Total CPU time: 111.33799999999789
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.026
+Total CPU time: 111.43799999999788
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.023
+Total CPU time: 111.53799999999788
+        -> worse: (3099320.285714286 [based on 7 runs with cutoff 30.0])
+Total CPU Time 111.53799999999788,  timeout 300.0
+Total CPU Time 111.53799999999788,  timeout 300.0
+    Changing ["rfirst: 500->5000"], evaluating ...
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.025
+Total CPU time: 111.63799999999787
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.024
+Total CPU time: 111.73799999999787
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.024
+Total CPU time: 111.83799999999786
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.017
+Total CPU time: 111.93799999999786
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.017
+Total CPU time: 112.03799999999785
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.019
+Total CPU time: 112.13799999999785
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.017
+Total CPU time: 112.23799999999784
+        -> worse: (2912843.4285714286 [based on 7 runs with cutoff 30.0])
+Total CPU Time 112.23799999999784,  timeout 300.0
+Total CPU Time 112.23799999999784,  timeout 300.0
+    Changing ["rinc: 1->5000"], evaluating ...
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 30.0
+Total CPU time: 142.23799999999784
+693/100000, 142.23799999999784/300.0
+        -> worse: (["pruned", 1] [based on 7 runs with cutoff 30.0])
+Total CPU Time 142.23799999999784,  timeout 300.0
+Total CPU Time 142.23799999999784,  timeout 300.0
+    Changing ["rinc: 1->65535"], evaluating ...
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 30.0
+Total CPU time: 172.23799999999784
+694/100000, 172.23799999999784/300.0
+        -> worse: (["pruned", 1] [based on 7 runs with cutoff 30.0])
+Total CPU Time 172.23799999999784,  timeout 300.0
+Total CPU Time 172.23799999999784,  timeout 300.0
+    Changing ["gc-frac: 0.4->0.6"], evaluating ...
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.015
+Total CPU time: 172.33799999999783
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.015
+Total CPU time: 172.43799999999783
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.025
+Total CPU time: 172.53799999999782
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.024
+Total CPU time: 172.63799999999782
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.024
+Total CPU time: 172.7379999999978
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.023
+Total CPU time: 172.8379999999978
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.024
+Total CPU time: 172.9379999999978
+        -> worse: (2888626.285714286 [based on 7 runs with cutoff 30.0])
+Total CPU Time 172.9379999999978,  timeout 300.0
+Total CPU Time 172.9379999999978,  timeout 300.0
+    Changing ["simp-gc-frac: 0.4->0.7"], evaluating ...
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.024
+Total CPU time: 173.0379999999978
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.025
+Total CPU time: 173.1379999999978
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.025
+Total CPU time: 173.23799999999778
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.025
+Total CPU time: 173.33799999999778
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.024
+Total CPU time: 173.43799999999777
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.023
+Total CPU time: 173.53799999999777
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.033
+Total CPU time: 173.63799999999776
+New inc: 2870177.8571428573
+New Incumbent: 173.63799999999776, 2870177.8571428573 [7, 30.0]. With state asymm=False, ccmin-mode=0, cla-decay=0.999, elim=True, gc-frac=0.4, grow=65535, luby=True, phase-saving=1, pre=True, rcheck=False, rfirst=500, rinc=1, rnd-freq=0.4, rnd-init=True, rnd-seed=91648253, simp-gc-frac=0.7, var-decay=0.94, verb=1
+          -> Take improving step to neighbour asymm=False ccmin-mode=0 cla-decay=0.999 elim=True gc-frac=0.4 grow=65535 luby=True phase-saving=1 pre=True rcheck=False rfirst=500 rinc=1 rnd-freq=0.4 rnd-init=True rnd-seed=91648253 simp-gc-frac=0.7 var-decay=0.94 verb=1 (2870177.8571428573 [based on 7 runs with cutoff 30.0]) with flip 7
+
+Total CPU Time 173.63799999999776,  timeout 300.0
+Total CPU Time 173.63799999999776,  timeout 300.0
+Total CPU Time 173.63799999999776,  timeout 300.0
+Total CPU Time 173.63799999999776,  timeout 300.0
+    Changing ["var-decay: 0.94->0.98"], evaluating ...
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.017
+Total CPU time: 173.73799999999775
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.025
+Total CPU time: 173.83799999999775
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.025
+Total CPU time: 173.93799999999774
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.025
+Total CPU time: 174.03799999999774
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.024
+Total CPU time: 174.13799999999773
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.024
+Total CPU time: 174.23799999999773
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.025
+Total CPU time: 174.33799999999772
+        -> worse: (2909701.714285714 [based on 7 runs with cutoff 30.0])
+Total CPU Time 174.33799999999772,  timeout 300.0
+Total CPU Time 174.33799999999772,  timeout 300.0
+    Changing ["rfirst: 500->50"], evaluating ...
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.025
+Total CPU time: 174.43799999999771
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.024
+Total CPU time: 174.5379999999977
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.024
+Total CPU time: 174.6379999999977
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.024
+Total CPU time: 174.7379999999977
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.024
+Total CPU time: 174.8379999999977
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.039
+Total CPU time: 174.9379999999977
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.024
+Total CPU time: 175.03799999999768
+        -> worse: (2892704.0 [based on 7 runs with cutoff 30.0])
+Total CPU Time 175.03799999999768,  timeout 300.0
+Total CPU Time 175.03799999999768,  timeout 300.0
+    Changing ["rnd-freq: 0.4->0.3"], evaluating ...
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.025
+Total CPU time: 175.13799999999767
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.024
+Total CPU time: 175.23799999999767
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.024
+Total CPU time: 175.33799999999766
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.021
+Total CPU time: 175.43799999999766
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.024
+Total CPU time: 175.53799999999765
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.024
+Total CPU time: 175.63799999999765
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.025
+Total CPU time: 175.73799999999764
+        -> worse: (2987091.4285714286 [based on 7 runs with cutoff 30.0])
+Total CPU Time 175.73799999999764,  timeout 300.0
+Total CPU Time 175.73799999999764,  timeout 300.0
+    Changing ["gc-frac: 0.4->0.6"], evaluating ...
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.025
+Total CPU time: 175.83799999999763
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.023
+Total CPU time: 175.93799999999763
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.024
+Total CPU time: 176.03799999999762
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.025
+Total CPU time: 176.13799999999762
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.036
+Total CPU time: 176.2379999999976
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.025
+Total CPU time: 176.3379999999976
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.023
+Total CPU time: 176.4379999999976
+        -> worse: (2873963.1428571427 [based on 7 runs with cutoff 30.0])
+Total CPU Time 176.4379999999976,  timeout 300.0
+Total CPU Time 176.4379999999976,  timeout 300.0
+    Changing ["gc-frac: 0.4->0.3"], evaluating ...
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.023
+Total CPU time: 176.5379999999976
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.023
+Total CPU time: 176.6379999999976
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.025
+Total CPU time: 176.73799999999758
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.025
+Total CPU time: 176.83799999999758
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.024
+Total CPU time: 176.93799999999757
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.015
+Total CPU time: 177.03799999999757
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.025
+Total CPU time: 177.13799999999756
+        -> worse: (2917712.4285714286 [based on 7 runs with cutoff 30.0])
+Total CPU Time 177.13799999999756,  timeout 300.0
+Total CPU Time 177.13799999999756,  timeout 300.0
+    Changing ["grow: 65535->-10000"], evaluating ...
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.025
+Total CPU time: 177.23799999999756
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.024
+Total CPU time: 177.33799999999755
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.024
+Total CPU time: 177.43799999999754
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.034
+Total CPU time: 177.53799999999754
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.025
+Total CPU time: 177.63799999999753
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.024
+Total CPU time: 177.73799999999753
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.023
+Total CPU time: 177.83799999999752
+        -> worse: (2878871.8571428573 [based on 7 runs with cutoff 30.0])
+Total CPU Time 177.83799999999752,  timeout 300.0
+Total CPU Time 177.83799999999752,  timeout 300.0
+    Changing ["gc-frac: 0.4->1.0"], evaluating ...
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.023
+Total CPU time: 177.93799999999752
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.024
+Total CPU time: 178.0379999999975
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.024
+Total CPU time: 178.1379999999975
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.024
+Total CPU time: 178.2379999999975
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.025
+Total CPU time: 178.3379999999975
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.025
+Total CPU time: 178.4379999999975
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.025
+Total CPU time: 178.53799999999748
+New inc: 2859755.8571428573
+New Incumbent: 178.53799999999748, 2859755.8571428573 [7, 30.0]. With state asymm=False, ccmin-mode=0, cla-decay=0.999, elim=True, gc-frac=1.0, grow=65535, luby=True, phase-saving=1, pre=True, rcheck=False, rfirst=500, rinc=1, rnd-freq=0.4, rnd-init=True, rnd-seed=91648253, simp-gc-frac=0.7, var-decay=0.94, verb=1
+          -> Take improving step to neighbour asymm=False ccmin-mode=0 cla-decay=0.999 elim=True gc-frac=1.0 grow=65535 luby=True phase-saving=1 pre=True rcheck=False rfirst=500 rinc=1 rnd-freq=0.4 rnd-init=True rnd-seed=91648253 simp-gc-frac=0.7 var-decay=0.94 verb=1 (2859755.8571428573 [based on 7 runs with cutoff 30.0]) with flip 8
+
+Total CPU Time 178.53799999999748,  timeout 300.0
+Total CPU Time 178.53799999999748,  timeout 300.0
+Total CPU Time 178.53799999999748,  timeout 300.0
+Total CPU Time 178.53799999999748,  timeout 300.0
+    Changing ["rinc: 1->50000"], evaluating ...
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 30.0
+Total CPU time: 208.53799999999748
+758/100000, 208.53799999999748/300.0
+        -> worse: (["pruned", 1] [based on 7 runs with cutoff 30.0])
+Total CPU Time 208.53799999999748,  timeout 300.0
+Total CPU Time 208.53799999999748,  timeout 300.0
+    Changing ["rinc: 1->10000"], evaluating ...
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 30.0
+Total CPU time: 238.53799999999748
+759/100000, 238.53799999999748/300.0
+        -> worse: (["pruned", 1] [based on 7 runs with cutoff 30.0])
+Total CPU Time 238.53799999999748,  timeout 300.0
+Total CPU Time 238.53799999999748,  timeout 300.0
+    Changing ["rinc: 1->500"], evaluating ...
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 30.0
+Total CPU time: 268.5379999999975
+760/100000, 268.5379999999975/300.0
+        -> worse: (["pruned", 1] [based on 7 runs with cutoff 30.0])
+Total CPU Time 268.5379999999975,  timeout 300.0
+Total CPU Time 268.5379999999975,  timeout 300.0
+    Changing ["grow: 65535->-1000"], evaluating ...
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.024
+Total CPU time: 268.63799999999753
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.024
+Total CPU time: 268.73799999999756
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.024
+Total CPU time: 268.8379999999976
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.024
+Total CPU time: 268.9379999999976
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.025
+Total CPU time: 269.0379999999976
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.024
+Total CPU time: 269.13799999999765
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.025
+Total CPU time: 269.23799999999767
+        -> worse: (2860332.714285714 [based on 7 runs with cutoff 30.0])
+Total CPU Time 269.23799999999767,  timeout 300.0
+Total CPU Time 269.23799999999767,  timeout 300.0
+    Changing ["gc-frac: 1.0->0.1"], evaluating ...
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.024
+Total CPU time: 269.3379999999977
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.025
+Total CPU time: 269.4379999999977
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.025
+Total CPU time: 269.53799999999774
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.022
+Total CPU time: 269.63799999999776
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.025
+Total CPU time: 269.7379999999978
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.039
+Total CPU time: 269.8379999999978
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.023
+Total CPU time: 269.9379999999978
+        -> worse: (2887468.714285714 [based on 7 runs with cutoff 30.0])
+Total CPU Time 269.9379999999978,  timeout 300.0
+Total CPU Time 269.9379999999978,  timeout 300.0
+    Changing ["phase-saving: 1->0"], evaluating ...
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.024
+Total CPU time: 270.03799999999785
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.024
+Total CPU time: 270.1379999999979
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.024
+Total CPU time: 270.2379999999979
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.025
+Total CPU time: 270.3379999999979
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.023
+Total CPU time: 270.43799999999794
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.025
+Total CPU time: 270.53799999999796
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.015
+Total CPU time: 270.637999999998
+        -> worse: (2971988.5714285714 [based on 7 runs with cutoff 30.0])
+Total CPU Time 270.637999999998,  timeout 300.0
+Total CPU Time 270.637999999998,  timeout 300.0
+    Changing ["rfirst: 500->10000"], evaluating ...
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.025
+Total CPU time: 270.737999999998
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.024
+Total CPU time: 270.83799999999803
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.024
+Total CPU time: 270.93799999999806
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.025
+Total CPU time: 271.0379999999981
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.027
+Total CPU time: 271.1379999999981
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.024
+Total CPU time: 271.2379999999981
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.025
+Total CPU time: 271.33799999999815
+        -> worse: (2865422.5714285714 [based on 7 runs with cutoff 30.0])
+Total CPU Time 271.33799999999815,  timeout 300.0
+Total CPU Time 271.33799999999815,  timeout 300.0
+    Changing ["var-decay: 0.94->0.91"], evaluating ...
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.025
+Total CPU time: 271.43799999999817
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.024
+Total CPU time: 271.5379999999982
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.023
+Total CPU time: 271.6379999999982
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.024
+Total CPU time: 271.73799999999824
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.024
+Total CPU time: 271.83799999999826
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.024
+Total CPU time: 271.9379999999983
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.024
+Total CPU time: 272.0379999999983
+New inc: 2856660.4285714286
+New Incumbent: 272.0379999999983, 2856660.4285714286 [7, 30.0]. With state asymm=False, ccmin-mode=0, cla-decay=0.999, elim=True, gc-frac=1.0, grow=65535, luby=True, phase-saving=1, pre=True, rcheck=False, rfirst=500, rinc=1, rnd-freq=0.4, rnd-init=True, rnd-seed=91648253, simp-gc-frac=0.7, var-decay=0.91, verb=1
+          -> Take improving step to neighbour asymm=False ccmin-mode=0 cla-decay=0.999 elim=True gc-frac=1.0 grow=65535 luby=True phase-saving=1 pre=True rcheck=False rfirst=500 rinc=1 rnd-freq=0.4 rnd-init=True rnd-seed=91648253 simp-gc-frac=0.7 var-decay=0.91 verb=1 (2856660.4285714286 [based on 7 runs with cutoff 30.0]) with flip 9
+
+Total CPU Time 272.0379999999983,  timeout 300.0
+Total CPU Time 272.0379999999983,  timeout 300.0
+Total CPU Time 272.0379999999983,  timeout 300.0
+Total CPU Time 272.0379999999983,  timeout 300.0
+    Changing ["rinc: 1->10"], evaluating ...
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 30.0
+Total CPU time: 302.0379999999983
+796/100000, 302.0379999999983/300.0
+        -> worse: (["pruned", 1] [based on 7 runs with cutoff 30.0])
+Total CPU Time 302.0379999999983,  timeout 300.0
+Total CPU Time 302.0379999999983,  timeout 300.0
+ParamILS has reached the specified CPU time limit of 300.0 seconds => stopping the search now.
+   LM for iteration 2: asymm=False ccmin-mode=0 cla-decay=0.999 elim=True gc-frac=1.0 grow=65535 luby=True phase-saving=1 pre=True rcheck=False rfirst=500 rinc=1 rnd-freq=0.4 rnd-init=True rnd-seed=91648253 simp-gc-frac=0.7 var-decay=0.91 verb=1 (2856660.4285714286 [based on 7 runs with cutoff 30.0])
+
+========== DETAILED RESULTS (iteration 2): ==========
+================================================
+
+==================================================================
+Best parameter configuration found so far (end of iteration 2): asymm=False, ccmin-mode=0, cla-decay=0.999, elim=True, gc-frac=1.0, grow=65535, luby=True, phase-saving=1, pre=True, rcheck=False, rfirst=500, rinc=1, rnd-freq=0.4, rnd-init=True, rnd-seed=91648253, simp-gc-frac=0.7, var-decay=0.91, verb=1
+==================================================================
+Training quality of this incumbent parameter configuration: 2856660.4285714286, based on 7 runs with cutoff 30.0
+==================================================================
+
+Comparing LM against incumbent:
+asymm=False ccmin-mode=0 cla-decay=0.999 elim=True gc-frac=1.0 grow=65535 luby=True phase-saving=1 pre=True rcheck=False rfirst=500 rinc=1 rnd-freq=0.4 rnd-init=True rnd-seed=91648253 simp-gc-frac=0.7 var-decay=0.91 verb=1 (2856660.4285714286 [based on 7 runs with cutoff 30.0])
+asymm=False ccmin-mode=0 cla-decay=0.999 elim=True gc-frac=1.0 grow=65535 luby=True phase-saving=1 pre=True rcheck=False rfirst=500 rinc=1 rnd-freq=0.4 rnd-init=True rnd-seed=91648253 simp-gc-frac=0.7 var-decay=0.91 verb=1 (2856660.4285714286 [based on 7 runs with cutoff 30.0])
+LM better, change incumbent
+New Incumbent: 302.0379999999983, 2856660.4285714286 [7, 30.0]. With state asymm=False, ccmin-mode=0, cla-decay=0.999, elim=True, gc-frac=1.0, grow=65535, luby=True, phase-saving=1, pre=True, rcheck=False, rfirst=500, rinc=1, rnd-freq=0.4, rnd-init=True, rnd-seed=91648253, simp-gc-frac=0.7, var-decay=0.91, verb=1
+   Accepting new better local optimum: asymm=False ccmin-mode=0 cla-decay=0.999 elim=True gc-frac=1.0 grow=65535 luby=True phase-saving=1 pre=True rcheck=False rfirst=500 rinc=1 rnd-freq=0.4 rnd-init=True rnd-seed=91648253 simp-gc-frac=0.7 var-decay=0.91 verb=1 (2856660.4285714286 [based on 7 runs with cutoff 30.0])
+Total CPU Time 302.0379999999983,  timeout 300.0
+Total CPU Time 302.0379999999983,  timeout 300.0
+ParamILS has reached the specified CPU time limit of 300.0 seconds => stopping the search now.
+Final solution for depth 1 with limit N=7, and cutoff time=30.0.
+New Incumbent: 302.0379999999983, 2856660.4285714286 [7, 30.0]. With state asymm=False, ccmin-mode=0, cla-decay=0.999, elim=True, gc-frac=1.0, grow=65535, luby=True, phase-saving=1, pre=True, rcheck=False, rfirst=500, rinc=1, rnd-freq=0.4, rnd-init=True, rnd-seed=91648253, simp-gc-frac=0.7, var-decay=0.91, verb=1
+
+==================================================================
+ParamILS is finished.
+==================================================================
+
+Final best parameter configuration found: asymm=False, ccmin-mode=0, cla-decay=0.999, elim=True, gc-frac=1.0, grow=65535, luby=True, phase-saving=1, pre=True, rcheck=False, rfirst=500, rinc=1, rnd-freq=0.4, rnd-init=True, rnd-seed=91648253, simp-gc-frac=0.7, var-decay=0.91, verb=1
+==================================================================
+Active parameters: asymm=False, ccmin-mode=0, cla-decay=0.999, elim=True, gc-frac=1.0, grow=65535, luby=True, phase-saving=1, pre=True, rcheck=False, rfirst=500, rinc=1, rnd-freq=0.4, rnd-init=True, rnd-seed=91648253, simp-gc-frac=0.7, var-decay=0.91, verb=1
+
+==================================================================
+Training quality of this final best found parameter configuration: 2856660.4285714286, based on 7 runs with cutoff 30.0
+==================================================================
+
+
+==================================================================
+Computing validation result on independent data -- 4 runs with cutoff time 30.0...
+==================================================================
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.017
+Total CPU time: 302.1379999999983
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.019
+Total CPU time: 302.23799999999835
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.018
+Total CPU time: 302.3379999999984
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 0.018
+Total CPU time: 302.4379999999984
+example_minisat/necessary/data/uf50-02.cnf: 3164457.0
+example_minisat/necessary/data/uuf100-01.cnf: 3167774.0
+example_minisat/necessary/data/uuf50-02.cnf: 3283483.0
+example_minisat/necessary/data/uf100-01.cnf: 3131837.0
+Combined result: 3186887.75
+
+================================================================
+Final best parameter configuration: asymm=False, ccmin-mode=0, cla-decay=0.999, elim=True, gc-frac=1.0, grow=65535, luby=True, phase-saving=1, pre=True, rcheck=False, rfirst=500, rinc=1, rnd-freq=0.4, rnd-init=True, rnd-seed=91648253, simp-gc-frac=0.7, var-decay=0.91, verb=1
+==================================================================
+Active parameters: asymm=False, ccmin-mode=0, cla-decay=0.999, elim=True, gc-frac=1.0, grow=65535, luby=True, phase-saving=1, pre=True, rcheck=False, rfirst=500, rinc=1, rnd-freq=0.4, rnd-init=True, rnd-seed=91648253, simp-gc-frac=0.7, var-decay=0.91, verb=1
+
+================================================================
+Training quality of this final best found parameter configuration: 2856660.4285714286, based on 7 runs with cutoff 30.0
+Test quality of this final best found parameter configuration: 3186887.75, based on 4 independent runs with cutoff 30.0
+==================================================================

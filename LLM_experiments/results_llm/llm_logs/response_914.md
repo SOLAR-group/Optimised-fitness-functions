@@ -1,0 +1,1 @@
+Child: ["SrcmlStmtDeletion(('src/main/java/weka/classifiers/trees/RandomForest.java.xml', 'stmt', 27))", "SrcmlStmtDeletion(('src/main/java/weka/classifiers/trees/RandomForest.java.xml', 'stmt', 82))"]

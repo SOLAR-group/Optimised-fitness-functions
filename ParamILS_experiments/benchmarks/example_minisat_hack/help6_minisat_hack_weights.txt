@@ -1,0 +1,1424 @@
+max wall time = 8640000
+/home/jim/paramils2.3.8-source/example_minisat_hack/minisat-hack-params.txt
+19 parameters in total
+0 parameters are conditional.
+0 parameter combinations are forbidden.
+num_params = 19, num_combos=20865309696000
+WARNING: N=2000 is greater than the number of entries
+in the @instances array. This can happen if the algorithm is
+deterministic and the number of training instances is smaller than N,
+or if the instance_seed_file is provided by the user and has less
+entries than N. Clamping N and maxDetail to 20
+WARNING: validN=30 is greater than the number
+of entries in the @test_instances array. This can happen if the
+algorithm is deterministic and the number of test instances is smaller
+than validN, or if the test_instance_seed_file is provided by the user
+and has less entries than validN. Clamping validN to
+8
+seed: 2468
+Run 2
+Level 
+========================================================
+Starting ILS for level 1, i.e. a limit of N=20, and cutoff time=30.0.
+Current CPU time = 0, this run goes until 300.0 
+========================================================
+New Incumbent: 0, 100000000 [0, 0]. With state asymm=False, ccmin-mode=2, cla-decay=0.999, cp-increase=15000, elim=True, gc-frac=0.2, lbd-cut=5, lbd-cut-max=10, luby=0.1, phase-saving=2, pre=True, rcheck=False, rfirst=100, rinc=2, rnd-freq=0.0, rnd-init=False, rnd-seed=91648253, simp-gc-frac=0.5, var-decay=0.80, verb='1'
+getAlgoResultsForInstsAndParams.
+  Trial 1 for calling: ruby example_minisat_hack/minisat_wrapper_weights.rb example_minisat_hack/necessary/data/uuf150-02.cnf "" 30.000000000000004 2147483647 -1 -asymm False -ccmin-mode 2 -cla-decay 0.999 -cp-increase 15000 -elim True -gc-frac 0.2 -lbd-cut 5 -lbd-cut-max 10 -luby 0.1 -phase-saving 2 -pre True -rcheck False -rfirst 100 -rinc 2 -rnd-freq 0.0 -rnd-init False -rnd-seed 91648253 -simp-gc-frac 0.5 -var-decay 0.80 -verb '1' > /tmp/tmp-2025-03-2900:33:52-0.7400541305541992
+Executing cmd: ruby example_minisat_hack/minisat_wrapper_weights.rb example_minisat_hack/necessary/data/uuf150-02.cnf "" 30.000000000000004 2147483647 -1 -asymm False -ccmin-mode 2 -cla-decay 0.999 -cp-increase 15000 -elim True -gc-frac 0.2 -lbd-cut 5 -lbd-cut-max 10 -luby 0.1 -phase-saving 2 -pre True -rcheck False -rfirst 100 -rinc 2 -rnd-freq 0.0 -rnd-init False -rnd-seed 91648253 -simp-gc-frac 0.5 -var-decay 0.80 -verb '1' > /tmp/tmp-2025-03-2900:33:52-0.7400541305541992
+Result: UNSAT, 1.69, 0,  48991892, -1
+  Trial 1 for calling: ruby example_minisat_hack/minisat_wrapper_weights.rb example_minisat_hack/necessary/data/uf100-01.cnf "" 30.000000000000004 2147483647 -1 -asymm False -ccmin-mode 2 -cla-decay 0.999 -cp-increase 15000 -elim True -gc-frac 0.2 -lbd-cut 5 -lbd-cut-max 10 -luby 0.1 -phase-saving 2 -pre True -rcheck False -rfirst 100 -rinc 2 -rnd-freq 0.0 -rnd-init False -rnd-seed 91648253 -simp-gc-frac 0.5 -var-decay 0.80 -verb '1' > /tmp/tmp-2025-03-2900:33:53-0.6677271127700806
+Executing cmd: ruby example_minisat_hack/minisat_wrapper_weights.rb example_minisat_hack/necessary/data/uf100-01.cnf "" 30.000000000000004 2147483647 -1 -asymm False -ccmin-mode 2 -cla-decay 0.999 -cp-increase 15000 -elim True -gc-frac 0.2 -lbd-cut 5 -lbd-cut-max 10 -luby 0.1 -phase-saving 2 -pre True -rcheck False -rfirst 100 -rinc 2 -rnd-freq 0.0 -rnd-init False -rnd-seed 91648253 -simp-gc-frac 0.5 -var-decay 0.80 -verb '1' > /tmp/tmp-2025-03-2900:33:53-0.6677271127700806
+Result: SAT, 1.495, 0,  2376640, -1
+  Trial 1 for calling: ruby example_minisat_hack/minisat_wrapper_weights.rb example_minisat_hack/necessary/data/uuf200-02.cnf "" 30.000000000000004 2147483647 -1 -asymm False -ccmin-mode 2 -cla-decay 0.999 -cp-increase 15000 -elim True -gc-frac 0.2 -lbd-cut 5 -lbd-cut-max 10 -luby 0.1 -phase-saving 2 -pre True -rcheck False -rfirst 100 -rinc 2 -rnd-freq 0.0 -rnd-init False -rnd-seed 91648253 -simp-gc-frac 0.5 -var-decay 0.80 -verb '1' > /tmp/tmp-2025-03-2900:33:55-0.6947762966156006
+Executing cmd: ruby example_minisat_hack/minisat_wrapper_weights.rb example_minisat_hack/necessary/data/uuf200-02.cnf "" 30.000000000000004 2147483647 -1 -asymm False -ccmin-mode 2 -cla-decay 0.999 -cp-increase 15000 -elim True -gc-frac 0.2 -lbd-cut 5 -lbd-cut-max 10 -luby 0.1 -phase-saving 2 -pre True -rcheck False -rfirst 100 -rinc 2 -rnd-freq 0.0 -rnd-init False -rnd-seed 91648253 -simp-gc-frac 0.5 -var-decay 0.80 -verb '1' > /tmp/tmp-2025-03-2900:33:55-0.6947762966156006
+Result: UNSAT, 1.847, 0,  1261137043, -1
+  Trial 1 for calling: ruby example_minisat_hack/minisat_wrapper_weights.rb example_minisat_hack/necessary/data/uuf250-01.cnf "" 30.000000000000004 2147483647 -1 -asymm False -ccmin-mode 2 -cla-decay 0.999 -cp-increase 15000 -elim True -gc-frac 0.2 -lbd-cut 5 -lbd-cut-max 10 -luby 0.1 -phase-saving 2 -pre True -rcheck False -rfirst 100 -rinc 2 -rnd-freq 0.0 -rnd-init False -rnd-seed 91648253 -simp-gc-frac 0.5 -var-decay 0.80 -verb '1' > /tmp/tmp-2025-03-2900:33:57-0.6828041076660156
+Executing cmd: ruby example_minisat_hack/minisat_wrapper_weights.rb example_minisat_hack/necessary/data/uuf250-01.cnf "" 30.000000000000004 2147483647 -1 -asymm False -ccmin-mode 2 -cla-decay 0.999 -cp-increase 15000 -elim True -gc-frac 0.2 -lbd-cut 5 -lbd-cut-max 10 -luby 0.1 -phase-saving 2 -pre True -rcheck False -rfirst 100 -rinc 2 -rnd-freq 0.0 -rnd-init False -rnd-seed 91648253 -simp-gc-frac 0.5 -var-decay 0.80 -verb '1' > /tmp/tmp-2025-03-2900:33:57-0.6828041076660156
+Result: UNSAT, 5.48, 0,  7884100304, -1
+  Trial 1 for calling: ruby example_minisat_hack/minisat_wrapper_weights.rb example_minisat_hack/necessary/data/uuf100-01.cnf "" 30.000000000000004 2147483647 -1 -asymm False -ccmin-mode 2 -cla-decay 0.999 -cp-increase 15000 -elim True -gc-frac 0.2 -lbd-cut 5 -lbd-cut-max 10 -luby 0.1 -phase-saving 2 -pre True -rcheck False -rfirst 100 -rinc 2 -rnd-freq 0.0 -rnd-init False -rnd-seed 91648253 -simp-gc-frac 0.5 -var-decay 0.80 -verb '1' > /tmp/tmp-2025-03-2900:34:02-0.5595446825027466
+Executing cmd: ruby example_minisat_hack/minisat_wrapper_weights.rb example_minisat_hack/necessary/data/uuf100-01.cnf "" 30.000000000000004 2147483647 -1 -asymm False -ccmin-mode 2 -cla-decay 0.999 -cp-increase 15000 -elim True -gc-frac 0.2 -lbd-cut 5 -lbd-cut-max 10 -luby 0.1 -phase-saving 2 -pre True -rcheck False -rfirst 100 -rinc 2 -rnd-freq 0.0 -rnd-init False -rnd-seed 91648253 -simp-gc-frac 0.5 -var-decay 0.80 -verb '1' > /tmp/tmp-2025-03-2900:34:02-0.5595446825027466
+Result: UNSAT, 1.602, 0,  4013840, -1
+  Trial 1 for calling: ruby example_minisat_hack/minisat_wrapper_weights.rb example_minisat_hack/necessary/data/uf200-02.cnf "" 30.000000000000004 2147483647 -1 -asymm False -ccmin-mode 2 -cla-decay 0.999 -cp-increase 15000 -elim True -gc-frac 0.2 -lbd-cut 5 -lbd-cut-max 10 -luby 0.1 -phase-saving 2 -pre True -rcheck False -rfirst 100 -rinc 2 -rnd-freq 0.0 -rnd-init False -rnd-seed 91648253 -simp-gc-frac 0.5 -var-decay 0.80 -verb '1' > /tmp/tmp-2025-03-2900:34:04-0.9696087837219238
+Executing cmd: ruby example_minisat_hack/minisat_wrapper_weights.rb example_minisat_hack/necessary/data/uf200-02.cnf "" 30.000000000000004 2147483647 -1 -asymm False -ccmin-mode 2 -cla-decay 0.999 -cp-increase 15000 -elim True -gc-frac 0.2 -lbd-cut 5 -lbd-cut-max 10 -luby 0.1 -phase-saving 2 -pre True -rcheck False -rfirst 100 -rinc 2 -rnd-freq 0.0 -rnd-init False -rnd-seed 91648253 -simp-gc-frac 0.5 -var-decay 0.80 -verb '1' > /tmp/tmp-2025-03-2900:34:04-0.9696087837219238
+Result: SAT, 1.678, 0,  187131433, -1
+  Trial 1 for calling: ruby example_minisat_hack/minisat_wrapper_weights.rb example_minisat_hack/necessary/data/uf150-02.cnf "" 30.000000000000004 2147483647 -1 -asymm False -ccmin-mode 2 -cla-decay 0.999 -cp-increase 15000 -elim True -gc-frac 0.2 -lbd-cut 5 -lbd-cut-max 10 -luby 0.1 -phase-saving 2 -pre True -rcheck False -rfirst 100 -rinc 2 -rnd-freq 0.0 -rnd-init False -rnd-seed 91648253 -simp-gc-frac 0.5 -var-decay 0.80 -verb '1' > /tmp/tmp-2025-03-2900:34:06-0.8514494895935059
+Executing cmd: ruby example_minisat_hack/minisat_wrapper_weights.rb example_minisat_hack/necessary/data/uf150-02.cnf "" 30.000000000000004 2147483647 -1 -asymm False -ccmin-mode 2 -cla-decay 0.999 -cp-increase 15000 -elim True -gc-frac 0.2 -lbd-cut 5 -lbd-cut-max 10 -luby 0.1 -phase-saving 2 -pre True -rcheck False -rfirst 100 -rinc 2 -rnd-freq 0.0 -rnd-init False -rnd-seed 91648253 -simp-gc-frac 0.5 -var-decay 0.80 -verb '1' > /tmp/tmp-2025-03-2900:34:06-0.8514494895935059
+Result: SAT, 1.697, 0,  26628638, -1
+  Trial 1 for calling: ruby example_minisat_hack/minisat_wrapper_weights.rb example_minisat_hack/necessary/data/uuf250-02.cnf "" 30.000000000000004 2147483647 -1 -asymm False -ccmin-mode 2 -cla-decay 0.999 -cp-increase 15000 -elim True -gc-frac 0.2 -lbd-cut 5 -lbd-cut-max 10 -luby 0.1 -phase-saving 2 -pre True -rcheck False -rfirst 100 -rinc 2 -rnd-freq 0.0 -rnd-init False -rnd-seed 91648253 -simp-gc-frac 0.5 -var-decay 0.80 -verb '1' > /tmp/tmp-2025-03-2900:34:08-0.8680419921875
+Executing cmd: ruby example_minisat_hack/minisat_wrapper_weights.rb example_minisat_hack/necessary/data/uuf250-02.cnf "" 30.000000000000004 2147483647 -1 -asymm False -ccmin-mode 2 -cla-decay 0.999 -cp-increase 15000 -elim True -gc-frac 0.2 -lbd-cut 5 -lbd-cut-max 10 -luby 0.1 -phase-saving 2 -pre True -rcheck False -rfirst 100 -rinc 2 -rnd-freq 0.0 -rnd-init False -rnd-seed 91648253 -simp-gc-frac 0.5 -var-decay 0.80 -verb '1' > /tmp/tmp-2025-03-2900:34:08-0.8680419921875
+Result: UNSAT, 6.386, 0,  11569485507, -1
+  Trial 1 for calling: ruby example_minisat_hack/minisat_wrapper_weights.rb example_minisat_hack/necessary/data/uuf150-01.cnf "" 30.000000000000004 2147483647 -1 -asymm False -ccmin-mode 2 -cla-decay 0.999 -cp-increase 15000 -elim True -gc-frac 0.2 -lbd-cut 5 -lbd-cut-max 10 -luby 0.1 -phase-saving 2 -pre True -rcheck False -rfirst 100 -rinc 2 -rnd-freq 0.0 -rnd-init False -rnd-seed 91648253 -simp-gc-frac 0.5 -var-decay 0.80 -verb '1' > /tmp/tmp-2025-03-2900:34:14-0.6580910682678223
+Executing cmd: ruby example_minisat_hack/minisat_wrapper_weights.rb example_minisat_hack/necessary/data/uuf150-01.cnf "" 30.000000000000004 2147483647 -1 -asymm False -ccmin-mode 2 -cla-decay 0.999 -cp-increase 15000 -elim True -gc-frac 0.2 -lbd-cut 5 -lbd-cut-max 10 -luby 0.1 -phase-saving 2 -pre True -rcheck False -rfirst 100 -rinc 2 -rnd-freq 0.0 -rnd-init False -rnd-seed 91648253 -simp-gc-frac 0.5 -var-decay 0.80 -verb '1' > /tmp/tmp-2025-03-2900:34:14-0.6580910682678223
+Result: UNSAT, 1.743, 0,  39939234, -1
+  Trial 1 for calling: ruby example_minisat_hack/minisat_wrapper_weights.rb example_minisat_hack/necessary/data/uuf100-02.cnf "" 30.000000000000004 2147483647 -1 -asymm False -ccmin-mode 2 -cla-decay 0.999 -cp-increase 15000 -elim True -gc-frac 0.2 -lbd-cut 5 -lbd-cut-max 10 -luby 0.1 -phase-saving 2 -pre True -rcheck False -rfirst 100 -rinc 2 -rnd-freq 0.0 -rnd-init False -rnd-seed 91648253 -simp-gc-frac 0.5 -var-decay 0.80 -verb '1' > /tmp/tmp-2025-03-2900:34:16-0.8280901908874512
+Executing cmd: ruby example_minisat_hack/minisat_wrapper_weights.rb example_minisat_hack/necessary/data/uuf100-02.cnf "" 30.000000000000004 2147483647 -1 -asymm False -ccmin-mode 2 -cla-decay 0.999 -cp-increase 15000 -elim True -gc-frac 0.2 -lbd-cut 5 -lbd-cut-max 10 -luby 0.1 -phase-saving 2 -pre True -rcheck False -rfirst 100 -rinc 2 -rnd-freq 0.0 -rnd-init False -rnd-seed 91648253 -simp-gc-frac 0.5 -var-decay 0.80 -verb '1' > /tmp/tmp-2025-03-2900:34:16-0.8280901908874512
+Result: UNSAT, 1.655, 0,  5892245, -1
+  Trial 1 for calling: ruby example_minisat_hack/minisat_wrapper_weights.rb example_minisat_hack/necessary/data/uuf50-02.cnf "" 30.000000000000004 2147483647 -1 -asymm False -ccmin-mode 2 -cla-decay 0.999 -cp-increase 15000 -elim True -gc-frac 0.2 -lbd-cut 5 -lbd-cut-max 10 -luby 0.1 -phase-saving 2 -pre True -rcheck False -rfirst 100 -rinc 2 -rnd-freq 0.0 -rnd-init False -rnd-seed 91648253 -simp-gc-frac 0.5 -var-decay 0.80 -verb '1' > /tmp/tmp-2025-03-2900:34:17-0.19075489044189453
+Executing cmd: ruby example_minisat_hack/minisat_wrapper_weights.rb example_minisat_hack/necessary/data/uuf50-02.cnf "" 30.000000000000004 2147483647 -1 -asymm False -ccmin-mode 2 -cla-decay 0.999 -cp-increase 15000 -elim True -gc-frac 0.2 -lbd-cut 5 -lbd-cut-max 10 -luby 0.1 -phase-saving 2 -pre True -rcheck False -rfirst 100 -rinc 2 -rnd-freq 0.0 -rnd-init False -rnd-seed 91648253 -simp-gc-frac 0.5 -var-decay 0.80 -verb '1' > /tmp/tmp-2025-03-2900:34:17-0.19075489044189453
+Result: UNSAT, 1.536, 0,  451460, -1
+  Trial 1 for calling: ruby example_minisat_hack/minisat_wrapper_weights.rb example_minisat_hack/necessary/data/uuf200-01.cnf "" 30.000000000000004 2147483647 -1 -asymm False -ccmin-mode 2 -cla-decay 0.999 -cp-increase 15000 -elim True -gc-frac 0.2 -lbd-cut 5 -lbd-cut-max 10 -luby 0.1 -phase-saving 2 -pre True -rcheck False -rfirst 100 -rinc 2 -rnd-freq 0.0 -rnd-init False -rnd-seed 91648253 -simp-gc-frac 0.5 -var-decay 0.80 -verb '1' > /tmp/tmp-2025-03-2900:34:19-0.6035871505737305
+Executing cmd: ruby example_minisat_hack/minisat_wrapper_weights.rb example_minisat_hack/necessary/data/uuf200-01.cnf "" 30.000000000000004 2147483647 -1 -asymm False -ccmin-mode 2 -cla-decay 0.999 -cp-increase 15000 -elim True -gc-frac 0.2 -lbd-cut 5 -lbd-cut-max 10 -luby 0.1 -phase-saving 2 -pre True -rcheck False -rfirst 100 -rinc 2 -rnd-freq 0.0 -rnd-init False -rnd-seed 91648253 -simp-gc-frac 0.5 -var-decay 0.80 -verb '1' > /tmp/tmp-2025-03-2900:34:19-0.6035871505737305
+Result: UNSAT, 1.898, 0,  835402655, -1
+  Trial 1 for calling: ruby example_minisat_hack/minisat_wrapper_weights.rb example_minisat_hack/necessary/data/uf200-01.cnf "" 30.000000000000004 2147483647 -1 -asymm False -ccmin-mode 2 -cla-decay 0.999 -cp-increase 15000 -elim True -gc-frac 0.2 -lbd-cut 5 -lbd-cut-max 10 -luby 0.1 -phase-saving 2 -pre True -rcheck False -rfirst 100 -rinc 2 -rnd-freq 0.0 -rnd-init False -rnd-seed 91648253 -simp-gc-frac 0.5 -var-decay 0.80 -verb '1' > /tmp/tmp-2025-03-2900:34:21-0.983980655670166
+Executing cmd: ruby example_minisat_hack/minisat_wrapper_weights.rb example_minisat_hack/necessary/data/uf200-01.cnf "" 30.000000000000004 2147483647 -1 -asymm False -ccmin-mode 2 -cla-decay 0.999 -cp-increase 15000 -elim True -gc-frac 0.2 -lbd-cut 5 -lbd-cut-max 10 -luby 0.1 -phase-saving 2 -pre True -rcheck False -rfirst 100 -rinc 2 -rnd-freq 0.0 -rnd-init False -rnd-seed 91648253 -simp-gc-frac 0.5 -var-decay 0.80 -verb '1' > /tmp/tmp-2025-03-2900:34:21-0.983980655670166
+Result: SAT, 1.681, 0,  294155652, -1
+  Trial 1 for calling: ruby example_minisat_hack/minisat_wrapper_weights.rb example_minisat_hack/necessary/data/uf50-01.cnf "" 30.000000000000004 2147483647 -1 -asymm False -ccmin-mode 2 -cla-decay 0.999 -cp-increase 15000 -elim True -gc-frac 0.2 -lbd-cut 5 -lbd-cut-max 10 -luby 0.1 -phase-saving 2 -pre True -rcheck False -rfirst 100 -rinc 2 -rnd-freq 0.0 -rnd-init False -rnd-seed 91648253 -simp-gc-frac 0.5 -var-decay 0.80 -verb '1' > /tmp/tmp-2025-03-2900:34:23-0.800605297088623
+Executing cmd: ruby example_minisat_hack/minisat_wrapper_weights.rb example_minisat_hack/necessary/data/uf50-01.cnf "" 30.000000000000004 2147483647 -1 -asymm False -ccmin-mode 2 -cla-decay 0.999 -cp-increase 15000 -elim True -gc-frac 0.2 -lbd-cut 5 -lbd-cut-max 10 -luby 0.1 -phase-saving 2 -pre True -rcheck False -rfirst 100 -rinc 2 -rnd-freq 0.0 -rnd-init False -rnd-seed 91648253 -simp-gc-frac 0.5 -var-decay 0.80 -verb '1' > /tmp/tmp-2025-03-2900:34:23-0.800605297088623
+Result: SAT, 1.484, 0,  253426, -1
+  Trial 1 for calling: ruby example_minisat_hack/minisat_wrapper_weights.rb example_minisat_hack/necessary/data/uf150-01.cnf "" 30.000000000000004 2147483647 -1 -asymm False -ccmin-mode 2 -cla-decay 0.999 -cp-increase 15000 -elim True -gc-frac 0.2 -lbd-cut 5 -lbd-cut-max 10 -luby 0.1 -phase-saving 2 -pre True -rcheck False -rfirst 100 -rinc 2 -rnd-freq 0.0 -rnd-init False -rnd-seed 91648253 -simp-gc-frac 0.5 -var-decay 0.80 -verb '1' > /tmp/tmp-2025-03-2900:34:24-0.20010948181152344
+Executing cmd: ruby example_minisat_hack/minisat_wrapper_weights.rb example_minisat_hack/necessary/data/uf150-01.cnf "" 30.000000000000004 2147483647 -1 -asymm False -ccmin-mode 2 -cla-decay 0.999 -cp-increase 15000 -elim True -gc-frac 0.2 -lbd-cut 5 -lbd-cut-max 10 -luby 0.1 -phase-saving 2 -pre True -rcheck False -rfirst 100 -rinc 2 -rnd-freq 0.0 -rnd-init False -rnd-seed 91648253 -simp-gc-frac 0.5 -var-decay 0.80 -verb '1' > /tmp/tmp-2025-03-2900:34:24-0.20010948181152344
+Result: SAT, 1.681, 0,  4410671, -1
+  Trial 1 for calling: ruby example_minisat_hack/minisat_wrapper_weights.rb example_minisat_hack/necessary/data/uf250-01.cnf "" 30.000000000000004 2147483647 -1 -asymm False -ccmin-mode 2 -cla-decay 0.999 -cp-increase 15000 -elim True -gc-frac 0.2 -lbd-cut 5 -lbd-cut-max 10 -luby 0.1 -phase-saving 2 -pre True -rcheck False -rfirst 100 -rinc 2 -rnd-freq 0.0 -rnd-init False -rnd-seed 91648253 -simp-gc-frac 0.5 -var-decay 0.80 -verb '1' > /tmp/tmp-2025-03-2900:34:26-0.9689881801605225
+Executing cmd: ruby example_minisat_hack/minisat_wrapper_weights.rb example_minisat_hack/necessary/data/uf250-01.cnf "" 30.000000000000004 2147483647 -1 -asymm False -ccmin-mode 2 -cla-decay 0.999 -cp-increase 15000 -elim True -gc-frac 0.2 -lbd-cut 5 -lbd-cut-max 10 -luby 0.1 -phase-saving 2 -pre True -rcheck False -rfirst 100 -rinc 2 -rnd-freq 0.0 -rnd-init False -rnd-seed 91648253 -simp-gc-frac 0.5 -var-decay 0.80 -verb '1' > /tmp/tmp-2025-03-2900:34:26-0.9689881801605225
+Result: SAT, 1.756, 0,  64899573, -1
+  Trial 1 for calling: ruby example_minisat_hack/minisat_wrapper_weights.rb example_minisat_hack/necessary/data/uuf50-01.cnf "" 30.000000000000004 2147483647 -1 -asymm False -ccmin-mode 2 -cla-decay 0.999 -cp-increase 15000 -elim True -gc-frac 0.2 -lbd-cut 5 -lbd-cut-max 10 -luby 0.1 -phase-saving 2 -pre True -rcheck False -rfirst 100 -rinc 2 -rnd-freq 0.0 -rnd-init False -rnd-seed 91648253 -simp-gc-frac 0.5 -var-decay 0.80 -verb '1' > /tmp/tmp-2025-03-2900:34:28-0.11979293823242188
+Executing cmd: ruby example_minisat_hack/minisat_wrapper_weights.rb example_minisat_hack/necessary/data/uuf50-01.cnf "" 30.000000000000004 2147483647 -1 -asymm False -ccmin-mode 2 -cla-decay 0.999 -cp-increase 15000 -elim True -gc-frac 0.2 -lbd-cut 5 -lbd-cut-max 10 -luby 0.1 -phase-saving 2 -pre True -rcheck False -rfirst 100 -rinc 2 -rnd-freq 0.0 -rnd-init False -rnd-seed 91648253 -simp-gc-frac 0.5 -var-decay 0.80 -verb '1' > /tmp/tmp-2025-03-2900:34:28-0.11979293823242188
+Result: UNSAT, 1.518, 0,  329697, -1
+  Trial 1 for calling: ruby example_minisat_hack/minisat_wrapper_weights.rb example_minisat_hack/necessary/data/uf100-02.cnf "" 30.000000000000004 2147483647 -1 -asymm False -ccmin-mode 2 -cla-decay 0.999 -cp-increase 15000 -elim True -gc-frac 0.2 -lbd-cut 5 -lbd-cut-max 10 -luby 0.1 -phase-saving 2 -pre True -rcheck False -rfirst 100 -rinc 2 -rnd-freq 0.0 -rnd-init False -rnd-seed 91648253 -simp-gc-frac 0.5 -var-decay 0.80 -verb '1' > /tmp/tmp-2025-03-2900:34:29-0.4189709424972534
+Executing cmd: ruby example_minisat_hack/minisat_wrapper_weights.rb example_minisat_hack/necessary/data/uf100-02.cnf "" 30.000000000000004 2147483647 -1 -asymm False -ccmin-mode 2 -cla-decay 0.999 -cp-increase 15000 -elim True -gc-frac 0.2 -lbd-cut 5 -lbd-cut-max 10 -luby 0.1 -phase-saving 2 -pre True -rcheck False -rfirst 100 -rinc 2 -rnd-freq 0.0 -rnd-init False -rnd-seed 91648253 -simp-gc-frac 0.5 -var-decay 0.80 -verb '1' > /tmp/tmp-2025-03-2900:34:29-0.4189709424972534
+Result: SAT, 1.587, 0,  3870383, -1
+  Trial 1 for calling: ruby example_minisat_hack/minisat_wrapper_weights.rb example_minisat_hack/necessary/data/uf50-02.cnf "" 30.000000000000004 2147483647 -1 -asymm False -ccmin-mode 2 -cla-decay 0.999 -cp-increase 15000 -elim True -gc-frac 0.2 -lbd-cut 5 -lbd-cut-max 10 -luby 0.1 -phase-saving 2 -pre True -rcheck False -rfirst 100 -rinc 2 -rnd-freq 0.0 -rnd-init False -rnd-seed 91648253 -simp-gc-frac 0.5 -var-decay 0.80 -verb '1' > /tmp/tmp-2025-03-2900:34:31-0.44351649284362793
+Executing cmd: ruby example_minisat_hack/minisat_wrapper_weights.rb example_minisat_hack/necessary/data/uf50-02.cnf "" 30.000000000000004 2147483647 -1 -asymm False -ccmin-mode 2 -cla-decay 0.999 -cp-increase 15000 -elim True -gc-frac 0.2 -lbd-cut 5 -lbd-cut-max 10 -luby 0.1 -phase-saving 2 -pre True -rcheck False -rfirst 100 -rinc 2 -rnd-freq 0.0 -rnd-init False -rnd-seed 91648253 -simp-gc-frac 0.5 -var-decay 0.80 -verb '1' > /tmp/tmp-2025-03-2900:34:31-0.44351649284362793
+Result: SAT, 1.5, 0,  247595, -1
+  Trial 1 for calling: ruby example_minisat_hack/minisat_wrapper_weights.rb example_minisat_hack/necessary/data/uf250-02.cnf "" 30.000000000000004 2147483647 -1 -asymm False -ccmin-mode 2 -cla-decay 0.999 -cp-increase 15000 -elim True -gc-frac 0.2 -lbd-cut 5 -lbd-cut-max 10 -luby 0.1 -phase-saving 2 -pre True -rcheck False -rfirst 100 -rinc 2 -rnd-freq 0.0 -rnd-init False -rnd-seed 91648253 -simp-gc-frac 0.5 -var-decay 0.80 -verb '1' > /tmp/tmp-2025-03-2900:34:33-0.08444786071777344
+Executing cmd: ruby example_minisat_hack/minisat_wrapper_weights.rb example_minisat_hack/necessary/data/uf250-02.cnf "" 30.000000000000004 2147483647 -1 -asymm False -ccmin-mode 2 -cla-decay 0.999 -cp-increase 15000 -elim True -gc-frac 0.2 -lbd-cut 5 -lbd-cut-max 10 -luby 0.1 -phase-saving 2 -pre True -rcheck False -rfirst 100 -rinc 2 -rnd-freq 0.0 -rnd-init False -rnd-seed 91648253 -simp-gc-frac 0.5 -var-decay 0.80 -verb '1' > /tmp/tmp-2025-03-2900:34:33-0.08444786071777344
+Result: SAT, 6.387, 0,  12206996058, -1
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 1.69
+Total CPU time: 1.69
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 1.495
+Total CPU time: 3.185
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 1.847
+Total CPU time: 5.032
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 5.48
+Total CPU time: 10.512
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 1.602
+Total CPU time: 12.114
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 1.678
+Total CPU time: 13.792000000000002
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 1.697
+Total CPU time: 15.489
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 6.386
+Total CPU time: 21.875
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 1.743
+Total CPU time: 23.618
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 1.655
+Total CPU time: 25.273
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 1.536
+Total CPU time: 26.809
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 1.898
+Total CPU time: 28.707
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 1.681
+Total CPU time: 30.388
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 1.484
+Total CPU time: 31.872
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 1.681
+Total CPU time: 33.553
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 1.756
+Total CPU time: 35.309
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 1.518
+Total CPU time: 36.827
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 1.587
+Total CPU time: 38.414
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 1.5
+Total CPU time: 39.914
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 6.387
+Total CPU time: 46.301
+the result has length = 5 and content = ["UNSAT", 1.69, 0, 48991892.0, -1]
+i am inide the perf = 48991892.0
+returning as objective perf = 48991892.0
+the result has length = 5 and content = ["SAT", 1.495, 0, 2376640.0, -1]
+i am inide the perf = 2376640.0
+returning as objective perf = 2376640.0
+the result has length = 5 and content = ["UNSAT", 1.847, 0, 1261137043.0, -1]
+i am inide the perf = 1261137043.0
+returning as objective perf = 1261137043.0
+the result has length = 5 and content = ["UNSAT", 5.48, 0, 7884100304.0, -1]
+i am inide the perf = 7884100304.0
+returning as objective perf = 7884100304.0
+the result has length = 5 and content = ["UNSAT", 1.602, 0, 4013840.0, -1]
+i am inide the perf = 4013840.0
+returning as objective perf = 4013840.0
+the result has length = 5 and content = ["SAT", 1.678, 0, 187131433.0, -1]
+i am inide the perf = 187131433.0
+returning as objective perf = 187131433.0
+the result has length = 5 and content = ["SAT", 1.697, 0, 26628638.0, -1]
+i am inide the perf = 26628638.0
+returning as objective perf = 26628638.0
+the result has length = 5 and content = ["UNSAT", 6.386, 0, 11569485507.0, -1]
+i am inide the perf = 11569485507.0
+returning as objective perf = 11569485507.0
+the result has length = 5 and content = ["UNSAT", 1.743, 0, 39939234.0, -1]
+i am inide the perf = 39939234.0
+returning as objective perf = 39939234.0
+the result has length = 5 and content = ["UNSAT", 1.655, 0, 5892245.0, -1]
+i am inide the perf = 5892245.0
+returning as objective perf = 5892245.0
+the result has length = 5 and content = ["UNSAT", 1.536, 0, 451460.0, -1]
+i am inide the perf = 451460.0
+returning as objective perf = 451460.0
+the result has length = 5 and content = ["UNSAT", 1.898, 0, 835402655.0, -1]
+i am inide the perf = 835402655.0
+returning as objective perf = 835402655.0
+the result has length = 5 and content = ["SAT", 1.681, 0, 294155652.0, -1]
+i am inide the perf = 294155652.0
+returning as objective perf = 294155652.0
+the result has length = 5 and content = ["SAT", 1.484, 0, 253426.0, -1]
+i am inide the perf = 253426.0
+returning as objective perf = 253426.0
+the result has length = 5 and content = ["SAT", 1.681, 0, 4410671.0, -1]
+i am inide the perf = 4410671.0
+returning as objective perf = 4410671.0
+the result has length = 5 and content = ["SAT", 1.756, 0, 64899573.0, -1]
+i am inide the perf = 64899573.0
+returning as objective perf = 64899573.0
+the result has length = 5 and content = ["UNSAT", 1.518, 0, 329697.0, -1]
+i am inide the perf = 329697.0
+returning as objective perf = 329697.0
+the result has length = 5 and content = ["SAT", 1.587, 0, 3870383.0, -1]
+i am inide the perf = 3870383.0
+returning as objective perf = 3870383.0
+the result has length = 5 and content = ["SAT", 1.5, 0, 247595.0, -1]
+i am inide the perf = 247595.0
+returning as objective perf = 247595.0
+the result has length = 5 and content = ["SAT", 6.387, 0, 12206996058.0, -1]
+i am inide the perf = 12206996058.0
+returning as objective perf = 12206996058.0
+20/100000, 46.301/300.0
+ Same incumbent, new precision:
+New Incumbent: 46.301, 1722035697.3 [20, 30.0]. With state asymm=False, ccmin-mode=2, cla-decay=0.999, cp-increase=15000, elim=True, gc-frac=0.2, lbd-cut=5, lbd-cut-max=10, luby=0.1, phase-saving=2, pre=True, rcheck=False, rfirst=100, rinc=2, rnd-freq=0.0, rnd-init=False, rnd-seed=91648253, simp-gc-frac=0.5, var-decay=0.80, verb='1'
+Total CPU Time 46.301,  timeout 300.0
+Total CPU Time 46.301,  timeout 300.0
+now 2025-03-29 00:34:39 +0800; start 2025-03-29 00:33:52 +0800; time-start 47.383099564; maxWall 8640000.0
+getAlgoResultsForInstsAndParams.
+  Trial 1 for calling: ruby example_minisat_hack/minisat_wrapper_weights.rb example_minisat_hack/necessary/data/uuf150-02.cnf "" 30.000000000000004 2147483647 -1 -asymm False -ccmin-mode 2 -cla-decay 0.998 -cp-increase 40000 -elim False -gc-frac 0.6 -lbd-cut 7 -lbd-cut-max 30 -luby 0.9 -phase-saving 0 -pre True -rcheck True -rfirst 50 -rinc 10 -rnd-freq 0.3 -rnd-init False -rnd-seed 91648253 -simp-gc-frac 0.2 -var-decay 0.85 -verb '1' > /tmp/tmp-2025-03-2900:34:39-0.9458918571472168
+Executing cmd: ruby example_minisat_hack/minisat_wrapper_weights.rb example_minisat_hack/necessary/data/uuf150-02.cnf "" 30.000000000000004 2147483647 -1 -asymm False -ccmin-mode 2 -cla-decay 0.998 -cp-increase 40000 -elim False -gc-frac 0.6 -lbd-cut 7 -lbd-cut-max 30 -luby 0.9 -phase-saving 0 -pre True -rcheck True -rfirst 50 -rinc 10 -rnd-freq 0.3 -rnd-init False -rnd-seed 91648253 -simp-gc-frac 0.2 -var-decay 0.85 -verb '1' > /tmp/tmp-2025-03-2900:34:39-0.9458918571472168
+Result: UNSAT, 1.712, 0,  139927771, -1
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 1.712
+Total CPU time: 48.013000000000005
+the result has length = 5 and content = ["UNSAT", 1.712, 0, 139927771.0, -1]
+i am inide the perf = 139927771.0
+returning as objective perf = 139927771.0
+getAlgoResultsForInstsAndParams.
+  Trial 1 for calling: ruby example_minisat_hack/minisat_wrapper_weights.rb example_minisat_hack/necessary/data/uf100-01.cnf "" 30.000000000000004 2147483647 -1 -asymm False -ccmin-mode 2 -cla-decay 0.998 -cp-increase 40000 -elim False -gc-frac 0.6 -lbd-cut 7 -lbd-cut-max 30 -luby 0.9 -phase-saving 0 -pre True -rcheck True -rfirst 50 -rinc 10 -rnd-freq 0.3 -rnd-init False -rnd-seed 91648253 -simp-gc-frac 0.2 -var-decay 0.85 -verb '1' > /tmp/tmp-2025-03-2900:34:41-0.12712860107421875
+Executing cmd: ruby example_minisat_hack/minisat_wrapper_weights.rb example_minisat_hack/necessary/data/uf100-01.cnf "" 30.000000000000004 2147483647 -1 -asymm False -ccmin-mode 2 -cla-decay 0.998 -cp-increase 40000 -elim False -gc-frac 0.6 -lbd-cut 7 -lbd-cut-max 30 -luby 0.9 -phase-saving 0 -pre True -rcheck True -rfirst 50 -rinc 10 -rnd-freq 0.3 -rnd-init False -rnd-seed 91648253 -simp-gc-frac 0.2 -var-decay 0.85 -verb '1' > /tmp/tmp-2025-03-2900:34:41-0.12712860107421875
+Result: SAT, 1.542, 0,  3874143, -1
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 1.542
+Total CPU time: 49.55500000000001
+the result has length = 5 and content = ["SAT", 1.542, 0, 3874143.0, -1]
+i am inide the perf = 3874143.0
+returning as objective perf = 3874143.0
+getAlgoResultsForInstsAndParams.
+  Trial 1 for calling: ruby example_minisat_hack/minisat_wrapper_weights.rb example_minisat_hack/necessary/data/uuf200-02.cnf "" 30.000000000000004 2147483647 -1 -asymm False -ccmin-mode 2 -cla-decay 0.998 -cp-increase 40000 -elim False -gc-frac 0.6 -lbd-cut 7 -lbd-cut-max 30 -luby 0.9 -phase-saving 0 -pre True -rcheck True -rfirst 50 -rinc 10 -rnd-freq 0.3 -rnd-init False -rnd-seed 91648253 -simp-gc-frac 0.2 -var-decay 0.85 -verb '1' > /tmp/tmp-2025-03-2900:34:42-0.8623985052108765
+Executing cmd: ruby example_minisat_hack/minisat_wrapper_weights.rb example_minisat_hack/necessary/data/uuf200-02.cnf "" 30.000000000000004 2147483647 -1 -asymm False -ccmin-mode 2 -cla-decay 0.998 -cp-increase 40000 -elim False -gc-frac 0.6 -lbd-cut 7 -lbd-cut-max 30 -luby 0.9 -phase-saving 0 -pre True -rcheck True -rfirst 50 -rinc 10 -rnd-freq 0.3 -rnd-init False -rnd-seed 91648253 -simp-gc-frac 0.2 -var-decay 0.85 -verb '1' > /tmp/tmp-2025-03-2900:34:42-0.8623985052108765
+Result: UNSAT, 2.99, 0,  4394113376, -1
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 2.99
+Total CPU time: 52.54500000000001
+the result has length = 5 and content = ["UNSAT", 2.99, 0, 4394113376.0, -1]
+i am inide the perf = 4394113376.0
+returning as objective perf = 4394113376.0
+getAlgoResultsForInstsAndParams.
+  Trial 1 for calling: ruby example_minisat_hack/minisat_wrapper_weights.rb example_minisat_hack/necessary/data/uuf250-01.cnf "" 30.000000000000004 2147483647 -1 -asymm False -ccmin-mode 2 -cla-decay 0.998 -cp-increase 40000 -elim False -gc-frac 0.6 -lbd-cut 7 -lbd-cut-max 30 -luby 0.9 -phase-saving 0 -pre True -rcheck True -rfirst 50 -rinc 10 -rnd-freq 0.3 -rnd-init False -rnd-seed 91648253 -simp-gc-frac 0.2 -var-decay 0.85 -verb '1' > /tmp/tmp-2025-03-2900:34:45-0.10710477828979492
+Executing cmd: ruby example_minisat_hack/minisat_wrapper_weights.rb example_minisat_hack/necessary/data/uuf250-01.cnf "" 30.000000000000004 2147483647 -1 -asymm False -ccmin-mode 2 -cla-decay 0.998 -cp-increase 40000 -elim False -gc-frac 0.6 -lbd-cut 7 -lbd-cut-max 30 -luby 0.9 -phase-saving 0 -pre True -rcheck True -rfirst 50 -rinc 10 -rnd-freq 0.3 -rnd-init False -rnd-seed 91648253 -simp-gc-frac 0.2 -var-decay 0.85 -verb '1' > /tmp/tmp-2025-03-2900:34:45-0.10710477828979492
+Result: UNSAT, 30, 0,  0, -1
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 30.0
+Total CPU time: 82.54500000000002
+the result has length = 5 and content = ["UNSAT", 30.0, 0, 0.0, -1]
+i am inide the perf = 0.0
+24/100000, 82.54500000000002/300.0
+the result has length = 5 and content = ["UNSAT", 1.712, 0, 139927771.0, -1]
+i am inide the perf = 139927771.0
+returning as objective perf = 139927771.0
+the result has length = 5 and content = ["SAT", 1.542, 0, 3874143.0, -1]
+i am inide the perf = 3874143.0
+returning as objective perf = 3874143.0
+the result has length = 5 and content = ["UNSAT", 2.99, 0, 4394113376.0, -1]
+i am inide the perf = 4394113376.0
+returning as objective perf = 4394113376.0
+the result has length = 5 and content = ["UNSAT", 30.0, 0, 0.0, -1]
+i am inide the perf = 0.0
+the result has length = 5 and content = ["UNSAT", 1.712, 0, 139927771.0, -1]
+i am inide the perf = 139927771.0
+returning as objective perf = 139927771.0
+the result has length = 5 and content = ["SAT", 1.542, 0, 3874143.0, -1]
+i am inide the perf = 3874143.0
+returning as objective perf = 3874143.0
+the result has length = 5 and content = ["UNSAT", 2.99, 0, 4394113376.0, -1]
+i am inide the perf = 4394113376.0
+returning as objective perf = 4394113376.0
+the result has length = 5 and content = ["UNSAT", 30.0, 0, 0.0, -1]
+i am inide the perf = 0.0
+the result has length = 5 and content = ["UNSAT", 1.712, 0, 139927771.0, -1]
+i am inide the perf = 139927771.0
+returning as objective perf = 139927771.0
+the result has length = 5 and content = ["SAT", 1.542, 0, 3874143.0, -1]
+i am inide the perf = 3874143.0
+returning as objective perf = 3874143.0
+the result has length = 5 and content = ["UNSAT", 2.99, 0, 4394113376.0, -1]
+i am inide the perf = 4394113376.0
+returning as objective perf = 4394113376.0
+the result has length = 5 and content = ["UNSAT", 30.0, 0, 0.0, -1]
+i am inide the perf = 0.0
+        -> Worse random: asymm=False ccmin-mode=2 cla-decay=0.998 cp-increase=40000 elim=False gc-frac=0.6 lbd-cut=7 lbd-cut-max=30 luby=0.9 phase-saving=0 pre=True rcheck=True rfirst=50 rinc=10 rnd-freq=0.3 rnd-init=False rnd-seed=91648253 simp-gc-frac=0.2 var-decay=0.85 verb='1' (["pruned", 4] [based on 20 runs with cutoff 30.0])
+Total CPU Time 82.54500000000002,  timeout 300.0
+Total CPU Time 82.54500000000002,  timeout 300.0
+now 2025-03-29 00:35:16 +0800; start 2025-03-29 00:33:52 +0800; time-start 83.864226654; maxWall 8640000.0
+getAlgoResultsForInstsAndParams.
+  Trial 1 for calling: ruby example_minisat_hack/minisat_wrapper_weights.rb example_minisat_hack/necessary/data/uuf150-02.cnf "" 30.000000000000004 2147483647 -1 -asymm True -ccmin-mode 0 -cla-decay 0.998 -cp-increase 25000 -elim True -gc-frac 0.8 -lbd-cut 4 -lbd-cut-max 20 -luby 0.5 -phase-saving 1 -pre True -rcheck False -rfirst 100 -rinc 10000 -rnd-freq 0.1 -rnd-init True -rnd-seed 91648253 -simp-gc-frac 0.1 -var-decay 0.90 -verb '0' > /tmp/tmp-2025-03-2900:35:16-0.35547637939453125
+Executing cmd: ruby example_minisat_hack/minisat_wrapper_weights.rb example_minisat_hack/necessary/data/uuf150-02.cnf "" 30.000000000000004 2147483647 -1 -asymm True -ccmin-mode 0 -cla-decay 0.998 -cp-increase 25000 -elim True -gc-frac 0.8 -lbd-cut 4 -lbd-cut-max 20 -luby 0.5 -phase-saving 1 -pre True -rcheck False -rfirst 100 -rinc 10000 -rnd-freq 0.1 -rnd-init True -rnd-seed 91648253 -simp-gc-frac 0.1 -var-decay 0.90 -verb '0' > /tmp/tmp-2025-03-2900:35:16-0.35547637939453125
+Result: CRASHED, 1.802, 0,  61431099, -1
+WARNING: Run crashed.
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 1.802
+Total CPU time: 84.34700000000002
+the result has length = 5 and content = ["CRASHED", 1.802, 0, 61431099.0, -1]
+i am inide the perf = 61431099.0
+the result has length = 5 and content = ["CRASHED", 1.802, 0, 61431099.0, -1]
+i am inide the perf = 61431099.0
+the result has length = 5 and content = ["CRASHED", 1.802, 0, 61431099.0, -1]
+i am inide the perf = 61431099.0
+the result has length = 5 and content = ["CRASHED", 1.802, 0, 61431099.0, -1]
+i am inide the perf = 61431099.0
+        -> Worse random: asymm=True ccmin-mode=0 cla-decay=0.998 cp-increase=25000 elim=True gc-frac=0.8 lbd-cut=4 lbd-cut-max=20 luby=0.5 phase-saving=1 pre=True rcheck=False rfirst=100 rinc=10000 rnd-freq=0.1 rnd-init=True rnd-seed=91648253 simp-gc-frac=0.1 var-decay=0.90 verb='0' (["pruned", 1] [based on 20 runs with cutoff 30.0])
+Total CPU Time 84.34700000000002,  timeout 300.0
+Total CPU Time 84.34700000000002,  timeout 300.0
+now 2025-03-29 00:35:17 +0800; start 2025-03-29 00:33:52 +0800; time-start 85.719139467; maxWall 8640000.0
+getAlgoResultsForInstsAndParams.
+  Trial 1 for calling: ruby example_minisat_hack/minisat_wrapper_weights.rb example_minisat_hack/necessary/data/uuf150-02.cnf "" 30.000000000000004 2147483647 -1 -asymm True -ccmin-mode 1 -cla-decay 0.998 -cp-increase 35000 -elim True -gc-frac 0.2 -lbd-cut 5 -lbd-cut-max 30 -luby 0.4 -phase-saving 1 -pre False -rcheck False -rfirst 1 -rinc 100 -rnd-freq 0.5 -rnd-init False -rnd-seed 91648253 -simp-gc-frac 0.2 -var-decay 0.80 -verb '1' > /tmp/tmp-2025-03-2900:35:17-0.721738338470459
+Executing cmd: ruby example_minisat_hack/minisat_wrapper_weights.rb example_minisat_hack/necessary/data/uuf150-02.cnf "" 30.000000000000004 2147483647 -1 -asymm True -ccmin-mode 1 -cla-decay 0.998 -cp-increase 35000 -elim True -gc-frac 0.2 -lbd-cut 5 -lbd-cut-max 30 -luby 0.4 -phase-saving 1 -pre False -rcheck False -rfirst 1 -rinc 100 -rnd-freq 0.5 -rnd-init False -rnd-seed 91648253 -simp-gc-frac 0.2 -var-decay 0.80 -verb '1' > /tmp/tmp-2025-03-2900:35:17-0.721738338470459
+Result: UNSAT, 1.844, 0,  1801719330, -1
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 1.844
+Total CPU time: 86.19100000000002
+the result has length = 5 and content = ["UNSAT", 1.844, 0, 1801719330.0, -1]
+i am inide the perf = 1801719330.0
+returning as objective perf = 1801719330.0
+getAlgoResultsForInstsAndParams.
+  Trial 1 for calling: ruby example_minisat_hack/minisat_wrapper_weights.rb example_minisat_hack/necessary/data/uf100-01.cnf "" 30.000000000000004 2147483647 -1 -asymm True -ccmin-mode 1 -cla-decay 0.998 -cp-increase 35000 -elim True -gc-frac 0.2 -lbd-cut 5 -lbd-cut-max 30 -luby 0.4 -phase-saving 1 -pre False -rcheck False -rfirst 1 -rinc 100 -rnd-freq 0.5 -rnd-init False -rnd-seed 91648253 -simp-gc-frac 0.2 -var-decay 0.80 -verb '1' > /tmp/tmp-2025-03-2900:35:19-0.9133505821228027
+Executing cmd: ruby example_minisat_hack/minisat_wrapper_weights.rb example_minisat_hack/necessary/data/uf100-01.cnf "" 30.000000000000004 2147483647 -1 -asymm True -ccmin-mode 1 -cla-decay 0.998 -cp-increase 35000 -elim True -gc-frac 0.2 -lbd-cut 5 -lbd-cut-max 30 -luby 0.4 -phase-saving 1 -pre False -rcheck False -rfirst 1 -rinc 100 -rnd-freq 0.5 -rnd-init False -rnd-seed 91648253 -simp-gc-frac 0.2 -var-decay 0.80 -verb '1' > /tmp/tmp-2025-03-2900:35:19-0.9133505821228027
+Result: SAT, 1.505, 0,  1441842, -1
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 1.505
+Total CPU time: 87.69600000000001
+the result has length = 5 and content = ["SAT", 1.505, 0, 1441842.0, -1]
+i am inide the perf = 1441842.0
+returning as objective perf = 1441842.0
+getAlgoResultsForInstsAndParams.
+  Trial 1 for calling: ruby example_minisat_hack/minisat_wrapper_weights.rb example_minisat_hack/necessary/data/uuf200-02.cnf "" 30.000000000000004 2147483647 -1 -asymm True -ccmin-mode 1 -cla-decay 0.998 -cp-increase 35000 -elim True -gc-frac 0.2 -lbd-cut 5 -lbd-cut-max 30 -luby 0.4 -phase-saving 1 -pre False -rcheck False -rfirst 1 -rinc 100 -rnd-freq 0.5 -rnd-init False -rnd-seed 91648253 -simp-gc-frac 0.2 -var-decay 0.80 -verb '1' > /tmp/tmp-2025-03-2900:35:21-0.8545141220092773
+Executing cmd: ruby example_minisat_hack/minisat_wrapper_weights.rb example_minisat_hack/necessary/data/uuf200-02.cnf "" 30.000000000000004 2147483647 -1 -asymm True -ccmin-mode 1 -cla-decay 0.998 -cp-increase 35000 -elim True -gc-frac 0.2 -lbd-cut 5 -lbd-cut-max 30 -luby 0.4 -phase-saving 1 -pre False -rcheck False -rfirst 1 -rinc 100 -rnd-freq 0.5 -rnd-init False -rnd-seed 91648253 -simp-gc-frac 0.2 -var-decay 0.80 -verb '1' > /tmp/tmp-2025-03-2900:35:21-0.8545141220092773
+Result: UNSAT, 8.552, 0,  18527535109, -1
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 8.552
+Total CPU time: 96.24800000000002
+the result has length = 5 and content = ["UNSAT", 8.552, 0, 18527535109.0, -1]
+i am inide the perf = 18527535109.0
+returning as objective perf = 18527535109.0
+28/100000, 96.24800000000002/300.0
+getAlgoResultsForInstsAndParams.
+  Trial 1 for calling: ruby example_minisat_hack/minisat_wrapper_weights.rb example_minisat_hack/necessary/data/uuf250-01.cnf "" 30.000000000000004 2147483647 -1 -asymm True -ccmin-mode 1 -cla-decay 0.998 -cp-increase 35000 -elim True -gc-frac 0.2 -lbd-cut 5 -lbd-cut-max 30 -luby 0.4 -phase-saving 1 -pre False -rcheck False -rfirst 1 -rinc 100 -rnd-freq 0.5 -rnd-init False -rnd-seed 91648253 -simp-gc-frac 0.2 -var-decay 0.80 -verb '1' > /tmp/tmp-2025-03-2900:35:29-0.12087476253509521
+Executing cmd: ruby example_minisat_hack/minisat_wrapper_weights.rb example_minisat_hack/necessary/data/uuf250-01.cnf "" 30.000000000000004 2147483647 -1 -asymm True -ccmin-mode 1 -cla-decay 0.998 -cp-increase 35000 -elim True -gc-frac 0.2 -lbd-cut 5 -lbd-cut-max 30 -luby 0.4 -phase-saving 1 -pre False -rcheck False -rfirst 1 -rinc 100 -rnd-freq 0.5 -rnd-init False -rnd-seed 91648253 -simp-gc-frac 0.2 -var-decay 0.80 -verb '1' > /tmp/tmp-2025-03-2900:35:29-0.12087476253509521
+Result: TIMEOUT, 30, 0,  0, -1
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 30.0
+Total CPU time: 126.24800000000002
+the result has length = 5 and content = ["TIMEOUT", 30.0, 0, 0.0, -1]
+i am inide the perf = 0.0
+29/100000, 126.24800000000002/300.0
+the result has length = 5 and content = ["UNSAT", 1.844, 0, 1801719330.0, -1]
+i am inide the perf = 1801719330.0
+returning as objective perf = 1801719330.0
+the result has length = 5 and content = ["SAT", 1.505, 0, 1441842.0, -1]
+i am inide the perf = 1441842.0
+returning as objective perf = 1441842.0
+the result has length = 5 and content = ["UNSAT", 8.552, 0, 18527535109.0, -1]
+i am inide the perf = 18527535109.0
+returning as objective perf = 18527535109.0
+the result has length = 5 and content = ["TIMEOUT", 30.0, 0, 0.0, -1]
+i am inide the perf = 0.0
+the result has length = 5 and content = ["UNSAT", 1.844, 0, 1801719330.0, -1]
+i am inide the perf = 1801719330.0
+returning as objective perf = 1801719330.0
+the result has length = 5 and content = ["SAT", 1.505, 0, 1441842.0, -1]
+i am inide the perf = 1441842.0
+returning as objective perf = 1441842.0
+the result has length = 5 and content = ["UNSAT", 8.552, 0, 18527535109.0, -1]
+i am inide the perf = 18527535109.0
+returning as objective perf = 18527535109.0
+the result has length = 5 and content = ["TIMEOUT", 30.0, 0, 0.0, -1]
+i am inide the perf = 0.0
+the result has length = 5 and content = ["UNSAT", 1.844, 0, 1801719330.0, -1]
+i am inide the perf = 1801719330.0
+returning as objective perf = 1801719330.0
+the result has length = 5 and content = ["SAT", 1.505, 0, 1441842.0, -1]
+i am inide the perf = 1441842.0
+returning as objective perf = 1441842.0
+the result has length = 5 and content = ["UNSAT", 8.552, 0, 18527535109.0, -1]
+i am inide the perf = 18527535109.0
+returning as objective perf = 18527535109.0
+the result has length = 5 and content = ["TIMEOUT", 30.0, 0, 0.0, -1]
+i am inide the perf = 0.0
+        -> Worse random: asymm=True ccmin-mode=1 cla-decay=0.998 cp-increase=35000 elim=True gc-frac=0.2 lbd-cut=5 lbd-cut-max=30 luby=0.4 phase-saving=1 pre=False rcheck=False rfirst=1 rinc=100 rnd-freq=0.5 rnd-init=False rnd-seed=91648253 simp-gc-frac=0.2 var-decay=0.80 verb='1' (["pruned", 4] [based on 20 runs with cutoff 30.0])
+Total CPU Time 126.24800000000002,  timeout 300.0
+Total CPU Time 126.24800000000002,  timeout 300.0
+now 2025-03-29 00:36:00 +0800; start 2025-03-29 00:33:52 +0800; time-start 127.852062659; maxWall 8640000.0
+getAlgoResultsForInstsAndParams.
+  Trial 1 for calling: ruby example_minisat_hack/minisat_wrapper_weights.rb example_minisat_hack/necessary/data/uuf150-02.cnf "" 30.000000000000004 2147483647 -1 -asymm True -ccmin-mode 2 -cla-decay 0.998 -cp-increase 5000 -elim True -gc-frac 0.1 -lbd-cut 7 -lbd-cut-max 4 -luby 0.1 -phase-saving 0 -pre False -rcheck True -rfirst 65535 -rinc 65535 -rnd-freq 0.2 -rnd-init False -rnd-seed 91648253 -simp-gc-frac 1.0 -var-decay 0.70 -verb '2' > /tmp/tmp-2025-03-2900:36:00-0.8613815307617188
+Executing cmd: ruby example_minisat_hack/minisat_wrapper_weights.rb example_minisat_hack/necessary/data/uuf150-02.cnf "" 30.000000000000004 2147483647 -1 -asymm True -ccmin-mode 2 -cla-decay 0.998 -cp-increase 5000 -elim True -gc-frac 0.1 -lbd-cut 7 -lbd-cut-max 4 -luby 0.1 -phase-saving 0 -pre False -rcheck True -rfirst 65535 -rinc 65535 -rnd-freq 0.2 -rnd-init False -rnd-seed 91648253 -simp-gc-frac 1.0 -var-decay 0.70 -verb '2' > /tmp/tmp-2025-03-2900:36:00-0.8613815307617188
+Result: UNSAT, 2.144, 0,  140928498, -1
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 2.144
+Total CPU time: 128.39200000000002
+the result has length = 5 and content = ["UNSAT", 2.144, 0, 140928498.0, -1]
+i am inide the perf = 140928498.0
+returning as objective perf = 140928498.0
+getAlgoResultsForInstsAndParams.
+  Trial 1 for calling: ruby example_minisat_hack/minisat_wrapper_weights.rb example_minisat_hack/necessary/data/uf100-01.cnf "" 30.000000000000004 2147483647 -1 -asymm True -ccmin-mode 2 -cla-decay 0.998 -cp-increase 5000 -elim True -gc-frac 0.1 -lbd-cut 7 -lbd-cut-max 4 -luby 0.1 -phase-saving 0 -pre False -rcheck True -rfirst 65535 -rinc 65535 -rnd-freq 0.2 -rnd-init False -rnd-seed 91648253 -simp-gc-frac 1.0 -var-decay 0.70 -verb '2' > /tmp/tmp-2025-03-2900:36:02-0.12859058380126953
+Executing cmd: ruby example_minisat_hack/minisat_wrapper_weights.rb example_minisat_hack/necessary/data/uf100-01.cnf "" 30.000000000000004 2147483647 -1 -asymm True -ccmin-mode 2 -cla-decay 0.998 -cp-increase 5000 -elim True -gc-frac 0.1 -lbd-cut 7 -lbd-cut-max 4 -luby 0.1 -phase-saving 0 -pre False -rcheck True -rfirst 65535 -rinc 65535 -rnd-freq 0.2 -rnd-init False -rnd-seed 91648253 -simp-gc-frac 1.0 -var-decay 0.70 -verb '2' > /tmp/tmp-2025-03-2900:36:02-0.12859058380126953
+Result: SAT, 1.904, 0,  1061570, -1
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 1.904
+Total CPU time: 130.29600000000002
+the result has length = 5 and content = ["SAT", 1.904, 0, 1061570.0, -1]
+i am inide the perf = 1061570.0
+returning as objective perf = 1061570.0
+getAlgoResultsForInstsAndParams.
+  Trial 1 for calling: ruby example_minisat_hack/minisat_wrapper_weights.rb example_minisat_hack/necessary/data/uuf200-02.cnf "" 30.000000000000004 2147483647 -1 -asymm True -ccmin-mode 2 -cla-decay 0.998 -cp-increase 5000 -elim True -gc-frac 0.1 -lbd-cut 7 -lbd-cut-max 4 -luby 0.1 -phase-saving 0 -pre False -rcheck True -rfirst 65535 -rinc 65535 -rnd-freq 0.2 -rnd-init False -rnd-seed 91648253 -simp-gc-frac 1.0 -var-decay 0.70 -verb '2' > /tmp/tmp-2025-03-2900:36:04-0.40789127349853516
+Executing cmd: ruby example_minisat_hack/minisat_wrapper_weights.rb example_minisat_hack/necessary/data/uuf200-02.cnf "" 30.000000000000004 2147483647 -1 -asymm True -ccmin-mode 2 -cla-decay 0.998 -cp-increase 5000 -elim True -gc-frac 0.1 -lbd-cut 7 -lbd-cut-max 4 -luby 0.1 -phase-saving 0 -pre False -rcheck True -rfirst 65535 -rinc 65535 -rnd-freq 0.2 -rnd-init False -rnd-seed 91648253 -simp-gc-frac 1.0 -var-decay 0.70 -verb '2' > /tmp/tmp-2025-03-2900:36:04-0.40789127349853516
+Result: UNSAT, 5.488, 0,  3848883560, -1
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 5.488
+Total CPU time: 135.78400000000002
+the result has length = 5 and content = ["UNSAT", 5.488, 0, 3848883560.0, -1]
+i am inide the perf = 3848883560.0
+returning as objective perf = 3848883560.0
+getAlgoResultsForInstsAndParams.
+  Trial 1 for calling: ruby example_minisat_hack/minisat_wrapper_weights.rb example_minisat_hack/necessary/data/uuf250-01.cnf "" 30.000000000000004 2147483647 -1 -asymm True -ccmin-mode 2 -cla-decay 0.998 -cp-increase 5000 -elim True -gc-frac 0.1 -lbd-cut 7 -lbd-cut-max 4 -luby 0.1 -phase-saving 0 -pre False -rcheck True -rfirst 65535 -rinc 65535 -rnd-freq 0.2 -rnd-init False -rnd-seed 91648253 -simp-gc-frac 1.0 -var-decay 0.70 -verb '2' > /tmp/tmp-2025-03-2900:36:09-0.8768208026885986
+Executing cmd: ruby example_minisat_hack/minisat_wrapper_weights.rb example_minisat_hack/necessary/data/uuf250-01.cnf "" 30.000000000000004 2147483647 -1 -asymm True -ccmin-mode 2 -cla-decay 0.998 -cp-increase 5000 -elim True -gc-frac 0.1 -lbd-cut 7 -lbd-cut-max 4 -luby 0.1 -phase-saving 0 -pre False -rcheck True -rfirst 65535 -rinc 65535 -rnd-freq 0.2 -rnd-init False -rnd-seed 91648253 -simp-gc-frac 1.0 -var-decay 0.70 -verb '2' > /tmp/tmp-2025-03-2900:36:09-0.8768208026885986
+Result: UNSAT, 25.372, 0,  32861373543, -1
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 25.372
+Total CPU time: 161.156
+the result has length = 5 and content = ["UNSAT", 25.372, 0, 32861373543.0, -1]
+i am inide the perf = 32861373543.0
+returning as objective perf = 32861373543.0
+33/100000, 161.156/300.0
+the result has length = 5 and content = ["UNSAT", 2.144, 0, 140928498.0, -1]
+i am inide the perf = 140928498.0
+returning as objective perf = 140928498.0
+the result has length = 5 and content = ["SAT", 1.904, 0, 1061570.0, -1]
+i am inide the perf = 1061570.0
+returning as objective perf = 1061570.0
+the result has length = 5 and content = ["UNSAT", 5.488, 0, 3848883560.0, -1]
+i am inide the perf = 3848883560.0
+returning as objective perf = 3848883560.0
+the result has length = 5 and content = ["UNSAT", 25.372, 0, 32861373543.0, -1]
+i am inide the perf = 32861373543.0
+returning as objective perf = 32861373543.0
+the result has length = 5 and content = ["UNSAT", 2.144, 0, 140928498.0, -1]
+i am inide the perf = 140928498.0
+returning as objective perf = 140928498.0
+the result has length = 5 and content = ["SAT", 1.904, 0, 1061570.0, -1]
+i am inide the perf = 1061570.0
+returning as objective perf = 1061570.0
+the result has length = 5 and content = ["UNSAT", 5.488, 0, 3848883560.0, -1]
+i am inide the perf = 3848883560.0
+returning as objective perf = 3848883560.0
+the result has length = 5 and content = ["UNSAT", 25.372, 0, 32861373543.0, -1]
+i am inide the perf = 32861373543.0
+returning as objective perf = 32861373543.0
+the result has length = 5 and content = ["UNSAT", 2.144, 0, 140928498.0, -1]
+i am inide the perf = 140928498.0
+returning as objective perf = 140928498.0
+the result has length = 5 and content = ["SAT", 1.904, 0, 1061570.0, -1]
+i am inide the perf = 1061570.0
+returning as objective perf = 1061570.0
+the result has length = 5 and content = ["UNSAT", 5.488, 0, 3848883560.0, -1]
+i am inide the perf = 3848883560.0
+returning as objective perf = 3848883560.0
+the result has length = 5 and content = ["UNSAT", 25.372, 0, 32861373543.0, -1]
+i am inide the perf = 32861373543.0
+returning as objective perf = 32861373543.0
+        -> Worse random: asymm=True ccmin-mode=2 cla-decay=0.998 cp-increase=5000 elim=True gc-frac=0.1 lbd-cut=7 lbd-cut-max=4 luby=0.1 phase-saving=0 pre=False rcheck=True rfirst=65535 rinc=65535 rnd-freq=0.2 rnd-init=False rnd-seed=91648253 simp-gc-frac=1.0 var-decay=0.70 verb='2' (["pruned", 4] [based on 20 runs with cutoff 30.0])
+Total CPU Time 161.156,  timeout 300.0
+Total CPU Time 161.156,  timeout 300.0
+now 2025-03-29 00:36:35 +0800; start 2025-03-29 00:33:52 +0800; time-start 162.99849337; maxWall 8640000.0
+getAlgoResultsForInstsAndParams.
+  Trial 1 for calling: ruby example_minisat_hack/minisat_wrapper_weights.rb example_minisat_hack/necessary/data/uuf150-02.cnf "" 30.000000000000004 2147483647 -1 -asymm False -ccmin-mode 2 -cla-decay 0.999 -cp-increase 50000 -elim False -gc-frac 0.5 -lbd-cut 5 -lbd-cut-max 8 -luby 0.5 -phase-saving 1 -pre False -rcheck True -rfirst 5000 -rinc 1 -rnd-freq 0.0 -rnd-init True -rnd-seed 91648253 -simp-gc-frac 0.5 -var-decay 0.75 -verb '1' > /tmp/tmp-2025-03-2900:36:35-0.9143953323364258
+Executing cmd: ruby example_minisat_hack/minisat_wrapper_weights.rb example_minisat_hack/necessary/data/uuf150-02.cnf "" 30.000000000000004 2147483647 -1 -asymm False -ccmin-mode 2 -cla-decay 0.999 -cp-increase 50000 -elim False -gc-frac 0.5 -lbd-cut 5 -lbd-cut-max 8 -luby 0.5 -phase-saving 1 -pre False -rcheck True -rfirst 5000 -rinc 1 -rnd-freq 0.0 -rnd-init True -rnd-seed 91648253 -simp-gc-frac 0.5 -var-decay 0.75 -verb '1' > /tmp/tmp-2025-03-2900:36:35-0.9143953323364258
+Result: CRASHED, 1.425, 0,  237556, -1
+WARNING: Run crashed.
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 1.425
+Total CPU time: 162.58100000000002
+the result has length = 5 and content = ["CRASHED", 1.425, 0, 237556.0, -1]
+i am inide the perf = 237556.0
+the result has length = 5 and content = ["CRASHED", 1.425, 0, 237556.0, -1]
+i am inide the perf = 237556.0
+the result has length = 5 and content = ["CRASHED", 1.425, 0, 237556.0, -1]
+i am inide the perf = 237556.0
+the result has length = 5 and content = ["CRASHED", 1.425, 0, 237556.0, -1]
+i am inide the perf = 237556.0
+        -> Worse random: asymm=False ccmin-mode=2 cla-decay=0.999 cp-increase=50000 elim=False gc-frac=0.5 lbd-cut=5 lbd-cut-max=8 luby=0.5 phase-saving=1 pre=False rcheck=True rfirst=5000 rinc=1 rnd-freq=0.0 rnd-init=True rnd-seed=91648253 simp-gc-frac=0.5 var-decay=0.75 verb='1' (["pruned", 1] [based on 20 runs with cutoff 30.0])
+Total CPU Time 162.58100000000002,  timeout 300.0
+Total CPU Time 162.58100000000002,  timeout 300.0
+now 2025-03-29 00:36:36 +0800; start 2025-03-29 00:33:52 +0800; time-start 164.481479157; maxWall 8640000.0
+getAlgoResultsForInstsAndParams.
+  Trial 1 for calling: ruby example_minisat_hack/minisat_wrapper_weights.rb example_minisat_hack/necessary/data/uuf150-02.cnf "" 30.000000000000004 2147483647 -1 -asymm True -ccmin-mode 1 -cla-decay 0.998 -cp-increase 35000 -elim True -gc-frac 0.6 -lbd-cut 8 -lbd-cut-max 20 -luby 0.3 -phase-saving 1 -pre False -rcheck False -rfirst 100 -rinc 10000 -rnd-freq 0.1 -rnd-init False -rnd-seed 91648253 -simp-gc-frac 0.8 -var-decay 1.00 -verb '1' > /tmp/tmp-2025-03-2900:36:36-0.5691957473754883
+Executing cmd: ruby example_minisat_hack/minisat_wrapper_weights.rb example_minisat_hack/necessary/data/uuf150-02.cnf "" 30.000000000000004 2147483647 -1 -asymm True -ccmin-mode 1 -cla-decay 0.998 -cp-increase 35000 -elim True -gc-frac 0.6 -lbd-cut 8 -lbd-cut-max 20 -luby 0.3 -phase-saving 1 -pre False -rcheck False -rfirst 100 -rinc 10000 -rnd-freq 0.1 -rnd-init False -rnd-seed 91648253 -simp-gc-frac 0.8 -var-decay 1.00 -verb '1' > /tmp/tmp-2025-03-2900:36:36-0.5691957473754883
+Result: CRASHED, 1.417, 0,  94521, -1
+WARNING: Run crashed.
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 1.417
+Total CPU time: 163.99800000000002
+the result has length = 5 and content = ["CRASHED", 1.417, 0, 94521.0, -1]
+i am inide the perf = 94521.0
+the result has length = 5 and content = ["CRASHED", 1.417, 0, 94521.0, -1]
+i am inide the perf = 94521.0
+the result has length = 5 and content = ["CRASHED", 1.417, 0, 94521.0, -1]
+i am inide the perf = 94521.0
+the result has length = 5 and content = ["CRASHED", 1.417, 0, 94521.0, -1]
+i am inide the perf = 94521.0
+        -> Worse random: asymm=True ccmin-mode=1 cla-decay=0.998 cp-increase=35000 elim=True gc-frac=0.6 lbd-cut=8 lbd-cut-max=20 luby=0.3 phase-saving=1 pre=False rcheck=False rfirst=100 rinc=10000 rnd-freq=0.1 rnd-init=False rnd-seed=91648253 simp-gc-frac=0.8 var-decay=1.00 verb='1' (["pruned", 1] [based on 20 runs with cutoff 30.0])
+Total CPU Time 163.99800000000002,  timeout 300.0
+Total CPU Time 163.99800000000002,  timeout 300.0
+now 2025-03-29 00:36:38 +0800; start 2025-03-29 00:33:52 +0800; time-start 165.947989243; maxWall 8640000.0
+getAlgoResultsForInstsAndParams.
+  Trial 1 for calling: ruby example_minisat_hack/minisat_wrapper_weights.rb example_minisat_hack/necessary/data/uuf150-02.cnf "" 30.000000000000004 2147483647 -1 -asymm True -ccmin-mode 0 -cla-decay 0.999 -cp-increase 30000 -elim True -gc-frac 0.6 -lbd-cut 9 -lbd-cut-max 8 -luby 0.8 -phase-saving 2 -pre False -rcheck True -rfirst 1 -rinc 10 -rnd-freq 0.0 -rnd-init True -rnd-seed 91648253 -simp-gc-frac 0.3 -var-decay 0.90 -verb '2' > /tmp/tmp-2025-03-2900:36:38-0.5569133758544922
+Executing cmd: ruby example_minisat_hack/minisat_wrapper_weights.rb example_minisat_hack/necessary/data/uuf150-02.cnf "" 30.000000000000004 2147483647 -1 -asymm True -ccmin-mode 0 -cla-decay 0.999 -cp-increase 30000 -elim True -gc-frac 0.6 -lbd-cut 9 -lbd-cut-max 8 -luby 0.8 -phase-saving 2 -pre False -rcheck True -rfirst 1 -rinc 10 -rnd-freq 0.0 -rnd-init True -rnd-seed 91648253 -simp-gc-frac 0.3 -var-decay 0.90 -verb '2' > /tmp/tmp-2025-03-2900:36:38-0.5569133758544922
+Result: UNSAT, 1.653, 0,  33231444, -1
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 1.653
+Total CPU time: 165.651
+the result has length = 5 and content = ["UNSAT", 1.653, 0, 33231444.0, -1]
+i am inide the perf = 33231444.0
+returning as objective perf = 33231444.0
+getAlgoResultsForInstsAndParams.
+  Trial 1 for calling: ruby example_minisat_hack/minisat_wrapper_weights.rb example_minisat_hack/necessary/data/uf100-01.cnf "" 30.000000000000004 2147483647 -1 -asymm True -ccmin-mode 0 -cla-decay 0.999 -cp-increase 30000 -elim True -gc-frac 0.6 -lbd-cut 9 -lbd-cut-max 8 -luby 0.8 -phase-saving 2 -pre False -rcheck True -rfirst 1 -rinc 10 -rnd-freq 0.0 -rnd-init True -rnd-seed 91648253 -simp-gc-frac 0.3 -var-decay 0.90 -verb '2' > /tmp/tmp-2025-03-2900:36:39-0.02260422706604004
+Executing cmd: ruby example_minisat_hack/minisat_wrapper_weights.rb example_minisat_hack/necessary/data/uf100-01.cnf "" 30.000000000000004 2147483647 -1 -asymm True -ccmin-mode 0 -cla-decay 0.999 -cp-increase 30000 -elim True -gc-frac 0.6 -lbd-cut 9 -lbd-cut-max 8 -luby 0.8 -phase-saving 2 -pre False -rcheck True -rfirst 1 -rinc 10 -rnd-freq 0.0 -rnd-init True -rnd-seed 91648253 -simp-gc-frac 0.3 -var-decay 0.90 -verb '2' > /tmp/tmp-2025-03-2900:36:39-0.02260422706604004
+Result: SAT, 1.483, 0,  441717, -1
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 1.483
+Total CPU time: 167.13400000000001
+the result has length = 5 and content = ["SAT", 1.483, 0, 441717.0, -1]
+i am inide the perf = 441717.0
+returning as objective perf = 441717.0
+getAlgoResultsForInstsAndParams.
+  Trial 1 for calling: ruby example_minisat_hack/minisat_wrapper_weights.rb example_minisat_hack/necessary/data/uuf200-02.cnf "" 30.000000000000004 2147483647 -1 -asymm True -ccmin-mode 0 -cla-decay 0.999 -cp-increase 30000 -elim True -gc-frac 0.6 -lbd-cut 9 -lbd-cut-max 8 -luby 0.8 -phase-saving 2 -pre False -rcheck True -rfirst 1 -rinc 10 -rnd-freq 0.0 -rnd-init True -rnd-seed 91648253 -simp-gc-frac 0.3 -var-decay 0.90 -verb '2' > /tmp/tmp-2025-03-2900:36:41-0.31499433517456055
+Executing cmd: ruby example_minisat_hack/minisat_wrapper_weights.rb example_minisat_hack/necessary/data/uuf200-02.cnf "" 30.000000000000004 2147483647 -1 -asymm True -ccmin-mode 0 -cla-decay 0.999 -cp-increase 30000 -elim True -gc-frac 0.6 -lbd-cut 9 -lbd-cut-max 8 -luby 0.8 -phase-saving 2 -pre False -rcheck True -rfirst 1 -rinc 10 -rnd-freq 0.0 -rnd-init True -rnd-seed 91648253 -simp-gc-frac 0.3 -var-decay 0.90 -verb '2' > /tmp/tmp-2025-03-2900:36:41-0.31499433517456055
+Result: UNSAT, 1.643, 0,  944266845, -1
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 1.643
+Total CPU time: 168.77700000000002
+the result has length = 5 and content = ["UNSAT", 1.643, 0, 944266845.0, -1]
+i am inide the perf = 944266845.0
+returning as objective perf = 944266845.0
+getAlgoResultsForInstsAndParams.
+  Trial 1 for calling: ruby example_minisat_hack/minisat_wrapper_weights.rb example_minisat_hack/necessary/data/uuf250-01.cnf "" 30.000000000000004 2147483647 -1 -asymm True -ccmin-mode 0 -cla-decay 0.999 -cp-increase 30000 -elim True -gc-frac 0.6 -lbd-cut 9 -lbd-cut-max 8 -luby 0.8 -phase-saving 2 -pre False -rcheck True -rfirst 1 -rinc 10 -rnd-freq 0.0 -rnd-init True -rnd-seed 91648253 -simp-gc-frac 0.3 -var-decay 0.90 -verb '2' > /tmp/tmp-2025-03-2900:36:43-0.19504165649414062
+Executing cmd: ruby example_minisat_hack/minisat_wrapper_weights.rb example_minisat_hack/necessary/data/uuf250-01.cnf "" 30.000000000000004 2147483647 -1 -asymm True -ccmin-mode 0 -cla-decay 0.999 -cp-increase 30000 -elim True -gc-frac 0.6 -lbd-cut 9 -lbd-cut-max 8 -luby 0.8 -phase-saving 2 -pre False -rcheck True -rfirst 1 -rinc 10 -rnd-freq 0.0 -rnd-init True -rnd-seed 91648253 -simp-gc-frac 0.3 -var-decay 0.90 -verb '2' > /tmp/tmp-2025-03-2900:36:43-0.19504165649414062
+Result: UNSAT, 8.505, 0,  15993141874, -1
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 8.505
+Total CPU time: 177.282
+the result has length = 5 and content = ["UNSAT", 8.505, 0, 15993141874.0, -1]
+i am inide the perf = 15993141874.0
+returning as objective perf = 15993141874.0
+39/100000, 177.282/300.0
+getAlgoResultsForInstsAndParams.
+  Trial 1 for calling: ruby example_minisat_hack/minisat_wrapper_weights.rb example_minisat_hack/necessary/data/uuf100-01.cnf "" 30.000000000000004 2147483647 -1 -asymm True -ccmin-mode 0 -cla-decay 0.999 -cp-increase 30000 -elim True -gc-frac 0.6 -lbd-cut 9 -lbd-cut-max 8 -luby 0.8 -phase-saving 2 -pre False -rcheck True -rfirst 1 -rinc 10 -rnd-freq 0.0 -rnd-init True -rnd-seed 91648253 -simp-gc-frac 0.3 -var-decay 0.90 -verb '2' > /tmp/tmp-2025-03-2900:36:51-0.08986115455627441
+Executing cmd: ruby example_minisat_hack/minisat_wrapper_weights.rb example_minisat_hack/necessary/data/uuf100-01.cnf "" 30.000000000000004 2147483647 -1 -asymm True -ccmin-mode 0 -cla-decay 0.999 -cp-increase 30000 -elim True -gc-frac 0.6 -lbd-cut 9 -lbd-cut-max 8 -luby 0.8 -phase-saving 2 -pre False -rcheck True -rfirst 1 -rinc 10 -rnd-freq 0.0 -rnd-init True -rnd-seed 91648253 -simp-gc-frac 0.3 -var-decay 0.90 -verb '2' > /tmp/tmp-2025-03-2900:36:51-0.08986115455627441
+Result: UNSAT, 1.556, 0,  1035064, -1
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 1.556
+Total CPU time: 178.83800000000002
+the result has length = 5 and content = ["UNSAT", 1.556, 0, 1035064.0, -1]
+i am inide the perf = 1035064.0
+returning as objective perf = 1035064.0
+getAlgoResultsForInstsAndParams.
+  Trial 1 for calling: ruby example_minisat_hack/minisat_wrapper_weights.rb example_minisat_hack/necessary/data/uf200-02.cnf "" 30.000000000000004 2147483647 -1 -asymm True -ccmin-mode 0 -cla-decay 0.999 -cp-increase 30000 -elim True -gc-frac 0.6 -lbd-cut 9 -lbd-cut-max 8 -luby 0.8 -phase-saving 2 -pre False -rcheck True -rfirst 1 -rinc 10 -rnd-freq 0.0 -rnd-init True -rnd-seed 91648253 -simp-gc-frac 0.3 -var-decay 0.90 -verb '2' > /tmp/tmp-2025-03-2900:36:53-0.2867870330810547
+Executing cmd: ruby example_minisat_hack/minisat_wrapper_weights.rb example_minisat_hack/necessary/data/uf200-02.cnf "" 30.000000000000004 2147483647 -1 -asymm True -ccmin-mode 0 -cla-decay 0.999 -cp-increase 30000 -elim True -gc-frac 0.6 -lbd-cut 9 -lbd-cut-max 8 -luby 0.8 -phase-saving 2 -pre False -rcheck True -rfirst 1 -rinc 10 -rnd-freq 0.0 -rnd-init True -rnd-seed 91648253 -simp-gc-frac 0.3 -var-decay 0.90 -verb '2' > /tmp/tmp-2025-03-2900:36:53-0.2867870330810547
+Result: SAT, 1.61, 0,  7848387, -1
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 1.61
+Total CPU time: 180.44800000000004
+the result has length = 5 and content = ["SAT", 1.61, 0, 7848387.0, -1]
+i am inide the perf = 7848387.0
+returning as objective perf = 7848387.0
+getAlgoResultsForInstsAndParams.
+  Trial 1 for calling: ruby example_minisat_hack/minisat_wrapper_weights.rb example_minisat_hack/necessary/data/uf150-02.cnf "" 30.000000000000004 2147483647 -1 -asymm True -ccmin-mode 0 -cla-decay 0.999 -cp-increase 30000 -elim True -gc-frac 0.6 -lbd-cut 9 -lbd-cut-max 8 -luby 0.8 -phase-saving 2 -pre False -rcheck True -rfirst 1 -rinc 10 -rnd-freq 0.0 -rnd-init True -rnd-seed 91648253 -simp-gc-frac 0.3 -var-decay 0.90 -verb '2' > /tmp/tmp-2025-03-2900:36:54-0.03905022144317627
+Executing cmd: ruby example_minisat_hack/minisat_wrapper_weights.rb example_minisat_hack/necessary/data/uf150-02.cnf "" 30.000000000000004 2147483647 -1 -asymm True -ccmin-mode 0 -cla-decay 0.999 -cp-increase 30000 -elim True -gc-frac 0.6 -lbd-cut 9 -lbd-cut-max 8 -luby 0.8 -phase-saving 2 -pre False -rcheck True -rfirst 1 -rinc 10 -rnd-freq 0.0 -rnd-init True -rnd-seed 91648253 -simp-gc-frac 0.3 -var-decay 0.90 -verb '2' > /tmp/tmp-2025-03-2900:36:54-0.03905022144317627
+Result: SAT, 1.593, 0,  6690687, -1
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 1.593
+Total CPU time: 182.04100000000003
+the result has length = 5 and content = ["SAT", 1.593, 0, 6690687.0, -1]
+i am inide the perf = 6690687.0
+returning as objective perf = 6690687.0
+getAlgoResultsForInstsAndParams.
+  Trial 1 for calling: ruby example_minisat_hack/minisat_wrapper_weights.rb example_minisat_hack/necessary/data/uuf250-02.cnf "" 30.000000000000004 2147483647 -1 -asymm True -ccmin-mode 0 -cla-decay 0.999 -cp-increase 30000 -elim True -gc-frac 0.6 -lbd-cut 9 -lbd-cut-max 8 -luby 0.8 -phase-saving 2 -pre False -rcheck True -rfirst 1 -rinc 10 -rnd-freq 0.0 -rnd-init True -rnd-seed 91648253 -simp-gc-frac 0.3 -var-decay 0.90 -verb '2' > /tmp/tmp-2025-03-2900:36:56-0.7962048053741455
+Executing cmd: ruby example_minisat_hack/minisat_wrapper_weights.rb example_minisat_hack/necessary/data/uuf250-02.cnf "" 30.000000000000004 2147483647 -1 -asymm True -ccmin-mode 0 -cla-decay 0.999 -cp-increase 30000 -elim True -gc-frac 0.6 -lbd-cut 9 -lbd-cut-max 8 -luby 0.8 -phase-saving 2 -pre False -rcheck True -rfirst 1 -rinc 10 -rnd-freq 0.0 -rnd-init True -rnd-seed 91648253 -simp-gc-frac 0.3 -var-decay 0.90 -verb '2' > /tmp/tmp-2025-03-2900:36:56-0.7962048053741455
+Result: UNSAT, 8.361, 0,  16246774314, -1
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 8.361
+Total CPU time: 190.40200000000002
+the result has length = 5 and content = ["UNSAT", 8.361, 0, 16246774314.0, -1]
+i am inide the perf = 16246774314.0
+returning as objective perf = 16246774314.0
+43/100000, 190.40200000000002/300.0
+getAlgoResultsForInstsAndParams.
+  Trial 1 for calling: ruby example_minisat_hack/minisat_wrapper_weights.rb example_minisat_hack/necessary/data/uuf150-01.cnf "" 30.000000000000004 2147483647 -1 -asymm True -ccmin-mode 0 -cla-decay 0.999 -cp-increase 30000 -elim True -gc-frac 0.6 -lbd-cut 9 -lbd-cut-max 8 -luby 0.8 -phase-saving 2 -pre False -rcheck True -rfirst 1 -rinc 10 -rnd-freq 0.0 -rnd-init True -rnd-seed 91648253 -simp-gc-frac 0.3 -var-decay 0.90 -verb '2' > /tmp/tmp-2025-03-2900:37:04-0.3487197160720825
+Executing cmd: ruby example_minisat_hack/minisat_wrapper_weights.rb example_minisat_hack/necessary/data/uuf150-01.cnf "" 30.000000000000004 2147483647 -1 -asymm True -ccmin-mode 0 -cla-decay 0.999 -cp-increase 30000 -elim True -gc-frac 0.6 -lbd-cut 9 -lbd-cut-max 8 -luby 0.8 -phase-saving 2 -pre False -rcheck True -rfirst 1 -rinc 10 -rnd-freq 0.0 -rnd-init True -rnd-seed 91648253 -simp-gc-frac 0.3 -var-decay 0.90 -verb '2' > /tmp/tmp-2025-03-2900:37:04-0.3487197160720825
+Result: UNSAT, 1.657, 0,  48801386, -1
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 1.657
+Total CPU time: 192.05900000000003
+the result has length = 5 and content = ["UNSAT", 1.657, 0, 48801386.0, -1]
+i am inide the perf = 48801386.0
+returning as objective perf = 48801386.0
+getAlgoResultsForInstsAndParams.
+  Trial 1 for calling: ruby example_minisat_hack/minisat_wrapper_weights.rb example_minisat_hack/necessary/data/uuf100-02.cnf "" 30.000000000000004 2147483647 -1 -asymm True -ccmin-mode 0 -cla-decay 0.999 -cp-increase 30000 -elim True -gc-frac 0.6 -lbd-cut 9 -lbd-cut-max 8 -luby 0.8 -phase-saving 2 -pre False -rcheck True -rfirst 1 -rinc 10 -rnd-freq 0.0 -rnd-init True -rnd-seed 91648253 -simp-gc-frac 0.3 -var-decay 0.90 -verb '2' > /tmp/tmp-2025-03-2900:37:06-0.5681838989257812
+Executing cmd: ruby example_minisat_hack/minisat_wrapper_weights.rb example_minisat_hack/necessary/data/uuf100-02.cnf "" 30.000000000000004 2147483647 -1 -asymm True -ccmin-mode 0 -cla-decay 0.999 -cp-increase 30000 -elim True -gc-frac 0.6 -lbd-cut 9 -lbd-cut-max 8 -luby 0.8 -phase-saving 2 -pre False -rcheck True -rfirst 1 -rinc 10 -rnd-freq 0.0 -rnd-init True -rnd-seed 91648253 -simp-gc-frac 0.3 -var-decay 0.90 -verb '2' > /tmp/tmp-2025-03-2900:37:06-0.5681838989257812
+Result: UNSAT, 1.491, 0,  5731414, -1
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 1.491
+Total CPU time: 193.55000000000004
+the result has length = 5 and content = ["UNSAT", 1.491, 0, 5731414.0, -1]
+i am inide the perf = 5731414.0
+returning as objective perf = 5731414.0
+getAlgoResultsForInstsAndParams.
+  Trial 1 for calling: ruby example_minisat_hack/minisat_wrapper_weights.rb example_minisat_hack/necessary/data/uuf50-02.cnf "" 30.000000000000004 2147483647 -1 -asymm True -ccmin-mode 0 -cla-decay 0.999 -cp-increase 30000 -elim True -gc-frac 0.6 -lbd-cut 9 -lbd-cut-max 8 -luby 0.8 -phase-saving 2 -pre False -rcheck True -rfirst 1 -rinc 10 -rnd-freq 0.0 -rnd-init True -rnd-seed 91648253 -simp-gc-frac 0.3 -var-decay 0.90 -verb '2' > /tmp/tmp-2025-03-2900:37:08-0.11241769790649414
+Executing cmd: ruby example_minisat_hack/minisat_wrapper_weights.rb example_minisat_hack/necessary/data/uuf50-02.cnf "" 30.000000000000004 2147483647 -1 -asymm True -ccmin-mode 0 -cla-decay 0.999 -cp-increase 30000 -elim True -gc-frac 0.6 -lbd-cut 9 -lbd-cut-max 8 -luby 0.8 -phase-saving 2 -pre False -rcheck True -rfirst 1 -rinc 10 -rnd-freq 0.0 -rnd-init True -rnd-seed 91648253 -simp-gc-frac 0.3 -var-decay 0.90 -verb '2' > /tmp/tmp-2025-03-2900:37:08-0.11241769790649414
+Result: UNSAT, 1.508, 0,  354795, -1
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 1.508
+Total CPU time: 195.05800000000005
+the result has length = 5 and content = ["UNSAT", 1.508, 0, 354795.0, -1]
+i am inide the perf = 354795.0
+returning as objective perf = 354795.0
+getAlgoResultsForInstsAndParams.
+  Trial 1 for calling: ruby example_minisat_hack/minisat_wrapper_weights.rb example_minisat_hack/necessary/data/uuf200-01.cnf "" 30.000000000000004 2147483647 -1 -asymm True -ccmin-mode 0 -cla-decay 0.999 -cp-increase 30000 -elim True -gc-frac 0.6 -lbd-cut 9 -lbd-cut-max 8 -luby 0.8 -phase-saving 2 -pre False -rcheck True -rfirst 1 -rinc 10 -rnd-freq 0.0 -rnd-init True -rnd-seed 91648253 -simp-gc-frac 0.3 -var-decay 0.90 -verb '2' > /tmp/tmp-2025-03-2900:37:09-0.401839017868042
+Executing cmd: ruby example_minisat_hack/minisat_wrapper_weights.rb example_minisat_hack/necessary/data/uuf200-01.cnf "" 30.000000000000004 2147483647 -1 -asymm True -ccmin-mode 0 -cla-decay 0.999 -cp-increase 30000 -elim True -gc-frac 0.6 -lbd-cut 9 -lbd-cut-max 8 -luby 0.8 -phase-saving 2 -pre False -rcheck True -rfirst 1 -rinc 10 -rnd-freq 0.0 -rnd-init True -rnd-seed 91648253 -simp-gc-frac 0.3 -var-decay 0.90 -verb '2' > /tmp/tmp-2025-03-2900:37:09-0.401839017868042
+Result: UNSAT, 1.645, 0,  606376718, -1
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 1.645
+Total CPU time: 196.70300000000006
+the result has length = 5 and content = ["UNSAT", 1.645, 0, 606376718.0, -1]
+i am inide the perf = 606376718.0
+returning as objective perf = 606376718.0
+getAlgoResultsForInstsAndParams.
+  Trial 1 for calling: ruby example_minisat_hack/minisat_wrapper_weights.rb example_minisat_hack/necessary/data/uf200-01.cnf "" 30.000000000000004 2147483647 -1 -asymm True -ccmin-mode 0 -cla-decay 0.999 -cp-increase 30000 -elim True -gc-frac 0.6 -lbd-cut 9 -lbd-cut-max 8 -luby 0.8 -phase-saving 2 -pre False -rcheck True -rfirst 1 -rinc 10 -rnd-freq 0.0 -rnd-init True -rnd-seed 91648253 -simp-gc-frac 0.3 -var-decay 0.90 -verb '2' > /tmp/tmp-2025-03-2900:37:11-0.32712578773498535
+Executing cmd: ruby example_minisat_hack/minisat_wrapper_weights.rb example_minisat_hack/necessary/data/uf200-01.cnf "" 30.000000000000004 2147483647 -1 -asymm True -ccmin-mode 0 -cla-decay 0.999 -cp-increase 30000 -elim True -gc-frac 0.6 -lbd-cut 9 -lbd-cut-max 8 -luby 0.8 -phase-saving 2 -pre False -rcheck True -rfirst 1 -rinc 10 -rnd-freq 0.0 -rnd-init True -rnd-seed 91648253 -simp-gc-frac 0.3 -var-decay 0.90 -verb '2' > /tmp/tmp-2025-03-2900:37:11-0.32712578773498535
+Result: SAT, 1.759, 0,  305078531, -1
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 1.759
+Total CPU time: 198.46200000000005
+the result has length = 5 and content = ["SAT", 1.759, 0, 305078531.0, -1]
+i am inide the perf = 305078531.0
+returning as objective perf = 305078531.0
+getAlgoResultsForInstsAndParams.
+  Trial 1 for calling: ruby example_minisat_hack/minisat_wrapper_weights.rb example_minisat_hack/necessary/data/uf50-01.cnf "" 30.000000000000004 2147483647 -1 -asymm True -ccmin-mode 0 -cla-decay 0.999 -cp-increase 30000 -elim True -gc-frac 0.6 -lbd-cut 9 -lbd-cut-max 8 -luby 0.8 -phase-saving 2 -pre False -rcheck True -rfirst 1 -rinc 10 -rnd-freq 0.0 -rnd-init True -rnd-seed 91648253 -simp-gc-frac 0.3 -var-decay 0.90 -verb '2' > /tmp/tmp-2025-03-2900:37:13-0.44721126556396484
+Executing cmd: ruby example_minisat_hack/minisat_wrapper_weights.rb example_minisat_hack/necessary/data/uf50-01.cnf "" 30.000000000000004 2147483647 -1 -asymm True -ccmin-mode 0 -cla-decay 0.999 -cp-increase 30000 -elim True -gc-frac 0.6 -lbd-cut 9 -lbd-cut-max 8 -luby 0.8 -phase-saving 2 -pre False -rcheck True -rfirst 1 -rinc 10 -rnd-freq 0.0 -rnd-init True -rnd-seed 91648253 -simp-gc-frac 0.3 -var-decay 0.90 -verb '2' > /tmp/tmp-2025-03-2900:37:13-0.44721126556396484
+Result: SAT, 1.457, 0,  318953, -1
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 1.457
+Total CPU time: 199.91900000000004
+the result has length = 5 and content = ["SAT", 1.457, 0, 318953.0, -1]
+i am inide the perf = 318953.0
+returning as objective perf = 318953.0
+getAlgoResultsForInstsAndParams.
+  Trial 1 for calling: ruby example_minisat_hack/minisat_wrapper_weights.rb example_minisat_hack/necessary/data/uf150-01.cnf "" 30.000000000000004 2147483647 -1 -asymm True -ccmin-mode 0 -cla-decay 0.999 -cp-increase 30000 -elim True -gc-frac 0.6 -lbd-cut 9 -lbd-cut-max 8 -luby 0.8 -phase-saving 2 -pre False -rcheck True -rfirst 1 -rinc 10 -rnd-freq 0.0 -rnd-init True -rnd-seed 91648253 -simp-gc-frac 0.3 -var-decay 0.90 -verb '2' > /tmp/tmp-2025-03-2900:37:14-0.891758918762207
+Executing cmd: ruby example_minisat_hack/minisat_wrapper_weights.rb example_minisat_hack/necessary/data/uf150-01.cnf "" 30.000000000000004 2147483647 -1 -asymm True -ccmin-mode 0 -cla-decay 0.999 -cp-increase 30000 -elim True -gc-frac 0.6 -lbd-cut 9 -lbd-cut-max 8 -luby 0.8 -phase-saving 2 -pre False -rcheck True -rfirst 1 -rinc 10 -rnd-freq 0.0 -rnd-init True -rnd-seed 91648253 -simp-gc-frac 0.3 -var-decay 0.90 -verb '2' > /tmp/tmp-2025-03-2900:37:14-0.891758918762207
+Result: SAT, 1.536, 0,  4419132, -1
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 1.536
+Total CPU time: 201.45500000000004
+the result has length = 5 and content = ["SAT", 1.536, 0, 4419132.0, -1]
+i am inide the perf = 4419132.0
+returning as objective perf = 4419132.0
+50/100000, 201.45500000000004/300.0
+getAlgoResultsForInstsAndParams.
+  Trial 1 for calling: ruby example_minisat_hack/minisat_wrapper_weights.rb example_minisat_hack/necessary/data/uf250-01.cnf "" 30.000000000000004 2147483647 -1 -asymm True -ccmin-mode 0 -cla-decay 0.999 -cp-increase 30000 -elim True -gc-frac 0.6 -lbd-cut 9 -lbd-cut-max 8 -luby 0.8 -phase-saving 2 -pre False -rcheck True -rfirst 1 -rinc 10 -rnd-freq 0.0 -rnd-init True -rnd-seed 91648253 -simp-gc-frac 0.3 -var-decay 0.90 -verb '2' > /tmp/tmp-2025-03-2900:37:16-0.12583351135253906
+Executing cmd: ruby example_minisat_hack/minisat_wrapper_weights.rb example_minisat_hack/necessary/data/uf250-01.cnf "" 30.000000000000004 2147483647 -1 -asymm True -ccmin-mode 0 -cla-decay 0.999 -cp-increase 30000 -elim True -gc-frac 0.6 -lbd-cut 9 -lbd-cut-max 8 -luby 0.8 -phase-saving 2 -pre False -rcheck True -rfirst 1 -rinc 10 -rnd-freq 0.0 -rnd-init True -rnd-seed 91648253 -simp-gc-frac 0.3 -var-decay 0.90 -verb '2' > /tmp/tmp-2025-03-2900:37:16-0.12583351135253906
+Result: SAT, 1.607, 0,  28002782, -1
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 1.607
+Total CPU time: 203.06200000000004
+the result has length = 5 and content = ["SAT", 1.607, 0, 28002782.0, -1]
+i am inide the perf = 28002782.0
+returning as objective perf = 28002782.0
+getAlgoResultsForInstsAndParams.
+  Trial 1 for calling: ruby example_minisat_hack/minisat_wrapper_weights.rb example_minisat_hack/necessary/data/uuf50-01.cnf "" 30.000000000000004 2147483647 -1 -asymm True -ccmin-mode 0 -cla-decay 0.999 -cp-increase 30000 -elim True -gc-frac 0.6 -lbd-cut 9 -lbd-cut-max 8 -luby 0.8 -phase-saving 2 -pre False -rcheck True -rfirst 1 -rinc 10 -rnd-freq 0.0 -rnd-init True -rnd-seed 91648253 -simp-gc-frac 0.3 -var-decay 0.90 -verb '2' > /tmp/tmp-2025-03-2900:37:18-0.6353244781494141
+Executing cmd: ruby example_minisat_hack/minisat_wrapper_weights.rb example_minisat_hack/necessary/data/uuf50-01.cnf "" 30.000000000000004 2147483647 -1 -asymm True -ccmin-mode 0 -cla-decay 0.999 -cp-increase 30000 -elim True -gc-frac 0.6 -lbd-cut 9 -lbd-cut-max 8 -luby 0.8 -phase-saving 2 -pre False -rcheck True -rfirst 1 -rinc 10 -rnd-freq 0.0 -rnd-init True -rnd-seed 91648253 -simp-gc-frac 0.3 -var-decay 0.90 -verb '2' > /tmp/tmp-2025-03-2900:37:18-0.6353244781494141
+Result: UNSAT, 1.538, 0,  83983, -1
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 1.538
+Total CPU time: 204.60000000000005
+the result has length = 5 and content = ["UNSAT", 1.538, 0, 83983.0, -1]
+i am inide the perf = 83983.0
+returning as objective perf = 83983.0
+getAlgoResultsForInstsAndParams.
+  Trial 1 for calling: ruby example_minisat_hack/minisat_wrapper_weights.rb example_minisat_hack/necessary/data/uf100-02.cnf "" 30.000000000000004 2147483647 -1 -asymm True -ccmin-mode 0 -cla-decay 0.999 -cp-increase 30000 -elim True -gc-frac 0.6 -lbd-cut 9 -lbd-cut-max 8 -luby 0.8 -phase-saving 2 -pre False -rcheck True -rfirst 1 -rinc 10 -rnd-freq 0.0 -rnd-init True -rnd-seed 91648253 -simp-gc-frac 0.3 -var-decay 0.90 -verb '2' > /tmp/tmp-2025-03-2900:37:19-0.28984856605529785
+Executing cmd: ruby example_minisat_hack/minisat_wrapper_weights.rb example_minisat_hack/necessary/data/uf100-02.cnf "" 30.000000000000004 2147483647 -1 -asymm True -ccmin-mode 0 -cla-decay 0.999 -cp-increase 30000 -elim True -gc-frac 0.6 -lbd-cut 9 -lbd-cut-max 8 -luby 0.8 -phase-saving 2 -pre False -rcheck True -rfirst 1 -rinc 10 -rnd-freq 0.0 -rnd-init True -rnd-seed 91648253 -simp-gc-frac 0.3 -var-decay 0.90 -verb '2' > /tmp/tmp-2025-03-2900:37:19-0.28984856605529785
+Result: SAT, 1.552, 0,  961712, -1
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 1.552
+Total CPU time: 206.15200000000004
+the result has length = 5 and content = ["SAT", 1.552, 0, 961712.0, -1]
+i am inide the perf = 961712.0
+returning as objective perf = 961712.0
+getAlgoResultsForInstsAndParams.
+  Trial 1 for calling: ruby example_minisat_hack/minisat_wrapper_weights.rb example_minisat_hack/necessary/data/uf50-02.cnf "" 30.000000000000004 2147483647 -1 -asymm True -ccmin-mode 0 -cla-decay 0.999 -cp-increase 30000 -elim True -gc-frac 0.6 -lbd-cut 9 -lbd-cut-max 8 -luby 0.8 -phase-saving 2 -pre False -rcheck True -rfirst 1 -rinc 10 -rnd-freq 0.0 -rnd-init True -rnd-seed 91648253 -simp-gc-frac 0.3 -var-decay 0.90 -verb '2' > /tmp/tmp-2025-03-2900:37:21-0.2896289825439453
+Executing cmd: ruby example_minisat_hack/minisat_wrapper_weights.rb example_minisat_hack/necessary/data/uf50-02.cnf "" 30.000000000000004 2147483647 -1 -asymm True -ccmin-mode 0 -cla-decay 0.999 -cp-increase 30000 -elim True -gc-frac 0.6 -lbd-cut 9 -lbd-cut-max 8 -luby 0.8 -phase-saving 2 -pre False -rcheck True -rfirst 1 -rinc 10 -rnd-freq 0.0 -rnd-init True -rnd-seed 91648253 -simp-gc-frac 0.3 -var-decay 0.90 -verb '2' > /tmp/tmp-2025-03-2900:37:21-0.2896289825439453
+Result: SAT, 1.494, 0,  536458, -1
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 1.494
+Total CPU time: 207.64600000000004
+the result has length = 5 and content = ["SAT", 1.494, 0, 536458.0, -1]
+i am inide the perf = 536458.0
+returning as objective perf = 536458.0
+getAlgoResultsForInstsAndParams.
+  Trial 1 for calling: ruby example_minisat_hack/minisat_wrapper_weights.rb example_minisat_hack/necessary/data/uf250-02.cnf "" 30.000000000000004 2147483647 -1 -asymm True -ccmin-mode 0 -cla-decay 0.999 -cp-increase 30000 -elim True -gc-frac 0.6 -lbd-cut 9 -lbd-cut-max 8 -luby 0.8 -phase-saving 2 -pre False -rcheck True -rfirst 1 -rinc 10 -rnd-freq 0.0 -rnd-init True -rnd-seed 91648253 -simp-gc-frac 0.3 -var-decay 0.90 -verb '2' > /tmp/tmp-2025-03-2900:37:22-0.7545504570007324
+Executing cmd: ruby example_minisat_hack/minisat_wrapper_weights.rb example_minisat_hack/necessary/data/uf250-02.cnf "" 30.000000000000004 2147483647 -1 -asymm True -ccmin-mode 0 -cla-decay 0.999 -cp-increase 30000 -elim True -gc-frac 0.6 -lbd-cut 9 -lbd-cut-max 8 -luby 0.8 -phase-saving 2 -pre False -rcheck True -rfirst 1 -rinc 10 -rnd-freq 0.0 -rnd-init True -rnd-seed 91648253 -simp-gc-frac 0.3 -var-decay 0.90 -verb '2' > /tmp/tmp-2025-03-2900:37:22-0.7545504570007324
+Result: SAT, 10.664, 0,  22154339638, -1
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 10.664
+Total CPU time: 218.31000000000003
+the result has length = 5 and content = ["SAT", 10.664, 0, 22154339638.0, -1]
+i am inide the perf = 22154339638.0
+returning as objective perf = 22154339638.0
+55/100000, 218.31000000000003/300.0
+        -> Worse random: asymm=True ccmin-mode=0 cla-decay=0.999 cp-increase=30000 elim=True gc-frac=0.6 lbd-cut=9 lbd-cut-max=8 luby=0.8 phase-saving=2 pre=False rcheck=True rfirst=1 rinc=10 rnd-freq=0.0 rnd-init=True rnd-seed=91648253 simp-gc-frac=0.3 var-decay=0.90 verb='2' (2819421791.7 [based on 20 runs with cutoff 30.0])
+Total CPU Time 218.31000000000003,  timeout 300.0
+Total CPU Time 218.31000000000003,  timeout 300.0
+now 2025-03-29 00:37:33 +0800; start 2025-03-29 00:33:52 +0800; time-start 221.422129218; maxWall 8640000.0
+getAlgoResultsForInstsAndParams.
+  Trial 1 for calling: ruby example_minisat_hack/minisat_wrapper_weights.rb example_minisat_hack/necessary/data/uuf150-02.cnf "" 30.000000000000004 2147483647 -1 -asymm False -ccmin-mode 2 -cla-decay 0.992 -cp-increase 40000 -elim False -gc-frac 0.1 -lbd-cut 7 -lbd-cut-max 10 -luby 0.6 -phase-saving 0 -pre False -rcheck False -rfirst 65535 -rinc 10 -rnd-freq 0.1 -rnd-init True -rnd-seed 91648253 -simp-gc-frac 0.7 -var-decay 0.95 -verb '2' > /tmp/tmp-2025-03-2900:37:33-0.45824098587036133
+Executing cmd: ruby example_minisat_hack/minisat_wrapper_weights.rb example_minisat_hack/necessary/data/uuf150-02.cnf "" 30.000000000000004 2147483647 -1 -asymm False -ccmin-mode 2 -cla-decay 0.992 -cp-increase 40000 -elim False -gc-frac 0.1 -lbd-cut 7 -lbd-cut-max 10 -luby 0.6 -phase-saving 0 -pre False -rcheck False -rfirst 65535 -rinc 10 -rnd-freq 0.1 -rnd-init True -rnd-seed 91648253 -simp-gc-frac 0.7 -var-decay 0.95 -verb '2' > /tmp/tmp-2025-03-2900:37:33-0.45824098587036133
+Result: UNSAT, 1.584, 0,  57854447, -1
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 1.584
+Total CPU time: 219.89400000000003
+the result has length = 5 and content = ["UNSAT", 1.584, 0, 57854447.0, -1]
+i am inide the perf = 57854447.0
+returning as objective perf = 57854447.0
+getAlgoResultsForInstsAndParams.
+  Trial 1 for calling: ruby example_minisat_hack/minisat_wrapper_weights.rb example_minisat_hack/necessary/data/uf100-01.cnf "" 30.000000000000004 2147483647 -1 -asymm False -ccmin-mode 2 -cla-decay 0.992 -cp-increase 40000 -elim False -gc-frac 0.1 -lbd-cut 7 -lbd-cut-max 10 -luby 0.6 -phase-saving 0 -pre False -rcheck False -rfirst 65535 -rinc 10 -rnd-freq 0.1 -rnd-init True -rnd-seed 91648253 -simp-gc-frac 0.7 -var-decay 0.95 -verb '2' > /tmp/tmp-2025-03-2900:37:35-0.3157501220703125
+Executing cmd: ruby example_minisat_hack/minisat_wrapper_weights.rb example_minisat_hack/necessary/data/uf100-01.cnf "" 30.000000000000004 2147483647 -1 -asymm False -ccmin-mode 2 -cla-decay 0.992 -cp-increase 40000 -elim False -gc-frac 0.1 -lbd-cut 7 -lbd-cut-max 10 -luby 0.6 -phase-saving 0 -pre False -rcheck False -rfirst 65535 -rinc 10 -rnd-freq 0.1 -rnd-init True -rnd-seed 91648253 -simp-gc-frac 0.7 -var-decay 0.95 -verb '2' > /tmp/tmp-2025-03-2900:37:35-0.3157501220703125
+Result: SAT, 1.505, 0,  2501851, -1
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 1.505
+Total CPU time: 221.39900000000003
+the result has length = 5 and content = ["SAT", 1.505, 0, 2501851.0, -1]
+i am inide the perf = 2501851.0
+returning as objective perf = 2501851.0
+getAlgoResultsForInstsAndParams.
+  Trial 1 for calling: ruby example_minisat_hack/minisat_wrapper_weights.rb example_minisat_hack/necessary/data/uuf200-02.cnf "" 30.000000000000004 2147483647 -1 -asymm False -ccmin-mode 2 -cla-decay 0.992 -cp-increase 40000 -elim False -gc-frac 0.1 -lbd-cut 7 -lbd-cut-max 10 -luby 0.6 -phase-saving 0 -pre False -rcheck False -rfirst 65535 -rinc 10 -rnd-freq 0.1 -rnd-init True -rnd-seed 91648253 -simp-gc-frac 0.7 -var-decay 0.95 -verb '2' > /tmp/tmp-2025-03-2900:37:36-0.4568748474121094
+Executing cmd: ruby example_minisat_hack/minisat_wrapper_weights.rb example_minisat_hack/necessary/data/uuf200-02.cnf "" 30.000000000000004 2147483647 -1 -asymm False -ccmin-mode 2 -cla-decay 0.992 -cp-increase 40000 -elim False -gc-frac 0.1 -lbd-cut 7 -lbd-cut-max 10 -luby 0.6 -phase-saving 0 -pre False -rcheck False -rfirst 65535 -rinc 10 -rnd-freq 0.1 -rnd-init True -rnd-seed 91648253 -simp-gc-frac 0.7 -var-decay 0.95 -verb '2' > /tmp/tmp-2025-03-2900:37:36-0.4568748474121094
+Result: UNSAT, 1.794, 0,  1125686363, -1
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 1.794
+Total CPU time: 223.19300000000004
+the result has length = 5 and content = ["UNSAT", 1.794, 0, 1125686363.0, -1]
+i am inide the perf = 1125686363.0
+returning as objective perf = 1125686363.0
+getAlgoResultsForInstsAndParams.
+  Trial 1 for calling: ruby example_minisat_hack/minisat_wrapper_weights.rb example_minisat_hack/necessary/data/uuf250-01.cnf "" 30.000000000000004 2147483647 -1 -asymm False -ccmin-mode 2 -cla-decay 0.992 -cp-increase 40000 -elim False -gc-frac 0.1 -lbd-cut 7 -lbd-cut-max 10 -luby 0.6 -phase-saving 0 -pre False -rcheck False -rfirst 65535 -rinc 10 -rnd-freq 0.1 -rnd-init True -rnd-seed 91648253 -simp-gc-frac 0.7 -var-decay 0.95 -verb '2' > /tmp/tmp-2025-03-2900:37:38-0.3076479434967041
+Executing cmd: ruby example_minisat_hack/minisat_wrapper_weights.rb example_minisat_hack/necessary/data/uuf250-01.cnf "" 30.000000000000004 2147483647 -1 -asymm False -ccmin-mode 2 -cla-decay 0.992 -cp-increase 40000 -elim False -gc-frac 0.1 -lbd-cut 7 -lbd-cut-max 10 -luby 0.6 -phase-saving 0 -pre False -rcheck False -rfirst 65535 -rinc 10 -rnd-freq 0.1 -rnd-init True -rnd-seed 91648253 -simp-gc-frac 0.7 -var-decay 0.95 -verb '2' > /tmp/tmp-2025-03-2900:37:38-0.3076479434967041
+Result: UNSAT, 10.673, 0,  21430758725, -1
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 10.673
+Total CPU time: 233.86600000000004
+the result has length = 5 and content = ["UNSAT", 10.673, 0, 21430758725.0, -1]
+i am inide the perf = 21430758725.0
+returning as objective perf = 21430758725.0
+59/100000, 233.86600000000004/300.0
+getAlgoResultsForInstsAndParams.
+  Trial 1 for calling: ruby example_minisat_hack/minisat_wrapper_weights.rb example_minisat_hack/necessary/data/uuf100-01.cnf "" 30.000000000000004 2147483647 -1 -asymm False -ccmin-mode 2 -cla-decay 0.992 -cp-increase 40000 -elim False -gc-frac 0.1 -lbd-cut 7 -lbd-cut-max 10 -luby 0.6 -phase-saving 0 -pre False -rcheck False -rfirst 65535 -rinc 10 -rnd-freq 0.1 -rnd-init True -rnd-seed 91648253 -simp-gc-frac 0.7 -var-decay 0.95 -verb '2' > /tmp/tmp-2025-03-2900:37:49-0.01595163345336914
+Executing cmd: ruby example_minisat_hack/minisat_wrapper_weights.rb example_minisat_hack/necessary/data/uuf100-01.cnf "" 30.000000000000004 2147483647 -1 -asymm False -ccmin-mode 2 -cla-decay 0.992 -cp-increase 40000 -elim False -gc-frac 0.1 -lbd-cut 7 -lbd-cut-max 10 -luby 0.6 -phase-saving 0 -pre False -rcheck False -rfirst 65535 -rinc 10 -rnd-freq 0.1 -rnd-init True -rnd-seed 91648253 -simp-gc-frac 0.7 -var-decay 0.95 -verb '2' > /tmp/tmp-2025-03-2900:37:49-0.01595163345336914
+Result: UNSAT, 1.545, 0,  5861099, -1
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 1.545
+Total CPU time: 235.41100000000003
+the result has length = 5 and content = ["UNSAT", 1.545, 0, 5861099.0, -1]
+i am inide the perf = 5861099.0
+returning as objective perf = 5861099.0
+getAlgoResultsForInstsAndParams.
+  Trial 1 for calling: ruby example_minisat_hack/minisat_wrapper_weights.rb example_minisat_hack/necessary/data/uf200-02.cnf "" 30.000000000000004 2147483647 -1 -asymm False -ccmin-mode 2 -cla-decay 0.992 -cp-increase 40000 -elim False -gc-frac 0.1 -lbd-cut 7 -lbd-cut-max 10 -luby 0.6 -phase-saving 0 -pre False -rcheck False -rfirst 65535 -rinc 10 -rnd-freq 0.1 -rnd-init True -rnd-seed 91648253 -simp-gc-frac 0.7 -var-decay 0.95 -verb '2' > /tmp/tmp-2025-03-2900:37:50-0.9102983474731445
+Executing cmd: ruby example_minisat_hack/minisat_wrapper_weights.rb example_minisat_hack/necessary/data/uf200-02.cnf "" 30.000000000000004 2147483647 -1 -asymm False -ccmin-mode 2 -cla-decay 0.992 -cp-increase 40000 -elim False -gc-frac 0.1 -lbd-cut 7 -lbd-cut-max 10 -luby 0.6 -phase-saving 0 -pre False -rcheck False -rfirst 65535 -rinc 10 -rnd-freq 0.1 -rnd-init True -rnd-seed 91648253 -simp-gc-frac 0.7 -var-decay 0.95 -verb '2' > /tmp/tmp-2025-03-2900:37:50-0.9102983474731445
+Result: SAT, 1.587, 0,  3728564, -1
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 1.587
+Total CPU time: 236.99800000000002
+the result has length = 5 and content = ["SAT", 1.587, 0, 3728564.0, -1]
+i am inide the perf = 3728564.0
+returning as objective perf = 3728564.0
+getAlgoResultsForInstsAndParams.
+  Trial 1 for calling: ruby example_minisat_hack/minisat_wrapper_weights.rb example_minisat_hack/necessary/data/uf150-02.cnf "" 30.000000000000004 2147483647 -1 -asymm False -ccmin-mode 2 -cla-decay 0.992 -cp-increase 40000 -elim False -gc-frac 0.1 -lbd-cut 7 -lbd-cut-max 10 -luby 0.6 -phase-saving 0 -pre False -rcheck False -rfirst 65535 -rinc 10 -rnd-freq 0.1 -rnd-init True -rnd-seed 91648253 -simp-gc-frac 0.7 -var-decay 0.95 -verb '2' > /tmp/tmp-2025-03-2900:37:52-0.3182640075683594
+Executing cmd: ruby example_minisat_hack/minisat_wrapper_weights.rb example_minisat_hack/necessary/data/uf150-02.cnf "" 30.000000000000004 2147483647 -1 -asymm False -ccmin-mode 2 -cla-decay 0.992 -cp-increase 40000 -elim False -gc-frac 0.1 -lbd-cut 7 -lbd-cut-max 10 -luby 0.6 -phase-saving 0 -pre False -rcheck False -rfirst 65535 -rinc 10 -rnd-freq 0.1 -rnd-init True -rnd-seed 91648253 -simp-gc-frac 0.7 -var-decay 0.95 -verb '2' > /tmp/tmp-2025-03-2900:37:52-0.3182640075683594
+Result: SAT, 1.535, 0,  8987023, -1
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 1.535
+Total CPU time: 238.53300000000002
+the result has length = 5 and content = ["SAT", 1.535, 0, 8987023.0, -1]
+i am inide the perf = 8987023.0
+returning as objective perf = 8987023.0
+getAlgoResultsForInstsAndParams.
+  Trial 1 for calling: ruby example_minisat_hack/minisat_wrapper_weights.rb example_minisat_hack/necessary/data/uuf250-02.cnf "" 30.000000000000004 2147483647 -1 -asymm False -ccmin-mode 2 -cla-decay 0.992 -cp-increase 40000 -elim False -gc-frac 0.1 -lbd-cut 7 -lbd-cut-max 10 -luby 0.6 -phase-saving 0 -pre False -rcheck False -rfirst 65535 -rinc 10 -rnd-freq 0.1 -rnd-init True -rnd-seed 91648253 -simp-gc-frac 0.7 -var-decay 0.95 -verb '2' > /tmp/tmp-2025-03-2900:37:54-0.9800128936767578
+Executing cmd: ruby example_minisat_hack/minisat_wrapper_weights.rb example_minisat_hack/necessary/data/uuf250-02.cnf "" 30.000000000000004 2147483647 -1 -asymm False -ccmin-mode 2 -cla-decay 0.992 -cp-increase 40000 -elim False -gc-frac 0.1 -lbd-cut 7 -lbd-cut-max 10 -luby 0.6 -phase-saving 0 -pre False -rcheck False -rfirst 65535 -rinc 10 -rnd-freq 0.1 -rnd-init True -rnd-seed 91648253 -simp-gc-frac 0.7 -var-decay 0.95 -verb '2' > /tmp/tmp-2025-03-2900:37:54-0.9800128936767578
+Result: UNSAT, 10.562, 0,  22243550561, -1
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 10.562
+Total CPU time: 249.09500000000003
+the result has length = 5 and content = ["UNSAT", 10.562, 0, 22243550561.0, -1]
+i am inide the perf = 22243550561.0
+returning as objective perf = 22243550561.0
+63/100000, 249.09500000000003/300.0
+the result has length = 5 and content = ["UNSAT", 1.584, 0, 57854447.0, -1]
+i am inide the perf = 57854447.0
+returning as objective perf = 57854447.0
+the result has length = 5 and content = ["SAT", 1.505, 0, 2501851.0, -1]
+i am inide the perf = 2501851.0
+returning as objective perf = 2501851.0
+the result has length = 5 and content = ["UNSAT", 1.794, 0, 1125686363.0, -1]
+i am inide the perf = 1125686363.0
+returning as objective perf = 1125686363.0
+the result has length = 5 and content = ["UNSAT", 10.673, 0, 21430758725.0, -1]
+i am inide the perf = 21430758725.0
+returning as objective perf = 21430758725.0
+the result has length = 5 and content = ["UNSAT", 1.545, 0, 5861099.0, -1]
+i am inide the perf = 5861099.0
+returning as objective perf = 5861099.0
+the result has length = 5 and content = ["SAT", 1.587, 0, 3728564.0, -1]
+i am inide the perf = 3728564.0
+returning as objective perf = 3728564.0
+the result has length = 5 and content = ["SAT", 1.535, 0, 8987023.0, -1]
+i am inide the perf = 8987023.0
+returning as objective perf = 8987023.0
+the result has length = 5 and content = ["UNSAT", 10.562, 0, 22243550561.0, -1]
+i am inide the perf = 22243550561.0
+returning as objective perf = 22243550561.0
+the result has length = 5 and content = ["UNSAT", 1.584, 0, 57854447.0, -1]
+i am inide the perf = 57854447.0
+returning as objective perf = 57854447.0
+the result has length = 5 and content = ["SAT", 1.505, 0, 2501851.0, -1]
+i am inide the perf = 2501851.0
+returning as objective perf = 2501851.0
+the result has length = 5 and content = ["UNSAT", 1.794, 0, 1125686363.0, -1]
+i am inide the perf = 1125686363.0
+returning as objective perf = 1125686363.0
+the result has length = 5 and content = ["UNSAT", 10.673, 0, 21430758725.0, -1]
+i am inide the perf = 21430758725.0
+returning as objective perf = 21430758725.0
+the result has length = 5 and content = ["UNSAT", 1.545, 0, 5861099.0, -1]
+i am inide the perf = 5861099.0
+returning as objective perf = 5861099.0
+the result has length = 5 and content = ["SAT", 1.587, 0, 3728564.0, -1]
+i am inide the perf = 3728564.0
+returning as objective perf = 3728564.0
+the result has length = 5 and content = ["SAT", 1.535, 0, 8987023.0, -1]
+i am inide the perf = 8987023.0
+returning as objective perf = 8987023.0
+the result has length = 5 and content = ["UNSAT", 10.562, 0, 22243550561.0, -1]
+i am inide the perf = 22243550561.0
+returning as objective perf = 22243550561.0
+the result has length = 5 and content = ["UNSAT", 1.584, 0, 57854447.0, -1]
+i am inide the perf = 57854447.0
+returning as objective perf = 57854447.0
+the result has length = 5 and content = ["SAT", 1.505, 0, 2501851.0, -1]
+i am inide the perf = 2501851.0
+returning as objective perf = 2501851.0
+the result has length = 5 and content = ["UNSAT", 1.794, 0, 1125686363.0, -1]
+i am inide the perf = 1125686363.0
+returning as objective perf = 1125686363.0
+the result has length = 5 and content = ["UNSAT", 10.673, 0, 21430758725.0, -1]
+i am inide the perf = 21430758725.0
+returning as objective perf = 21430758725.0
+the result has length = 5 and content = ["UNSAT", 1.545, 0, 5861099.0, -1]
+i am inide the perf = 5861099.0
+returning as objective perf = 5861099.0
+the result has length = 5 and content = ["SAT", 1.587, 0, 3728564.0, -1]
+i am inide the perf = 3728564.0
+returning as objective perf = 3728564.0
+the result has length = 5 and content = ["SAT", 1.535, 0, 8987023.0, -1]
+i am inide the perf = 8987023.0
+returning as objective perf = 8987023.0
+the result has length = 5 and content = ["UNSAT", 10.562, 0, 22243550561.0, -1]
+i am inide the perf = 22243550561.0
+returning as objective perf = 22243550561.0
+        -> Worse random: asymm=False ccmin-mode=2 cla-decay=0.992 cp-increase=40000 elim=False gc-frac=0.1 lbd-cut=7 lbd-cut-max=10 luby=0.6 phase-saving=0 pre=False rcheck=False rfirst=65535 rinc=10 rnd-freq=0.1 rnd-init=True rnd-seed=91648253 simp-gc-frac=0.7 var-decay=0.95 verb='2' (["pruned", 8] [based on 20 runs with cutoff 30.0])
+Total CPU Time 249.09500000000003,  timeout 300.0
+Total CPU Time 249.09500000000003,  timeout 300.0
+now 2025-03-29 00:38:04 +0800; start 2025-03-29 00:33:52 +0800; time-start 252.669022413; maxWall 8640000.0
+getAlgoResultsForInstsAndParams.
+  Trial 1 for calling: ruby example_minisat_hack/minisat_wrapper_weights.rb example_minisat_hack/necessary/data/uuf150-02.cnf "" 30.000000000000004 2147483647 -1 -asymm True -ccmin-mode 1 -cla-decay 0.998 -cp-increase 25000 -elim False -gc-frac 0.4 -lbd-cut 3 -lbd-cut-max 15 -luby 0.4 -phase-saving 2 -pre True -rcheck True -rfirst 10 -rinc 1000 -rnd-freq 0.1 -rnd-init False -rnd-seed 91648253 -simp-gc-frac 0.3 -var-decay 0.70 -verb '2' > /tmp/tmp-2025-03-2900:38:04-0.82804274559021
+Executing cmd: ruby example_minisat_hack/minisat_wrapper_weights.rb example_minisat_hack/necessary/data/uuf150-02.cnf "" 30.000000000000004 2147483647 -1 -asymm True -ccmin-mode 1 -cla-decay 0.998 -cp-increase 25000 -elim False -gc-frac 0.4 -lbd-cut 3 -lbd-cut-max 15 -luby 0.4 -phase-saving 2 -pre True -rcheck True -rfirst 10 -rinc 1000 -rnd-freq 0.1 -rnd-init False -rnd-seed 91648253 -simp-gc-frac 0.3 -var-decay 0.70 -verb '2' > /tmp/tmp-2025-03-2900:38:04-0.82804274559021
+Result: UNSAT, 1.702, 0,  94949824, -1
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 1.702
+Total CPU time: 250.79700000000003
+the result has length = 5 and content = ["UNSAT", 1.702, 0, 94949824.0, -1]
+i am inide the perf = 94949824.0
+returning as objective perf = 94949824.0
+getAlgoResultsForInstsAndParams.
+  Trial 1 for calling: ruby example_minisat_hack/minisat_wrapper_weights.rb example_minisat_hack/necessary/data/uf100-01.cnf "" 30.000000000000004 2147483647 -1 -asymm True -ccmin-mode 1 -cla-decay 0.998 -cp-increase 25000 -elim False -gc-frac 0.4 -lbd-cut 3 -lbd-cut-max 15 -luby 0.4 -phase-saving 2 -pre True -rcheck True -rfirst 10 -rinc 1000 -rnd-freq 0.1 -rnd-init False -rnd-seed 91648253 -simp-gc-frac 0.3 -var-decay 0.70 -verb '2' > /tmp/tmp-2025-03-2900:38:06-0.12938809394836426
+Executing cmd: ruby example_minisat_hack/minisat_wrapper_weights.rb example_minisat_hack/necessary/data/uf100-01.cnf "" 30.000000000000004 2147483647 -1 -asymm True -ccmin-mode 1 -cla-decay 0.998 -cp-increase 25000 -elim False -gc-frac 0.4 -lbd-cut 3 -lbd-cut-max 15 -luby 0.4 -phase-saving 2 -pre True -rcheck True -rfirst 10 -rinc 1000 -rnd-freq 0.1 -rnd-init False -rnd-seed 91648253 -simp-gc-frac 0.3 -var-decay 0.70 -verb '2' > /tmp/tmp-2025-03-2900:38:06-0.12938809394836426
+Result: SAT, 1.508, 0,  310852, -1
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 1.508
+Total CPU time: 252.30500000000004
+the result has length = 5 and content = ["SAT", 1.508, 0, 310852.0, -1]
+i am inide the perf = 310852.0
+returning as objective perf = 310852.0
+getAlgoResultsForInstsAndParams.
+  Trial 1 for calling: ruby example_minisat_hack/minisat_wrapper_weights.rb example_minisat_hack/necessary/data/uuf200-02.cnf "" 30.000000000000004 2147483647 -1 -asymm True -ccmin-mode 1 -cla-decay 0.998 -cp-increase 25000 -elim False -gc-frac 0.4 -lbd-cut 3 -lbd-cut-max 15 -luby 0.4 -phase-saving 2 -pre True -rcheck True -rfirst 10 -rinc 1000 -rnd-freq 0.1 -rnd-init False -rnd-seed 91648253 -simp-gc-frac 0.3 -var-decay 0.70 -verb '2' > /tmp/tmp-2025-03-2900:38:08-0.3966178894042969
+Executing cmd: ruby example_minisat_hack/minisat_wrapper_weights.rb example_minisat_hack/necessary/data/uuf200-02.cnf "" 30.000000000000004 2147483647 -1 -asymm True -ccmin-mode 1 -cla-decay 0.998 -cp-increase 25000 -elim False -gc-frac 0.4 -lbd-cut 3 -lbd-cut-max 15 -luby 0.4 -phase-saving 2 -pre True -rcheck True -rfirst 10 -rinc 1000 -rnd-freq 0.1 -rnd-init False -rnd-seed 91648253 -simp-gc-frac 0.3 -var-decay 0.70 -verb '2' > /tmp/tmp-2025-03-2900:38:08-0.3966178894042969
+Result: UNSAT, 1.853, 0,  1918566787, -1
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 1.853
+Total CPU time: 254.15800000000004
+the result has length = 5 and content = ["UNSAT", 1.853, 0, 1918566787.0, -1]
+i am inide the perf = 1918566787.0
+returning as objective perf = 1918566787.0
+getAlgoResultsForInstsAndParams.
+  Trial 1 for calling: ruby example_minisat_hack/minisat_wrapper_weights.rb example_minisat_hack/necessary/data/uuf250-01.cnf "" 30.000000000000004 2147483647 -1 -asymm True -ccmin-mode 1 -cla-decay 0.998 -cp-increase 25000 -elim False -gc-frac 0.4 -lbd-cut 3 -lbd-cut-max 15 -luby 0.4 -phase-saving 2 -pre True -rcheck True -rfirst 10 -rinc 1000 -rnd-freq 0.1 -rnd-init False -rnd-seed 91648253 -simp-gc-frac 0.3 -var-decay 0.70 -verb '2' > /tmp/tmp-2025-03-2900:38:10-0.8167095184326172
+Executing cmd: ruby example_minisat_hack/minisat_wrapper_weights.rb example_minisat_hack/necessary/data/uuf250-01.cnf "" 30.000000000000004 2147483647 -1 -asymm True -ccmin-mode 1 -cla-decay 0.998 -cp-increase 25000 -elim False -gc-frac 0.4 -lbd-cut 3 -lbd-cut-max 15 -luby 0.4 -phase-saving 2 -pre True -rcheck True -rfirst 10 -rinc 1000 -rnd-freq 0.1 -rnd-init False -rnd-seed 91648253 -simp-gc-frac 0.3 -var-decay 0.70 -verb '2' > /tmp/tmp-2025-03-2900:38:10-0.8167095184326172
+Result: UNSAT, 9.551, 0,  20441088031, -1
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 9.551
+Total CPU time: 263.70900000000006
+the result has length = 5 and content = ["UNSAT", 9.551, 0, 20441088031.0, -1]
+i am inide the perf = 20441088031.0
+returning as objective perf = 20441088031.0
+67/100000, 263.70900000000006/300.0
+getAlgoResultsForInstsAndParams.
+  Trial 1 for calling: ruby example_minisat_hack/minisat_wrapper_weights.rb example_minisat_hack/necessary/data/uuf100-01.cnf "" 30.000000000000004 2147483647 -1 -asymm True -ccmin-mode 1 -cla-decay 0.998 -cp-increase 25000 -elim False -gc-frac 0.4 -lbd-cut 3 -lbd-cut-max 15 -luby 0.4 -phase-saving 2 -pre True -rcheck True -rfirst 10 -rinc 1000 -rnd-freq 0.1 -rnd-init False -rnd-seed 91648253 -simp-gc-frac 0.3 -var-decay 0.70 -verb '2' > /tmp/tmp-2025-03-2900:38:19-0.14344167709350586
+Executing cmd: ruby example_minisat_hack/minisat_wrapper_weights.rb example_minisat_hack/necessary/data/uuf100-01.cnf "" 30.000000000000004 2147483647 -1 -asymm True -ccmin-mode 1 -cla-decay 0.998 -cp-increase 25000 -elim False -gc-frac 0.4 -lbd-cut 3 -lbd-cut-max 15 -luby 0.4 -phase-saving 2 -pre True -rcheck True -rfirst 10 -rinc 1000 -rnd-freq 0.1 -rnd-init False -rnd-seed 91648253 -simp-gc-frac 0.3 -var-decay 0.70 -verb '2' > /tmp/tmp-2025-03-2900:38:19-0.14344167709350586
+Result: UNSAT, 1.548, 0,  6201615, -1
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 1.548
+Total CPU time: 265.25700000000006
+the result has length = 5 and content = ["UNSAT", 1.548, 0, 6201615.0, -1]
+i am inide the perf = 6201615.0
+returning as objective perf = 6201615.0
+getAlgoResultsForInstsAndParams.
+  Trial 1 for calling: ruby example_minisat_hack/minisat_wrapper_weights.rb example_minisat_hack/necessary/data/uf200-02.cnf "" 30.000000000000004 2147483647 -1 -asymm True -ccmin-mode 1 -cla-decay 0.998 -cp-increase 25000 -elim False -gc-frac 0.4 -lbd-cut 3 -lbd-cut-max 15 -luby 0.4 -phase-saving 2 -pre True -rcheck True -rfirst 10 -rinc 1000 -rnd-freq 0.1 -rnd-init False -rnd-seed 91648253 -simp-gc-frac 0.3 -var-decay 0.70 -verb '2' > /tmp/tmp-2025-03-2900:38:21-0.6729178428649902
+Executing cmd: ruby example_minisat_hack/minisat_wrapper_weights.rb example_minisat_hack/necessary/data/uf200-02.cnf "" 30.000000000000004 2147483647 -1 -asymm True -ccmin-mode 1 -cla-decay 0.998 -cp-increase 25000 -elim False -gc-frac 0.4 -lbd-cut 3 -lbd-cut-max 15 -luby 0.4 -phase-saving 2 -pre True -rcheck True -rfirst 10 -rinc 1000 -rnd-freq 0.1 -rnd-init False -rnd-seed 91648253 -simp-gc-frac 0.3 -var-decay 0.70 -verb '2' > /tmp/tmp-2025-03-2900:38:21-0.6729178428649902
+Result: SAT, 1.572, 0,  3244284, -1
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 1.572
+Total CPU time: 266.82900000000006
+the result has length = 5 and content = ["SAT", 1.572, 0, 3244284.0, -1]
+i am inide the perf = 3244284.0
+returning as objective perf = 3244284.0
+getAlgoResultsForInstsAndParams.
+  Trial 1 for calling: ruby example_minisat_hack/minisat_wrapper_weights.rb example_minisat_hack/necessary/data/uf150-02.cnf "" 30.000000000000004 2147483647 -1 -asymm True -ccmin-mode 1 -cla-decay 0.998 -cp-increase 25000 -elim False -gc-frac 0.4 -lbd-cut 3 -lbd-cut-max 15 -luby 0.4 -phase-saving 2 -pre True -rcheck True -rfirst 10 -rinc 1000 -rnd-freq 0.1 -rnd-init False -rnd-seed 91648253 -simp-gc-frac 0.3 -var-decay 0.70 -verb '2' > /tmp/tmp-2025-03-2900:38:22-0.840261697769165
+Executing cmd: ruby example_minisat_hack/minisat_wrapper_weights.rb example_minisat_hack/necessary/data/uf150-02.cnf "" 30.000000000000004 2147483647 -1 -asymm True -ccmin-mode 1 -cla-decay 0.998 -cp-increase 25000 -elim False -gc-frac 0.4 -lbd-cut 3 -lbd-cut-max 15 -luby 0.4 -phase-saving 2 -pre True -rcheck True -rfirst 10 -rinc 1000 -rnd-freq 0.1 -rnd-init False -rnd-seed 91648253 -simp-gc-frac 0.3 -var-decay 0.70 -verb '2' > /tmp/tmp-2025-03-2900:38:22-0.840261697769165
+Result: SAT, 1.631, 0,  32556926, -1
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 1.631
+Total CPU time: 268.46000000000004
+the result has length = 5 and content = ["SAT", 1.631, 0, 32556926.0, -1]
+i am inide the perf = 32556926.0
+returning as objective perf = 32556926.0
+getAlgoResultsForInstsAndParams.
+  Trial 1 for calling: ruby example_minisat_hack/minisat_wrapper_weights.rb example_minisat_hack/necessary/data/uuf250-02.cnf "" 30.000000000000004 2147483647 -1 -asymm True -ccmin-mode 1 -cla-decay 0.998 -cp-increase 25000 -elim False -gc-frac 0.4 -lbd-cut 3 -lbd-cut-max 15 -luby 0.4 -phase-saving 2 -pre True -rcheck True -rfirst 10 -rinc 1000 -rnd-freq 0.1 -rnd-init False -rnd-seed 91648253 -simp-gc-frac 0.3 -var-decay 0.70 -verb '2' > /tmp/tmp-2025-03-2900:38:24-0.279193639755249
+Executing cmd: ruby example_minisat_hack/minisat_wrapper_weights.rb example_minisat_hack/necessary/data/uuf250-02.cnf "" 30.000000000000004 2147483647 -1 -asymm True -ccmin-mode 1 -cla-decay 0.998 -cp-increase 25000 -elim False -gc-frac 0.4 -lbd-cut 3 -lbd-cut-max 15 -luby 0.4 -phase-saving 2 -pre True -rcheck True -rfirst 10 -rinc 1000 -rnd-freq 0.1 -rnd-init False -rnd-seed 91648253 -simp-gc-frac 0.3 -var-decay 0.70 -verb '2' > /tmp/tmp-2025-03-2900:38:24-0.279193639755249
+Result: UNSAT, 9.756, 0,  21298118745, -1
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 9.756
+Total CPU time: 278.216
+the result has length = 5 and content = ["UNSAT", 9.756, 0, 21298118745.0, -1]
+i am inide the perf = 21298118745.0
+returning as objective perf = 21298118745.0
+71/100000, 278.216/300.0
+the result has length = 5 and content = ["UNSAT", 1.702, 0, 94949824.0, -1]
+i am inide the perf = 94949824.0
+returning as objective perf = 94949824.0
+the result has length = 5 and content = ["SAT", 1.508, 0, 310852.0, -1]
+i am inide the perf = 310852.0
+returning as objective perf = 310852.0
+the result has length = 5 and content = ["UNSAT", 1.853, 0, 1918566787.0, -1]
+i am inide the perf = 1918566787.0
+returning as objective perf = 1918566787.0
+the result has length = 5 and content = ["UNSAT", 9.551, 0, 20441088031.0, -1]
+i am inide the perf = 20441088031.0
+returning as objective perf = 20441088031.0
+the result has length = 5 and content = ["UNSAT", 1.548, 0, 6201615.0, -1]
+i am inide the perf = 6201615.0
+returning as objective perf = 6201615.0
+the result has length = 5 and content = ["SAT", 1.572, 0, 3244284.0, -1]
+i am inide the perf = 3244284.0
+returning as objective perf = 3244284.0
+the result has length = 5 and content = ["SAT", 1.631, 0, 32556926.0, -1]
+i am inide the perf = 32556926.0
+returning as objective perf = 32556926.0
+the result has length = 5 and content = ["UNSAT", 9.756, 0, 21298118745.0, -1]
+i am inide the perf = 21298118745.0
+returning as objective perf = 21298118745.0
+the result has length = 5 and content = ["UNSAT", 1.702, 0, 94949824.0, -1]
+i am inide the perf = 94949824.0
+returning as objective perf = 94949824.0
+the result has length = 5 and content = ["SAT", 1.508, 0, 310852.0, -1]
+i am inide the perf = 310852.0
+returning as objective perf = 310852.0
+the result has length = 5 and content = ["UNSAT", 1.853, 0, 1918566787.0, -1]
+i am inide the perf = 1918566787.0
+returning as objective perf = 1918566787.0
+the result has length = 5 and content = ["UNSAT", 9.551, 0, 20441088031.0, -1]
+i am inide the perf = 20441088031.0
+returning as objective perf = 20441088031.0
+the result has length = 5 and content = ["UNSAT", 1.548, 0, 6201615.0, -1]
+i am inide the perf = 6201615.0
+returning as objective perf = 6201615.0
+the result has length = 5 and content = ["SAT", 1.572, 0, 3244284.0, -1]
+i am inide the perf = 3244284.0
+returning as objective perf = 3244284.0
+the result has length = 5 and content = ["SAT", 1.631, 0, 32556926.0, -1]
+i am inide the perf = 32556926.0
+returning as objective perf = 32556926.0
+the result has length = 5 and content = ["UNSAT", 9.756, 0, 21298118745.0, -1]
+i am inide the perf = 21298118745.0
+returning as objective perf = 21298118745.0
+the result has length = 5 and content = ["UNSAT", 1.702, 0, 94949824.0, -1]
+i am inide the perf = 94949824.0
+returning as objective perf = 94949824.0
+the result has length = 5 and content = ["SAT", 1.508, 0, 310852.0, -1]
+i am inide the perf = 310852.0
+returning as objective perf = 310852.0
+the result has length = 5 and content = ["UNSAT", 1.853, 0, 1918566787.0, -1]
+i am inide the perf = 1918566787.0
+returning as objective perf = 1918566787.0
+the result has length = 5 and content = ["UNSAT", 9.551, 0, 20441088031.0, -1]
+i am inide the perf = 20441088031.0
+returning as objective perf = 20441088031.0
+the result has length = 5 and content = ["UNSAT", 1.548, 0, 6201615.0, -1]
+i am inide the perf = 6201615.0
+returning as objective perf = 6201615.0
+the result has length = 5 and content = ["SAT", 1.572, 0, 3244284.0, -1]
+i am inide the perf = 3244284.0
+returning as objective perf = 3244284.0
+the result has length = 5 and content = ["SAT", 1.631, 0, 32556926.0, -1]
+i am inide the perf = 32556926.0
+returning as objective perf = 32556926.0
+the result has length = 5 and content = ["UNSAT", 9.756, 0, 21298118745.0, -1]
+i am inide the perf = 21298118745.0
+returning as objective perf = 21298118745.0
+        -> Worse random: asymm=True ccmin-mode=1 cla-decay=0.998 cp-increase=25000 elim=False gc-frac=0.4 lbd-cut=3 lbd-cut-max=15 luby=0.4 phase-saving=2 pre=True rcheck=True rfirst=10 rinc=1000 rnd-freq=0.1 rnd-init=False rnd-seed=91648253 simp-gc-frac=0.3 var-decay=0.70 verb='2' (["pruned", 8] [based on 20 runs with cutoff 30.0])
+Total CPU Time 278.216,  timeout 300.0
+Total CPU Time 278.216,  timeout 300.0
+now 2025-03-29 00:38:34 +0800; start 2025-03-29 00:33:52 +0800; time-start 282.235944247; maxWall 8640000.0
+getAlgoResultsForInstsAndParams.
+  Trial 1 for calling: ruby example_minisat_hack/minisat_wrapper_weights.rb example_minisat_hack/necessary/data/uuf150-02.cnf "" 30.000000000000004 2147483647 -1 -asymm False -ccmin-mode 2 -cla-decay 0.998 -cp-increase 35000 -elim True -gc-frac 0.4 -lbd-cut 7 -lbd-cut-max 10 -luby 0.9 -phase-saving 2 -pre False -rcheck True -rfirst 50 -rinc 65535 -rnd-freq 0.5 -rnd-init False -rnd-seed 91648253 -simp-gc-frac 0.6 -var-decay 0.90 -verb '2' > /tmp/tmp-2025-03-2900:38:34-0.1735363006591797
+Executing cmd: ruby example_minisat_hack/minisat_wrapper_weights.rb example_minisat_hack/necessary/data/uuf150-02.cnf "" 30.000000000000004 2147483647 -1 -asymm False -ccmin-mode 2 -cla-decay 0.998 -cp-increase 35000 -elim True -gc-frac 0.4 -lbd-cut 7 -lbd-cut-max 10 -luby 0.9 -phase-saving 2 -pre False -rcheck True -rfirst 50 -rinc 65535 -rnd-freq 0.5 -rnd-init False -rnd-seed 91648253 -simp-gc-frac 0.6 -var-decay 0.90 -verb '2' > /tmp/tmp-2025-03-2900:38:34-0.1735363006591797
+Result: UNSAT, 1.725, 0,  386121497, -1
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 1.725
+Total CPU time: 279.94100000000003
+the result has length = 5 and content = ["UNSAT", 1.725, 0, 386121497.0, -1]
+i am inide the perf = 386121497.0
+returning as objective perf = 386121497.0
+getAlgoResultsForInstsAndParams.
+  Trial 1 for calling: ruby example_minisat_hack/minisat_wrapper_weights.rb example_minisat_hack/necessary/data/uf100-01.cnf "" 30.000000000000004 2147483647 -1 -asymm False -ccmin-mode 2 -cla-decay 0.998 -cp-increase 35000 -elim True -gc-frac 0.4 -lbd-cut 7 -lbd-cut-max 10 -luby 0.9 -phase-saving 2 -pre False -rcheck True -rfirst 50 -rinc 65535 -rnd-freq 0.5 -rnd-init False -rnd-seed 91648253 -simp-gc-frac 0.6 -var-decay 0.90 -verb '2' > /tmp/tmp-2025-03-2900:38:36-0.6351470947265625
+Executing cmd: ruby example_minisat_hack/minisat_wrapper_weights.rb example_minisat_hack/necessary/data/uf100-01.cnf "" 30.000000000000004 2147483647 -1 -asymm False -ccmin-mode 2 -cla-decay 0.998 -cp-increase 35000 -elim True -gc-frac 0.4 -lbd-cut 7 -lbd-cut-max 10 -luby 0.9 -phase-saving 2 -pre False -rcheck True -rfirst 50 -rinc 65535 -rnd-freq 0.5 -rnd-init False -rnd-seed 91648253 -simp-gc-frac 0.6 -var-decay 0.90 -verb '2' > /tmp/tmp-2025-03-2900:38:36-0.6351470947265625
+Result: SAT, 1.509, 0,  1742398, -1
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 1.509
+Total CPU time: 281.45000000000005
+the result has length = 5 and content = ["SAT", 1.509, 0, 1742398.0, -1]
+i am inide the perf = 1742398.0
+returning as objective perf = 1742398.0
+getAlgoResultsForInstsAndParams.
+  Trial 1 for calling: ruby example_minisat_hack/minisat_wrapper_weights.rb example_minisat_hack/necessary/data/uuf200-02.cnf "" 30.000000000000004 2147483647 -1 -asymm False -ccmin-mode 2 -cla-decay 0.998 -cp-increase 35000 -elim True -gc-frac 0.4 -lbd-cut 7 -lbd-cut-max 10 -luby 0.9 -phase-saving 2 -pre False -rcheck True -rfirst 50 -rinc 65535 -rnd-freq 0.5 -rnd-init False -rnd-seed 91648253 -simp-gc-frac 0.6 -var-decay 0.90 -verb '2' > /tmp/tmp-2025-03-2900:38:37-0.8773581981658936
+Executing cmd: ruby example_minisat_hack/minisat_wrapper_weights.rb example_minisat_hack/necessary/data/uuf200-02.cnf "" 30.000000000000004 2147483647 -1 -asymm False -ccmin-mode 2 -cla-decay 0.998 -cp-increase 35000 -elim True -gc-frac 0.4 -lbd-cut 7 -lbd-cut-max 10 -luby 0.9 -phase-saving 2 -pre False -rcheck True -rfirst 50 -rinc 65535 -rnd-freq 0.5 -rnd-init False -rnd-seed 91648253 -simp-gc-frac 0.6 -var-decay 0.90 -verb '2' > /tmp/tmp-2025-03-2900:38:37-0.8773581981658936
+Result: UNSAT, 7.447, 0,  15618748046, -1
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 7.447
+Total CPU time: 288.89700000000005
+the result has length = 5 and content = ["UNSAT", 7.447, 0, 15618748046.0, -1]
+i am inide the perf = 15618748046.0
+returning as objective perf = 15618748046.0
+74/100000, 288.89700000000005/300.0
+getAlgoResultsForInstsAndParams.
+  Trial 1 for calling: ruby example_minisat_hack/minisat_wrapper_weights.rb example_minisat_hack/necessary/data/uuf250-01.cnf "" 30.000000000000004 2147483647 -1 -asymm False -ccmin-mode 2 -cla-decay 0.998 -cp-increase 35000 -elim True -gc-frac 0.4 -lbd-cut 7 -lbd-cut-max 10 -luby 0.9 -phase-saving 2 -pre False -rcheck True -rfirst 50 -rinc 65535 -rnd-freq 0.5 -rnd-init False -rnd-seed 91648253 -simp-gc-frac 0.6 -var-decay 0.90 -verb '2' > /tmp/tmp-2025-03-2900:38:45-0.809227466583252
+Executing cmd: ruby example_minisat_hack/minisat_wrapper_weights.rb example_minisat_hack/necessary/data/uuf250-01.cnf "" 30.000000000000004 2147483647 -1 -asymm False -ccmin-mode 2 -cla-decay 0.998 -cp-increase 35000 -elim True -gc-frac 0.4 -lbd-cut 7 -lbd-cut-max 10 -luby 0.9 -phase-saving 2 -pre False -rcheck True -rfirst 50 -rinc 65535 -rnd-freq 0.5 -rnd-init False -rnd-seed 91648253 -simp-gc-frac 0.6 -var-decay 0.90 -verb '2' > /tmp/tmp-2025-03-2900:38:45-0.809227466583252
+Result: TIMEOUT, 30, 0,  0, -1
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 30.0
+Total CPU time: 318.89700000000005
+the result has length = 5 and content = ["TIMEOUT", 30.0, 0, 0.0, -1]
+i am inide the perf = 0.0
+75/100000, 318.89700000000005/300.0
+the result has length = 5 and content = ["UNSAT", 1.725, 0, 386121497.0, -1]
+i am inide the perf = 386121497.0
+returning as objective perf = 386121497.0
+the result has length = 5 and content = ["SAT", 1.509, 0, 1742398.0, -1]
+i am inide the perf = 1742398.0
+returning as objective perf = 1742398.0
+the result has length = 5 and content = ["UNSAT", 7.447, 0, 15618748046.0, -1]
+i am inide the perf = 15618748046.0
+returning as objective perf = 15618748046.0
+the result has length = 5 and content = ["TIMEOUT", 30.0, 0, 0.0, -1]
+i am inide the perf = 0.0
+the result has length = 5 and content = ["UNSAT", 1.725, 0, 386121497.0, -1]
+i am inide the perf = 386121497.0
+returning as objective perf = 386121497.0
+the result has length = 5 and content = ["SAT", 1.509, 0, 1742398.0, -1]
+i am inide the perf = 1742398.0
+returning as objective perf = 1742398.0
+the result has length = 5 and content = ["UNSAT", 7.447, 0, 15618748046.0, -1]
+i am inide the perf = 15618748046.0
+returning as objective perf = 15618748046.0
+the result has length = 5 and content = ["TIMEOUT", 30.0, 0, 0.0, -1]
+i am inide the perf = 0.0
+the result has length = 5 and content = ["UNSAT", 1.725, 0, 386121497.0, -1]
+i am inide the perf = 386121497.0
+returning as objective perf = 386121497.0
+the result has length = 5 and content = ["SAT", 1.509, 0, 1742398.0, -1]
+i am inide the perf = 1742398.0
+returning as objective perf = 1742398.0
+the result has length = 5 and content = ["UNSAT", 7.447, 0, 15618748046.0, -1]
+i am inide the perf = 15618748046.0
+returning as objective perf = 15618748046.0
+the result has length = 5 and content = ["TIMEOUT", 30.0, 0, 0.0, -1]
+i am inide the perf = 0.0
+        -> Worse random: asymm=False ccmin-mode=2 cla-decay=0.998 cp-increase=35000 elim=True gc-frac=0.4 lbd-cut=7 lbd-cut-max=10 luby=0.9 phase-saving=2 pre=False rcheck=True rfirst=50 rinc=65535 rnd-freq=0.5 rnd-init=False rnd-seed=91648253 simp-gc-frac=0.6 var-decay=0.90 verb='2' (["pruned", 4] [based on 20 runs with cutoff 30.0])
+   BLS in iteration 1, start with asymm=False ccmin-mode=2 cla-decay=0.999 cp-increase=15000 elim=True gc-frac=0.2 lbd-cut=5 lbd-cut-max=10 luby=0.1 phase-saving=2 pre=True rcheck=False rfirst=100 rinc=2 rnd-freq=0.0 rnd-init=False rnd-seed=91648253 simp-gc-frac=0.5 var-decay=0.80 verb='1' (1722035697.3 [based on 20 runs with cutoff 30.0])
+Total CPU Time 318.89700000000005,  timeout 300.0
+Total CPU Time 318.89700000000005,  timeout 300.0
+ParamILS has reached the specified CPU time limit of 300.0 seconds => stopping the search now.
+   LM for iteration 1: asymm=False ccmin-mode=2 cla-decay=0.999 cp-increase=15000 elim=True gc-frac=0.2 lbd-cut=5 lbd-cut-max=10 luby=0.1 phase-saving=2 pre=True rcheck=False rfirst=100 rinc=2 rnd-freq=0.0 rnd-init=False rnd-seed=91648253 simp-gc-frac=0.5 var-decay=0.80 verb='1' (1722035697.3 [based on 20 runs with cutoff 30.0])
+
+========== DETAILED RESULTS (iteration 1): ==========
+[["UNSAT", 1.69, 0, 48991892.0, -1]]
+the result has length = 5 and content = ["UNSAT", 1.69, 0, 48991892.0, -1]
+i am inide the perf = 48991892.0
+returning as objective perf = 48991892.0
+[["SAT", 1.495, 0, 2376640.0, -1]]
+the result has length = 5 and content = ["SAT", 1.495, 0, 2376640.0, -1]
+i am inide the perf = 2376640.0
+returning as objective perf = 2376640.0
+[["UNSAT", 1.847, 0, 1261137043.0, -1]]
+the result has length = 5 and content = ["UNSAT", 1.847, 0, 1261137043.0, -1]
+i am inide the perf = 1261137043.0
+returning as objective perf = 1261137043.0
+[["UNSAT", 5.48, 0, 7884100304.0, -1]]
+the result has length = 5 and content = ["UNSAT", 5.48, 0, 7884100304.0, -1]
+i am inide the perf = 7884100304.0
+returning as objective perf = 7884100304.0
+[["UNSAT", 1.602, 0, 4013840.0, -1]]
+the result has length = 5 and content = ["UNSAT", 1.602, 0, 4013840.0, -1]
+i am inide the perf = 4013840.0
+returning as objective perf = 4013840.0
+[["SAT", 1.678, 0, 187131433.0, -1]]
+the result has length = 5 and content = ["SAT", 1.678, 0, 187131433.0, -1]
+i am inide the perf = 187131433.0
+returning as objective perf = 187131433.0
+[["SAT", 1.697, 0, 26628638.0, -1]]
+the result has length = 5 and content = ["SAT", 1.697, 0, 26628638.0, -1]
+i am inide the perf = 26628638.0
+returning as objective perf = 26628638.0
+[["UNSAT", 6.386, 0, 11569485507.0, -1]]
+the result has length = 5 and content = ["UNSAT", 6.386, 0, 11569485507.0, -1]
+i am inide the perf = 11569485507.0
+returning as objective perf = 11569485507.0
+[["UNSAT", 1.743, 0, 39939234.0, -1]]
+the result has length = 5 and content = ["UNSAT", 1.743, 0, 39939234.0, -1]
+i am inide the perf = 39939234.0
+returning as objective perf = 39939234.0
+[["UNSAT", 1.655, 0, 5892245.0, -1]]
+the result has length = 5 and content = ["UNSAT", 1.655, 0, 5892245.0, -1]
+i am inide the perf = 5892245.0
+returning as objective perf = 5892245.0
+[["UNSAT", 1.536, 0, 451460.0, -1]]
+the result has length = 5 and content = ["UNSAT", 1.536, 0, 451460.0, -1]
+i am inide the perf = 451460.0
+returning as objective perf = 451460.0
+[["UNSAT", 1.898, 0, 835402655.0, -1]]
+the result has length = 5 and content = ["UNSAT", 1.898, 0, 835402655.0, -1]
+i am inide the perf = 835402655.0
+returning as objective perf = 835402655.0
+[["SAT", 1.681, 0, 294155652.0, -1]]
+the result has length = 5 and content = ["SAT", 1.681, 0, 294155652.0, -1]
+i am inide the perf = 294155652.0
+returning as objective perf = 294155652.0
+[["SAT", 1.484, 0, 253426.0, -1]]
+the result has length = 5 and content = ["SAT", 1.484, 0, 253426.0, -1]
+i am inide the perf = 253426.0
+returning as objective perf = 253426.0
+[["SAT", 1.681, 0, 4410671.0, -1]]
+the result has length = 5 and content = ["SAT", 1.681, 0, 4410671.0, -1]
+i am inide the perf = 4410671.0
+returning as objective perf = 4410671.0
+[["SAT", 1.756, 0, 64899573.0, -1]]
+the result has length = 5 and content = ["SAT", 1.756, 0, 64899573.0, -1]
+i am inide the perf = 64899573.0
+returning as objective perf = 64899573.0
+[["UNSAT", 1.518, 0, 329697.0, -1]]
+the result has length = 5 and content = ["UNSAT", 1.518, 0, 329697.0, -1]
+i am inide the perf = 329697.0
+returning as objective perf = 329697.0
+[["SAT", 1.587, 0, 3870383.0, -1]]
+the result has length = 5 and content = ["SAT", 1.587, 0, 3870383.0, -1]
+i am inide the perf = 3870383.0
+returning as objective perf = 3870383.0
+[["SAT", 1.5, 0, 247595.0, -1]]
+the result has length = 5 and content = ["SAT", 1.5, 0, 247595.0, -1]
+i am inide the perf = 247595.0
+returning as objective perf = 247595.0
+[["SAT", 6.387, 0, 12206996058.0, -1]]
+the result has length = 5 and content = ["SAT", 6.387, 0, 12206996058.0, -1]
+i am inide the perf = 12206996058.0
+returning as objective perf = 12206996058.0
+example_minisat_hack/necessary/data/uuf150-02.cnf: 48991892.0		[based on 1 runs]
+example_minisat_hack/necessary/data/uf100-01.cnf: 2376640.0		[based on 1 runs]
+example_minisat_hack/necessary/data/uuf200-02.cnf: 1261137043.0		[based on 1 runs]
+example_minisat_hack/necessary/data/uuf250-01.cnf: 7884100304.0		[based on 1 runs]
+example_minisat_hack/necessary/data/uuf100-01.cnf: 4013840.0		[based on 1 runs]
+example_minisat_hack/necessary/data/uf200-02.cnf: 187131433.0		[based on 1 runs]
+example_minisat_hack/necessary/data/uf150-02.cnf: 26628638.0		[based on 1 runs]
+example_minisat_hack/necessary/data/uuf250-02.cnf: 11569485507.0		[based on 1 runs]
+example_minisat_hack/necessary/data/uuf150-01.cnf: 39939234.0		[based on 1 runs]
+example_minisat_hack/necessary/data/uuf100-02.cnf: 5892245.0		[based on 1 runs]
+example_minisat_hack/necessary/data/uuf50-02.cnf: 451460.0		[based on 1 runs]
+example_minisat_hack/necessary/data/uuf200-01.cnf: 835402655.0		[based on 1 runs]
+example_minisat_hack/necessary/data/uf200-01.cnf: 294155652.0		[based on 1 runs]
+example_minisat_hack/necessary/data/uf50-01.cnf: 253426.0		[based on 1 runs]
+example_minisat_hack/necessary/data/uf150-01.cnf: 4410671.0		[based on 1 runs]
+example_minisat_hack/necessary/data/uf250-01.cnf: 64899573.0		[based on 1 runs]
+example_minisat_hack/necessary/data/uuf50-01.cnf: 329697.0		[based on 1 runs]
+example_minisat_hack/necessary/data/uf100-02.cnf: 3870383.0		[based on 1 runs]
+example_minisat_hack/necessary/data/uf50-02.cnf: 247595.0		[based on 1 runs]
+example_minisat_hack/necessary/data/uf250-02.cnf: 12206996058.0		[based on 1 runs]
+================================================
+
+==================================================================
+Best parameter configuration found so far (end of iteration 1): asymm=False, ccmin-mode=2, cla-decay=0.999, cp-increase=15000, elim=True, gc-frac=0.2, lbd-cut=5, lbd-cut-max=10, luby=0.1, phase-saving=2, pre=True, rcheck=False, rfirst=100, rinc=2, rnd-freq=0.0, rnd-init=False, rnd-seed=91648253, simp-gc-frac=0.5, var-decay=0.80, verb='1'
+==================================================================
+Training quality of this incumbent parameter configuration: 1722035697.3, based on 20 runs with cutoff 30.0
+==================================================================
+
+Comparing LM against incumbent:
+asymm=False ccmin-mode=2 cla-decay=0.999 cp-increase=15000 elim=True gc-frac=0.2 lbd-cut=5 lbd-cut-max=10 luby=0.1 phase-saving=2 pre=True rcheck=False rfirst=100 rinc=2 rnd-freq=0.0 rnd-init=False rnd-seed=91648253 simp-gc-frac=0.5 var-decay=0.80 verb='1' (1722035697.3 [based on 20 runs with cutoff 30.0])
+asymm=False ccmin-mode=2 cla-decay=0.999 cp-increase=15000 elim=True gc-frac=0.2 lbd-cut=5 lbd-cut-max=10 luby=0.1 phase-saving=2 pre=True rcheck=False rfirst=100 rinc=2 rnd-freq=0.0 rnd-init=False rnd-seed=91648253 simp-gc-frac=0.5 var-decay=0.80 verb='1' (1722035697.3 [based on 20 runs with cutoff 30.0])
+LM better, change incumbent
+New Incumbent: 318.89700000000005, 1722035697.3 [20, 30.0]. With state asymm=False, ccmin-mode=2, cla-decay=0.999, cp-increase=15000, elim=True, gc-frac=0.2, lbd-cut=5, lbd-cut-max=10, luby=0.1, phase-saving=2, pre=True, rcheck=False, rfirst=100, rinc=2, rnd-freq=0.0, rnd-init=False, rnd-seed=91648253, simp-gc-frac=0.5, var-decay=0.80, verb='1'
+Total CPU Time 318.89700000000005,  timeout 300.0
+Total CPU Time 318.89700000000005,  timeout 300.0
+ParamILS has reached the specified CPU time limit of 300.0 seconds => stopping the search now.
+Final solution for depth 1 with limit N=20, and cutoff time=30.0.
+New Incumbent: 318.89700000000005, 1722035697.3 [20, 30.0]. With state asymm=False, ccmin-mode=2, cla-decay=0.999, cp-increase=15000, elim=True, gc-frac=0.2, lbd-cut=5, lbd-cut-max=10, luby=0.1, phase-saving=2, pre=True, rcheck=False, rfirst=100, rinc=2, rnd-freq=0.0, rnd-init=False, rnd-seed=91648253, simp-gc-frac=0.5, var-decay=0.80, verb='1'
+
+==================================================================
+ParamILS is finished.
+==================================================================
+
+Final best parameter configuration found: asymm=False, ccmin-mode=2, cla-decay=0.999, cp-increase=15000, elim=True, gc-frac=0.2, lbd-cut=5, lbd-cut-max=10, luby=0.1, phase-saving=2, pre=True, rcheck=False, rfirst=100, rinc=2, rnd-freq=0.0, rnd-init=False, rnd-seed=91648253, simp-gc-frac=0.5, var-decay=0.80, verb='1'
+==================================================================
+Active parameters: asymm=False, ccmin-mode=2, cla-decay=0.999, cp-increase=15000, elim=True, gc-frac=0.2, lbd-cut=5, lbd-cut-max=10, luby=0.1, phase-saving=2, pre=True, rcheck=False, rfirst=100, rinc=2, rnd-freq=0.0, rnd-init=False, rnd-seed=91648253, simp-gc-frac=0.5, var-decay=0.80, verb='1'
+
+==================================================================
+Training quality of this final best found parameter configuration: 1722035697.3, based on 20 runs with cutoff 30.0
+==================================================================
+
+
+==================================================================
+Computing validation result on independent data -- 8 runs with cutoff time 30.0...
+==================================================================
+getAlgoResultsForInstsAndParams.
+  Trial 1 for calling: ruby example_minisat_hack/minisat_wrapper_weights.rb example_minisat_hack/necessary/data/uf100-02.cnf "" 30.000000000000004 2147483647 -1 -asymm False -ccmin-mode 2 -cla-decay 0.999 -cp-increase 15000 -elim True -gc-frac 0.2 -lbd-cut 5 -lbd-cut-max 10 -luby 0.1 -phase-saving 2 -pre True -rcheck False -rfirst 100 -rinc 2 -rnd-freq 0.0 -rnd-init False -rnd-seed 91648253 -simp-gc-frac 0.5 -var-decay 0.80 -verb '1' > /tmp/tmp-2025-03-2900:39:15-0.1897439956665039
+Executing cmd: ruby example_minisat_hack/minisat_wrapper_weights.rb example_minisat_hack/necessary/data/uf100-02.cnf "" 30.000000000000004 2147483647 -1 -asymm False -ccmin-mode 2 -cla-decay 0.999 -cp-increase 15000 -elim True -gc-frac 0.2 -lbd-cut 5 -lbd-cut-max 10 -luby 0.1 -phase-saving 2 -pre True -rcheck False -rfirst 100 -rinc 2 -rnd-freq 0.0 -rnd-init False -rnd-seed 91648253 -simp-gc-frac 0.5 -var-decay 0.80 -verb '1' > /tmp/tmp-2025-03-2900:39:15-0.1897439956665039
+Result: SAT, 2.026, 0,  1694702, -1
+  Trial 1 for calling: ruby example_minisat_hack/minisat_wrapper_weights.rb example_minisat_hack/necessary/data/uf50-02.cnf "" 30.000000000000004 2147483647 -1 -asymm False -ccmin-mode 2 -cla-decay 0.999 -cp-increase 15000 -elim True -gc-frac 0.2 -lbd-cut 5 -lbd-cut-max 10 -luby 0.1 -phase-saving 2 -pre True -rcheck False -rfirst 100 -rinc 2 -rnd-freq 0.0 -rnd-init False -rnd-seed 91648253 -simp-gc-frac 0.5 -var-decay 0.80 -verb '1' > /tmp/tmp-2025-03-2900:39:17-0.7102451324462891
+Executing cmd: ruby example_minisat_hack/minisat_wrapper_weights.rb example_minisat_hack/necessary/data/uf50-02.cnf "" 30.000000000000004 2147483647 -1 -asymm False -ccmin-mode 2 -cla-decay 0.999 -cp-increase 15000 -elim True -gc-frac 0.2 -lbd-cut 5 -lbd-cut-max 10 -luby 0.1 -phase-saving 2 -pre True -rcheck False -rfirst 100 -rinc 2 -rnd-freq 0.0 -rnd-init False -rnd-seed 91648253 -simp-gc-frac 0.5 -var-decay 0.80 -verb '1' > /tmp/tmp-2025-03-2900:39:17-0.7102451324462891
+Result: SAT, 1.862, 0,  1153784, -1
+  Trial 1 for calling: ruby example_minisat_hack/minisat_wrapper_weights.rb example_minisat_hack/necessary/data/uuf100-01.cnf "" 30.000000000000004 2147483647 -1 -asymm False -ccmin-mode 2 -cla-decay 0.999 -cp-increase 15000 -elim True -gc-frac 0.2 -lbd-cut 5 -lbd-cut-max 10 -luby 0.1 -phase-saving 2 -pre True -rcheck False -rfirst 100 -rinc 2 -rnd-freq 0.0 -rnd-init False -rnd-seed 91648253 -simp-gc-frac 0.5 -var-decay 0.80 -verb '1' > /tmp/tmp-2025-03-2900:39:19-0.6817655563354492
+Executing cmd: ruby example_minisat_hack/minisat_wrapper_weights.rb example_minisat_hack/necessary/data/uuf100-01.cnf "" 30.000000000000004 2147483647 -1 -asymm False -ccmin-mode 2 -cla-decay 0.999 -cp-increase 15000 -elim True -gc-frac 0.2 -lbd-cut 5 -lbd-cut-max 10 -luby 0.1 -phase-saving 2 -pre True -rcheck False -rfirst 100 -rinc 2 -rnd-freq 0.0 -rnd-init False -rnd-seed 91648253 -simp-gc-frac 0.5 -var-decay 0.80 -verb '1' > /tmp/tmp-2025-03-2900:39:19-0.6817655563354492
+Result: UNSAT, 1.921, 0,  2576439, -1
+  Trial 1 for calling: ruby example_minisat_hack/minisat_wrapper_weights.rb example_minisat_hack/necessary/data/uuf100-02.cnf "" 30.000000000000004 2147483647 -1 -asymm False -ccmin-mode 2 -cla-decay 0.999 -cp-increase 15000 -elim True -gc-frac 0.2 -lbd-cut 5 -lbd-cut-max 10 -luby 0.1 -phase-saving 2 -pre True -rcheck False -rfirst 100 -rinc 2 -rnd-freq 0.0 -rnd-init False -rnd-seed 91648253 -simp-gc-frac 0.5 -var-decay 0.80 -verb '1' > /tmp/tmp-2025-03-2900:39:21-0.1165318489074707
+Executing cmd: ruby example_minisat_hack/minisat_wrapper_weights.rb example_minisat_hack/necessary/data/uuf100-02.cnf "" 30.000000000000004 2147483647 -1 -asymm False -ccmin-mode 2 -cla-decay 0.999 -cp-increase 15000 -elim True -gc-frac 0.2 -lbd-cut 5 -lbd-cut-max 10 -luby 0.1 -phase-saving 2 -pre True -rcheck False -rfirst 100 -rinc 2 -rnd-freq 0.0 -rnd-init False -rnd-seed 91648253 -simp-gc-frac 0.5 -var-decay 0.80 -verb '1' > /tmp/tmp-2025-03-2900:39:21-0.1165318489074707
+Result: UNSAT, 2.02, 0,  3668521, -1
+  Trial 1 for calling: ruby example_minisat_hack/minisat_wrapper_weights.rb example_minisat_hack/necessary/data/uf50-01.cnf "" 30.000000000000004 2147483647 -1 -asymm False -ccmin-mode 2 -cla-decay 0.999 -cp-increase 15000 -elim True -gc-frac 0.2 -lbd-cut 5 -lbd-cut-max 10 -luby 0.1 -phase-saving 2 -pre True -rcheck False -rfirst 100 -rinc 2 -rnd-freq 0.0 -rnd-init False -rnd-seed 91648253 -simp-gc-frac 0.5 -var-decay 0.80 -verb '1' > /tmp/tmp-2025-03-2900:39:23-0.2703733444213867
+Executing cmd: ruby example_minisat_hack/minisat_wrapper_weights.rb example_minisat_hack/necessary/data/uf50-01.cnf "" 30.000000000000004 2147483647 -1 -asymm False -ccmin-mode 2 -cla-decay 0.999 -cp-increase 15000 -elim True -gc-frac 0.2 -lbd-cut 5 -lbd-cut-max 10 -luby 0.1 -phase-saving 2 -pre True -rcheck False -rfirst 100 -rinc 2 -rnd-freq 0.0 -rnd-init False -rnd-seed 91648253 -simp-gc-frac 0.5 -var-decay 0.80 -verb '1' > /tmp/tmp-2025-03-2900:39:23-0.2703733444213867
+Result: SAT, 1.941, 0,  510458, -1
+  Trial 1 for calling: ruby example_minisat_hack/minisat_wrapper_weights.rb example_minisat_hack/necessary/data/uf100-01.cnf "" 30.000000000000004 2147483647 -1 -asymm False -ccmin-mode 2 -cla-decay 0.999 -cp-increase 15000 -elim True -gc-frac 0.2 -lbd-cut 5 -lbd-cut-max 10 -luby 0.1 -phase-saving 2 -pre True -rcheck False -rfirst 100 -rinc 2 -rnd-freq 0.0 -rnd-init False -rnd-seed 91648253 -simp-gc-frac 0.5 -var-decay 0.80 -verb '1' > /tmp/tmp-2025-03-2900:39:25-0.8082485198974609
+Executing cmd: ruby example_minisat_hack/minisat_wrapper_weights.rb example_minisat_hack/necessary/data/uf100-01.cnf "" 30.000000000000004 2147483647 -1 -asymm False -ccmin-mode 2 -cla-decay 0.999 -cp-increase 15000 -elim True -gc-frac 0.2 -lbd-cut 5 -lbd-cut-max 10 -luby 0.1 -phase-saving 2 -pre True -rcheck False -rfirst 100 -rinc 2 -rnd-freq 0.0 -rnd-init False -rnd-seed 91648253 -simp-gc-frac 0.5 -var-decay 0.80 -verb '1' > /tmp/tmp-2025-03-2900:39:25-0.8082485198974609
+Result: SAT, 1.929, 0,  673805, -1
+  Trial 1 for calling: ruby example_minisat_hack/minisat_wrapper_weights.rb example_minisat_hack/necessary/data/uuf50-01.cnf "" 30.000000000000004 2147483647 -1 -asymm False -ccmin-mode 2 -cla-decay 0.999 -cp-increase 15000 -elim True -gc-frac 0.2 -lbd-cut 5 -lbd-cut-max 10 -luby 0.1 -phase-saving 2 -pre True -rcheck False -rfirst 100 -rinc 2 -rnd-freq 0.0 -rnd-init False -rnd-seed 91648253 -simp-gc-frac 0.5 -var-decay 0.80 -verb '1' > /tmp/tmp-2025-03-2900:39:27-0.32464075088500977
+Executing cmd: ruby example_minisat_hack/minisat_wrapper_weights.rb example_minisat_hack/necessary/data/uuf50-01.cnf "" 30.000000000000004 2147483647 -1 -asymm False -ccmin-mode 2 -cla-decay 0.999 -cp-increase 15000 -elim True -gc-frac 0.2 -lbd-cut 5 -lbd-cut-max 10 -luby 0.1 -phase-saving 2 -pre True -rcheck False -rfirst 100 -rinc 2 -rnd-freq 0.0 -rnd-init False -rnd-seed 91648253 -simp-gc-frac 0.5 -var-decay 0.80 -verb '1' > /tmp/tmp-2025-03-2900:39:27-0.32464075088500977
+Result: UNSAT, 1.836, 0,  91644, -1
+  Trial 1 for calling: ruby example_minisat_hack/minisat_wrapper_weights.rb example_minisat_hack/necessary/data/uuf50-02.cnf "" 30.000000000000004 2147483647 -1 -asymm False -ccmin-mode 2 -cla-decay 0.999 -cp-increase 15000 -elim True -gc-frac 0.2 -lbd-cut 5 -lbd-cut-max 10 -luby 0.1 -phase-saving 2 -pre True -rcheck False -rfirst 100 -rinc 2 -rnd-freq 0.0 -rnd-init False -rnd-seed 91648253 -simp-gc-frac 0.5 -var-decay 0.80 -verb '1' > /tmp/tmp-2025-03-2900:39:29-0.5651655197143555
+Executing cmd: ruby example_minisat_hack/minisat_wrapper_weights.rb example_minisat_hack/necessary/data/uuf50-02.cnf "" 30.000000000000004 2147483647 -1 -asymm False -ccmin-mode 2 -cla-decay 0.999 -cp-increase 15000 -elim True -gc-frac 0.2 -lbd-cut 5 -lbd-cut-max 10 -luby 0.1 -phase-saving 2 -pre True -rcheck False -rfirst 100 -rinc 2 -rnd-freq 0.0 -rnd-init False -rnd-seed 91648253 -simp-gc-frac 0.5 -var-decay 0.80 -verb '1' > /tmp/tmp-2025-03-2900:39:29-0.5651655197143555
+Result: UNSAT, 1.83, 0,  698061, -1
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 2.026
+Total CPU time: 320.92300000000006
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 1.862
+Total CPU time: 322.7850000000001
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 1.921
+Total CPU time: 324.7060000000001
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 2.02
+Total CPU time: 326.72600000000006
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 1.941
+Total CPU time: 328.66700000000003
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 1.929
+Total CPU time: 330.596
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 1.836
+Total CPU time: 332.432
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 1.83
+Total CPU time: 334.262
+the result has length = 5 and content = ["SAT", 2.026, 0, 1694702.0, -1]
+i am inide the perf = 1694702.0
+returning as objective perf = 1694702.0
+the result has length = 5 and content = ["SAT", 1.862, 0, 1153784.0, -1]
+i am inide the perf = 1153784.0
+returning as objective perf = 1153784.0
+the result has length = 5 and content = ["UNSAT", 1.921, 0, 2576439.0, -1]
+i am inide the perf = 2576439.0
+returning as objective perf = 2576439.0
+the result has length = 5 and content = ["UNSAT", 2.02, 0, 3668521.0, -1]
+i am inide the perf = 3668521.0
+returning as objective perf = 3668521.0
+the result has length = 5 and content = ["SAT", 1.941, 0, 510458.0, -1]
+i am inide the perf = 510458.0
+returning as objective perf = 510458.0
+the result has length = 5 and content = ["SAT", 1.929, 0, 673805.0, -1]
+i am inide the perf = 673805.0
+returning as objective perf = 673805.0
+the result has length = 5 and content = ["UNSAT", 1.836, 0, 91644.0, -1]
+i am inide the perf = 91644.0
+returning as objective perf = 91644.0
+the result has length = 5 and content = ["UNSAT", 1.83, 0, 698061.0, -1]
+i am inide the perf = 698061.0
+returning as objective perf = 698061.0
+example_minisat_hack/necessary/data/uf100-02.cnf: 1694702.0
+example_minisat_hack/necessary/data/uf50-02.cnf: 1153784.0
+example_minisat_hack/necessary/data/uuf100-01.cnf: 2576439.0
+example_minisat_hack/necessary/data/uuf100-02.cnf: 3668521.0
+example_minisat_hack/necessary/data/uf50-01.cnf: 510458.0
+example_minisat_hack/necessary/data/uf100-01.cnf: 673805.0
+example_minisat_hack/necessary/data/uuf50-01.cnf: 91644.0
+example_minisat_hack/necessary/data/uuf50-02.cnf: 698061.0
+Combined result: 1383426.75
+
+================================================================
+Final best parameter configuration: asymm=False, ccmin-mode=2, cla-decay=0.999, cp-increase=15000, elim=True, gc-frac=0.2, lbd-cut=5, lbd-cut-max=10, luby=0.1, phase-saving=2, pre=True, rcheck=False, rfirst=100, rinc=2, rnd-freq=0.0, rnd-init=False, rnd-seed=91648253, simp-gc-frac=0.5, var-decay=0.80, verb='1'
+==================================================================
+Active parameters: asymm=False, ccmin-mode=2, cla-decay=0.999, cp-increase=15000, elim=True, gc-frac=0.2, lbd-cut=5, lbd-cut-max=10, luby=0.1, phase-saving=2, pre=True, rcheck=False, rfirst=100, rinc=2, rnd-freq=0.0, rnd-init=False, rnd-seed=91648253, simp-gc-frac=0.5, var-decay=0.80, verb='1'
+
+================================================================
+Training quality of this final best found parameter configuration: 1722035697.3, based on 20 runs with cutoff 30.0
+Test quality of this final best found parameter configuration: 1383426.75, based on 8 independent runs with cutoff 30.0
+==================================================================

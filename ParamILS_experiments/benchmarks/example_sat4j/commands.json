@@ -1,0 +1,42 @@
+{
+    "1": {
+        "run_directory": "/home/jim/magpie_llm/examples/sat4j/necessary/",
+        "command": "bash run_fixed.sh CLEANING=LBD2 FIXEDPERIOD=10000 INITCONFLICTBOUND=200 LUBYFACTOR=2048 PHASE=PhaseInLastLearnedClauseSelectionStrategy RESTARTS=LubyRestarts SIMP=EXPENSIVE_SIMPLIFICATION claDecay=0.998 conflictBoundIncFactor=3.5 varDecay=0.99"
+    },
+    "-time": {
+        "run_directory": "/home/jim/magpie_llm/examples/sat4j/necessary/",
+        "command": "bash run_fixed.sh CLEANING=LBD FIXEDPERIOD=100000 INITCONFLICTBOUND=200 LUBYFACTOR=1024 PHASE=UserFixedPhaseSelectionStrategy RESTARTS=NoRestarts SIMP=NO_SIMPLIFICATION claDecay=0.998 conflictBoundIncFactor=1.5 varDecay=0.91"
+    },
+    "1-cycles": {
+        "run_directory": "/home/jim/magpie_llm/examples/sat4j/necessary/",
+        "command": "bash run_fixed.sh CLEANING=LBD FIXEDPERIOD=1 INITCONFLICTBOUND=200 LUBYFACTOR=512 PHASE=PositiveLiteralSelectionStrategy RESTARTS=FixedPeriodRestarts SIMP=EXPENSIVE_SIMPLIFICATION claDecay=0.999 conflictBoundIncFactor=3.5 varDecay=0.97"
+    },
+    "1-cache_references": {
+        "run_directory": "/home/jim/magpie_llm/examples/sat4j/necessary/",
+        "command": "bash run_fixed.sh CLEANING=LBD FIXEDPERIOD=1 INITCONFLICTBOUND=200 LUBYFACTOR=512 PHASE=PositiveLiteralSelectionStrategy RESTARTS=LubyRestarts SIMP=EXPENSIVE_SIMPLIFICATION claDecay=0.999 conflictBoundIncFactor=3.5 varDecay=0.97"
+    },
+    "1-L1": {
+        "run_directory": "/home/jim/magpie_llm/examples/sat4j/necessary/",
+        "command": "bash run_fixed.sh CLEANING=LBD FIXEDPERIOD=1 INITCONFLICTBOUND=1000 LUBYFACTOR=1024 PHASE=NegativeLiteralSelectionStrategy RESTARTS=Glucose21Restarts SIMP=EXPENSIVE_SIMPLIFICATION claDecay=0.999 conflictBoundIncFactor=2.0 varDecay=0.91"
+    },
+    "1-perf_time": {
+        "run_directory": "/home/jim/magpie_llm/examples/sat4j/necessary/",
+        "command": "bash run_fixed.sh CLEANING=LBD FIXEDPERIOD=1 INITCONFLICTBOUND=1000 LUBYFACTOR=1024 PHASE=NegativeLiteralSelectionStrategy RESTARTS=Glucose21Restarts SIMP=EXPENSIVE_SIMPLIFICATION claDecay=0.999 conflictBoundIncFactor=2.0 varDecay=0.91"
+    },
+    "1-weights": {
+        "run_directory": "/home/jim/magpie_llm/examples/sat4j/necessary/",
+        "command": "bash run_fixed.sh CLEANING=LBD2 FIXEDPERIOD=100 INITCONFLICTBOUND=100 LUBYFACTOR=512 PHASE=RSATPhaseSelectionStrategy RESTARTS=Glucose21Restarts SIMP=EXPENSIVE_SIMPLIFICATION claDecay=0.999 conflictBoundIncFactor=2.0 varDecay=0.95"
+    },
+    "2-time": {
+        "run_directory": "/home/jim/magpie_llm/examples/sat4j/necessary/",
+        "command": "bash run_fixed.sh CLEANING=LBD FIXEDPERIOD=100000 INITCONFLICTBOUND=200 LUBYFACTOR=1024 PHASE=RandomLiteralSelectionStrategy RESTARTS=NoRestarts SIMP=NO_SIMPLIFICATION claDecay=0.998 conflictBoundIncFactor=1.5 varDecay=0.91"
+    },
+    "1-energy": {
+        "run_directory": "/home/jim/magpie_llm/examples/sat4j/necessary/",
+        "command": "bash run_fixed.sh CLEANING=LBD FIXEDPERIOD=100000 INITCONFLICTBOUND=200 LUBYFACTOR=1024 PHASE=RandomLiteralSelectionStrategy RESTARTS=NoRestarts SIMP=NO_SIMPLIFICATION claDecay=0.998 conflictBoundIncFactor=1.5 varDecay=0.91"
+    },
+    "1-branches": {
+        "run_directory": "/home/jim/magpie_llm/examples/sat4j/necessary/",
+        "command": "bash run_fixed.sh CLEANING=LBD FIXEDPERIOD=100000 INITCONFLICTBOUND=1000 LUBYFACTOR=1024 PHASE=RandomLiteralSelectionStrategy RESTARTS=NoRestarts SIMP=NO_SIMPLIFICATION claDecay=0.998 conflictBoundIncFactor=1.5 varDecay=0.91"
+    }
+}

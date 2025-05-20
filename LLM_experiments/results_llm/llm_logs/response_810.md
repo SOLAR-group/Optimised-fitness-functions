@@ -1,0 +1,1 @@
+Child: ["ParamSetting(('lpg.params', 'param', 'search_steps'), 889)", "ParamSetting(('lpg.params', 'param', 'restarts'), 17)", "ParamSetting(('lpg.params', 'param', 'repeats'), 4)", "ParamSetting(('lpg.params', 'param', 'lowmemory'), 'True')", "ParamSetting(('lpg.params', 'param', 'static_noise'), 'None')", "ParamSetting(('lpg.params', 'param', 'noise'), 0.05071109975798627)"]

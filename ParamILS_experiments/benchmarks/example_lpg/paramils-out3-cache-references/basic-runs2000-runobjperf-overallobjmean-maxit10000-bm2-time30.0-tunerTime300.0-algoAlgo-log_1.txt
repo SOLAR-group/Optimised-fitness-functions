@@ -1,0 +1,230 @@
+Call: /usr/bin/ruby ../scripts/param_ils_2_3_run.rb "-scenariofile" "example_lpg/scenario-lpg-cache-references.txt" "-numRun" "1" "-maxEvals" "100000" "-maxIts" "10000" "-approach" "basic" "-validN" "30"
+
+
+WARNING: N=2000 is greater than the number of entries
+in the @instances array. This can happen if the algorithm is
+deterministic and the number of training instances is smaller than N,
+or if the instance_seed_file is provided by the user and has less
+entries than N. Clamping N and maxDetail to 3
+WARNING: validN=30 is greater than the number
+of entries in the @test_instances array. This can happen if the
+algorithm is deterministic and the number of test instances is smaller
+than validN, or if the test_instance_seed_file is provided by the user
+and has less entries than validN. Clamping validN to
+2
+seed: 2468
+algo: ruby example_lpg/lpg_wrapper_cache_references.rb
+tunerTimeout (CPU time): 300.0
+maxWallTime: 8640000.0
+maxEvals: 100000
+run_obj: perf
+overall_obj: mean
+instance_file: /home/jim/magpie/examples/lpg/necessary/instances.txt
+test_instance_file: /home/jim/magpie/examples/lpg/necessary/test-instances.txt
+N: 3
+cutoff_time: 30.0
+cutoff_length: 2147483647
+R: 10
+pertubation_strength_basic: 
+pertubation_strength_scaling: false
+p_restart: 0.01
+Run 2
+Level 
+========================================================
+Starting ILS for level 1, i.e. a limit of N=3, and cutoff time=30.0.
+Current CPU time = 0, this run goes until 300.0 
+========================================================
+New Incumbent: 0, 100000000 [0, 0]. With state lowmemory=None, noise=0.1, repeats=5, restarts=9, search_steps=500, static_noise=None
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 10.895
+Total CPU time: 10.895
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 5.741
+Total CPU time: 16.636
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 12.894
+Total CPU time: 29.53
+3/100000, 29.53/300.0
+ Same incumbent, new precision:
+New Incumbent: 29.53, 842805907.0 [3, 30.0]. With state lowmemory=None, noise=0.1, repeats=5, restarts=9, search_steps=500, static_noise=None
+Total CPU Time 29.53,  timeout 300.0
+Total CPU Time 29.53,  timeout 300.0
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 5.514
+Total CPU time: 35.044000000000004
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 6.3
+Total CPU time: 41.344
+5/100000, 41.344/300.0
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 15.978
+Total CPU time: 57.322
+6/100000, 57.322/300.0
+New inc: 814360579.3333334
+New Incumbent: 57.322, 814360579.3333334 [3, 30.0]. With state lowmemory=True, noise=0.2, repeats=16, restarts=16, search_steps=700, static_noise=None
+          -> Take improving step to random lowmemory=True noise=0.2 repeats=16 restarts=16 search_steps=700 static_noise=None (814360579.3333334 [based on 3 runs with cutoff 30.0])
+
+Total CPU Time 57.322,  timeout 300.0
+Total CPU Time 57.322,  timeout 300.0
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 30.0
+Total CPU time: 87.322
+7/100000, 87.322/300.0
+        -> Worse random: lowmemory=None noise=1.0 repeats=9 restarts=5 search_steps=900 static_noise=None (["pruned", 1] [based on 3 runs with cutoff 30.0])
+Total CPU Time 87.322,  timeout 300.0
+Total CPU Time 87.322,  timeout 300.0
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 5.801
+Total CPU time: 93.123
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 7.355
+Total CPU time: 100.47800000000001
+9/100000, 100.47800000000001/300.0
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 10.445
+Total CPU time: 110.923
+10/100000, 110.923/300.0
+New inc: 662773777.6666666
+New Incumbent: 110.923, 662773777.6666666 [3, 30.0]. With state lowmemory=None, noise=0.2, repeats=4, restarts=19, search_steps=1000, static_noise=None
+          -> Take improving step to random lowmemory=None noise=0.2 repeats=4 restarts=19 search_steps=1000 static_noise=None (662773777.6666666 [based on 3 runs with cutoff 30.0])
+
+Total CPU Time 110.923,  timeout 300.0
+Total CPU Time 110.923,  timeout 300.0
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 30.0
+Total CPU time: 140.923
+11/100000, 140.923/300.0
+        -> Worse random: lowmemory=None noise=0.6 repeats=13 restarts=2 search_steps=700 static_noise=None (["pruned", 1] [based on 3 runs with cutoff 30.0])
+Total CPU Time 140.923,  timeout 300.0
+Total CPU Time 140.923,  timeout 300.0
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 30.0
+Total CPU time: 170.923
+12/100000, 170.923/300.0
+        -> Worse random: lowmemory=True noise=1.0 repeats=20 restarts=4 search_steps=900 static_noise=True (["pruned", 1] [based on 3 runs with cutoff 30.0])
+Total CPU Time 170.923,  timeout 300.0
+Total CPU Time 170.923,  timeout 300.0
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 30.0
+Total CPU time: 200.923
+13/100000, 200.923/300.0
+        -> Worse random: lowmemory=None noise=0.1 repeats=13 restarts=3 search_steps=200 static_noise=True (["pruned", 1] [based on 3 runs with cutoff 30.0])
+Total CPU Time 200.923,  timeout 300.0
+Total CPU Time 200.923,  timeout 300.0
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 30.0
+Total CPU time: 230.923
+14/100000, 230.923/300.0
+        -> Worse random: lowmemory=None noise=0.6 repeats=3 restarts=3 search_steps=900 static_noise=True (["pruned", 1] [based on 3 runs with cutoff 30.0])
+Total CPU Time 230.923,  timeout 300.0
+Total CPU Time 230.923,  timeout 300.0
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 30.0
+Total CPU time: 260.923
+15/100000, 260.923/300.0
+        -> Worse random: lowmemory=True noise=0.9 repeats=1 restarts=5 search_steps=1000 static_noise=True (["pruned", 1] [based on 3 runs with cutoff 30.0])
+Total CPU Time 260.923,  timeout 300.0
+Total CPU Time 260.923,  timeout 300.0
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 30.0
+Total CPU time: 290.923
+16/100000, 290.923/300.0
+        -> Worse random: lowmemory=None noise=1.0 repeats=6 restarts=5 search_steps=800 static_noise=None (["pruned", 1] [based on 3 runs with cutoff 30.0])
+Total CPU Time 290.923,  timeout 300.0
+Total CPU Time 290.923,  timeout 300.0
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 7.363
+Total CPU time: 298.286
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 6.685
+Total CPU time: 304.971
+18/100000, 304.971/300.0
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 7.524
+Total CPU time: 312.495
+New inc: 467424324.3333333
+New Incumbent: 312.495, 467424324.3333333 [3, 30.0]. With state lowmemory=True, noise=0.0, repeats=15, restarts=18, search_steps=500, static_noise=True
+          -> Take improving step to random lowmemory=True noise=0.0 repeats=15 restarts=18 search_steps=500 static_noise=True (467424324.3333333 [based on 3 runs with cutoff 30.0])
+
+   BLS in iteration 1, start with lowmemory=True noise=0.0 repeats=15 restarts=18 search_steps=500 static_noise=True (467424324.3333333 [based on 3 runs with cutoff 30.0])
+Total CPU Time 312.495,  timeout 300.0
+Total CPU Time 312.495,  timeout 300.0
+ParamILS has reached the specified CPU time limit of 300.0 seconds => stopping the search now.
+   LM for iteration 1: lowmemory=True noise=0.0 repeats=15 restarts=18 search_steps=500 static_noise=True (467424324.3333333 [based on 3 runs with cutoff 30.0])
+
+========== DETAILED RESULTS (iteration 1): ==========
+================================================
+
+==================================================================
+Best parameter configuration found so far (end of iteration 1): lowmemory=True, noise=0.0, repeats=15, restarts=18, search_steps=500, static_noise=True
+==================================================================
+Training quality of this incumbent parameter configuration: 467424324.3333333, based on 3 runs with cutoff 30.0
+==================================================================
+
+Comparing LM against incumbent:
+lowmemory=True noise=0.0 repeats=15 restarts=18 search_steps=500 static_noise=True (467424324.3333333 [based on 3 runs with cutoff 30.0])
+lowmemory=True noise=0.0 repeats=15 restarts=18 search_steps=500 static_noise=True (467424324.3333333 [based on 3 runs with cutoff 30.0])
+LM better, change incumbent
+New Incumbent: 312.495, 467424324.3333333 [3, 30.0]. With state lowmemory=True, noise=0.0, repeats=15, restarts=18, search_steps=500, static_noise=True
+Total CPU Time 312.495,  timeout 300.0
+Total CPU Time 312.495,  timeout 300.0
+ParamILS has reached the specified CPU time limit of 300.0 seconds => stopping the search now.
+Final solution for depth 1 with limit N=3, and cutoff time=30.0.
+New Incumbent: 312.495, 467424324.3333333 [3, 30.0]. With state lowmemory=True, noise=0.0, repeats=15, restarts=18, search_steps=500, static_noise=True
+
+==================================================================
+ParamILS is finished.
+==================================================================
+
+Final best parameter configuration found: lowmemory=True, noise=0.0, repeats=15, restarts=18, search_steps=500, static_noise=True
+==================================================================
+Active parameters: lowmemory=True, noise=0.0, repeats=15, restarts=18, search_steps=500, static_noise=True
+
+==================================================================
+Training quality of this final best found parameter configuration: 467424324.3333333, based on 3 runs with cutoff 30.0
+==================================================================
+
+
+==================================================================
+Computing validation result on independent data -- 2 runs with cutoff time 30.0...
+==================================================================
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 6.336
+Total CPU time: 318.831
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 3.868
+Total CPU time: 322.699
+blocksworld/problems/pfile01-005.pddl: 450639460.0
+blocksworld/problems/pfile01-004.pddl: 357213687.0
+Combined result: 403926573.5
+
+================================================================
+Final best parameter configuration: lowmemory=True, noise=0.0, repeats=15, restarts=18, search_steps=500, static_noise=True
+==================================================================
+Active parameters: lowmemory=True, noise=0.0, repeats=15, restarts=18, search_steps=500, static_noise=True
+
+================================================================
+Training quality of this final best found parameter configuration: 467424324.3333333, based on 3 runs with cutoff 30.0
+Test quality of this final best found parameter configuration: 403926573.5, based on 2 independent runs with cutoff 30.0
+==================================================================

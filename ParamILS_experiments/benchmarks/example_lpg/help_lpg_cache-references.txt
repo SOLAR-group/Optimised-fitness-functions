@@ -1,0 +1,422 @@
+max wall time = 8640000
+/home/jim/paramils2.3.8-source/example_lpg/lpg-params.txt
+6 parameters in total
+0 parameters are conditional.
+0 parameter combinations are forbidden.
+num_params = 6, num_combos=176000
+WARNING: N=2000 is greater than the number of entries
+in the @instances array. This can happen if the algorithm is
+deterministic and the number of training instances is smaller than N,
+or if the instance_seed_file is provided by the user and has less
+entries than N. Clamping N and maxDetail to 3
+WARNING: validN=30 is greater than the number
+of entries in the @test_instances array. This can happen if the
+algorithm is deterministic and the number of test instances is smaller
+than validN, or if the test_instance_seed_file is provided by the user
+and has less entries than validN. Clamping validN to
+2
+seed: 2468
+Run 2
+Level 
+========================================================
+Starting ILS for level 1, i.e. a limit of N=3, and cutoff time=30.0.
+Current CPU time = 0, this run goes until 300.0 
+========================================================
+New Incumbent: 0, 100000000 [0, 0]. With state lowmemory=None, noise=0.1, repeats=5, restarts=9, search_steps=500, static_noise=None
+getAlgoResultsForInstsAndParams.
+  Trial 1 for calling: ruby example_lpg/lpg_wrapper_cache_references.rb blocksworld/problems/pfile01-005.pddl "" 30.000000000000004 2147483647 -1 -lowmemory None -noise 0.1 -repeats 5 -restarts 9 -search_steps 500 -static_noise None > /tmp/tmp-2025-03-2703:39:25-0.18527507781982422
+Executing cmd: ruby example_lpg/lpg_wrapper_cache_references.rb blocksworld/problems/pfile01-005.pddl "" 30.000000000000004 2147483647 -1 -lowmemory None -noise 0.1 -repeats 5 -restarts 9 -search_steps 500 -static_noise None > /tmp/tmp-2025-03-2703:39:25-0.18527507781982422
+Result: SAT, 10.895, 0,  884908018, -1
+  Trial 1 for calling: ruby example_lpg/lpg_wrapper_cache_references.rb blocksworld/problems/pfile01-002.pddl "" 30.000000000000004 2147483647 -1 -lowmemory None -noise 0.1 -repeats 5 -restarts 9 -search_steps 500 -static_noise None > /tmp/tmp-2025-03-2703:39:36-0.014603614807128906
+Executing cmd: ruby example_lpg/lpg_wrapper_cache_references.rb blocksworld/problems/pfile01-002.pddl "" 30.000000000000004 2147483647 -1 -lowmemory None -noise 0.1 -repeats 5 -restarts 9 -search_steps 500 -static_noise None > /tmp/tmp-2025-03-2703:39:36-0.014603614807128906
+Result: SAT, 5.741, 0,  528627050, -1
+  Trial 1 for calling: ruby example_lpg/lpg_wrapper_cache_references.rb blocksworld/problems/pfile01-001.pddl "" 30.000000000000004 2147483647 -1 -lowmemory None -noise 0.1 -repeats 5 -restarts 9 -search_steps 500 -static_noise None > /tmp/tmp-2025-03-2703:39:42-0.9162693023681641
+Executing cmd: ruby example_lpg/lpg_wrapper_cache_references.rb blocksworld/problems/pfile01-001.pddl "" 30.000000000000004 2147483647 -1 -lowmemory None -noise 0.1 -repeats 5 -restarts 9 -search_steps 500 -static_noise None > /tmp/tmp-2025-03-2703:39:42-0.9162693023681641
+Result: SAT, 12.894, 0,  1114882653, -1
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 10.895
+Total CPU time: 10.895
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 5.741
+Total CPU time: 16.636
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 12.894
+Total CPU time: 29.53
+the result has length = 5 and content = ["SAT", 10.895, 0, 884908018.0, -1]
+i am inide the perf = 884908018.0
+returning as objective perf = 884908018.0
+the result has length = 5 and content = ["SAT", 5.741, 0, 528627050.0, -1]
+i am inide the perf = 528627050.0
+returning as objective perf = 528627050.0
+the result has length = 5 and content = ["SAT", 12.894, 0, 1114882653.0, -1]
+i am inide the perf = 1114882653.0
+returning as objective perf = 1114882653.0
+3/100000, 29.53/300.0
+ Same incumbent, new precision:
+New Incumbent: 29.53, 842805907.0 [3, 30.0]. With state lowmemory=None, noise=0.1, repeats=5, restarts=9, search_steps=500, static_noise=None
+Total CPU Time 29.53,  timeout 300.0
+Total CPU Time 29.53,  timeout 300.0
+now 2025-03-27 03:39:55 +0800; start 2025-03-27 03:39:25 +0800; time-start 29.973600552; maxWall 8640000.0
+getAlgoResultsForInstsAndParams.
+  Trial 1 for calling: ruby example_lpg/lpg_wrapper_cache_references.rb blocksworld/problems/pfile01-005.pddl "" 30.000000000000004 2147483647 -1 -lowmemory True -noise 0.2 -repeats 16 -restarts 16 -search_steps 700 -static_noise None > /tmp/tmp-2025-03-2703:39:55-0.5231308937072754
+Executing cmd: ruby example_lpg/lpg_wrapper_cache_references.rb blocksworld/problems/pfile01-005.pddl "" 30.000000000000004 2147483647 -1 -lowmemory True -noise 0.2 -repeats 16 -restarts 16 -search_steps 700 -static_noise None > /tmp/tmp-2025-03-2703:39:55-0.5231308937072754
+Result: SAT, 5.514, 0,  521665654, -1
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 5.514
+Total CPU time: 35.044000000000004
+the result has length = 5 and content = ["SAT", 5.514, 0, 521665654.0, -1]
+i am inide the perf = 521665654.0
+returning as objective perf = 521665654.0
+getAlgoResultsForInstsAndParams.
+  Trial 1 for calling: ruby example_lpg/lpg_wrapper_cache_references.rb blocksworld/problems/pfile01-002.pddl "" 30.000000000000004 2147483647 -1 -lowmemory True -noise 0.2 -repeats 16 -restarts 16 -search_steps 700 -static_noise None > /tmp/tmp-2025-03-2703:40:00-0.21265923976898193
+Executing cmd: ruby example_lpg/lpg_wrapper_cache_references.rb blocksworld/problems/pfile01-002.pddl "" 30.000000000000004 2147483647 -1 -lowmemory True -noise 0.2 -repeats 16 -restarts 16 -search_steps 700 -static_noise None > /tmp/tmp-2025-03-2703:40:00-0.21265923976898193
+Result: SAT, 6.3, 0,  561961658, -1
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 6.3
+Total CPU time: 41.344
+the result has length = 5 and content = ["SAT", 6.3, 0, 561961658.0, -1]
+i am inide the perf = 561961658.0
+returning as objective perf = 561961658.0
+5/100000, 41.344/300.0
+getAlgoResultsForInstsAndParams.
+  Trial 1 for calling: ruby example_lpg/lpg_wrapper_cache_references.rb blocksworld/problems/pfile01-001.pddl "" 30.000000000000004 2147483647 -1 -lowmemory True -noise 0.2 -repeats 16 -restarts 16 -search_steps 700 -static_noise None > /tmp/tmp-2025-03-2703:40:07-0.7027020454406738
+Executing cmd: ruby example_lpg/lpg_wrapper_cache_references.rb blocksworld/problems/pfile01-001.pddl "" 30.000000000000004 2147483647 -1 -lowmemory True -noise 0.2 -repeats 16 -restarts 16 -search_steps 700 -static_noise None > /tmp/tmp-2025-03-2703:40:07-0.7027020454406738
+Result: SAT, 15.978, 0,  1359454426, -1
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 15.978
+Total CPU time: 57.322
+the result has length = 5 and content = ["SAT", 15.978, 0, 1359454426.0, -1]
+i am inide the perf = 1359454426.0
+returning as objective perf = 1359454426.0
+6/100000, 57.322/300.0
+New inc: 814360579.3333334
+New Incumbent: 57.322, 814360579.3333334 [3, 30.0]. With state lowmemory=True, noise=0.2, repeats=16, restarts=16, search_steps=700, static_noise=None
+          -> Take improving step to random lowmemory=True noise=0.2 repeats=16 restarts=16 search_steps=700 static_noise=None (814360579.3333334 [based on 3 runs with cutoff 30.0])
+
+Total CPU Time 57.322,  timeout 300.0
+Total CPU Time 57.322,  timeout 300.0
+now 2025-03-27 03:40:23 +0800; start 2025-03-27 03:39:25 +0800; time-start 58.13552888; maxWall 8640000.0
+getAlgoResultsForInstsAndParams.
+  Trial 1 for calling: ruby example_lpg/lpg_wrapper_cache_references.rb blocksworld/problems/pfile01-005.pddl "" 30.000000000000004 2147483647 -1 -lowmemory None -noise 1.0 -repeats 9 -restarts 5 -search_steps 900 -static_noise None > /tmp/tmp-2025-03-2703:40:23-0.6035666465759277
+Executing cmd: ruby example_lpg/lpg_wrapper_cache_references.rb blocksworld/problems/pfile01-005.pddl "" 30.000000000000004 2147483647 -1 -lowmemory None -noise 1.0 -repeats 9 -restarts 5 -search_steps 900 -static_noise None > /tmp/tmp-2025-03-2703:40:23-0.6035666465759277
+Result: TIMEOUT, 30, 0,  0, -1
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 30.0
+Total CPU time: 87.322
+the result has length = 5 and content = ["TIMEOUT", 30.0, 0, 0.0, -1]
+i am inide the perf = 0.0
+7/100000, 87.322/300.0
+the result has length = 5 and content = ["TIMEOUT", 30.0, 0, 0.0, -1]
+i am inide the perf = 0.0
+the result has length = 5 and content = ["TIMEOUT", 30.0, 0, 0.0, -1]
+i am inide the perf = 0.0
+the result has length = 5 and content = ["TIMEOUT", 30.0, 0, 0.0, -1]
+i am inide the perf = 0.0
+        -> Worse random: lowmemory=None noise=1.0 repeats=9 restarts=5 search_steps=900 static_noise=None (["pruned", 1] [based on 3 runs with cutoff 30.0])
+Total CPU Time 87.322,  timeout 300.0
+Total CPU Time 87.322,  timeout 300.0
+now 2025-03-27 03:40:53 +0800; start 2025-03-27 03:39:25 +0800; time-start 88.441767519; maxWall 8640000.0
+getAlgoResultsForInstsAndParams.
+  Trial 1 for calling: ruby example_lpg/lpg_wrapper_cache_references.rb blocksworld/problems/pfile01-005.pddl "" 30.000000000000004 2147483647 -1 -lowmemory None -noise 0.2 -repeats 4 -restarts 19 -search_steps 1000 -static_noise None > /tmp/tmp-2025-03-2703:40:53-0.3773508071899414
+Executing cmd: ruby example_lpg/lpg_wrapper_cache_references.rb blocksworld/problems/pfile01-005.pddl "" 30.000000000000004 2147483647 -1 -lowmemory None -noise 0.2 -repeats 4 -restarts 19 -search_steps 1000 -static_noise None > /tmp/tmp-2025-03-2703:40:53-0.3773508071899414
+Result: SAT, 5.801, 0,  551613728, -1
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 5.801
+Total CPU time: 93.123
+the result has length = 5 and content = ["SAT", 5.801, 0, 551613728.0, -1]
+i am inide the perf = 551613728.0
+returning as objective perf = 551613728.0
+getAlgoResultsForInstsAndParams.
+  Trial 1 for calling: ruby example_lpg/lpg_wrapper_cache_references.rb blocksworld/problems/pfile01-002.pddl "" 30.000000000000004 2147483647 -1 -lowmemory None -noise 0.2 -repeats 4 -restarts 19 -search_steps 1000 -static_noise None > /tmp/tmp-2025-03-2703:40:59-0.39223456382751465
+Executing cmd: ruby example_lpg/lpg_wrapper_cache_references.rb blocksworld/problems/pfile01-002.pddl "" 30.000000000000004 2147483647 -1 -lowmemory None -noise 0.2 -repeats 4 -restarts 19 -search_steps 1000 -static_noise None > /tmp/tmp-2025-03-2703:40:59-0.39223456382751465
+Result: SAT, 7.355, 0,  585983425, -1
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 7.355
+Total CPU time: 100.47800000000001
+the result has length = 5 and content = ["SAT", 7.355, 0, 585983425.0, -1]
+i am inide the perf = 585983425.0
+returning as objective perf = 585983425.0
+9/100000, 100.47800000000001/300.0
+getAlgoResultsForInstsAndParams.
+  Trial 1 for calling: ruby example_lpg/lpg_wrapper_cache_references.rb blocksworld/problems/pfile01-001.pddl "" 30.000000000000004 2147483647 -1 -lowmemory None -noise 0.2 -repeats 4 -restarts 19 -search_steps 1000 -static_noise None > /tmp/tmp-2025-03-2703:41:07-0.9707412719726562
+Executing cmd: ruby example_lpg/lpg_wrapper_cache_references.rb blocksworld/problems/pfile01-001.pddl "" 30.000000000000004 2147483647 -1 -lowmemory None -noise 0.2 -repeats 4 -restarts 19 -search_steps 1000 -static_noise None > /tmp/tmp-2025-03-2703:41:07-0.9707412719726562
+Result: SAT, 10.445, 0,  850724180, -1
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 10.445
+Total CPU time: 110.923
+the result has length = 5 and content = ["SAT", 10.445, 0, 850724180.0, -1]
+i am inide the perf = 850724180.0
+returning as objective perf = 850724180.0
+10/100000, 110.923/300.0
+New inc: 662773777.6666666
+New Incumbent: 110.923, 662773777.6666666 [3, 30.0]. With state lowmemory=None, noise=0.2, repeats=4, restarts=19, search_steps=1000, static_noise=None
+          -> Take improving step to random lowmemory=None noise=0.2 repeats=4 restarts=19 search_steps=1000 static_noise=None (662773777.6666666 [based on 3 runs with cutoff 30.0])
+
+Total CPU Time 110.923,  timeout 300.0
+Total CPU Time 110.923,  timeout 300.0
+now 2025-03-27 03:41:17 +0800; start 2025-03-27 03:39:25 +0800; time-start 112.594611732; maxWall 8640000.0
+getAlgoResultsForInstsAndParams.
+  Trial 1 for calling: ruby example_lpg/lpg_wrapper_cache_references.rb blocksworld/problems/pfile01-005.pddl "" 30.000000000000004 2147483647 -1 -lowmemory None -noise 0.6 -repeats 13 -restarts 2 -search_steps 700 -static_noise None > /tmp/tmp-2025-03-2703:41:17-0.34842920303344727
+Executing cmd: ruby example_lpg/lpg_wrapper_cache_references.rb blocksworld/problems/pfile01-005.pddl "" 30.000000000000004 2147483647 -1 -lowmemory None -noise 0.6 -repeats 13 -restarts 2 -search_steps 700 -static_noise None > /tmp/tmp-2025-03-2703:41:17-0.34842920303344727
+Result: TIMEOUT, 30, 0,  0, -1
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 30.0
+Total CPU time: 140.923
+the result has length = 5 and content = ["TIMEOUT", 30.0, 0, 0.0, -1]
+i am inide the perf = 0.0
+11/100000, 140.923/300.0
+the result has length = 5 and content = ["TIMEOUT", 30.0, 0, 0.0, -1]
+i am inide the perf = 0.0
+the result has length = 5 and content = ["TIMEOUT", 30.0, 0, 0.0, -1]
+i am inide the perf = 0.0
+the result has length = 5 and content = ["TIMEOUT", 30.0, 0, 0.0, -1]
+i am inide the perf = 0.0
+        -> Worse random: lowmemory=None noise=0.6 repeats=13 restarts=2 search_steps=700 static_noise=None (["pruned", 1] [based on 3 runs with cutoff 30.0])
+Total CPU Time 140.923,  timeout 300.0
+Total CPU Time 140.923,  timeout 300.0
+now 2025-03-27 03:41:48 +0800; start 2025-03-27 03:39:25 +0800; time-start 142.778322228; maxWall 8640000.0
+getAlgoResultsForInstsAndParams.
+  Trial 1 for calling: ruby example_lpg/lpg_wrapper_cache_references.rb blocksworld/problems/pfile01-005.pddl "" 30.000000000000004 2147483647 -1 -lowmemory True -noise 1.0 -repeats 20 -restarts 4 -search_steps 900 -static_noise True > /tmp/tmp-2025-03-2703:41:48-0.8610572814941406
+Executing cmd: ruby example_lpg/lpg_wrapper_cache_references.rb blocksworld/problems/pfile01-005.pddl "" 30.000000000000004 2147483647 -1 -lowmemory True -noise 1.0 -repeats 20 -restarts 4 -search_steps 900 -static_noise True > /tmp/tmp-2025-03-2703:41:48-0.8610572814941406
+Result: TIMEOUT, 30, 0,  0, -1
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 30.0
+Total CPU time: 170.923
+the result has length = 5 and content = ["TIMEOUT", 30.0, 0, 0.0, -1]
+i am inide the perf = 0.0
+12/100000, 170.923/300.0
+the result has length = 5 and content = ["TIMEOUT", 30.0, 0, 0.0, -1]
+i am inide the perf = 0.0
+the result has length = 5 and content = ["TIMEOUT", 30.0, 0, 0.0, -1]
+i am inide the perf = 0.0
+the result has length = 5 and content = ["TIMEOUT", 30.0, 0, 0.0, -1]
+i am inide the perf = 0.0
+        -> Worse random: lowmemory=True noise=1.0 repeats=20 restarts=4 search_steps=900 static_noise=True (["pruned", 1] [based on 3 runs with cutoff 30.0])
+Total CPU Time 170.923,  timeout 300.0
+Total CPU Time 170.923,  timeout 300.0
+now 2025-03-27 03:42:18 +0800; start 2025-03-27 03:39:25 +0800; time-start 173.070538694; maxWall 8640000.0
+getAlgoResultsForInstsAndParams.
+  Trial 1 for calling: ruby example_lpg/lpg_wrapper_cache_references.rb blocksworld/problems/pfile01-005.pddl "" 30.000000000000004 2147483647 -1 -lowmemory None -noise 0.1 -repeats 13 -restarts 3 -search_steps 200 -static_noise True > /tmp/tmp-2025-03-2703:42:18-0.9810957908630371
+Executing cmd: ruby example_lpg/lpg_wrapper_cache_references.rb blocksworld/problems/pfile01-005.pddl "" 30.000000000000004 2147483647 -1 -lowmemory None -noise 0.1 -repeats 13 -restarts 3 -search_steps 200 -static_noise True > /tmp/tmp-2025-03-2703:42:18-0.9810957908630371
+Result: TIMEOUT, 30, 0,  0, -1
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 30.0
+Total CPU time: 200.923
+the result has length = 5 and content = ["TIMEOUT", 30.0, 0, 0.0, -1]
+i am inide the perf = 0.0
+13/100000, 200.923/300.0
+the result has length = 5 and content = ["TIMEOUT", 30.0, 0, 0.0, -1]
+i am inide the perf = 0.0
+the result has length = 5 and content = ["TIMEOUT", 30.0, 0, 0.0, -1]
+i am inide the perf = 0.0
+the result has length = 5 and content = ["TIMEOUT", 30.0, 0, 0.0, -1]
+i am inide the perf = 0.0
+        -> Worse random: lowmemory=None noise=0.1 repeats=13 restarts=3 search_steps=200 static_noise=True (["pruned", 1] [based on 3 runs with cutoff 30.0])
+Total CPU Time 200.923,  timeout 300.0
+Total CPU Time 200.923,  timeout 300.0
+now 2025-03-27 03:42:48 +0800; start 2025-03-27 03:39:25 +0800; time-start 203.370281395; maxWall 8640000.0
+getAlgoResultsForInstsAndParams.
+  Trial 1 for calling: ruby example_lpg/lpg_wrapper_cache_references.rb blocksworld/problems/pfile01-005.pddl "" 30.000000000000004 2147483647 -1 -lowmemory None -noise 0.6 -repeats 3 -restarts 3 -search_steps 900 -static_noise True > /tmp/tmp-2025-03-2703:42:48-0.5429792404174805
+Executing cmd: ruby example_lpg/lpg_wrapper_cache_references.rb blocksworld/problems/pfile01-005.pddl "" 30.000000000000004 2147483647 -1 -lowmemory None -noise 0.6 -repeats 3 -restarts 3 -search_steps 900 -static_noise True > /tmp/tmp-2025-03-2703:42:48-0.5429792404174805
+Result: TIMEOUT, 30, 0,  0, -1
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 30.0
+Total CPU time: 230.923
+the result has length = 5 and content = ["TIMEOUT", 30.0, 0, 0.0, -1]
+i am inide the perf = 0.0
+14/100000, 230.923/300.0
+the result has length = 5 and content = ["TIMEOUT", 30.0, 0, 0.0, -1]
+i am inide the perf = 0.0
+the result has length = 5 and content = ["TIMEOUT", 30.0, 0, 0.0, -1]
+i am inide the perf = 0.0
+the result has length = 5 and content = ["TIMEOUT", 30.0, 0, 0.0, -1]
+i am inide the perf = 0.0
+        -> Worse random: lowmemory=None noise=0.6 repeats=3 restarts=3 search_steps=900 static_noise=True (["pruned", 1] [based on 3 runs with cutoff 30.0])
+Total CPU Time 230.923,  timeout 300.0
+Total CPU Time 230.923,  timeout 300.0
+now 2025-03-27 03:43:18 +0800; start 2025-03-27 03:39:25 +0800; time-start 233.667584191; maxWall 8640000.0
+getAlgoResultsForInstsAndParams.
+  Trial 1 for calling: ruby example_lpg/lpg_wrapper_cache_references.rb blocksworld/problems/pfile01-005.pddl "" 30.000000000000004 2147483647 -1 -lowmemory True -noise 0.9 -repeats 1 -restarts 5 -search_steps 1000 -static_noise True > /tmp/tmp-2025-03-2703:43:18-0.058576107025146484
+Executing cmd: ruby example_lpg/lpg_wrapper_cache_references.rb blocksworld/problems/pfile01-005.pddl "" 30.000000000000004 2147483647 -1 -lowmemory True -noise 0.9 -repeats 1 -restarts 5 -search_steps 1000 -static_noise True > /tmp/tmp-2025-03-2703:43:18-0.058576107025146484
+Result: TIMEOUT, 30, 0,  0, -1
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 30.0
+Total CPU time: 260.923
+the result has length = 5 and content = ["TIMEOUT", 30.0, 0, 0.0, -1]
+i am inide the perf = 0.0
+15/100000, 260.923/300.0
+the result has length = 5 and content = ["TIMEOUT", 30.0, 0, 0.0, -1]
+i am inide the perf = 0.0
+the result has length = 5 and content = ["TIMEOUT", 30.0, 0, 0.0, -1]
+i am inide the perf = 0.0
+the result has length = 5 and content = ["TIMEOUT", 30.0, 0, 0.0, -1]
+i am inide the perf = 0.0
+        -> Worse random: lowmemory=True noise=0.9 repeats=1 restarts=5 search_steps=1000 static_noise=True (["pruned", 1] [based on 3 runs with cutoff 30.0])
+Total CPU Time 260.923,  timeout 300.0
+Total CPU Time 260.923,  timeout 300.0
+now 2025-03-27 03:43:49 +0800; start 2025-03-27 03:39:25 +0800; time-start 263.995422293; maxWall 8640000.0
+getAlgoResultsForInstsAndParams.
+  Trial 1 for calling: ruby example_lpg/lpg_wrapper_cache_references.rb blocksworld/problems/pfile01-005.pddl "" 30.000000000000004 2147483647 -1 -lowmemory None -noise 1.0 -repeats 6 -restarts 5 -search_steps 800 -static_noise None > /tmp/tmp-2025-03-2703:43:49-0.6145205497741699
+Executing cmd: ruby example_lpg/lpg_wrapper_cache_references.rb blocksworld/problems/pfile01-005.pddl "" 30.000000000000004 2147483647 -1 -lowmemory None -noise 1.0 -repeats 6 -restarts 5 -search_steps 800 -static_noise None > /tmp/tmp-2025-03-2703:43:49-0.6145205497741699
+Result: TIMEOUT, 30, 0,  0, -1
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 30.0
+Total CPU time: 290.923
+the result has length = 5 and content = ["TIMEOUT", 30.0, 0, 0.0, -1]
+i am inide the perf = 0.0
+16/100000, 290.923/300.0
+the result has length = 5 and content = ["TIMEOUT", 30.0, 0, 0.0, -1]
+i am inide the perf = 0.0
+the result has length = 5 and content = ["TIMEOUT", 30.0, 0, 0.0, -1]
+i am inide the perf = 0.0
+the result has length = 5 and content = ["TIMEOUT", 30.0, 0, 0.0, -1]
+i am inide the perf = 0.0
+        -> Worse random: lowmemory=None noise=1.0 repeats=6 restarts=5 search_steps=800 static_noise=None (["pruned", 1] [based on 3 runs with cutoff 30.0])
+Total CPU Time 290.923,  timeout 300.0
+Total CPU Time 290.923,  timeout 300.0
+now 2025-03-27 03:44:19 +0800; start 2025-03-27 03:39:25 +0800; time-start 294.34103514; maxWall 8640000.0
+getAlgoResultsForInstsAndParams.
+  Trial 1 for calling: ruby example_lpg/lpg_wrapper_cache_references.rb blocksworld/problems/pfile01-005.pddl "" 30.000000000000004 2147483647 -1 -lowmemory True -noise 0.0 -repeats 15 -restarts 18 -search_steps 500 -static_noise True > /tmp/tmp-2025-03-2703:44:19-0.5501480102539062
+Executing cmd: ruby example_lpg/lpg_wrapper_cache_references.rb blocksworld/problems/pfile01-005.pddl "" 30.000000000000004 2147483647 -1 -lowmemory True -noise 0.0 -repeats 15 -restarts 18 -search_steps 500 -static_noise True > /tmp/tmp-2025-03-2703:44:19-0.5501480102539062
+Result: SAT, 7.363, 0,  448011709, -1
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 7.363
+Total CPU time: 298.286
+the result has length = 5 and content = ["SAT", 7.363, 0, 448011709.0, -1]
+i am inide the perf = 448011709.0
+returning as objective perf = 448011709.0
+getAlgoResultsForInstsAndParams.
+  Trial 1 for calling: ruby example_lpg/lpg_wrapper_cache_references.rb blocksworld/problems/pfile01-002.pddl "" 30.000000000000004 2147483647 -1 -lowmemory True -noise 0.0 -repeats 15 -restarts 18 -search_steps 500 -static_noise True > /tmp/tmp-2025-03-2703:44:27-0.6302309036254883
+Executing cmd: ruby example_lpg/lpg_wrapper_cache_references.rb blocksworld/problems/pfile01-002.pddl "" 30.000000000000004 2147483647 -1 -lowmemory True -noise 0.0 -repeats 15 -restarts 18 -search_steps 500 -static_noise True > /tmp/tmp-2025-03-2703:44:27-0.6302309036254883
+Result: SAT, 6.685, 0,  445538171, -1
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 6.685
+Total CPU time: 304.971
+the result has length = 5 and content = ["SAT", 6.685, 0, 445538171.0, -1]
+i am inide the perf = 445538171.0
+returning as objective perf = 445538171.0
+18/100000, 304.971/300.0
+getAlgoResultsForInstsAndParams.
+  Trial 1 for calling: ruby example_lpg/lpg_wrapper_cache_references.rb blocksworld/problems/pfile01-001.pddl "" 30.000000000000004 2147483647 -1 -lowmemory True -noise 0.0 -repeats 15 -restarts 18 -search_steps 500 -static_noise True > /tmp/tmp-2025-03-2703:44:34-0.3328428268432617
+Executing cmd: ruby example_lpg/lpg_wrapper_cache_references.rb blocksworld/problems/pfile01-001.pddl "" 30.000000000000004 2147483647 -1 -lowmemory True -noise 0.0 -repeats 15 -restarts 18 -search_steps 500 -static_noise True > /tmp/tmp-2025-03-2703:44:34-0.3328428268432617
+Result: SAT, 7.524, 0,  508723093, -1
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 7.524
+Total CPU time: 312.495
+the result has length = 5 and content = ["SAT", 7.524, 0, 508723093.0, -1]
+i am inide the perf = 508723093.0
+returning as objective perf = 508723093.0
+New inc: 467424324.3333333
+New Incumbent: 312.495, 467424324.3333333 [3, 30.0]. With state lowmemory=True, noise=0.0, repeats=15, restarts=18, search_steps=500, static_noise=True
+          -> Take improving step to random lowmemory=True noise=0.0 repeats=15 restarts=18 search_steps=500 static_noise=True (467424324.3333333 [based on 3 runs with cutoff 30.0])
+
+   BLS in iteration 1, start with lowmemory=True noise=0.0 repeats=15 restarts=18 search_steps=500 static_noise=True (467424324.3333333 [based on 3 runs with cutoff 30.0])
+Total CPU Time 312.495,  timeout 300.0
+Total CPU Time 312.495,  timeout 300.0
+ParamILS has reached the specified CPU time limit of 300.0 seconds => stopping the search now.
+   LM for iteration 1: lowmemory=True noise=0.0 repeats=15 restarts=18 search_steps=500 static_noise=True (467424324.3333333 [based on 3 runs with cutoff 30.0])
+
+========== DETAILED RESULTS (iteration 1): ==========
+[["SAT", 7.363, 0, 448011709.0, -1]]
+the result has length = 5 and content = ["SAT", 7.363, 0, 448011709.0, -1]
+i am inide the perf = 448011709.0
+returning as objective perf = 448011709.0
+[["SAT", 6.685, 0, 445538171.0, -1]]
+the result has length = 5 and content = ["SAT", 6.685, 0, 445538171.0, -1]
+i am inide the perf = 445538171.0
+returning as objective perf = 445538171.0
+[["SAT", 7.524, 0, 508723093.0, -1]]
+the result has length = 5 and content = ["SAT", 7.524, 0, 508723093.0, -1]
+i am inide the perf = 508723093.0
+returning as objective perf = 508723093.0
+blocksworld/problems/pfile01-005.pddl: 448011709.0		[based on 1 runs]
+blocksworld/problems/pfile01-002.pddl: 445538171.0		[based on 1 runs]
+blocksworld/problems/pfile01-001.pddl: 508723093.0		[based on 1 runs]
+================================================
+
+==================================================================
+Best parameter configuration found so far (end of iteration 1): lowmemory=True, noise=0.0, repeats=15, restarts=18, search_steps=500, static_noise=True
+==================================================================
+Training quality of this incumbent parameter configuration: 467424324.3333333, based on 3 runs with cutoff 30.0
+==================================================================
+
+Comparing LM against incumbent:
+lowmemory=True noise=0.0 repeats=15 restarts=18 search_steps=500 static_noise=True (467424324.3333333 [based on 3 runs with cutoff 30.0])
+lowmemory=True noise=0.0 repeats=15 restarts=18 search_steps=500 static_noise=True (467424324.3333333 [based on 3 runs with cutoff 30.0])
+LM better, change incumbent
+New Incumbent: 312.495, 467424324.3333333 [3, 30.0]. With state lowmemory=True, noise=0.0, repeats=15, restarts=18, search_steps=500, static_noise=True
+Total CPU Time 312.495,  timeout 300.0
+Total CPU Time 312.495,  timeout 300.0
+ParamILS has reached the specified CPU time limit of 300.0 seconds => stopping the search now.
+Final solution for depth 1 with limit N=3, and cutoff time=30.0.
+New Incumbent: 312.495, 467424324.3333333 [3, 30.0]. With state lowmemory=True, noise=0.0, repeats=15, restarts=18, search_steps=500, static_noise=True
+
+==================================================================
+ParamILS is finished.
+==================================================================
+
+Final best parameter configuration found: lowmemory=True, noise=0.0, repeats=15, restarts=18, search_steps=500, static_noise=True
+==================================================================
+Active parameters: lowmemory=True, noise=0.0, repeats=15, restarts=18, search_steps=500, static_noise=True
+
+==================================================================
+Training quality of this final best found parameter configuration: 467424324.3333333, based on 3 runs with cutoff 30.0
+==================================================================
+
+
+==================================================================
+Computing validation result on independent data -- 2 runs with cutoff time 30.0...
+==================================================================
+getAlgoResultsForInstsAndParams.
+  Trial 1 for calling: ruby example_lpg/lpg_wrapper_cache_references.rb blocksworld/problems/pfile01-005.pddl "" 30.000000000000004 2147483647 -1 -lowmemory True -noise 0.0 -repeats 15 -restarts 18 -search_steps 500 -static_noise True > /tmp/tmp-2025-03-2703:44:41-0.6895817518234253
+Executing cmd: ruby example_lpg/lpg_wrapper_cache_references.rb blocksworld/problems/pfile01-005.pddl "" 30.000000000000004 2147483647 -1 -lowmemory True -noise 0.0 -repeats 15 -restarts 18 -search_steps 500 -static_noise True > /tmp/tmp-2025-03-2703:44:41-0.6895817518234253
+Result: SAT, 6.336, 0,  450639460, -1
+  Trial 1 for calling: ruby example_lpg/lpg_wrapper_cache_references.rb blocksworld/problems/pfile01-004.pddl "" 30.000000000000004 2147483647 -1 -lowmemory True -noise 0.0 -repeats 15 -restarts 18 -search_steps 500 -static_noise True > /tmp/tmp-2025-03-2703:44:48-0.6755490303039551
+Executing cmd: ruby example_lpg/lpg_wrapper_cache_references.rb blocksworld/problems/pfile01-004.pddl "" 30.000000000000004 2147483647 -1 -lowmemory True -noise 0.0 -repeats 15 -restarts 18 -search_steps 500 -static_noise True > /tmp/tmp-2025-03-2703:44:48-0.6755490303039551
+Result: SAT, 3.868, 0,  357213687, -1
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 6.336
+Total CPU time: 318.831
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 3.868
+Total CPU time: 322.699
+the result has length = 5 and content = ["SAT", 6.336, 0, 450639460.0, -1]
+i am inide the perf = 450639460.0
+returning as objective perf = 450639460.0
+the result has length = 5 and content = ["SAT", 3.868, 0, 357213687.0, -1]
+i am inide the perf = 357213687.0
+returning as objective perf = 357213687.0
+blocksworld/problems/pfile01-005.pddl: 450639460.0
+blocksworld/problems/pfile01-004.pddl: 357213687.0
+Combined result: 403926573.5
+
+================================================================
+Final best parameter configuration: lowmemory=True, noise=0.0, repeats=15, restarts=18, search_steps=500, static_noise=True
+==================================================================
+Active parameters: lowmemory=True, noise=0.0, repeats=15, restarts=18, search_steps=500, static_noise=True
+
+================================================================
+Training quality of this final best found parameter configuration: 467424324.3333333, based on 3 runs with cutoff 30.0
+Test quality of this final best found parameter configuration: 403926573.5, based on 2 independent runs with cutoff 30.0
+==================================================================
