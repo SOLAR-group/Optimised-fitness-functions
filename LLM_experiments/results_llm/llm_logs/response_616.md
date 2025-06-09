@@ -1,1 +1,0 @@
-Child: ["ParamSetting(('test.params', 'param', 'INITCONFLICTBOUND'), 91)", "ParamSetting(('test.params', 'param', 'VARDECAY'), 0.31718469790285775)", "ParamSetting(('test.params', 'param', 'SIMP'), 'NO_SIMPLIFICATION')"]

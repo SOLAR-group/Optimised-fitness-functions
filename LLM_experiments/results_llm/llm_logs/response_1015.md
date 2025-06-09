@@ -1,1 +1,0 @@
-Child: ["ParamSetting(('scipy.params', 'param', 'jac'), 'cs')", "ParamSetting(('scipy.params', 'param', 'method'), 'L-BFGS-B')", "ParamSetting(('scipy.params', 'param', 'maxiter'), 4545)", "ParamSetting(('scipy.params', 'param', 'tol'), 0.043345875121013996)"]

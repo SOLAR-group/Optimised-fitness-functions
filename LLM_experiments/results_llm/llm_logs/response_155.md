@@ -1,1 +1,0 @@
-Child: ["SrcmlStmtDeletion(('core/Solver.cc.xml', 'stmt', 69))", "SrcmlStmtDeletion(('core/Solver.cc.xml', 'stmt', 385))", "SrcmlStmtDeletion(('core/Solver.cc.xml', 'stmt', 136))", "SrcmlStmtDeletion(('core/Solver.cc.xml', 'stmt', 246))"]

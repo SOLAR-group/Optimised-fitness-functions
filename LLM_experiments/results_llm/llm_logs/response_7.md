@@ -1,1 +1,0 @@
-Child: ["ParamSetting(('minisat_simplified.params', 'param', 'luby'), 'False')", "ParamSetting(('minisat_simplified.params', 'param', 'rinc'), 3622.9007144411335)", "ParamSetting(('minisat_simplified.params', 'param', 'ccmin-mode'), 0)"]

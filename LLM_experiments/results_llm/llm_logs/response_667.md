@@ -1,1 +1,0 @@
-Child: ["ParamSetting(('test.params', 'param', 'PHASE'), 'PhaseCachingAutoEraseStrategy')", "ParamSetting(('test.params', 'param', 'VARDECAY'), 0.31718469790285775)", "ParamSetting(('test.params', 'param', 'LUBYFACTOR'), 78)", "ParamSetting(('test.params', 'param', 'INITCONFLICTBOUND'), 198)", "ParamSetting(('test.params', 'param', 'SIMP'), 'EXPENSIVE_SIMPLIFICATION')"]

@@ -1,1 +1,0 @@
-Child: ["ParamSetting(('minisat_advanced.params', 'param', 'sub-lim$bounded'), 6419)", "ParamSetting(('minisat_advanced.params', 'param', 'elim'), 'True')", "ParamSetting(('minisat_advanced.params', 'param', '@sub-lim$flag'), 'False')", "ParamSetting(('minisat_advanced.params', 'param', 'verb'), '1')", "ParamSetting(('minisat_advanced.params', 'param', 'cp-increase'), 7337)"]

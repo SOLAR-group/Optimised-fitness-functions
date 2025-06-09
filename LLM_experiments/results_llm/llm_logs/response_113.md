@@ -1,1 +1,0 @@
-I'm sorry, but I would need to see the details of the available parents and their specific edits before I can assist in selecting the most beneficial edits for creating a child program. Could you please provide the list of available parents along with their respective edits?

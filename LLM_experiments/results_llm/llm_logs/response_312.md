@@ -1,1 +1,0 @@
-Child: ["ParamSetting(('minisat_simplified.params', 'param', 'luby'), 'False')", "ParamSetting(('minisat_simplified.params', 'param', 'verb'), '0')", "ParamSetting(('minisat_simplified.params', 'param', 'rinc'), 11210.985365206803)"]
